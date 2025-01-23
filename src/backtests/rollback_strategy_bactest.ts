@@ -1,9 +1,11 @@
 import {
+  candleCountAnalize,
   pullbackThreshold,
   stopLossRatio,
   takeProfitRatio,
   tradingPair,
 } from "../config";
+import { get24hPriceChange } from "../modules/get24hour_price_change";
 import { getBacktestData } from "../modules/get_backtest_data";
 
 // Логика бэктеста
@@ -11,7 +13,7 @@ async function backtestStrategy() {
   try {
     const historicalData = await getBacktestData(tradingPair);
 
-    if (!historicalData || historicalData.length < 4) {
+    if (!historicalData || historicalData.length < candleCountAnalize) {
       console.error("Недостаточно данных для бэктеста.");
       return;
     }
@@ -22,13 +24,16 @@ async function backtestStrategy() {
     const leverage = 25; // Плечо
 
     // Применяем стратегию к историческим данным
-    for (let i = 3; i < historicalData.length; i++) {
-      const prices = historicalData.slice(i - 3, i).map((c) => c.close);
+    for (let i = candleCountAnalize - 1; i < historicalData.length; i++) {
+      const prices = historicalData
+        .slice(i - candleCountAnalize + 1, i)
+        .map((c) => c.close);
       const lastPrice = historicalData[i].close;
-
-      // Проверяем нисходящий тренд
-      const isDowntrend = prices[0] > prices[1] && prices[1] > prices[2];
-      if (!isDowntrend) continue;
+      const price24Change = await get24hPriceChange(
+        tradingPair,
+        historicalData[i].timestamp,
+      );
+      if (!price24Change || price24Change > 0) continue;
 
       // Проверяем откат
       const maxPrice = Math.max(...prices);
@@ -75,10 +80,10 @@ async function backtestStrategy() {
     }
 
     console.log(`Результаты бэктеста:
-          Количество сделок: ${totalTrades}
-          Общая прибыль/убыток: ${totalProfit.toFixed(2)}
-          Итоговый капитал: ${capital.toFixed(2)}
-        `);
+        Количество сделок: ${totalTrades}
+        Общая прибыль/убыток: ${totalProfit.toFixed(2)}
+        Итоговый капитал: ${capital.toFixed(2)}
+      `);
   } catch (error) {
     console.error("Ошибка при выполнении бэктеста:", error);
   }
