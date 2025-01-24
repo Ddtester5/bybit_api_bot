@@ -3,7 +3,7 @@ import { getLastMarketPrice } from "./modules/get_last_market_price";
 import {
   candleCountAnalize,
   port,
-  positionSize,
+  riskPercentage,
   pullbackThreshold,
   stopLossRatio,
   takeProfitRatio,
@@ -13,15 +13,25 @@ import {
 import { client } from "./api/bybit_api_client_v5";
 import { get24hPriceChange } from "./modules/get24hour_price_change";
 import { OHLCVKlineV5 } from "bybit-api";
+import { getAvalibleBalance } from "./modules/get_avalible_ballance";
+import { checkOpenPositions } from "./modules/check_open_position";
 
 const app = express();
 
 const main = async () => {
   try {
+    const hasOpenPosition = await checkOpenPositions(tradingPair);
+
+    if (hasOpenPosition) {
+      console.log(
+        `Пропускаем, так как уже есть активная сделка по ${tradingPair}`,
+      );
+      return;
+    }
     const lastPrice = await getLastMarketPrice(tradingPair);
     console.log(`Текущая цена пары ${tradingPair}`, "=", lastPrice);
     const price24Change = await get24hPriceChange(tradingPair);
-    if (!price24Change || price24Change < 0) {
+    if (!price24Change || price24Change > 0) {
       return;
     }
     const candles = await client.getKline({
@@ -63,22 +73,35 @@ const main = async () => {
       console.log("Откат не достиг порогового значения.");
       return;
     }
+    // Получаем доступные средства (баланс)
 
+    const availableBalance = await getAvalibleBalance();
+    if (!availableBalance || isNaN(availableBalance) || availableBalance <= 0) {
+      console.error("Ошибка: баланс недоступен или равен 0.");
+      return;
+    }
+    // Рассчитываем размер позиции (5% от доступных средств)
+    const positionSizeInUSD = availableBalance * riskPercentage;
+    const positionSize = Math.floor(positionSizeInUSD / lastPrice);
     // Открываем шорт-позицию
     const stopLossPrice = lastPrice * (1 + stopLossRatio);
     const takeProfitPrice = lastPrice * (1 - takeProfitRatio);
 
-    console.log(`Открытие шорт-позиции:
-     Цена входа: ${lastPrice}
-     Стоп-лосс: ${stopLossPrice}
-     Тейк-профит: ${takeProfitPrice}`);
+    console.log(`📊 Данные перед открытием ордера:
+      🔹 Доступный баланс: ${availableBalance}
+      🔹 Размер позиции (в USD): ${positionSizeInUSD}
+      🔹 Размер позиции (контракты): ${positionSize}
+      🔹 Текущая цена: ${lastPrice}
+      🔹 Стоп-лосс: ${stopLossPrice}
+      🔹 Тейк-профит: ${takeProfitPrice}
+    `);
 
     const orderResponse = await client.submitOrder({
       category: "linear",
       symbol: tradingPair,
       side: "Sell",
       orderType: "Market",
-      qty: positionSize,
+      qty: `${positionSize}`,
       timeInForce: "GTC",
       stopLoss: stopLossPrice.toFixed(2),
       takeProfit: takeProfitPrice.toFixed(2),
@@ -89,6 +112,6 @@ const main = async () => {
     console.error("Ошибка при выполнении стратегии:", error);
   }
 };
-setInterval(main, 10 * 1000);
+setInterval(main, 1 * 60 * 1000);
 const PORT = port || 3000;
 app.listen(PORT, () => console.log(`Сервер запущен на порту ${PORT}`));
