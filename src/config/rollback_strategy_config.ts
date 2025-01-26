@@ -1,8 +1,4 @@
-import dotenv from "dotenv";
-
-dotenv.config();
-
-export const leverage = 25;
+export const leverage = 10;
 export const timeFrame = 5;
 export const tradingPair = "ACEUSDT"; // Торговая пара
 export const takeProfitRatio = 0.05; // Тейк-профит: 2%

@@ -9,12 +9,14 @@ import {
   takeProfitRatio,
   timeFrame,
   tradingPair,
+  leverage,
 } from "./config";
 import { client } from "./api/bybit_api_client_v5";
 import { get24hPriceChange } from "./modules/get24hour_price_change";
 import { OHLCVKlineV5 } from "bybit-api";
 import { getAvalibleBalance } from "./modules/get_avalible_ballance";
 import { checkOpenPositions } from "./modules/check_open_position";
+import { setLeverage } from "./modules/set_leverage";
 
 const app = express();
 
@@ -86,6 +88,7 @@ const main = async () => {
     // Открываем шорт-позицию
     const stopLossPrice = lastPrice * (1 + stopLossRatio);
     const takeProfitPrice = lastPrice * (1 - takeProfitRatio);
+    await setLeverage(tradingPair, leverage);
 
     console.log(`📊 Данные перед открытием ордера:
       🔹 Доступный баланс: ${availableBalance}
@@ -94,6 +97,7 @@ const main = async () => {
       🔹 Текущая цена: ${lastPrice}
       🔹 Стоп-лосс: ${stopLossPrice}
       🔹 Тейк-профит: ${takeProfitPrice}
+      🔹 Плече: ${leverage}
     `);
 
     const orderResponse = await client.submitOrder({
