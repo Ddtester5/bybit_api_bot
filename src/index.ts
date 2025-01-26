@@ -49,10 +49,12 @@ const main = async () => {
     const lowPrices = candles.result.list.map((candle: OHLCVKlineV5) =>
       parseFloat(candle[3]),
     );
-    const closePrices = candles.result.list.map(
-      (candle: OHLCVKlineV5) => parseFloat(candle[4]), // Цена закрытия
-    );
-
+    const closePrices = candles.result.list
+      .map(
+        (candle: OHLCVKlineV5) => parseFloat(candle[4]), // Цена закрытия
+      )
+      .reverse();
+    console.log(closePrices);
     // Проверяем рост цены (например, последовательное повышение цен закрытия)
     let isPriceIncreasing = true;
     for (let i = 1; i < closePrices.length; i++) {
@@ -116,6 +118,6 @@ const main = async () => {
     console.error("Ошибка при выполнении стратегии:", error);
   }
 };
-setInterval(main, 1 * 60 * 1000);
+setInterval(main, 1 * 10 * 1000);
 const PORT = port || 3000;
 app.listen(PORT, () => console.log(`Сервер запущен на порту ${PORT}`));
