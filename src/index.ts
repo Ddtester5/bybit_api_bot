@@ -10,6 +10,7 @@ import {
   timeFrame,
   tradingPair,
   leverage,
+  checkStrategyInterval,
 } from "./config";
 import { client } from "./api/bybit_api_client_v5";
 import { get24hPriceChange } from "./modules/get24hour_price_change";
@@ -118,6 +119,6 @@ const main = async () => {
     console.error("Ошибка при выполнении стратегии:", error);
   }
 };
-setInterval(main, 1 * 10 * 1000);
+setInterval(main, checkStrategyInterval * 60 * 1000);
 const PORT = port || 3000;
 app.listen(PORT, () => console.log(`Сервер запущен на порту ${PORT}`));
