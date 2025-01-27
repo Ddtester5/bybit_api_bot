@@ -86,7 +86,7 @@ const main = async () => {
       return;
     }
     // Рассчитываем размер позиции (5% от доступных средств)
-    const positionSizeInUSD = availableBalance * riskPercentage;
+    const positionSizeInUSD = availableBalance * riskPercentage * leverage;
     const positionSize = Math.floor(positionSizeInUSD / lastPrice);
     // Открываем шорт-позицию
     const stopLossPrice = lastPrice * (1 + stopLossRatio);

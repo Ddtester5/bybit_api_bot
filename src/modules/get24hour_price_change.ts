@@ -25,10 +25,10 @@ export async function get24hPriceChange(tradingPair: string, time?: number) {
       return null;
     }
 
-    // Цена 24 часа назад — берём close первой свечи
-    const price24hAgo = parseFloat(candles.result.list[0][4]);
-    // Текущая цена — берём close последней свечи
-    const currentPrice = parseFloat(
+    // Текущая цена
+    const currentPrice = parseFloat(candles.result.list[0][4]);
+    // Цена 24 часа назад
+    const price24hAgo = parseFloat(
       candles.result.list[candles.result.list.length - 1][4],
     );
 
