@@ -1,124 +1,27 @@
 import express from "express";
-import { getLastMarketPrice } from "./modules/get_last_market_price";
-import {
-  candleCountAnalize,
-  port,
-  riskPercentage,
-  pullbackThreshold,
-  stopLossRatio,
-  takeProfitRatio,
-  timeFrame,
-  tradingPair,
-  leverage,
-  checkStrategyInterval,
-} from "./config";
-import { client } from "./api/bybit_api_client_v5";
-import { get24hPriceChange } from "./modules/get24hour_price_change";
-import { OHLCVKlineV5 } from "bybit-api";
-import { getAvalibleBalance } from "./modules/get_avalible_ballance";
-import { checkOpenPositions } from "./modules/check_open_position";
-import { setLeverage } from "./modules/set_leverage";
+import { checkStrategyInterval, port } from "./config";
+import { RollbackShortStrategy } from "./strategies/rollback_strategy";
+import { getTradingPairs } from "./modules/get_tradings_pair";
 
 const app = express();
 
-const main = async () => {
-  try {
-    const hasOpenPosition = await checkOpenPositions(tradingPair);
-
-    if (hasOpenPosition) {
-      console.log(
-        `Пропускаем, так как уже есть активная сделка по ${tradingPair}`,
-      );
-      return;
-    }
-    const lastPrice = await getLastMarketPrice(tradingPair);
-    console.log(`Текущая цена пары ${tradingPair}`, "=", lastPrice);
-    const price24Change = await get24hPriceChange(tradingPair);
-    if (!price24Change || price24Change > 0) {
-      return;
-    }
-    const candles = await client.getKline({
-      category: "linear",
-      symbol: tradingPair,
-      interval: `${timeFrame}`,
-      limit: candleCountAnalize,
-    });
-
-    const highPrices = candles.result.list.map((candle: OHLCVKlineV5) =>
-      parseFloat(candle[2]),
-    );
-    const lowPrices = candles.result.list.map((candle: OHLCVKlineV5) =>
-      parseFloat(candle[3]),
-    );
-    const closePrices = candles.result.list
-      .map(
-        (candle: OHLCVKlineV5) => parseFloat(candle[4]), // Цена закрытия
-      )
-      .reverse();
-    console.log(closePrices);
-    // Проверяем рост цены (например, последовательное повышение цен закрытия)
-    let isPriceIncreasing = true;
-    for (let i = 1; i < closePrices.length; i++) {
-      if (closePrices[i] <= closePrices[i - 1]) {
-        isPriceIncreasing = false;
-        break;
+async function runStrategyLoop() {
+  while (true) {
+    try {
+      const tradingPairs = await getTradingPairs();
+      for (const tradingPair of tradingPairs) {
+        await RollbackShortStrategy(tradingPair);
       }
+    } catch (error) {
+      console.error("Ошибка в стратегии:", error);
     }
-
-    // Если цена не растет — пропускаем
-    if (!isPriceIncreasing) {
-      console.log("Отката нет");
-      return;
-    }
-
-    // Проверяем глубину отката
-    const maxPrice = Math.max(...highPrices);
-    const minPrice = Math.min(...lowPrices);
-    if ((maxPrice - minPrice) / maxPrice < pullbackThreshold) {
-      console.log("Откат не достиг порогового значения.");
-      return;
-    }
-    // Получаем доступные средства (баланс)
-
-    const availableBalance = await getAvalibleBalance();
-    if (!availableBalance || isNaN(availableBalance) || availableBalance <= 0) {
-      console.error("Ошибка: баланс недоступен или равен 0.");
-      return;
-    }
-    // Рассчитываем размер позиции (5% от доступных средств)
-    const positionSizeInUSD = availableBalance * riskPercentage * leverage;
-    const positionSize = Math.floor(positionSizeInUSD / lastPrice);
-    // Открываем шорт-позицию
-    const stopLossPrice = lastPrice * (1 + stopLossRatio);
-    const takeProfitPrice = lastPrice * (1 - takeProfitRatio);
-    await setLeverage(tradingPair, leverage);
-
-    console.log(`📊 Данные перед открытием ордера:
-      🔹 Доступный баланс: ${availableBalance}
-      🔹 Размер позиции (в USD): ${positionSizeInUSD}
-      🔹 Размер позиции (контракты): ${positionSize}
-      🔹 Текущая цена: ${lastPrice}
-      🔹 Стоп-лосс: ${stopLossPrice}
-      🔹 Тейк-профит: ${takeProfitPrice}
-      🔹 Плече: ${leverage}
-    `);
-
-    const orderResponse = await client.submitOrder({
-      category: "linear",
-      symbol: tradingPair,
-      side: "Sell",
-      orderType: "Market",
-      qty: `${positionSize}`,
-      timeInForce: "GTC",
-      stopLoss: stopLossPrice.toFixed(2),
-      takeProfit: takeProfitPrice.toFixed(2),
-    });
-
-    console.log("Шорт-позиция успешно открыта:", orderResponse);
-  } catch (error) {
-    console.error("Ошибка при выполнении стратегии:", error);
+    await new Promise((resolve) =>
+      setTimeout(resolve, checkStrategyInterval * 60 * 1000),
+    );
   }
-};
-setInterval(main, checkStrategyInterval * 60 * 1000);
+}
+
+runStrategyLoop();
+
 const PORT = port || 3000;
 app.listen(PORT, () => console.log(`Сервер запущен на порту ${PORT}`));

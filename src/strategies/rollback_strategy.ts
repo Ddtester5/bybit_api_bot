@@ -1,90 +1,115 @@
-// import express from "express";
+import { checkOpenPositions } from "../modules/check_open_position";
+import { getLastMarketPrice } from "../modules/get_last_market_price";
+import { get24hPriceChange } from "../modules/get24hour_price_change";
+import { client } from "../api/bybit_api_client_v5";
+import {
+  candleCountAnalize,
+  leverage,
+  pullbackThreshold,
+  riskPercentage,
+  stopLossRatio,
+  takeProfitRatio,
+  timeFrame,
+} from "../config";
+import { OHLCVKlineV5 } from "bybit-api";
+import { getAvalibleBalance } from "../modules/get_avalible_ballance";
+import { setLeverage } from "../modules/set_leverage";
 
-// const app = express();
+export const RollbackShortStrategy = async (tradingPair: string) => {
+  try {
+    const hasOpenPosition = await checkOpenPositions(tradingPair);
 
-// // Конфигурация
-// const apiKey = process.env.API_KEY; // Замените на ваш API-ключ Bybit
-// const apiSecret = process.env.API_SECRET; // Замените на ваш секретный ключ Bybit
-// const symbol = "ACEUSDT"; // Торговая пара
-// const takeProfitRatio = 0.02; // Тейк-профит: 2%
-// const stopLossRatio = 0.01; // Стоп-лосс: 1%
-// const pullbackThreshold = 0.005; // Уровень отката: 0.5%
-// const positionSize = 0.01; // Размер позиции (например, 0.01 BTC)
+    if (hasOpenPosition) {
+      console.log(
+        `Пропускаем, так как уже есть активная сделка по ${tradingPair}`,
+      );
+      return;
+    }
+    const lastPrice = await getLastMarketPrice(tradingPair);
+    console.log(`Текущая цена пары ${tradingPair}`, "=", lastPrice);
+    const price24Change = await get24hPriceChange(tradingPair);
+    if (!price24Change || price24Change > 0) {
+      return;
+    }
+    const candles = await client.getKline({
+      category: "linear",
+      symbol: tradingPair,
+      interval: `${timeFrame}`,
+      limit: candleCountAnalize,
+    });
 
-// // Инициализация клиента Bybit
-// const client = new RestClientV5({
-//   key: apiKey,
-//   secret: apiSecret,
-//   testnet: false, // Используйте true для тестовой сети
-// });
+    const highPrices = candles.result.list.map((candle: OHLCVKlineV5) =>
+      parseFloat(candle[2]),
+    );
+    const lowPrices = candles.result.list.map((candle: OHLCVKlineV5) =>
+      parseFloat(candle[3]),
+    );
+    const closePrices = candles.result.list
+      .map(
+        (candle: OHLCVKlineV5) => parseFloat(candle[4]), // Цена закрытия
+      )
+      .reverse();
+    console.log(closePrices);
+    // Проверяем рост цены (например, последовательное повышение цен закрытия)
+    let isPriceIncreasing = true;
+    for (let i = 1; i < closePrices.length; i++) {
+      if (closePrices[i] <= closePrices[i - 1]) {
+        isPriceIncreasing = false;
+        break;
+      }
+    }
 
-// // Логика стратегии
-// async function executeShortStrategy() {
-//   try {
-//     // Получаем рыночные данные
-//     const marketData = await client.getTickers({ category: "linear", symbol });
-//     const lastPrice = parseFloat(marketData.result.list[0].lastPrice);
+    // Если цена не растет — пропускаем
+    if (!isPriceIncreasing) {
+      console.log("Отката нет");
+      return;
+    }
 
-//     console.log(`Текущая цена ${symbol}: ${lastPrice}`);
+    // Проверяем глубину отката
+    const maxPrice = Math.max(...highPrices);
+    const minPrice = Math.min(...lowPrices);
+    if ((maxPrice - minPrice) / maxPrice < pullbackThreshold) {
+      console.log("Откат не достиг порогового значения.");
+      return;
+    }
+    // Получаем доступные средства (баланс)
 
-//     // Получаем исторические данные для анализа свечей
-//     const candles = await client.getKline({
-//       category: "linear",
-//       symbol,
-//       interval: "1", // Интервал 1 минута
-//       limit: 5, // Последние 5 свечей
-//     });
+    const availableBalance = await getAvalibleBalance();
+    if (!availableBalance || isNaN(availableBalance) || availableBalance <= 0) {
+      console.error("Ошибка: баланс недоступен или равен 0.");
+      return;
+    }
+    // Рассчитываем размер позиции (5% от доступных средств)
+    const positionSizeInUSD = availableBalance * riskPercentage * leverage;
+    const positionSize = Math.floor(positionSizeInUSD / lastPrice);
+    // Открываем шорт-позицию
+    const stopLossPrice = lastPrice * (1 + stopLossRatio);
+    const takeProfitPrice = lastPrice * (1 - takeProfitRatio);
+    await setLeverage(tradingPair, leverage);
 
-//     const prices = candles.result.list.map((candle) =>
-//       parseFloat(candle.close),
-//     );
-//     const isDowntrend = prices[0] > prices[1] && prices[1] > prices[2];
+    console.log(`📊 Данные перед открытием ордера:
+      🔹 Доступный баланс: ${availableBalance}
+      🔹 Размер позиции (в USD): ${positionSizeInUSD}
+      🔹 Размер позиции (контракты): ${positionSize}
+      🔹 Текущая цена: ${lastPrice}
+      🔹 Стоп-лосс: ${stopLossPrice}
+      🔹 Тейк-профит: ${takeProfitPrice}
+      🔹 Плече: ${leverage}
+    `);
 
-//     if (!isDowntrend) {
-//       console.log("Рынок не в нисходящем тренде, стратегия не выполняется.");
-//       return;
-//     }
+    const orderResponse = await client.submitOrder({
+      category: "linear",
+      symbol: tradingPair,
+      side: "Sell",
+      orderType: "Market",
+      qty: `${positionSize}`,
+      timeInForce: "GTC",
+      stopLoss: stopLossPrice.toFixed(2),
+      takeProfit: takeProfitPrice.toFixed(2),
+    });
 
-//     // Проверяем откат
-//     const maxPrice = Math.max(...prices);
-//     if ((maxPrice - lastPrice) / maxPrice < pullbackThreshold) {
-//       console.log("Откат не достиг порогового значения.");
-//       return;
-//     }
-
-//     // Открываем шорт-позицию
-//     const stopLossPrice = lastPrice * (1 + stopLossRatio);
-//     const takeProfitPrice = lastPrice * (1 - takeProfitRatio);
-
-//     console.log(`Открытие шорт-позиции:
-//       Цена входа: ${lastPrice}
-//       Стоп-лосс: ${stopLossPrice}
-//       Тейк-профит: ${takeProfitPrice}`);
-
-//     const orderResponse = await client.submitOrder({
-//       category: "linear",
-//       symbol,
-//       side: "Sell",
-//       orderType: "Market",
-//       qty: positionSize,
-//       timeInForce: "GoodTillCancel",
-//       stopLoss: stopLossPrice.toFixed(2),
-//       takeProfit: takeProfitPrice.toFixed(2),
-//     });
-
-//     console.log("Шорт-позиция успешно открыта:", orderResponse);
-//   } catch (error) {
-//     console.error("Ошибка при выполнении стратегии:", error);
-//   }
-// }
-
-// // Периодический запуск стратегии
-// setInterval(executeShortStrategy, 60000); // Проверка каждые 60 секунд
-
-// // Запуск веб-сервера (для мониторинга)
-// app.get("/", (req, res) => {
-//   res.send("Торговый бот запущен.");
-// });
-
-// const PORT = process.env.PORT || 3000;
-// app.listen(PORT, () => console.log(`Сервер запущен на порту ${PORT}`));
+    console.log("Шорт-позиция успешно открыта:", orderResponse);
+  } catch (error) {
+    console.error("Ошибка при выполнении стратегии:", error);
+  }
+};
