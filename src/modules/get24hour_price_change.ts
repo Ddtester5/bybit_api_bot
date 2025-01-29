@@ -1,6 +1,5 @@
 import moment from "moment";
 import { client } from "../api/bybit_api_client_v5";
-import { timeFrame } from "../config";
 
 export async function get24hPriceChange(tradingPair: string, time?: number) {
   try {
@@ -8,30 +7,36 @@ export async function get24hPriceChange(tradingPair: string, time?: number) {
     const oneDayAgo = now - 24 * 60 * 60 * 1000; // Метка времени 24 часа назад
 
     // Получаем свечи для анализа
-    const candles = await client.getKline({
+    const candleAgo = await client.getKline({
       category: "linear",
       symbol: tradingPair,
-      interval: `${timeFrame}`, // Интервал свечей 5 минут
+      interval: `1`, // Интервал свечей 5 минут
       start: oneDayAgo, // Начало периода
-      end: now, // Конец периода
+      limit: 1,
     });
+    const candleNow = await client.getKline({
+      category: "linear",
+      symbol: tradingPair,
+      interval: `1`, // Интервал свечей 5 минут
 
+      limit: 1,
+    });
     if (
-      !candles.result ||
-      !candles.result.list ||
-      candles.result.list.length === 0
+      !candleAgo.result ||
+      !candleAgo.result.list ||
+      candleAgo.result.list.length === 0 ||
+      !candleNow.result ||
+      !candleNow.result.list ||
+      candleNow.result.list.length === 0
     ) {
       console.log("Нет данных для расчета изменения цены за 24 часа.");
       return null;
     }
 
     // Текущая цена
-    const currentPrice = parseFloat(candles.result.list[0][4]);
+    const currentPrice = parseFloat(candleNow.result.list[0][4]);
     // Цена 24 часа назад
-    const price24hAgo = parseFloat(
-      candles.result.list[candles.result.list.length - 1][4],
-    );
-
+    const price24hAgo = parseFloat(candleAgo.result.list[0][4]);
     // Рассчитываем изменение в процентах
     const priceChangePercent =
       ((currentPrice - price24hAgo) / price24hAgo) * 100;
