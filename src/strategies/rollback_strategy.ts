@@ -49,7 +49,6 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
         (candle: OHLCVKlineV5) => parseFloat(candle[4]), // Цена закрытия
       )
       .reverse();
-    console.log(closePrices);
     // Проверяем рост цены (например, последовательное повышение цен закрытия)
     let isPriceIncreasing = true;
     for (let i = 1; i < closePrices.length; i++) {
