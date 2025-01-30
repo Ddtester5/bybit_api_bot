@@ -94,6 +94,7 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
       🔹 Стоп-лосс: ${stopLossPrice}
       🔹 Тейк-профит: ${takeProfitPrice}
       🔹 Плече: ${leverage}
+      🔹 Откат: ${(maxPrice - minPrice) / maxPrice}
     `);
 
     const orderResponse = await client.submitOrder({
