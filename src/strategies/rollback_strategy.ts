@@ -17,6 +17,9 @@ import { setLeverage } from "../modules/set_leverage";
 
 export const RollbackShortStrategy = async (tradingPair: string) => {
   try {
+    if (!tradingPair.includes("USDT")) {
+      return;
+    }
     const hasOpenPosition = await checkOpenPositions(tradingPair);
 
     if (hasOpenPosition) {

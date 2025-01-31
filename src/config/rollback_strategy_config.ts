@@ -1,9 +1,9 @@
 export const leverage = 10;
 export const timeFrame = 15;
-export const takeProfitRatio = 0.05; //
-export const stopLossRatio = 0.04; //
+export const takeProfitRatio = 0.15; //
+export const stopLossRatio = 0.1; //
 export const pullbackThreshold = 0.04; // Уровень отката: 4%
-export const riskPercentage = 0.01;
+export const riskPercentage = 0.025;
 export const candleCountAnalize = 4;
 export const checkStrategyInterval = 10;
 export const orderLimit = 90 / riskPercentage / 100;
