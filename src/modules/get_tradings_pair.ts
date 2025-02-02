@@ -7,7 +7,6 @@ export const getTradingPairs = async () => {
     });
 
     const tradingPairs = response.result.list.map((pair) => pair.symbol);
-    console.log("📜 Доступные торговые пары:", tradingPairs);
     return tradingPairs;
   } catch (error) {
     console.error("❌ Ошибка при получении списка торговых пар:", error);

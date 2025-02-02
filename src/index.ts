@@ -1,7 +1,8 @@
 import express from "express";
-import { checkStrategyInterval, port } from "./config";
+import { checkStrategyInterval, orderLimit, port } from "./config";
 import { RollbackShortStrategy } from "./strategies/rollback_strategy";
 import { getTradingPairs } from "./modules/get_tradings_pair";
+import { checkOpenPositionsCount } from "./modules/check_open_positions_count";
 
 const app = express();
 
@@ -9,6 +10,11 @@ async function runStrategyLoop() {
   while (true) {
     try {
       const tradingPairs = await getTradingPairs();
+      const positionsCount = await checkOpenPositionsCount();
+      if (positionsCount > orderLimit) {
+        console.log(`Слишком много позиций`);
+        return;
+      }
       for (const tradingPair of tradingPairs) {
         await RollbackShortStrategy(tradingPair);
       }
