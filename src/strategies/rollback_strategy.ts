@@ -5,6 +5,7 @@ import { client } from "../api/bybit_api_client_v5";
 import {
   candleCountAnalize,
   leverage,
+  orderLimit,
   pullbackThreshold,
   riskPercentage,
   stopLossRatio,
@@ -14,9 +15,14 @@ import {
 import { OHLCVKlineV5 } from "bybit-api";
 import { getAvalibleBalance } from "../modules/get_avalible_ballance";
 import { setLeverage } from "../modules/set_leverage";
+import { checkOpenPositionsCount } from "../modules/check_open_positions_count";
 
 export const RollbackShortStrategy = async (tradingPair: string) => {
   try {
+    const positionsCount = await checkOpenPositionsCount();
+    if (positionsCount > orderLimit) {
+      return;
+    }
     if (!tradingPair.includes("USDT")) {
       return;
     }

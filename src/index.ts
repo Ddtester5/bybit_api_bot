@@ -13,9 +13,9 @@ async function runStrategyLoop() {
       const positionsCount = await checkOpenPositionsCount();
       if (positionsCount > orderLimit) {
         console.log(`Слишком много позиций`);
-      }else{
-      for (const tradingPair of tradingPairs) {
-        await RollbackShortStrategy(tradingPair);
+      } else {
+        for (const tradingPair of tradingPairs) {
+          await RollbackShortStrategy(tradingPair);
         }
       }
     } catch (error) {
