@@ -16,6 +16,7 @@ import { OHLCVKlineV5 } from "bybit-api";
 import { getAvalibleBalance } from "../modules/get_avalible_ballance";
 import { setLeverage } from "../modules/set_leverage";
 import { checkOpenPositionsCount } from "../modules/check_open_positions_count";
+import { getMonthPriceChange } from "../modules/get_month_prise_change";
 
 export const RollbackShortStrategy = async (tradingPair: string) => {
   try {
@@ -37,7 +38,11 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     const lastPrice = await getLastMarketPrice(tradingPair);
     console.log(`Текущая цена пары ${tradingPair}`, "=", lastPrice);
     const price24Change = await get24hPriceChange(tradingPair);
-    if (!price24Change || price24Change > 0) {
+    if (!price24Change || price24Change < 0) {
+      return;
+    }
+    const priceMonthhAgo = await getMonthPriceChange(tradingPair);
+    if (!priceMonthhAgo || priceMonthhAgo > 0) {
       return;
     }
     const candles = await client.getKline({
