@@ -38,7 +38,7 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     const lastPrice = await getLastMarketPrice(tradingPair);
     console.log(`Текущая цена пары ${tradingPair}`, "=", lastPrice);
     const price24Change = await get24hPriceChange(tradingPair);
-    if (!price24Change || price24Change < 0) {
+    if (!price24Change || price24Change < 5) {
       return;
     }
     const priceMonthhAgo = await getMonthPriceChange(tradingPair);
