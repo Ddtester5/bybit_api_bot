@@ -1,10 +1,10 @@
 import moment from "moment";
 import { client } from "../api/bybit_api_client_v5";
 
-export async function getMonthPriceChange(tradingPair: string, time?: number) {
+export async function get3MonthPriceChange(tradingPair: string, time?: number) {
   try {
     const now = time ? time : moment().unix() * 1000; // Текущая временная метка
-    const oneMonthAgo = now - 30 * 24 * 60 * 60 * 1000; // Метка времени 24 часа назад
+    const oneMonthAgo = now - 90 * 24 * 60 * 60 * 1000; // Метка времени
 
     // Получаем свечи для анализа
     const candleAgo = await client.getKline({

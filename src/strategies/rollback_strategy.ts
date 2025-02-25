@@ -16,7 +16,7 @@ import { OHLCVKlineV5 } from "bybit-api";
 import { getAvalibleBalance } from "../modules/get_avalible_ballance";
 import { setLeverage } from "../modules/set_leverage";
 import { checkOpenPositionsCount } from "../modules/check_open_positions_count";
-import { getMonthPriceChange } from "../modules/get_month_prise_change";
+import { get3MonthPriceChange } from "../modules/get_month_prise_change";
 
 export const RollbackShortStrategy = async (tradingPair: string) => {
   try {
@@ -41,7 +41,7 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     if (!price24Change || price24Change < 5) {
       return;
     }
-    const priceMonthhAgo = await getMonthPriceChange(tradingPair);
+    const priceMonthhAgo = await get3MonthPriceChange(tradingPair);
     if (!priceMonthhAgo || priceMonthhAgo > 0) {
       return;
     }
