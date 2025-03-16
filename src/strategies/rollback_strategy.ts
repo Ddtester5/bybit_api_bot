@@ -1,6 +1,5 @@
 import { checkOpenPositions } from "../modules/check_open_position";
 import { getLastMarketPrice } from "../modules/get_last_market_price";
-import { get24hPriceChange } from "../modules/get24hour_price_change";
 import { client } from "../api/bybit_api_client_v5";
 import {
   candleCountAnalize,
@@ -17,6 +16,8 @@ import { getAvalibleBalance } from "../modules/get_avalible_ballance";
 import { setLeverage } from "../modules/set_leverage";
 import { checkOpenPositionsCount } from "../modules/check_open_positions_count";
 import { get3MonthPriceChange } from "../modules/get_month_prise_change";
+import { getPriceChange } from "../modules/get24hour_price_change";
+import moment from "moment";
 
 export const RollbackShortStrategy = async (tradingPair: string) => {
   try {
@@ -37,8 +38,21 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     }
     const lastPrice = await getLastMarketPrice(tradingPair);
     console.log(`Текущая цена пары ${tradingPair}`, "=", lastPrice);
-    const price24Change = await get24hPriceChange(tradingPair);
-    if (!price24Change || price24Change < 10 || price24Change>50) {
+    const price24Change = await getPriceChange(
+      tradingPair,
+      moment().subtract(1, "days").valueOf(),
+    );
+    const price3dayAgo = await getPriceChange(
+      tradingPair,
+      moment().subtract(3, "days").valueOf(),
+    );
+    if (
+      !price24Change ||
+      !price3dayAgo ||
+      price24Change < 10 ||
+      price24Change > 50 ||
+      price3dayAgo < 30
+    ) {
       return;
     }
     const priceMonthhAgo = await get3MonthPriceChange(tradingPair);
