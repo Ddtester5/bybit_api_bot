@@ -42,16 +42,16 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
       tradingPair,
       moment().subtract(1, "days").valueOf(),
     );
-    const price3dayAgo = await getPriceChange(
+    const price7dayAgo = await getPriceChange(
       tradingPair,
-      moment().subtract(3, "days").valueOf(),
+      moment().subtract(7, "days").valueOf(),
     );
     if (
       !price24Change ||
-      !price3dayAgo ||
+      !price7dayAgo ||
       price24Change < 10 ||
       price24Change > 50 ||
-      price3dayAgo < 30
+      price7dayAgo < 30
     ) {
       return;
     }
