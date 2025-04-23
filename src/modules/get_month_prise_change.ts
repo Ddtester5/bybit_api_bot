@@ -29,7 +29,7 @@ export async function get3MonthPriceChange(tradingPair: string, time?: number) {
       !candleNow.result.list ||
       candleNow.result.list.length === 0
     ) {
-      console.log("Нет данных для расчета изменения цены за месяц часа.");
+      console.log("Нет данных для расчета изменения цены за 3 месяцa.");
       return null;
     }
 
@@ -42,11 +42,11 @@ export async function get3MonthPriceChange(tradingPair: string, time?: number) {
       ((currentPrice - priceMonthhAgo) / priceMonthhAgo) * 100;
 
     console.log(
-      `Изменение цены за месяц часа: ${priceChangePercent.toFixed(2)}%`,
+      `Изменение цены за 3 месяцa: ${priceChangePercent.toFixed(2)}%`,
     );
     return priceChangePercent;
   } catch (error) {
-    console.error("Ошибка при расчете изменения цены за месяц:", error);
+    console.error("Ошибка при расчете изменения цены за 3 месяцa:", error);
     throw error;
   }
 }

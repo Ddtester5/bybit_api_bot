@@ -29,7 +29,7 @@ export async function getPriceChange(tradingPair: string, time?: number) {
       !candleNow.result.list ||
       candleNow.result.list.length === 0
     ) {
-      console.log("Нет данных для расчета изменения цены за 24 часа.");
+      console.log("Нет данных для расчета изменения цены");
       return null;
     }
 
@@ -41,7 +41,6 @@ export async function getPriceChange(tradingPair: string, time?: number) {
     const priceChangePercent =
       ((currentPrice - price24hAgo) / price24hAgo) * 100;
 
-    console.log(`Изменение цены за 24 часа: ${priceChangePercent.toFixed(2)}%`);
     return priceChangePercent;
   } catch (error) {
     console.error("Ошибка при расчете изменения цены за 24 часа:", error);
