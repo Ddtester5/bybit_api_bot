@@ -6,4 +6,4 @@ export const pullbackThreshold = 0.03; // Уровень отката: 4%
 export const riskPercentage = 0.01;
 export const candleCountAnalize = 4;
 export const checkStrategyInterval = 5;
-export const orderLimit = 30 / riskPercentage / 100;
+export const orderLimit = 40 / riskPercentage / 100;
