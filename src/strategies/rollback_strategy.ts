@@ -15,8 +15,7 @@ import { OHLCVKlineV5 } from "bybit-api";
 import { getAvalibleBalance } from "../modules/get_avalible_ballance";
 import { setLeverage } from "../modules/set_leverage";
 import { checkOpenPositionsCount } from "../modules/check_open_positions_count";
-import { get3MonthPriceChange } from "../modules/get_month_prise_change";
-import { getPriceChange } from "../modules/get24hour_price_change";
+import { getPriceChange } from "../modules/get_price_change";
 import moment from "moment";
 
 export const RollbackShortStrategy = async (tradingPair: string) => {
@@ -38,26 +37,31 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     }
     const lastPrice = await getLastMarketPrice(tradingPair);
     console.log(`Текущая цена пары ${tradingPair}`, "=", lastPrice);
-    const price24Change = await getPriceChange(
+    const priceDayAgo = await getPriceChange(
       tradingPair,
-      moment().subtract(1, "days").valueOf(),
+      moment().subtract(1, "day").valueOf(),
     );
-    console.log("24 hour change", price24Change);
+    console.log("1 day change", priceDayAgo);
     const price3dayAgo = await getPriceChange(
       tradingPair,
       moment().subtract(3, "days").valueOf(),
     );
+    console.log("3 day change", price3dayAgo);
     if (
-      !price24Change ||
+      !priceDayAgo ||
       !price3dayAgo ||
-      price24Change > 5 ||
-      price24Change < -50 ||
-      price3dayAgo > 0
+      priceDayAgo > 10 ||
+      priceDayAgo < -5 ||
+      price3dayAgo > 50
     ) {
       return;
     }
-    const priceMonthhAgo = await get3MonthPriceChange(tradingPair);
-    if (!priceMonthhAgo || priceMonthhAgo > 0) {
+    const priceMonthAgo = await getPriceChange(
+      tradingPair,
+      moment().subtract(1, "month").valueOf(),
+    );
+    console.log("1 month change", priceMonthAgo);
+    if (!priceMonthAgo || priceMonthAgo > 0) {
       return;
     }
     const candles = await client.getKline({
