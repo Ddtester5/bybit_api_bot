@@ -17,6 +17,7 @@ import { setLeverage } from "../modules/set_leverage";
 import { checkOpenPositionsCount } from "../modules/check_open_positions_count";
 import { getPriceChange } from "../modules/get_price_change";
 import moment from "moment";
+import { getRoundedBalance } from "../modules/get_rounded_balance";
 
 export const RollbackShortStrategy = async (tradingPair: string) => {
   try {
@@ -112,7 +113,8 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
       return;
     }
     // Рассчитываем размер позиции (5% от доступных средств)
-    const positionSizeInUSD = availableBalance * riskPercentage * leverage;
+    const positionSizeInUSD =
+      getRoundedBalance(availableBalance) * riskPercentage * leverage;
     const positionSize = Math.floor(positionSizeInUSD / lastPrice);
     // Открываем шорт-позицию
     const stopLossPrice = lastPrice * (1 + stopLossRatio);
