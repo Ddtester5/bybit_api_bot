@@ -18,9 +18,15 @@ import { checkOpenPositionsCount } from "../modules/check_open_positions_count";
 import { getPriceChange } from "../modules/get_price_change";
 import moment from "moment";
 import { getRoundedBalance } from "../modules/get_rounded_balance";
+import { getFoundingRate } from "../modules/get_founding_rate";
 
 export const RollbackShortStrategy = async (tradingPair: string) => {
   try {
+    const founding_rate = await getFoundingRate(tradingPair);
+    if (Number(founding_rate) < -0.0001) {
+      console.log("Ставка финансирования отстой", founding_rate);
+      return;
+    }
     const positionsCount = await checkOpenPositionsCount();
     if (positionsCount > orderLimit) {
       return;
