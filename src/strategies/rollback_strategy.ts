@@ -61,7 +61,6 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     if (
       !priceDayAgo ||
       !price3dayAgo ||
-      !price7dayAgo ||
       priceDayAgo > 20 ||
       priceDayAgo < -5 ||
       price3dayAgo > 60 ||
@@ -141,7 +140,6 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
       🔹 Стоп-лосс: ${stopLossPrice}
       🔹 Тейк-профит: ${takeProfitPrice}
       🔹 Плече: ${leverage}
-      🔹 Откат: ${(maxPrice - minPrice) / maxPrice}
     `);
 
     const orderResponse = await client.submitOrder({
