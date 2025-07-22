@@ -17,7 +17,6 @@ import { setLeverage } from "../modules/set_leverage";
 import { checkOpenPositionsCount } from "../modules/check_open_positions_count";
 import { getPriceChange } from "../modules/get_price_change";
 import moment from "moment";
-import { getRoundedBalance } from "../modules/get_rounded_balance";
 import { getFoundingRate } from "../modules/get_founding_rate";
 
 export const RollbackShortStrategy = async (tradingPair: string) => {
@@ -61,10 +60,10 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     if (
       !priceDayAgo ||
       !price3dayAgo ||
-      priceDayAgo > 20 ||
-      priceDayAgo < -5 ||
-      price3dayAgo > 60 ||
-      price3dayAgo < 10
+      priceDayAgo > 30 ||
+      priceDayAgo < 5 ||
+      price3dayAgo > 80 ||
+      price3dayAgo < 15
     ) {
       return;
     }
@@ -125,7 +124,7 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     }
     // Рассчитываем размер позиции (5% от доступных средств)
     const positionSizeInUSD =
-      getRoundedBalance(availableBalance) * riskPercentage * leverage;
+      availableBalance * riskPercentage * leverage;
     const positionSize = Math.floor(positionSizeInUSD / lastPrice);
     // Открываем шорт-позицию
     const stopLossPrice = lastPrice * (1 + stopLossRatio);
