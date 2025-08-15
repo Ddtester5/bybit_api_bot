@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/workspaces/bybit_api_bot/node_modules/node/bin/node',
+1 verbose cli   '/workspaces/bybit_api_bot/node_modules/.bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'lint:types'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v24.6.0
+4 verbose run-script [ 'prelint:types', 'lint:types', 'postlint:types' ]
+5 info prelint:types bybit_api_bot@1.0.0
+6 info lint:types bybit_api_bot@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info bybit_api_bot@1.0.0 Failed to exec lint:types script
+9 verbose stack Error: bybit_api_bot@1.0.0 lint:types: `tsc --noEmit`
+9 verbose stack Exit status 2
+9 verbose stack     at EventEmitter.<anonymous> (/workspaces/bybit_api_bot/node_modules/npm/lib/utils/lifecycle.js:217:16)
+9 verbose stack     at EventEmitter.emit (node:events:508:28)
+9 verbose stack     at ChildProcess.<anonymous> (/workspaces/bybit_api_bot/node_modules/npm/lib/utils/spawn.js:24:14)
+9 verbose stack     at ChildProcess.emit (node:events:508:28)
+9 verbose stack     at maybeClose (node:internal/child_process:1101:16)
+9 verbose stack     at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+10 verbose pkgid bybit_api_bot@1.0.0
+11 verbose cwd /workspaces/bybit_api_bot
+12 error Linux 6.8.0-1030-azure
+13 error argv "/workspaces/bybit_api_bot/node_modules/node/bin/node" "/workspaces/bybit_api_bot/node_modules/.bin/npm" "run" "lint:types"
+14 error node v24.6.0
+15 error npm  v2.15.12
+16 error code ELIFECYCLE
+17 error bybit_api_bot@1.0.0 lint:types: `tsc --noEmit`
+17 error Exit status 2
+18 error Failed at the bybit_api_bot@1.0.0 lint:types script 'tsc --noEmit'.
+18 error This is most likely a problem with the bybit_api_bot package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     tsc --noEmit
+18 error You can get information on how to open an issue for this project with:
+18 error     npm bugs bybit_api_bot
+18 error Or if that isn't available, you can get their info via:
+18 error
+18 error     npm owner ls bybit_api_bot
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]

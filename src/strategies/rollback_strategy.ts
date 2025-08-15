@@ -2,16 +2,12 @@ import { checkOpenPositions } from "../modules/check_open_position";
 import { getLastMarketPrice } from "../modules/get_last_market_price";
 import { client } from "../api/bybit_api_client_v5";
 import {
-  candleCountAnalize,
   leverage,
   orderLimit,
-  pullbackThreshold,
   riskPercentage,
   stopLossRatio,
   takeProfitRatio,
-  timeFrame,
 } from "../config";
-import { OHLCVKlineV5 } from "bybit-api";
 import { getAvalibleBalance } from "../modules/get_avalible_ballance";
 import { setLeverage } from "../modules/set_leverage";
 import { checkOpenPositionsCount } from "../modules/check_open_positions_count";
@@ -52,17 +48,17 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
       tradingPair,
       moment().subtract(3, "days").valueOf(),
     );
-  //  const price7dayAgo = await getPriceChange(
-  //    tradingPair,
-  //    moment().subtract(7, "days").valueOf(),
- //   );
+    //  const price7dayAgo = await getPriceChange(
+    //    tradingPair,
+    //    moment().subtract(7, "days").valueOf(),
+    //   );
     console.log("3 day change", price3dayAgo);
     if (
       !priceDayAgo ||
       !price3dayAgo ||
-      priceDayAgo > 30 ||
+      priceDayAgo > 60 ||
       priceDayAgo < 5 ||
-      price3dayAgo > 80 ||
+      price3dayAgo > 120 ||
       price3dayAgo < 15
     ) {
       return;
@@ -75,46 +71,46 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     if (!priceMonthAgo || priceMonthAgo > 0) {
       return;
     }
-   // const candles = await client.getKline({
-   //   category: "linear",
-   //   symbol: tradingPair,
-  //    interval: `${timeFrame}`,
-   //   limit: candleCountAnalize,
- //   });
+    // const candles = await client.getKline({
+    //   category: "linear",
+    //   symbol: tradingPair,
+    //    interval: `${timeFrame}`,
+    //   limit: candleCountAnalize,
+    //   });
 
-  //  const highPrices = candles.result.list.map((candle: OHLCVKlineV5) =>
-  //    parseFloat(candle[2]),
-   // );
-   // const lowPrices = candles.result.list.map((candle: OHLCVKlineV5) =>
+    //  const highPrices = candles.result.list.map((candle: OHLCVKlineV5) =>
+    //    parseFloat(candle[2]),
+    // );
+    // const lowPrices = candles.result.list.map((candle: OHLCVKlineV5) =>
     //  parseFloat(candle[3]),
-  //  );
- //   const closePrices = candles.result.list
-  //    .map(
-   //     (candle: OHLCVKlineV5) => parseFloat(candle[4]), // Цена закрытия
-  //    )
-   //   .reverse();
+    //  );
+    //   const closePrices = candles.result.list
+    //    .map(
+    //     (candle: OHLCVKlineV5) => parseFloat(candle[4]), // Цена закрытия
+    //    )
+    //   .reverse();
     // Проверяем рост цены (например, последовательное повышение цен закрытия)
-  //  let isPriceIncreasing = true;
- //   for (let i = 1; i < closePrices.length; i++) {
-   //   if (closePrices[i] <= closePrices[i - 1]) {
-  //      isPriceIncreasing = false;
-     //   break;
-   //   }
-  //  }
+    //  let isPriceIncreasing = true;
+    //   for (let i = 1; i < closePrices.length; i++) {
+    //   if (closePrices[i] <= closePrices[i - 1]) {
+    //      isPriceIncreasing = false;
+    //   break;
+    //   }
+    //  }
 
     // Если цена не растет — пропускаем
- //   if (!isPriceIncreasing) {
-  //    console.log("Отката нет");
-   //   return;
-  //  }
+    //   if (!isPriceIncreasing) {
+    //    console.log("Отката нет");
+    //   return;
+    //  }
 
     // Проверяем глубину отката
-   // const maxPrice = Math.max(...highPrices);
-  //  const minPrice = Math.min(...lowPrices);
-   // if ((maxPrice - minPrice) / maxPrice < pullbackThreshold) {
-   //   console.log("Откат не достиг порогового значения.");
-   //   return;
-  //  }
+    // const maxPrice = Math.max(...highPrices);
+    //  const minPrice = Math.min(...lowPrices);
+    // if ((maxPrice - minPrice) / maxPrice < pullbackThreshold) {
+    //   console.log("Откат не достиг порогового значения.");
+    //   return;
+    //  }
     // Получаем доступные средства (баланс)
 
     const availableBalance = await getAvalibleBalance();
@@ -123,8 +119,7 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
       return;
     }
     // Рассчитываем размер позиции (5% от доступных средств)
-    const positionSizeInUSD =
-      availableBalance * riskPercentage * leverage;
+    const positionSizeInUSD = availableBalance * riskPercentage * leverage;
     const positionSize = Math.floor(positionSizeInUSD / lastPrice);
     // Открываем шорт-позицию
     const stopLossPrice = lastPrice * (1 + stopLossRatio);

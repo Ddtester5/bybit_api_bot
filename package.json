@@ -8,7 +8,7 @@
     "start": "node dist/index.js",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "lint:types": "tsc --noEmit",
-    "format": "prettier --write 'src/**/*.{ts,tsx}'",
+    "format": "prettier --write -w .",
     "dev": "ts-node-dev --respawn src/index.ts",
     "prepare": "husky"
   },
