@@ -38,7 +38,16 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
       return;
     }
     const lastPrice = await getLastMarketPrice(tradingPair);
-    console.log(`Текущая цена пары ${tradingPair}`, "=", lastPrice);
+
+    const priceMonthAgo = await getPriceChange(
+      tradingPair,
+      moment().subtract(1, "month").valueOf(),
+    );
+    console.log("1 month change", priceMonthAgo);
+    if (!priceMonthAgo || priceMonthAgo > 0) {
+      return;
+    }
+
     const priceDayAgo = await getPriceChange(
       tradingPair,
       moment().subtract(1, "day").valueOf(),
@@ -57,71 +66,21 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
       !priceDayAgo ||
       !price3dayAgo ||
       priceDayAgo > 60 ||
-      priceDayAgo < 5 ||
+      priceDayAgo < 0 ||
       price3dayAgo > 120 ||
       price3dayAgo < 15
     ) {
       return;
     }
-    const priceMonthAgo = await getPriceChange(
-      tradingPair,
-      moment().subtract(1, "month").valueOf(),
-    );
-    console.log("1 month change", priceMonthAgo);
-    if (!priceMonthAgo || priceMonthAgo > 0) {
-      return;
-    }
-    // const candles = await client.getKline({
-    //   category: "linear",
-    //   symbol: tradingPair,
-    //    interval: `${timeFrame}`,
-    //   limit: candleCountAnalize,
-    //   });
-
-    //  const highPrices = candles.result.list.map((candle: OHLCVKlineV5) =>
-    //    parseFloat(candle[2]),
-    // );
-    // const lowPrices = candles.result.list.map((candle: OHLCVKlineV5) =>
-    //  parseFloat(candle[3]),
-    //  );
-    //   const closePrices = candles.result.list
-    //    .map(
-    //     (candle: OHLCVKlineV5) => parseFloat(candle[4]), // Цена закрытия
-    //    )
-    //   .reverse();
-    // Проверяем рост цены (например, последовательное повышение цен закрытия)
-    //  let isPriceIncreasing = true;
-    //   for (let i = 1; i < closePrices.length; i++) {
-    //   if (closePrices[i] <= closePrices[i - 1]) {
-    //      isPriceIncreasing = false;
-    //   break;
-    //   }
-    //  }
-
-    // Если цена не растет — пропускаем
-    //   if (!isPriceIncreasing) {
-    //    console.log("Отката нет");
-    //   return;
-    //  }
-
-    // Проверяем глубину отката
-    // const maxPrice = Math.max(...highPrices);
-    //  const minPrice = Math.min(...lowPrices);
-    // if ((maxPrice - minPrice) / maxPrice < pullbackThreshold) {
-    //   console.log("Откат не достиг порогового значения.");
-    //   return;
-    //  }
-    // Получаем доступные средства (баланс)
 
     const availableBalance = await getAvalibleBalance();
     if (!availableBalance || isNaN(availableBalance) || availableBalance <= 0) {
       console.error("Ошибка: баланс недоступен или равен 0.");
       return;
     }
-    // Рассчитываем размер позиции (5% от доступных средств)
     const positionSizeInUSD = availableBalance * riskPercentage * leverage;
     const positionSize = Math.floor(positionSizeInUSD / lastPrice);
-    // Открываем шорт-позицию
+
     const stopLossPrice = lastPrice * (1 + stopLossRatio);
     const takeProfitPrice = lastPrice * (1 - takeProfitRatio);
     await setLeverage(tradingPair, leverage);
