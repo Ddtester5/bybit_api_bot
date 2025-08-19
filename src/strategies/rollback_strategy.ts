@@ -39,12 +39,12 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     }
     const lastPrice = await getLastMarketPrice(tradingPair);
 
-    const priceMonthAgo = await getPriceChange(
+    const price3MonthAgo = await getPriceChange(
       tradingPair,
-      moment().subtract(1, "month").valueOf(),
+      moment().subtract(3, "month").valueOf(),
     );
-    console.log("1 month change", priceMonthAgo);
-    if (!priceMonthAgo || priceMonthAgo > 0) {
+    console.log("3 month change", price3MonthAgo);
+    if (!price3MonthAgo || price3MonthAgo > 0) {
       return;
     }
 
