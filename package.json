@@ -5,22 +5,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "node dist/index.js > start.log 2>&1",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "lint:types": "tsc --noEmit",
     "format": "prettier --write -w .",
     "dev": "ts-node-dev --respawn src/index.ts",
-    "prepare": "husky"
+    "prepare": "git config core.hooksPath .git-hooks && chmod +x .git-hooks/pre-commit || echo 'Not in a git repo'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@eslint/js": "^9.18.0",
     "@types/dotenv": "^6.1.1",
-    "@types/express": "^5.0.0",
-    "@types/json-schema": "^7.0.15",
     "@types/node": "^22.10.5",
     "@typescript-eslint/eslint-plugin": "^8.19.1",
     "@typescript-eslint/parser": "^8.19.1",
@@ -30,20 +27,14 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "globals": "^15.14.0",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.3.0",
     "prettier": "^3.4.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.19.1"
   },
   "dependencies": {
-    "axios": "^1.7.9",
     "bybit-api": "^3.10.29",
-    "crypto": "^1.0.1",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "json-schema": "^0.4.0",
     "moment": "^2.30.1"
   }
 }

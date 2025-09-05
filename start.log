@@ -1,0 +1,11 @@
+Ошибка в стратегии: Error: Private endpoints require api and private keys set
+    at RestClientV5.<anonymous> (/workspaces/bybit_api_bot/node_modules/bybit-api/lib/util/BaseRestClient.js:122:23)
+    at Generator.next (<anonymous>)
+    at /workspaces/bybit_api_bot/node_modules/bybit-api/lib/util/BaseRestClient.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/workspaces/bybit_api_bot/node_modules/bybit-api/lib/util/BaseRestClient.js:4:12)
+    at RestClientV5.prepareSignParams (/workspaces/bybit_api_bot/node_modules/bybit-api/lib/util/BaseRestClient.js:114:16)
+    at RestClientV5.<anonymous> (/workspaces/bybit_api_bot/node_modules/bybit-api/lib/util/BaseRestClient.js:147:47)
+    at Generator.next (<anonymous>)
+    at /workspaces/bybit_api_bot/node_modules/bybit-api/lib/util/BaseRestClient.js:8:71
+    at new Promise (<anonymous>)
