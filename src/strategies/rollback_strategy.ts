@@ -65,10 +65,10 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     if (
       !priceDayAgo ||
       !price3dayAgo ||
-      priceDayAgo > 60 ||
+      priceDayAgo > 100 ||
       priceDayAgo < 0 ||
-      price3dayAgo > 120 ||
-      price3dayAgo < 15
+      price3dayAgo > 160 ||
+      price3dayAgo < 20
     ) {
       return;
     }
