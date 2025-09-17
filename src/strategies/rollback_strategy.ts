@@ -80,7 +80,17 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
       console.error("Ошибка: баланс недоступен или равен 0.");
       return;
     }
-    const positionSizeInUSD = availableBalance * riskPercentage * leverage;
+    const rounded_balance = Math.floor(availableBalance).toString();
+    let balance = "";
+    for (let i = 0; i < rounded_balance.length; i++) {
+      if (i === 0) {
+        balance = balance + rounded_balance[i];
+      }
+      if (i !== 0) {
+        balance = balance + "0";
+      }
+    }
+    const positionSizeInUSD = +balance * riskPercentage * leverage;
     const positionSize = Math.floor(positionSizeInUSD / lastPrice);
 
     const stopLossPrice = lastPrice * (1 + stopLossRatio);

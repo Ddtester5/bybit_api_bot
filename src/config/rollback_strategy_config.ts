@@ -3,4 +3,4 @@ export const takeProfitRatio = 0.2; //
 export const stopLossRatio = 0.4; //
 export const riskPercentage = 0.005;
 
-export const orderLimit = 30 / riskPercentage / 100;
+export const orderLimit = 20 / riskPercentage / 100;
