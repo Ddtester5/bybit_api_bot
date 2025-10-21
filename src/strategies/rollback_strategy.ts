@@ -39,14 +39,14 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     }
     const lastPrice = await getLastMarketPrice(tradingPair);
 
-    const price3MonthAgo = await getPriceChange(
-      tradingPair,
-      moment().subtract(3, "month").valueOf(),
-    );
-    console.log("3 month change", price3MonthAgo);
-    if (!price3MonthAgo || price3MonthAgo > 0) {
-      return;
-    }
+   // const price3MonthAgo = await getPriceChange(
+   //   tradingPair,
+    //  moment().subtract(3, "month").valueOf(),
+  //  );
+   // console.log("3 month change", price3MonthAgo);
+   // if (!price3MonthAgo || price3MonthAgo > 0) {
+    //  return;
+   // }
 
     const priceDayAgo = await getPriceChange(
       tradingPair,
@@ -57,17 +57,17 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     //   tradingPair,
     //   moment().subtract(3, "days").valueOf(),
     // );
-    const price14dayAgo = await getPriceChange(
+    const price7dayAgo = await getPriceChange(
       tradingPair,
-      moment().subtract(14, "days").valueOf(),
+      moment().subtract(7, "days").valueOf(),
     );
-    console.log("14 day change", price14dayAgo);
+    console.log("7 day change", price14dayAgo);
     // console.log("3 day change", price3dayAgo);
     if (
       !priceDayAgo ||
       !price14dayAgo ||
       priceDayAgo < 0 ||
-      price14dayAgo < 50
+      price7dayAgo < 40
     ) {
       return;
     }
