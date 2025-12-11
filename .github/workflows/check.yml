@@ -16,6 +16,17 @@ jobs:
         with:
           node-version: 24
 
-      - run: npm install
-      - run: npm run build
-      - run: npm run start
+      - name: Run install
+        run: npm install
+      
+      - name: Run build
+        run: npm run build
+        env: 
+          API_KEY: ${{secrets.API_KEY}}
+          API_SECRET: ${{secrets.API_SECRET}}
+
+      - name: Run start
+        run: npm run start
+        env: 
+          API_KEY: ${{secrets.API_KEY}}
+          API_SECRET: ${{secrets.API_SECRET}}
