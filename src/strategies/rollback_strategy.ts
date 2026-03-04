@@ -63,7 +63,7 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     );
     console.log("7 day change", price7dayAgo);
     // console.log("3 day change", price3dayAgo);
-    if (!priceDayAgo || !price7dayAgo || price7dayAgo < 100) {
+    if (!priceDayAgo || !price7dayAgo || price7dayAgo < 70) {
       return;
     }
 
