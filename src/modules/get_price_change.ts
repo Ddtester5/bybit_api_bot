@@ -23,7 +23,7 @@ export async function getPriceChange(tradingPair: string, time: number) {
 
     const priceAtStart = parseFloat(candleStart.result.list[0][4]);
     const priceNow = parseFloat(candleNow.result.list[0][4]);
-
+    if (priceAtStart <= 0) return null;
     const priceChangePercent = ((priceNow - priceAtStart) / priceAtStart) * 100;
 
     return priceChangePercent;
