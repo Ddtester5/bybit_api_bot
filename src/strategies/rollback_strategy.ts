@@ -102,12 +102,12 @@ export const RollbackShortStrategy = async (tradingPair: string) => {
     const orderResponse = await client.submitOrder({
       category: "linear",
       symbol: tradingPair,
-      side: "Buy",
+      side: "Sell",
       orderType: "Market",
       qty: `${positionSize}`,
       timeInForce: "GTC",
-      takeProfit: stopLossPrice.toFixed(9),
-      stopLoss: takeProfitPrice.toFixed(9),
+      stopLoss: stopLossPrice.toFixed(9),
+      takeProfit: takeProfitPrice.toFixed(9),
     });
 
     console.log("Шорт-позиция успешно открыта:", orderResponse);
