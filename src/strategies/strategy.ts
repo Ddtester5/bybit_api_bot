@@ -72,8 +72,8 @@ export function checkSignal(
 
     return {
       entry,
-      stopLoss: entry * 1.2,
-      takeProfit: entry * 0.6,
+      stopLoss: entry * 1.1,
+      takeProfit: entry * 0.8,
     };
   }
 

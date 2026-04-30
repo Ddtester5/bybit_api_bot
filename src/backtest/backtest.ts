@@ -8,7 +8,7 @@ const MAX_RISK = 0.005;
 
 async function run() {
   const pairs = await getTradingPairs();
-  const symbols = pairs
+  const symbols = pairs.slice(0, 30);
   const candlesBySymbol = new Map<string, Candle[]>();
   for (const symbol of symbols) {
     const candles = await loadHistoricalCandles(symbol);
@@ -25,6 +25,10 @@ const init = 10
   const positions = new Map<string, Position>();
 
   let trades = 0;
+  let stopcount =0
+  let ptofitcount=0
+  let totalstop =0
+  let totalprofit =0
 
   let maxLength = 0;
   for (const candles of candlesBySymbol.values()) {
@@ -34,7 +38,7 @@ const init = 10
   for (let i = 0; i < maxLength; i++) {
     for (const symbol of symbols) {
       const candles = candlesBySymbol.get(symbol)!;
-      if(!candles[i]) continue
+      if(!candles || !candles[i]) continue
       const candle = candles[i];
 
       const position = positions.get(symbol);
@@ -45,6 +49,8 @@ const init = 10
           const loss = (position.entry - position.stopLoss) * position.qty!;
 
           balance += loss;
+          totalstop += loss;
+          stopcount++
 
           positions.delete(symbol);
           trades++;
@@ -56,6 +62,8 @@ const init = 10
           const profit = (position.entry - position.takeProfit) * position.qty!;
 
           balance += profit;
+          totalprofit += profit;
+          ptofitcount++
 
           positions.delete(symbol);
           trades++;
@@ -69,7 +77,8 @@ const init = 10
         const signal = checkSignal(candles, i);
 
         if (signal) {
-          const qty = balance * MAX_RISK / (signal.entry - signal.stopLoss)
+          const stopDistance = Math.abs(signal.entry - signal.stopLoss);
+          const qty = (balance * MAX_RISK) / stopDistance;
           positions.set(symbol, {
             ...signal,
             qty,
@@ -83,6 +92,11 @@ const init = 10
   console.log("Balance:", balance.toFixed(2));
   console.log("PnL:", (balance - init).toFixed(2));
   console.log("Trades:", trades);
+  console.log("Stop count:", stopcount);
+  console.log("Profit count:", ptofitcount);
+  console.log("total stop:", totalstop)
+  console.log("total profit:",totalprofit)
+
 }
 
 run();
