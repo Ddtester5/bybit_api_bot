@@ -1,19 +1,6 @@
-starting to check pairs : 450
-Loading candles...
-0GUSDT
-Candles: 8760
-{
-  symbol: '0GUSDT',
-  timestamp: 1761775200000,
-  open: 1.5099,
-  high: 1.5101,
-  low: 1.4887,
-  close: 1.4898,
-  volume: 114222.9,
-  turnover: 171231.03688
-}
+starting to check pairs : 449
 
 RESULT:
-Balance: 8984.55
-PnL: -1015.45
-Trades: 82
+Balance: 8422.62
+PnL: -1577.38
+Trades: 33

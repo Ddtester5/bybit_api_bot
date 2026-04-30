@@ -4,29 +4,78 @@ export type Position = {
   entry: number;
   stopLoss: number;
   takeProfit: number;
-  qty:number;
+  qty?: number;
 };
 
-export function checkSignal(candles: Candle[], index: number,balance:number): Position | null {
-  // Нужно минимум 7 дней (если 1h свечи → 168)
-  const LOOKBACK = 24 * 7;
+/**
+ * Рассчитывает Simple Moving Average
+ */
+function calculateSMA(
+  candles: Candle[],
+  index: number,
+  period: number,
+): number | null {
+  if (index < period - 1) return null;
+  const slice = candles.slice(index - period + 1, index + 1);
+  const sum = slice.reduce((acc, candle) => acc + candle.close, 0);
+  return sum / period;
+}
 
-  if (index < LOOKBACK) return null;
+/**
+ * Рассчитывает RSI (Relative Strength Index)
+ */
+function calculateRSI(
+  candles: Candle[],
+  index: number,
+  period: number,
+): number | null {
+  if (index < period) return null;
 
-  const current = candles[index];
-  const weekAgo = candles[index - LOOKBACK];
+  let gains = 0;
+  let losses = 0;
 
-  const change = ((current.close - weekAgo.close) / weekAgo.close) * 100;
+  for (let i = index - period + 1; i <= index; i++) {
+    const difference = candles[i].close - candles[i - 1].close;
+    if (difference >= 0) gains += difference;
+    else losses -= difference;
+  }
 
-  // твоя идея: если рост > X → шорт
-  if (change < 50) return null;
+  if (losses === 0) return 100;
 
-  const entry = current.close;
-const qty = (balance * 0.01) / entry
-  return {
-    entry,
-    stopLoss: entry * 1.1,
-    takeProfit: entry * 0.8,
-    qty
-  };
+  const rs = gains / losses;
+  return 100 - 100 / (1 + rs);
+}
+
+export function checkSignal(
+  candles: Candle[],
+  index: number,
+): Position | null {
+  const SMA_PERIOD = 200; // Определяем основной тренд
+  const RSI_PERIOD = 20; // Ищем локальную перекупленность
+  if (index < SMA_PERIOD) return null;
+
+  const currentPrice = candles[index].close;
+  const sma = calculateSMA(candles, index, SMA_PERIOD);
+  const rsi = calculateRSI(candles, index, RSI_PERIOD);
+
+  if (!sma || !rsi) return null;
+
+  // УСЛОВИЯ ДЛЯ ШОРТА:
+  // 1. Тренд нисходящий (цена ниже SMA)
+  const isDownTrend = currentPrice < sma;
+  // 2. Локальный отскок (RSI выше 60-70)
+  const isOverbought = rsi > 65;
+
+  if (isDownTrend && isOverbought) {
+    const entry = currentPrice;
+
+
+    return {
+      entry,
+      stopLoss: entry * 1.4,
+      takeProfit: entry * 0.6,
+    };
+  }
+
+  return null;
 }

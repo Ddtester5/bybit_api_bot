@@ -1,60 +1,80 @@
 import { getTradingPairs } from "../modules/get_tradings_pair";
 import { loadHistoricalCandles } from "../modules/loadHistoricalCandles";
 import { checkSignal, Position } from "../strategies/strategy";
+import { Candle } from "../types/types";
+
+const MAX_POSITIONS = 20;
+const MAX_RISK = 0.01;
 
 async function run() {
-  const pairs  = await getTradingPairs()
+  const pairs = await getTradingPairs();
+  const symbols = pairs.slice(0, 3);
+  const candlesBySymbol = new Map<string, Candle[]>();
+  for (const symbol of symbols) {
+    const candles = await loadHistoricalCandles(symbol);
+    if (!candles?.length) {
+      console.warn(`${symbol}: empty data`);
+      continue;
+    }
 
-  console.log("Loading candles...");
-console.log(pairs[0])
-  const candles = await loadHistoricalCandles(pairs[0]);
+    candlesBySymbol.set(symbol, candles);
+  }
 
-  console.log("Candles:", candles.length);
-console.log(candles[0])
   let balance = 10000;
 
-  let position: Position | null = null;
+  const positions = new Map<string, Position>();
 
   let trades = 0;
 
-  for (let i = 0; i < candles.length; i++) {
-    const candle = candles[i];
+  const length = candlesBySymbol.get(symbols[0])?.length;
 
-    // === если есть позиция — проверяем выход ===
+  for (let i = 0; i < length!; i++) {
+    for (const symbol of symbols) {
+      const candles = candlesBySymbol.get(symbol)!;
+      const candle = candles[i];
 
-    if (position) {
-      // SL
-      if (candle.high >= position.stopLoss) {
-        const loss = (position.entry - position.stopLoss) * position.qty;
+      const position = positions.get(symbol);
 
-        balance += loss;
+      // === EXIT ===
+      if (position && positions.size < MAX_POSITIONS) {
+        if (candle.high >= position.stopLoss) {
+          const loss = (position.entry - position.stopLoss) * position.qty!;
 
-        position = null;
-        trades++;
+          balance += loss;
 
-        continue;
+          positions.delete(symbol);
+          trades++;
+
+          continue;
+        }
+
+        if (candle.low <= position.takeProfit) {
+          const profit = (position.entry - position.takeProfit) * position.qty!;
+
+          balance += profit;
+
+          positions.delete(symbol);
+          trades++;
+
+          continue;
+        }
       }
 
-      // TP
-      if (candle.low <= position.takeProfit) {
-        const profit = (position.takeProfit - position.entry) * position.qty;
+      // === ENTRY ===
+      if (!position) {
+        const signal = checkSignal(candles, i);
 
-        balance += profit;
+        if (signal) {
+          const risk = balance * MAX_RISK;
 
-        position = null;
-        trades++;
+          const stopDistance = Math.abs(signal.entry - signal.stopLoss);
 
-        continue;
-      }
-    }
-
-    // === если нет позиции — ищем вход ===
-
-    if (!position) {
-      const signal = checkSignal(candles, i,balance);
-
-      if (signal) {
-        position = signal;
+          const qty = risk / stopDistance;
+          positions.set(symbol, {
+            ...signal,
+            qty,
+          });
+        }
       }
     }
   }
