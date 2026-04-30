@@ -8,7 +8,7 @@ const MAX_RISK = 0.005;
 
 async function run() {
   const pairs = await getTradingPairs();
-  const symbols = pairs.slice(0, 3000);
+  const symbols = pairs.slice(0, 500);
   const candlesBySymbol = new Map<string, Candle[]>();
   for (const symbol of symbols) {
     const candles = await loadHistoricalCandles(symbol);

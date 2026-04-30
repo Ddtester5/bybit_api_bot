@@ -69,7 +69,7 @@ export function checkSignal(candles: Candle[], index: number): Position | null {
 
     return {
       entry,
-      stopLoss: entry * 0.8,
+      stopLoss: entry * 0.9,
       takeProfit: entry * 1.1,
     };
   }
