@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "test": "node dist/backtest/backtest.js",
+    "test": "node dist/backtest/runBacktest.js",
     "build": "tsc",
     "startlogs": "node dist/index.js > start.log 2>&1",
     "start": "node dist/index.js",

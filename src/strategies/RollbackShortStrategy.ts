@@ -1,3 +1,4 @@
+import { Portfolio } from "../backtest/Portfolio";
 import {
   leverage,
   orderLimit,
@@ -7,13 +8,13 @@ import {
   week_prise_change,
 } from "../config";
 
-import { Broker, Candle, MarketDataProvider } from "../types/types";
+import {Candle, MarketDataProvider } from "../types/types";
 
 export class RollbackShortStrategy {
   private static readonly WEEK_MS = 7 * 24 * 60 * 60 * 1000;
 
   constructor(
-    private broker: Broker,
+    private portfoio: Portfolio,
     private market: MarketDataProvider,
   ) {}
 
@@ -25,7 +26,7 @@ export class RollbackShortStrategy {
       candle.timestamp,
       weekAgo,
     );
-    if ((await this.broker.openPositionsCount()) >= orderLimit) return;
+    if ((await this.portfoio.openPositionsCount()) >= orderLimit) return;
     if (await this.broker.hasOpenPosition(tradingPair)) return;
 
     const weekChange = priceChange ?? 0;

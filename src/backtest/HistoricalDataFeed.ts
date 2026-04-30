@@ -1,19 +1,7 @@
 import { Candle } from "../types/types";
 
-export interface DataFeed {
-  getSymbols(): string[];
-
-  getCurrentTimestamp(): number | null;
-
-  next(): number | null;
-
-  getCandle(symbol: string, timestamp: number): Candle | null;
-
-  reset(): void;
-}
-
 export class HistoricalDataFeed {
-  private data: Map<string, Map<number, Candle>> = new Map();
+  private data = new Map<string, Map<number, Candle>>();
 
   private symbols: string[] = [];
 
@@ -22,10 +10,6 @@ export class HistoricalDataFeed {
   private currentIndex = 0;
 
   constructor(historicalData: Map<string, Candle[]>) {
-    this.loadData(historicalData);
-  }
-
-  private loadData(historicalData: Map<string, Candle[]>) {
     const allTimestamps = new Set<number>();
 
     for (const [symbol, candles] of historicalData) {
@@ -45,33 +29,23 @@ export class HistoricalDataFeed {
     this.timeline = Array.from(allTimestamps).sort((a, b) => a - b);
   }
 
-  getSymbols(): string[] {
+  getSymbols() {
     return this.symbols;
   }
 
-  getCurrentTimestamp(): number | null {
-    if (this.currentIndex >= this.timeline.length) {
-      return null;
-    }
-
-    return this.timeline[this.currentIndex];
+  getCurrentTimestamp() {
+    return this.timeline[this.currentIndex] || null;
   }
 
-  next(): number | null {
+  next() {
     this.currentIndex++;
-
-    return this.getCurrentTimestamp();
   }
 
-  getCandle(symbol: string, timestamp: number): Candle | null {
-    return this.data.get(symbol)?.get(timestamp) || null;
-  }
-
-  reset() {
-    this.currentIndex = 0;
-  }
-
-  hasNext(): boolean {
+  hasNext() {
     return this.currentIndex < this.timeline.length;
+  }
+
+  getCandle(symbol: string, timestamp: number) {
+    return this.data.get(symbol)?.get(timestamp) || null;
   }
 }

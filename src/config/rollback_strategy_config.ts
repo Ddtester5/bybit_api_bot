@@ -6,4 +6,4 @@ export const riskPercentage = 0.005;
 export const orderLimit = 30;
 
 // минимальный недельный прирост цены в процентах
-export const week_prise_change = 90;
+export const week_prise_change = 10;

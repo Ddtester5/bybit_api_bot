@@ -9,6 +9,7 @@ export interface MarketDataProvider {
 }
 
 export interface Candle {
+  symbol: string;
   timestamp: number;
   open: number;
   high: number;
