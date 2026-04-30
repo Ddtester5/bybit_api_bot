@@ -5,6 +5,7 @@ export type Position = {
   stopLoss: number;
   takeProfit: number;
   qty?: number;
+  openIndex?: number
 };
 
 /**
@@ -46,10 +47,7 @@ function calculateRSI(
   return 100 - 100 / (1 + rs);
 }
 
-export function checkSignal(
-  candles: Candle[],
-  index: number,
-): Position | null {
+export function checkSignal(candles: Candle[], index: number): Position | null {
   const SMA_PERIOD = 200; // Определяем основной тренд
   const RSI_PERIOD = 14; // Ищем локальную перекупленность
   if (index < SMA_PERIOD || !candles[index]) return null;
@@ -69,11 +67,10 @@ export function checkSignal(
   if (isDownTrend && isOverbought) {
     const entry = currentPrice;
 
-
     return {
       entry,
-      stopLoss: entry * 1.1,
-      takeProfit: entry * 0.8,
+      stopLoss: entry * 0.8,
+      takeProfit: entry * 1.1,
     };
   }
 
