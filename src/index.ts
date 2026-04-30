@@ -15,17 +15,18 @@ async function runStrategyLoop() {
     for (const tradingPair of tradingPairs) {
       console.log("\nPAIR:", tradingPair);
 
-      const candles = await loadHistoricalCandles(tradingPair, 1, 1);
+      const candles = await loadHistoricalCandles(tradingPair, 1, 60);
       if (!candles.length) {
         console.log(`No candles for ${tradingPair}, skip`);
         continue;
       }
-      await strategy.execute(candles[0], tradingPair);
+      await strategy.execute(candles[candles.length - 1], tradingPair);
     }
   } catch (error) {
     console.error("Ошибка в стратегии:", error);
   }
 }
+
 (async () => {
   await runStrategyLoop();
 })();

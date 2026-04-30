@@ -22,6 +22,7 @@ export async function loadHistoricalCandles(
     if (!response.result?.list?.length) break;
     const newCandles = response.result.list
       .map((c: string[]) => ({
+        symbol,
         timestamp: Number(c[0]),
         open: Number(c[1]),
         high: Number(c[2]),
