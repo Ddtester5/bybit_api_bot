@@ -72,7 +72,7 @@ async function run() {
 
           // 3. Вычитаем фандинг (зависит от того, сколько свечей просидели)
           // (i - position.openIndex) - нужно добавить openIndex в объект позиции
-          const barsHeld = i - (position.openIndex??0);
+          const barsHeld = i - (position.openIndex ?? 0);
           const funding =
             position.entry * position.qty! * FUNDING_RATE_ESTIMATE * barsHeld;
 

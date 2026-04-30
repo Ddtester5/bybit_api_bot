@@ -5,7 +5,7 @@ export type Position = {
   stopLoss: number;
   takeProfit: number;
   qty?: number;
-  openIndex?: number
+  openIndex?: number;
 };
 
 /**
