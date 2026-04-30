@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "test": "node dist/backtest/runBacktest.js",
+    "test": "tsx src/backtest/backtest.js > test.txt",
     "build": "tsc",
-    "startlogs": "node dist/index.js > start.log 2>&1",
     "start": "node dist/index.js",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "lint:types": "tsc --noEmit",
@@ -31,6 +30,7 @@
     "husky": "^9.1.7",
     "prettier": "^3.4.2",
     "ts-node-dev": "^2.0.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.19.1"
   },

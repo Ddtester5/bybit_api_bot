@@ -4,7 +4,7 @@ import { Candle } from "../types/types";
 
 export async function loadHistoricalCandles(
   symbol: string,
-  hours: number = 180 * 24,
+  hours: number = 365 * 24,
   candle_interval: number = 60,
 ): Promise<Candle[]> {
   const candles: Candle[] = [];
