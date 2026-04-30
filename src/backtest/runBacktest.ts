@@ -29,7 +29,7 @@ async function run() {
 
   const portfolio = new Portfolio(10000);
 
-  const strategy = new RollbackShortStrategy(portfolio, null);
+  const strategy = new RollbackShortStrategy();
 
   const engine = new BacktestEngine(feed, portfolio, strategy);
 

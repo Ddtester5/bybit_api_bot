@@ -1,59 +1,107 @@
-import { Portfolio } from "../backtest/Portfolio";
+import { Candle } from "../types/types";
+import { Signal } from "../backtest/Signal";
 import {
-  leverage,
-  orderLimit,
-  riskPercentage,
-  stopLossRatio,
-  takeProfitRatio,
-  week_prise_change,
+    leverage,
+        riskPercentage,
+          stopLossRatio,
+            takeProfitRatio,
+              week_prise_change,
 } from "../config";
 
-import {Candle, MarketDataProvider } from "../types/types";
-
 export class RollbackShortStrategy {
-  private static readonly WEEK_MS = 7 * 24 * 60 * 60 * 1000;
 
-  constructor(
-    private portfoio: Portfolio,
-    private market: MarketDataProvider,
-  ) {}
+    private history = new Map<string, Candle[]>();
 
-  async execute(candle: Candle, tradingPair: string) {
-    const lastPrice = candle.high;
-    const weekAgo = candle.timestamp - RollbackShortStrategy.WEEK_MS;
-    const priceChange = await this.market.getPriceChange(
-      tradingPair,
-      candle.timestamp,
-      weekAgo,
-    );
-    if ((await this.portfoio.openPositionsCount()) >= orderLimit) return;
-    if (await this.broker.hasOpenPosition(tradingPair)) return;
+      private static WEEK_MS =
+          7 * 24 * 60 * 60 * 1000;
 
-    const weekChange = priceChange ?? 0;
-    console.log(
-      `Price change for ${tradingPair} over the last week: ${weekChange}%`,
-    );
-    if (weekChange < week_prise_change) return;
 
-    const balance = await this.broker.getAvailableBalance();
-    const positionUsd = balance * riskPercentage * leverage;
-    const qty = Math.max(1, Math.floor(positionUsd / Math.max(lastPrice, 1)));
+            onCandle(
+                  candle: Candle,
+                      symbol: string
+            ): Signal | null {
 
-    if (isNaN(qty) || qty <= 0) return;
+                  // === сохраняем историю ===
 
-    const stopLoss = lastPrice * (1 + stopLossRatio);
-    const takeProfit = lastPrice * (1 - takeProfitRatio);
+                      if (!this.history.has(symbol)) {
+                              this.history.set(symbol, []);
+                      }
 
-    await this.broker.setLeverage(tradingPair, leverage);
-    const result = await this.broker.submitShortOrder({
-      symbol: tradingPair,
-      qty,
-      stopLoss,
-      takeProfit,
-    });
-    console.log(JSON.stringify(result));
-    console.log(
-      `Submitted short order for ${tradingPair}: qty=${qty}, entry=${lastPrice}, stopLoss=${stopLoss}, takeProfit=${takeProfit}`,
-    );
-  }
-}
+                          const arr =
+                                this.history.get(symbol)!;
+
+                                    arr.push(candle);
+
+
+                                        // === нужно минимум неделя данных ===
+
+                                            const weekAgoTs =
+                                                  candle.timestamp -
+                                                        RollbackShortStrategy.WEEK_MS;
+
+
+                                                            const weekCandle =
+                                                                  arr.find(
+                                                                            c => c.timestamp >= weekAgoTs
+                                                                  );
+
+                                                                      if (!weekCandle) return null;
+
+
+                                                                          // === считаем изменение цены ===
+
+                                                                              const priceChange =
+                                                                                    ((candle.close - weekCandle.close)
+                                                                                          / weekCandle.close) * 100;
+
+
+                                                                                              if (priceChange < week_prise_change)
+                                                                                                      return null;
+
+
+                                                                                                  // === считаем позицию ===
+
+                                                                                                      const lastPrice =
+                                                                                                            candle.close;
+
+
+                                                                                                                const positionUsd =
+                                                                                                                      10000 * riskPercentage * leverage;
+
+
+                                                                                                                          const qty =
+                                                                                                                                Math.max(
+                                                                                                                                          1,
+                                                                                                                                                  Math.floor(
+                                                                                                                                                              positionUsd /
+                                                                                                                                                                        Math.max(lastPrice, 1)
+                                                                                                                                                  )
+                                                                                                                                                );
+
+
+                                                                                                                                                    if (!qty || isNaN(qty))
+                                                                                                                                                            return null;
+
+
+                                                                                                                                                        const stopLoss =
+                                                                                                                                                              lastPrice *
+                                                                                                                                                                    (1 + stopLossRatio);
+
+
+                                                                                                                                                                        const takeProfit =
+                                                                                                                                                                              lastPrice *
+                                                                                                                                                                                    (1 - takeProfitRatio);
+
+
+                                                                                                                                                                                        return {
+                                                                                                                                                                                                symbol,
+                                                                                                                                                                                                      side: "short",
+                                                                                                                                                                                                            entryPrice: lastPrice,
+                                                                                                                                                                                                                  stopLoss,
+                                                                                                                                                                                                                        takeProfit,
+                                                                                                                                                                                                                              qty
+                                                                                                                                                                                        };
+
+                                                                                                                                                                                      }
+
+                                                                                                                                                                                    }
