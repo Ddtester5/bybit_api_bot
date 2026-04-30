@@ -52,7 +52,7 @@ export function checkSignal(
 ): Position | null {
   const SMA_PERIOD = 200; // Определяем основной тренд
   const RSI_PERIOD = 20; // Ищем локальную перекупленность
-  if (index < SMA_PERIOD) return null;
+  if (index < SMA_PERIOD || !candles[index]) return null;
 
   const currentPrice = candles[index].close;
   const sma = calculateSMA(candles, index, SMA_PERIOD);
