@@ -3,12 +3,12 @@ import { loadHistoricalCandles } from "../modules/loadHistoricalCandles";
 import { checkSignal, Position } from "../strategies/strategy";
 import { Candle } from "../types/types";
 
-const MAX_POSITIONS = 20;
-const MAX_RISK = 0.01;
+const MAX_POSITIONS = 100;
+const MAX_RISK = 0.005;
 
 async function run() {
   const pairs = await getTradingPairs();
-  const symbols = pairs.slice(0, 3);
+  const symbols = pairs
   const candlesBySymbol = new Map<string, Candle[]>();
   for (const symbol of symbols) {
     const candles = await loadHistoricalCandles(symbol);
@@ -19,24 +19,28 @@ async function run() {
 
     candlesBySymbol.set(symbol, candles);
   }
-
-  let balance = 10000;
+const init = 10
+  let balance = init;
 
   const positions = new Map<string, Position>();
 
   let trades = 0;
 
-  const length = candlesBySymbol.get(symbols[0])?.length;
+  let maxLength = 0;
+  for (const candles of candlesBySymbol.values()) {
+    if (candles.length > maxLength) maxLength = candles.length;
+    }
 
-  for (let i = 0; i < length!; i++) {
+  for (let i = 0; i < maxLength; i++) {
     for (const symbol of symbols) {
       const candles = candlesBySymbol.get(symbol)!;
+      if(!candles[i]) continue
       const candle = candles[i];
 
       const position = positions.get(symbol);
 
       // === EXIT ===
-      if (position && positions.size < MAX_POSITIONS) {
+      if (position ) {
         if (candle.high >= position.stopLoss) {
           const loss = (position.entry - position.stopLoss) * position.qty!;
 
@@ -61,15 +65,11 @@ async function run() {
       }
 
       // === ENTRY ===
-      if (!position) {
+      if (!position && positions.size < MAX_POSITIONS) {
         const signal = checkSignal(candles, i);
 
         if (signal) {
-          const risk = balance * MAX_RISK;
-
-          const stopDistance = Math.abs(signal.entry - signal.stopLoss);
-
-          const qty = risk / stopDistance;
+          const qty = balance * MAX_RISK / (signal.entry - signal.stopLoss)
           positions.set(symbol, {
             ...signal,
             qty,
@@ -81,7 +81,7 @@ async function run() {
 
   console.log("\nRESULT:");
   console.log("Balance:", balance.toFixed(2));
-  console.log("PnL:", (balance - 10000).toFixed(2));
+  console.log("PnL:", (balance - init).toFixed(2));
   console.log("Trades:", trades);
 }
 
