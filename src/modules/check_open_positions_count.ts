@@ -6,5 +6,9 @@ export const checkOpenPositionsCount = async () => {
     settleCoin: "USDT",
     limit: 1000,
   });
+  console.log(
+    "now opened positions count: ",
+    positionsCount.result.list.length,
+  );
   return positionsCount.result.list.length;
 };

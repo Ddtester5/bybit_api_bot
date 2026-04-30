@@ -9,6 +9,6 @@ export const getAvalibleBalance = async () => {
   const availableBalance = parseFloat(
     accountInfo.result.list[0].totalWalletBalance,
   );
-  console.log(`Доступные средства: ${availableBalance}`);
+  console.log(`avalible balance : ${availableBalance}`);
   return availableBalance;
 };
