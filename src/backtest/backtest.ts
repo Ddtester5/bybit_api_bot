@@ -3,12 +3,12 @@ import { loadHistoricalCandles } from "../modules/loadHistoricalCandles";
 import { checkSignal, Position } from "../strategies/strategy";
 import { Candle } from "../types/types";
 
-const MAX_POSITIONS = 100;
-const MAX_RISK = 0.005;
+export const MAX_POSITIONS = 100;
+export const MAX_RISK = 0.005;
 
 async function run() {
   const pairs = await getTradingPairs();
-  const symbols = pairs.slice(0, 500);
+  const symbols = pairs;
   const candlesBySymbol = new Map<string, Candle[]>();
   for (const symbol of symbols) {
     const candles = await loadHistoricalCandles(symbol);
