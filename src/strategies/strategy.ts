@@ -1,78 +1,32 @@
+import {
+  STRATEGY_RSI_OVERBOUGHT,
+  STRATEGY_RSI_PERIOD,
+  STRATEGY_SMA_PERIOD_FAST,
+  STRATEGY_SMA_PERIOD_SLOW,
+} from "../config/main_config";
+import { calculateRSI } from "../indicators/rsi";
+import { calculateSMA } from "../indicators/sma";
 import { Candle } from "../types/types";
 
-export type Position = {
-  entry: number;
-  stopLoss: number;
-  takeProfit: number;
-  qty?: number;
-  openIndex?: number;
-};
-
-/**
- * Рассчитывает Simple Moving Average
- */
-function calculateSMA(
-  candles: Candle[],
-  index: number,
-  period: number,
-): number | null {
-  if (index < period - 1) return null;
-  const slice = candles.slice(index - period + 1, index + 1);
-  const sum = slice.reduce((acc, candle) => acc + candle.close, 0);
-  return sum / period;
-}
-
-/**
- * Рассчитывает RSI (Relative Strength Index)
- */
-function calculateRSI(
-  candles: Candle[],
-  index: number,
-  period: number,
-): number | null {
-  if (index < period) return null;
-
-  let gains = 0;
-  let losses = 0;
-
-  for (let i = index - period + 1; i <= index; i++) {
-    const difference = candles[i].close - candles[i - 1].close;
-    if (difference >= 0) gains += difference;
-    else losses -= difference;
-  }
-
-  if (losses === 0) return 100;
-
-  const rs = gains / losses;
-  return 100 - 100 / (1 + rs);
-}
-
-export function checkSignal(candles: Candle[], index: number): Position | null {
-  const SMA_PERIOD = 200; // Определяем основной тренд
-  const RSI_PERIOD = 14; // Ищем локальную перекупленность
-  if (index < SMA_PERIOD || !candles[index]) return null;
+export function checkSignal(candles: Candle[], index: number): boolean {
+  if (index < STRATEGY_SMA_PERIOD_SLOW || !candles[index]) return false;
 
   const currentPrice = candles[index].close;
-  const sma = calculateSMA(candles, index, SMA_PERIOD);
-  const rsi = calculateRSI(candles, index, RSI_PERIOD);
+  const smaSlow = calculateSMA(candles, index, STRATEGY_SMA_PERIOD_SLOW);
+  const smaFast = calculateSMA(candles, index, STRATEGY_SMA_PERIOD_FAST);
+  const rsi = calculateRSI(candles, index, STRATEGY_RSI_PERIOD);
 
-  if (!sma || !rsi) return null;
+  if (!smaSlow || !smaFast || !rsi) return false;
 
-  // УСЛОВИЯ ДЛЯ ШОРТА:
-  // 1. Тренд нисходящий (цена ниже SMA)
-  const isDownTrend = currentPrice < sma;
-  // 2. Локальный отскок (RSI выше 60-70)
-  const isOverbought = rsi > 65;
+  // 1. Глобально падаем (быстрая под медленной)
+  const isGlobalDownTrend = smaFast < smaSlow;
 
-  if (isDownTrend && isOverbought) {
-    const entry = currentPrice;
+  // 2. Цена находится в зоне между средней и быстрой (коррекция)
+  const isPriceCorrection = currentPrice > smaFast;
 
-    return {
-      entry,
-      stopLoss: entry * 0.9,
-      takeProfit: entry * 1.1,
-    };
-  }
+  // 3. RSI подтверждает перекупленность на откате
+  const isOverbought = rsi > STRATEGY_RSI_OVERBOUGHT;
 
-  return null;
+  // Сигнал: Тренд вниз, но сейчас случился заброс цены вверх + RSI перегрет
+  return isGlobalDownTrend && isPriceCorrection && isOverbought;
 }

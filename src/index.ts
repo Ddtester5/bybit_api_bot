@@ -1,12 +1,22 @@
 import { client } from "./api/bybit_api_client_v5";
-import { MAX_POSITIONS, MAX_RISK } from "./backtest/backtest";
-import { checkOpenPositions } from "./modules/check_open_position";
-import { checkOpenPositionsCount } from "./modules/check_open_positions";
-import { getAvalibleBalance } from "./modules/get_balance";
-import { getFoundingRate } from "./modules/get_founding_rate";
-import { getTradingPairs } from "./modules/get_tradings_pair";
-import { loadHistoricalCandles } from "./modules/loadHistoricalCandles";
-import { setLeverage } from "./modules/set_leverage";
+import { checkOpenPositions } from "./api/check_open_position";
+import { checkOpenPositionsCount } from "./api/check_open_positions";
+import { getAvalibleBalance } from "./api/get_balance";
+import { getFoundingRate } from "./api/get_founding_rate";
+import { getLastMarketPrice } from "./api/get_last_price";
+import { getTradingPairs } from "./api/get_tradings_pair";
+import { loadHistoricalCandles } from "./api/loadHistoricalCandles";
+import { setLeverage } from "./api/set_leverage";
+import {
+  BACKTEST_CANDLE_INTERVAL,
+  BACKTEST_FUNDING_RATE_ESTIMATE,
+  LEVERAGE,
+  MAX_POSITIONS,
+  MAX_RISK,
+  STRATEGY_SMA_PERIOD_SLOW,
+  STRATEGY_STOP_LOSS_DELTA,
+  STRATEGY_TAKE_PROFIT_DELTA,
+} from "./config/main_config";
 import { checkSignal } from "./strategies/strategy";
 
 async function run() {
@@ -16,23 +26,28 @@ async function run() {
     for (const tradingPair of tradingPairs) {
       console.log("\nPAIR:", tradingPair);
 
-      const candles = await loadHistoricalCandles(tradingPair, 500, 60);
+      const candles = await loadHistoricalCandles(
+        tradingPair,
+        STRATEGY_SMA_PERIOD_SLOW + 5,
+        BACKTEST_CANDLE_INTERVAL,
+      );
+      console.log(candles[candles.length - 1]);
       if (!candles.length) {
         console.log(`No candles for ${tradingPair}, skip`);
         continue;
       }
-      console.log(candles.length);
+
       const founding_rate = await getFoundingRate(tradingPair);
-      if (Number(founding_rate) > 0.0001) {
+      if (Number(founding_rate) > BACKTEST_FUNDING_RATE_ESTIMATE) {
         console.log("Ставка финансирования отстой", founding_rate);
-        return;
+        continue;
       }
       const positionsCount = await checkOpenPositionsCount();
       if (positionsCount > MAX_POSITIONS) {
-        return;
+        continue;
       }
       if (!tradingPair.includes("USDT")) {
-        return;
+        continue;
       }
       const hasOpenPosition = await checkOpenPositions(tradingPair);
 
@@ -40,11 +55,11 @@ async function run() {
         console.log(
           `Пропускаем, так как уже есть активная сделка по ${tradingPair}`,
         );
-        return;
+        continue;
       }
       const signal = checkSignal(candles, candles.length - 1);
-      if (!signal) return;
-      await setLeverage(tradingPair, 5);
+      if (!signal) continue;
+      await setLeverage(tradingPair, LEVERAGE);
       const availableBalance = await getAvalibleBalance();
       if (
         !availableBalance ||
@@ -52,21 +67,25 @@ async function run() {
         availableBalance <= 0
       ) {
         console.error("Ошибка: баланс недоступен или равен 0.");
-        return;
+        continue;
       }
+      const lastPrice = await getLastMarketPrice(tradingPair);
 
-      const stopDistance = Math.abs(signal.entry - signal.stopLoss);
-      const qty = (availableBalance * MAX_RISK) / stopDistance;
+      const positionSizeInUSD = +availableBalance * MAX_RISK * LEVERAGE;
+      const positionSize = Math.floor(positionSizeInUSD / lastPrice);
+
+      const stopLossPrice = lastPrice * (1 - STRATEGY_STOP_LOSS_DELTA);
+      const takeProfitPrice = lastPrice * (1 + STRATEGY_TAKE_PROFIT_DELTA);
 
       const orderResponse = await client.submitOrder({
         category: "linear",
         symbol: tradingPair,
         side: "Buy",
         orderType: "Market",
-        qty: qty.toString(),
+        qty: positionSize.toString(),
         timeInForce: "GTC",
-        stopLoss: signal.stopLoss.toString(),
-        takeProfit: signal.takeProfit.toString(),
+        stopLoss: stopLossPrice.toString(),
+        takeProfit: takeProfitPrice.toString(),
       });
 
       console.log("позиция успешно открыта:", orderResponse);

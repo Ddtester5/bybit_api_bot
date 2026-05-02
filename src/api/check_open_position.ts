@@ -1,4 +1,4 @@
-import { client } from "../api/bybit_api_client_v5";
+import { client } from "./bybit_api_client_v5";
 
 // Функция для проверки открытых позиций
 export const checkOpenPositions = async (tradingPair: string) => {

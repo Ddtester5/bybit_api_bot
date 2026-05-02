@@ -1,27 +1,22 @@
-import { getTradingPairs } from "../modules/get_tradings_pair";
-import { loadHistoricalCandles } from "../modules/loadHistoricalCandles";
-import { checkSignal, Position } from "../strategies/strategy";
-import { Candle } from "../types/types";
-
-export const MAX_POSITIONS = 100;
-export const MAX_RISK = 0.005;
+import {
+  BACKTEST_COMMISSION_RATE,
+  BACKTEST_FUNDING_RATE_ESTIMATE,
+  BACKTEST_START_BALANCE,
+  MAX_POSITIONS,
+  MAX_RISK,
+  STRATEGY_STOP_LOSS_DELTA,
+  STRATEGY_TAKE_PROFIT_DELTA,
+} from "../config/main_config";
+import { checkSignal } from "../strategies/strategy";
+import { Position } from "../types/types";
+import { getInitialData } from "./get_initial_data";
 
 async function run() {
-  const pairs = await getTradingPairs();
-  const symbols = pairs;
-  const candlesBySymbol = new Map<string, Candle[]>();
-  for (const symbol of symbols) {
-    const candles = await loadHistoricalCandles(symbol);
-    if (!candles?.length) {
-      console.warn(`${symbol}: empty data`);
-      continue;
-    }
+  const { symbols, candlesBySymbol, maxLength } = await getInitialData({
+    testMode: true,
+  });
 
-    candlesBySymbol.set(symbol, candles);
-  }
-  const init = 10;
-  let balance = init;
-
+  let balance = BACKTEST_START_BALANCE;
   const positions = new Map<string, Position>();
 
   let trades = 0;
@@ -29,11 +24,6 @@ async function run() {
   let ptofitcount = 0;
   let totalstop = 0;
   let totalprofit = 0;
-
-  let maxLength = 0;
-  for (const candles of candlesBySymbol.values()) {
-    if (candles.length > maxLength) maxLength = candles.length;
-  }
 
   for (let i = 0; i < maxLength; i++) {
     for (const symbol of symbols) {
@@ -43,41 +33,41 @@ async function run() {
 
       const position = positions.get(symbol);
 
-      const COMMISSION_RATE = 0.002; // 0.2% (комиссия + минимальное проскальзывание)
-      const FUNDING_RATE_ESTIMATE = 0.0002; // 0.01% за свечу (упрощенно)
-
-      // ... внутри цикла по символам ...
-
-      // === EXIT ===
+      // === EXIT LOGIC ===
       if (position) {
+        // Пропускаем свечу, на которой открылись, чтобы избежать "заглядывания в будущее"
+        if (position.openIndex === i) continue;
+
         let exitPrice = 0;
         let isClosing = false;
 
-        // Для ЛОНГА
-        if (candle.high >= position.takeProfit) {
-          exitPrice = position.takeProfit;
-          isClosing = true;
-        } else if (candle.low <= position.stopLoss) {
+        // Для SHORT: Стоп лосс наверху (High), Тейк профит внизу (Low)
+        if (candle.high >= position.stopLoss) {
           exitPrice = position.stopLoss;
+          isClosing = true;
+        } else if (candle.low <= position.takeProfit) {
+          exitPrice = position.takeProfit;
           isClosing = true;
         }
 
         if (isClosing) {
-          // 1. Считаем грязный PnL
-          const pnl = (exitPrice - position.entry) * position.qty!;
+          // PnL для Short: (Вход - Выход) * Кол-во
+          const pnl = (position.entry - exitPrice) * (position.qty || 0);
 
-          // 2. Вычитаем комиссии (за открытие и за закрытие)
           const fees =
-            (position.entry + exitPrice) * position.qty! * COMMISSION_RATE;
+            (position.entry + exitPrice) *
+            (position.qty || 0) *
+            BACKTEST_COMMISSION_RATE;
 
-          // 3. Вычитаем фандинг (зависит от того, сколько свечей просидели)
-          // (i - position.openIndex) - нужно добавить openIndex в объект позиции
           const barsHeld = i - (position.openIndex ?? 0);
           const funding =
-            position.entry * position.qty! * FUNDING_RATE_ESTIMATE * barsHeld;
+            (position.entry *
+              (position.qty || 0) *
+              BACKTEST_FUNDING_RATE_ESTIMATE *
+              barsHeld) /
+            8;
 
           const finalResult = pnl - fees - funding;
-
           balance += finalResult;
 
           if (finalResult > 0) {
@@ -94,31 +84,40 @@ async function run() {
         }
       }
 
-      // === ENTRY ===
+      // === ENTRY LOGIC ===
       if (!position && positions.size < MAX_POSITIONS) {
-        const signal = checkSignal(candles, i);
-        if (signal) {
-          const stopDistance = Math.abs(signal.entry - signal.stopLoss);
-          const qty = (balance * MAX_RISK) / stopDistance;
+        if (checkSignal(candles, i)) {
+          const entryPrice = candle.close;
+
+          // РАСЧЕТ ДЛЯ SHORT:
+          // Стоп = Цена * 1,01, Тейк = Цена * 0,98
+          const stopLoss = entryPrice * (1 + STRATEGY_STOP_LOSS_DELTA); // Наверх
+          const takeProfit = entryPrice * (1 - STRATEGY_TAKE_PROFIT_DELTA); // Вниз
+
+          const orderValue = balance * MAX_RISK;
+          const qty = orderValue / entryPrice;
 
           positions.set(symbol, {
-            ...signal,
+            entry: entryPrice,
+            stopLoss,
+            takeProfit,
             qty,
-            openIndex: i, // Запоминаем время входа для фандинга
+            openIndex: i,
           });
         }
       }
     }
   }
 
-  console.log("\nRESULT:");
-  console.log("Balance:", balance.toFixed(2));
-  console.log("PnL:", (balance - init).toFixed(2));
-  console.log("Trades:", trades);
-  console.log("Stop count:", stopcount);
-  console.log("Profit count:", ptofitcount);
-  console.log("total stop:", totalstop);
-  console.log("total profit:", totalprofit);
+  console.log("\n--- BACKTEST RESULT ---");
+  console.log(`Final Balance:  ${balance.toFixed(2)}`);
+  console.log(
+    `Total PnL:      ${(balance - BACKTEST_START_BALANCE).toFixed(2)}`,
+  );
+  console.log(`Total Trades:   ${trades}`);
+  console.log(`Profits:        ${ptofitcount} (${totalprofit.toFixed(2)})`);
+  console.log(`Stops:          ${stopcount} (${totalstop.toFixed(2)})`);
+  console.log("-----------------------\n");
 }
 
 run();

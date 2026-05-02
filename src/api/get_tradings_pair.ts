@@ -1,4 +1,4 @@
-import { client } from "../api/bybit_api_client_v5";
+import { client } from "./bybit_api_client_v5";
 
 export const getTradingPairs = async () => {
   try {

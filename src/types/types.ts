@@ -8,3 +8,11 @@ export interface Candle {
   volume: number;
   turnover: number;
 }
+
+export type Position = {
+  entry: number;
+  stopLoss: number;
+  takeProfit: number;
+  qty?: number;
+  openIndex?: number;
+};
