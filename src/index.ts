@@ -74,13 +74,13 @@ async function run() {
       const positionSizeInUSD = +availableBalance * MAX_RISK * LEVERAGE;
       const positionSize = Math.floor(positionSizeInUSD / lastPrice);
 
-      const stopLossPrice = lastPrice * (1 - STRATEGY_STOP_LOSS_DELTA);
-      const takeProfitPrice = lastPrice * (1 + STRATEGY_TAKE_PROFIT_DELTA);
+      const stopLossPrice = lastPrice * (1 + STRATEGY_STOP_LOSS_DELTA);
+      const takeProfitPrice = lastPrice * (1 - STRATEGY_TAKE_PROFIT_DELTA);
 
       const orderResponse = await client.submitOrder({
         category: "linear",
         symbol: tradingPair,
-        side: "Buy",
+        side: "Sell",
         orderType: "Market",
         qty: positionSize.toString(),
         timeInForce: "GTC",
