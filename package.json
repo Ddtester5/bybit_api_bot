@@ -10,6 +10,7 @@
     "lint:types": "tsc --noEmit",
     "format": "prettier --write -w .",
     "dev": "ts-node-dev --respawn src/index.ts",
+    "init": "tsx src/init.ts",
     "prepare": "husky"
   },
   "keywords": [],

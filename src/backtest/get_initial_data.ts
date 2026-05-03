@@ -4,7 +4,7 @@ import { BACKTEST_SYMBOLS_COUNT } from "../config/main_config";
 import { Candle } from "../types/types";
 import fs from "fs/promises";
 
-const CACHE_FILE = "./data_cache.json";
+const CACHE_FILE = "./data/data_cache.json";
 
 export async function getInitialData({ testMode }: { testMode: boolean }) {
   // 1. Пытаемся прочитать кэш
