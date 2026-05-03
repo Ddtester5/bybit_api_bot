@@ -1,0 +1,4172 @@
+[
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776333600000,
+    "open": 0.03454,
+    "high": 0.0396,
+    "low": 0.03374,
+    "close": 0.03599,
+    "volume": 50509580,
+    "turnover": 1857141.7566
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776337200000,
+    "open": 0.03599,
+    "high": 0.0371,
+    "low": 0.035,
+    "close": 0.03653,
+    "volume": 9742620,
+    "turnover": 350764.7671
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776340800000,
+    "open": 0.03653,
+    "high": 0.03768,
+    "low": 0.03398,
+    "close": 0.03463,
+    "volume": 10445510,
+    "turnover": 378428.6745
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776344400000,
+    "open": 0.03463,
+    "high": 0.03545,
+    "low": 0.03268,
+    "close": 0.03469,
+    "volume": 5636350,
+    "turnover": 193974.57
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776348000000,
+    "open": 0.03469,
+    "high": 0.03561,
+    "low": 0.03407,
+    "close": 0.03534,
+    "volume": 4996380,
+    "turnover": 174347.9643
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776351600000,
+    "open": 0.03534,
+    "high": 0.03575,
+    "low": 0.03473,
+    "close": 0.03488,
+    "volume": 6034260,
+    "turnover": 213044.3588
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776355200000,
+    "open": 0.03488,
+    "high": 0.03615,
+    "low": 0.0348,
+    "close": 0.03504,
+    "volume": 4349780,
+    "turnover": 154061.6845
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776358800000,
+    "open": 0.03504,
+    "high": 0.03756,
+    "low": 0.0346,
+    "close": 0.03664,
+    "volume": 6038820,
+    "turnover": 217442.4252
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776362400000,
+    "open": 0.03664,
+    "high": 0.03693,
+    "low": 0.0352,
+    "close": 0.0356,
+    "volume": 2201520,
+    "turnover": 78964.1435
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776366000000,
+    "open": 0.0356,
+    "high": 0.03784,
+    "low": 0.03524,
+    "close": 0.03693,
+    "volume": 3444110,
+    "turnover": 124788.5188
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776369600000,
+    "open": 0.03693,
+    "high": 0.03784,
+    "low": 0.03593,
+    "close": 0.03692,
+    "volume": 1321290,
+    "turnover": 48819.141
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776373200000,
+    "open": 0.03692,
+    "high": 0.03784,
+    "low": 0.0366,
+    "close": 0.03743,
+    "volume": 1175690,
+    "turnover": 43832.5444
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776376800000,
+    "open": 0.03743,
+    "high": 0.03784,
+    "low": 0.03661,
+    "close": 0.03759,
+    "volume": 1104990,
+    "turnover": 41267.4623
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776380400000,
+    "open": 0.03759,
+    "high": 0.03784,
+    "low": 0.03534,
+    "close": 0.03655,
+    "volume": 2517600,
+    "turnover": 92346.682
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776384000000,
+    "open": 0.03655,
+    "high": 0.03731,
+    "low": 0.03544,
+    "close": 0.03576,
+    "volume": 1648410,
+    "turnover": 59695.8754
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776387600000,
+    "open": 0.03576,
+    "high": 0.03733,
+    "low": 0.03525,
+    "close": 0.03638,
+    "volume": 1256380,
+    "turnover": 45598.2715
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776391200000,
+    "open": 0.03638,
+    "high": 0.03688,
+    "low": 0.03589,
+    "close": 0.03655,
+    "volume": 567180,
+    "turnover": 20571.4192
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776394800000,
+    "open": 0.03655,
+    "high": 0.039,
+    "low": 0.03639,
+    "close": 0.03784,
+    "volume": 4667940,
+    "turnover": 174839.4912
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776398400000,
+    "open": 0.03784,
+    "high": 0.03837,
+    "low": 0.03546,
+    "close": 0.03834,
+    "volume": 3131880,
+    "turnover": 116119.8821
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776402000000,
+    "open": 0.03834,
+    "high": 0.03913,
+    "low": 0.03715,
+    "close": 0.03736,
+    "volume": 2147940,
+    "turnover": 81806.0836
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776405600000,
+    "open": 0.03736,
+    "high": 0.03966,
+    "low": 0.03664,
+    "close": 0.0386,
+    "volume": 2211710,
+    "turnover": 84429.4954
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776409200000,
+    "open": 0.0386,
+    "high": 0.03939,
+    "low": 0.03673,
+    "close": 0.03736,
+    "volume": 2491410,
+    "turnover": 95720.7033
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776412800000,
+    "open": 0.03736,
+    "high": 0.03782,
+    "low": 0.03575,
+    "close": 0.03661,
+    "volume": 6416440,
+    "turnover": 235175.4605
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776416400000,
+    "open": 0.03661,
+    "high": 0.03708,
+    "low": 0.03536,
+    "close": 0.03568,
+    "volume": 1931240,
+    "turnover": 69857.3617
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776420000000,
+    "open": 0.03568,
+    "high": 0.03683,
+    "low": 0.03549,
+    "close": 0.03601,
+    "volume": 980430,
+    "turnover": 35492.6859
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776423600000,
+    "open": 0.03601,
+    "high": 0.03695,
+    "low": 0.03563,
+    "close": 0.03589,
+    "volume": 1043730,
+    "turnover": 37825.862
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776427200000,
+    "open": 0.03589,
+    "high": 0.03642,
+    "low": 0.03539,
+    "close": 0.03595,
+    "volume": 2148800,
+    "turnover": 77249.8854
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776430800000,
+    "open": 0.03595,
+    "high": 0.03655,
+    "low": 0.03556,
+    "close": 0.03579,
+    "volume": 1136280,
+    "turnover": 41049.8332
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776434400000,
+    "open": 0.03579,
+    "high": 0.03594,
+    "low": 0.0334,
+    "close": 0.03458,
+    "volume": 4650640,
+    "turnover": 161068.5487
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776438000000,
+    "open": 0.03458,
+    "high": 0.03508,
+    "low": 0.03349,
+    "close": 0.03434,
+    "volume": 1441180,
+    "turnover": 49574.2767
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776441600000,
+    "open": 0.03434,
+    "high": 0.03532,
+    "low": 0.03369,
+    "close": 0.0347,
+    "volume": 972600,
+    "turnover": 33535.748
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776445200000,
+    "open": 0.0347,
+    "high": 0.03491,
+    "low": 0.03201,
+    "close": 0.03427,
+    "volume": 3392450,
+    "turnover": 113969.4399
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776448800000,
+    "open": 0.03427,
+    "high": 0.0355,
+    "low": 0.03414,
+    "close": 0.03523,
+    "volume": 977470,
+    "turnover": 34005.5603
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776452400000,
+    "open": 0.03523,
+    "high": 0.03537,
+    "low": 0.03471,
+    "close": 0.03522,
+    "volume": 226160,
+    "turnover": 7939.177
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776456000000,
+    "open": 0.03522,
+    "high": 0.03529,
+    "low": 0.0343,
+    "close": 0.03489,
+    "volume": 377970,
+    "turnover": 13157.5495
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776459600000,
+    "open": 0.03489,
+    "high": 0.0349,
+    "low": 0.0343,
+    "close": 0.03454,
+    "volume": 144340,
+    "turnover": 4984.3158
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776463200000,
+    "open": 0.03454,
+    "high": 0.03487,
+    "low": 0.03413,
+    "close": 0.03456,
+    "volume": 814670,
+    "turnover": 28151.2446
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776466800000,
+    "open": 0.03456,
+    "high": 0.0346,
+    "low": 0.03427,
+    "close": 0.03442,
+    "volume": 132420,
+    "turnover": 4562.8155
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776470400000,
+    "open": 0.03442,
+    "high": 0.03533,
+    "low": 0.03412,
+    "close": 0.03498,
+    "volume": 498190,
+    "turnover": 17342.3445
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776474000000,
+    "open": 0.03498,
+    "high": 0.03713,
+    "low": 0.03491,
+    "close": 0.03606,
+    "volume": 4113380,
+    "turnover": 148521.1112
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776477600000,
+    "open": 0.03606,
+    "high": 0.03616,
+    "low": 0.03551,
+    "close": 0.03566,
+    "volume": 541790,
+    "turnover": 19383.0452
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776481200000,
+    "open": 0.03566,
+    "high": 0.03572,
+    "low": 0.03449,
+    "close": 0.03532,
+    "volume": 1235720,
+    "turnover": 43576.7498
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776484800000,
+    "open": 0.03532,
+    "high": 0.03615,
+    "low": 0.035,
+    "close": 0.03569,
+    "volume": 399790,
+    "turnover": 14251.922
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776488400000,
+    "open": 0.03569,
+    "high": 0.03611,
+    "low": 0.03552,
+    "close": 0.03603,
+    "volume": 719730,
+    "turnover": 25814.5105
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776492000000,
+    "open": 0.03603,
+    "high": 0.03647,
+    "low": 0.03576,
+    "close": 0.03577,
+    "volume": 533290,
+    "turnover": 19238.7947
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776495600000,
+    "open": 0.03577,
+    "high": 0.0362,
+    "low": 0.03458,
+    "close": 0.03584,
+    "volume": 993370,
+    "turnover": 35311.7044
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776499200000,
+    "open": 0.03584,
+    "high": 0.03602,
+    "low": 0.03473,
+    "close": 0.03501,
+    "volume": 1409720,
+    "turnover": 49950.9735
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776502800000,
+    "open": 0.03501,
+    "high": 0.03571,
+    "low": 0.03491,
+    "close": 0.03529,
+    "volume": 322600,
+    "turnover": 11360.1527
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776506400000,
+    "open": 0.03529,
+    "high": 0.03714,
+    "low": 0.03529,
+    "close": 0.03673,
+    "volume": 1208600,
+    "turnover": 43855.7118
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776510000000,
+    "open": 0.03673,
+    "high": 0.03738,
+    "low": 0.0363,
+    "close": 0.03697,
+    "volume": 1547950,
+    "turnover": 57027.5116
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776513600000,
+    "open": 0.03697,
+    "high": 0.03741,
+    "low": 0.03647,
+    "close": 0.03714,
+    "volume": 770620,
+    "turnover": 28406.028
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776517200000,
+    "open": 0.03714,
+    "high": 0.03776,
+    "low": 0.03606,
+    "close": 0.03669,
+    "volume": 1323170,
+    "turnover": 48920.4619
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776520800000,
+    "open": 0.03669,
+    "high": 0.03695,
+    "low": 0.0361,
+    "close": 0.03632,
+    "volume": 521770,
+    "turnover": 19048.692
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776524400000,
+    "open": 0.03632,
+    "high": 0.03741,
+    "low": 0.0359,
+    "close": 0.0361,
+    "volume": 966800,
+    "turnover": 35274.8617
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776528000000,
+    "open": 0.0361,
+    "high": 0.03617,
+    "low": 0.03412,
+    "close": 0.03416,
+    "volume": 1452590,
+    "turnover": 50461.9423
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776531600000,
+    "open": 0.03416,
+    "high": 0.03421,
+    "low": 0.03024,
+    "close": 0.03231,
+    "volume": 5211490,
+    "turnover": 168308.3495
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776535200000,
+    "open": 0.03231,
+    "high": 0.03337,
+    "low": 0.03118,
+    "close": 0.03152,
+    "volume": 795180,
+    "turnover": 25667.6216
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776538800000,
+    "open": 0.03152,
+    "high": 0.03324,
+    "low": 0.03091,
+    "close": 0.03269,
+    "volume": 1111390,
+    "turnover": 35694.5682
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776542400000,
+    "open": 0.03269,
+    "high": 0.03541,
+    "low": 0.03269,
+    "close": 0.03541,
+    "volume": 961550,
+    "turnover": 33161.4948
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776546000000,
+    "open": 0.03541,
+    "high": 0.03692,
+    "low": 0.03504,
+    "close": 0.03687,
+    "volume": 2158780,
+    "turnover": 77461.7576
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776549600000,
+    "open": 0.03687,
+    "high": 0.038,
+    "low": 0.03551,
+    "close": 0.03588,
+    "volume": 2476440,
+    "turnover": 90707.4183
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776553200000,
+    "open": 0.03588,
+    "high": 0.03616,
+    "low": 0.03555,
+    "close": 0.03565,
+    "volume": 797930,
+    "turnover": 28557.7571
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776556800000,
+    "open": 0.03565,
+    "high": 0.03569,
+    "low": 0.0342,
+    "close": 0.03499,
+    "volume": 354090,
+    "turnover": 12262.9224
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776560400000,
+    "open": 0.03499,
+    "high": 0.03555,
+    "low": 0.0339,
+    "close": 0.03456,
+    "volume": 1492830,
+    "turnover": 51609.2204
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776564000000,
+    "open": 0.03456,
+    "high": 0.03529,
+    "low": 0.03402,
+    "close": 0.03513,
+    "volume": 289190,
+    "turnover": 9997.0487
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776567600000,
+    "open": 0.03513,
+    "high": 0.0365,
+    "low": 0.03513,
+    "close": 0.03647,
+    "volume": 290560,
+    "turnover": 10392.9574
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776571200000,
+    "open": 0.03647,
+    "high": 0.0375,
+    "low": 0.03564,
+    "close": 0.03629,
+    "volume": 1858570,
+    "turnover": 68205.2251
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776574800000,
+    "open": 0.03629,
+    "high": 0.03731,
+    "low": 0.03629,
+    "close": 0.03714,
+    "volume": 662950,
+    "turnover": 24409.8156
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776578400000,
+    "open": 0.03714,
+    "high": 0.03734,
+    "low": 0.03548,
+    "close": 0.03565,
+    "volume": 751510,
+    "turnover": 27364.2035
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776582000000,
+    "open": 0.03565,
+    "high": 0.03646,
+    "low": 0.0347,
+    "close": 0.03482,
+    "volume": 1104900,
+    "turnover": 39564.9878
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776585600000,
+    "open": 0.03482,
+    "high": 0.03488,
+    "low": 0.03309,
+    "close": 0.03407,
+    "volume": 2312360,
+    "turnover": 77859.0144
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776589200000,
+    "open": 0.03407,
+    "high": 0.03407,
+    "low": 0.0324,
+    "close": 0.03253,
+    "volume": 965700,
+    "turnover": 31899.6699
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776592800000,
+    "open": 0.03253,
+    "high": 0.03253,
+    "low": 0.03163,
+    "close": 0.03201,
+    "volume": 987420,
+    "turnover": 31731.4117
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776596400000,
+    "open": 0.03201,
+    "high": 0.03279,
+    "low": 0.03162,
+    "close": 0.0324,
+    "volume": 963910,
+    "turnover": 31243.5177
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776600000000,
+    "open": 0.0324,
+    "high": 0.03488,
+    "low": 0.03209,
+    "close": 0.03469,
+    "volume": 2639720,
+    "turnover": 87633.5182
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776603600000,
+    "open": 0.03469,
+    "high": 0.03569,
+    "low": 0.03441,
+    "close": 0.03534,
+    "volume": 1309560,
+    "turnover": 46013.5276
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776607200000,
+    "open": 0.03534,
+    "high": 0.0359,
+    "low": 0.03466,
+    "close": 0.03484,
+    "volume": 857740,
+    "turnover": 30371.6155
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776610800000,
+    "open": 0.03484,
+    "high": 0.03484,
+    "low": 0.03391,
+    "close": 0.03425,
+    "volume": 622110,
+    "turnover": 21306.6993
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776614400000,
+    "open": 0.03425,
+    "high": 0.03538,
+    "low": 0.03413,
+    "close": 0.03537,
+    "volume": 873230,
+    "turnover": 30574.6691
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776618000000,
+    "open": 0.03537,
+    "high": 0.03611,
+    "low": 0.03454,
+    "close": 0.03605,
+    "volume": 2990130,
+    "turnover": 106010.3128
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776621600000,
+    "open": 0.03605,
+    "high": 0.03626,
+    "low": 0.03477,
+    "close": 0.03499,
+    "volume": 884910,
+    "turnover": 31684.7014
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776625200000,
+    "open": 0.03499,
+    "high": 0.03512,
+    "low": 0.0328,
+    "close": 0.03315,
+    "volume": 1131070,
+    "turnover": 37966.1146
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776628800000,
+    "open": 0.03315,
+    "high": 0.03321,
+    "low": 0.03195,
+    "close": 0.03198,
+    "volume": 2389220,
+    "turnover": 77687.2981
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776632400000,
+    "open": 0.03198,
+    "high": 0.03228,
+    "low": 0.03175,
+    "close": 0.03187,
+    "volume": 487940,
+    "turnover": 15591.1063
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776636000000,
+    "open": 0.03187,
+    "high": 0.03255,
+    "low": 0.03177,
+    "close": 0.03209,
+    "volume": 1188150,
+    "turnover": 38132.0579
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776639600000,
+    "open": 0.03209,
+    "high": 0.03322,
+    "low": 0.03193,
+    "close": 0.03292,
+    "volume": 593290,
+    "turnover": 19335.7161
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776643200000,
+    "open": 0.03292,
+    "high": 0.03342,
+    "low": 0.03262,
+    "close": 0.03342,
+    "volume": 373940,
+    "turnover": 12368.2051
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776646800000,
+    "open": 0.03342,
+    "high": 0.03405,
+    "low": 0.03304,
+    "close": 0.03335,
+    "volume": 732690,
+    "turnover": 24649.0314
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776650400000,
+    "open": 0.03335,
+    "high": 0.03335,
+    "low": 0.03207,
+    "close": 0.033,
+    "volume": 760070,
+    "turnover": 24938.6975
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776654000000,
+    "open": 0.033,
+    "high": 0.03313,
+    "low": 0.03183,
+    "close": 0.03217,
+    "volume": 1496920,
+    "turnover": 48332.5051
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776657600000,
+    "open": 0.03217,
+    "high": 0.03294,
+    "low": 0.03217,
+    "close": 0.03278,
+    "volume": 265980,
+    "turnover": 8662.9644
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776661200000,
+    "open": 0.03278,
+    "high": 0.0335,
+    "low": 0.0323,
+    "close": 0.03292,
+    "volume": 1155210,
+    "turnover": 38228.1133
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776664800000,
+    "open": 0.03292,
+    "high": 0.03323,
+    "low": 0.03277,
+    "close": 0.03295,
+    "volume": 288530,
+    "turnover": 9516.2247
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776668400000,
+    "open": 0.03295,
+    "high": 0.03371,
+    "low": 0.03295,
+    "close": 0.03371,
+    "volume": 637030,
+    "turnover": 21318.9672
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776672000000,
+    "open": 0.03371,
+    "high": 0.03371,
+    "low": 0.03293,
+    "close": 0.03307,
+    "volume": 919300,
+    "turnover": 30512.0126
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776675600000,
+    "open": 0.03307,
+    "high": 0.03443,
+    "low": 0.03307,
+    "close": 0.03443,
+    "volume": 1935770,
+    "turnover": 65482.5907
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776679200000,
+    "open": 0.03443,
+    "high": 0.03508,
+    "low": 0.03427,
+    "close": 0.03491,
+    "volume": 1447230,
+    "turnover": 50351.4903
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776682800000,
+    "open": 0.03491,
+    "high": 0.0351,
+    "low": 0.03352,
+    "close": 0.035,
+    "volume": 1749250,
+    "turnover": 60773.1751
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776686400000,
+    "open": 0.035,
+    "high": 0.03545,
+    "low": 0.03421,
+    "close": 0.03449,
+    "volume": 1407400,
+    "turnover": 49165.8933
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776690000000,
+    "open": 0.03449,
+    "high": 0.03449,
+    "low": 0.0332,
+    "close": 0.03357,
+    "volume": 1333070,
+    "turnover": 44753.5297
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776693600000,
+    "open": 0.03357,
+    "high": 0.0354,
+    "low": 0.03357,
+    "close": 0.03493,
+    "volume": 876470,
+    "turnover": 30181.3099
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776697200000,
+    "open": 0.03493,
+    "high": 0.0352,
+    "low": 0.03345,
+    "close": 0.03439,
+    "volume": 3578500,
+    "turnover": 123083.3127
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776700800000,
+    "open": 0.03439,
+    "high": 0.03515,
+    "low": 0.03438,
+    "close": 0.03496,
+    "volume": 798020,
+    "turnover": 27791.246
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776704400000,
+    "open": 0.03496,
+    "high": 0.03556,
+    "low": 0.0333,
+    "close": 0.0335,
+    "volume": 1851340,
+    "turnover": 63242.4441
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776708000000,
+    "open": 0.0335,
+    "high": 0.03401,
+    "low": 0.0334,
+    "close": 0.03398,
+    "volume": 960480,
+    "turnover": 32387.8682
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776711600000,
+    "open": 0.03398,
+    "high": 0.03466,
+    "low": 0.03333,
+    "close": 0.03336,
+    "volume": 891070,
+    "turnover": 30376.2002
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776715200000,
+    "open": 0.03336,
+    "high": 0.03342,
+    "low": 0.03272,
+    "close": 0.03273,
+    "volume": 1151570,
+    "turnover": 38188.5042
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776718800000,
+    "open": 0.03273,
+    "high": 0.03313,
+    "low": 0.03167,
+    "close": 0.03234,
+    "volume": 3222200,
+    "turnover": 104465.2268
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776722400000,
+    "open": 0.03234,
+    "high": 0.03386,
+    "low": 0.03183,
+    "close": 0.03337,
+    "volume": 5454030,
+    "turnover": 180033.9947
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776726000000,
+    "open": 0.03337,
+    "high": 0.03342,
+    "low": 0.03249,
+    "close": 0.03263,
+    "volume": 747530,
+    "turnover": 24577.2039
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776729600000,
+    "open": 0.03263,
+    "high": 0.03263,
+    "low": 0.03123,
+    "close": 0.03206,
+    "volume": 3187720,
+    "turnover": 101789.6816
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776733200000,
+    "open": 0.03206,
+    "high": 0.0321,
+    "low": 0.03143,
+    "close": 0.0315,
+    "volume": 949660,
+    "turnover": 30074.9988
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776736800000,
+    "open": 0.0315,
+    "high": 0.03175,
+    "low": 0.0312,
+    "close": 0.03126,
+    "volume": 1294130,
+    "turnover": 40660.6534
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776740400000,
+    "open": 0.03126,
+    "high": 0.03126,
+    "low": 0.03043,
+    "close": 0.03112,
+    "volume": 2092570,
+    "turnover": 64536.2352
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776744000000,
+    "open": 0.03112,
+    "high": 0.03188,
+    "low": 0.03045,
+    "close": 0.03084,
+    "volume": 1899900,
+    "turnover": 58939.9083
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776747600000,
+    "open": 0.03084,
+    "high": 0.03175,
+    "low": 0.0305,
+    "close": 0.03112,
+    "volume": 1032550,
+    "turnover": 32070.8843
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776751200000,
+    "open": 0.03112,
+    "high": 0.044,
+    "low": 0.03085,
+    "close": 0.04,
+    "volume": 81376180,
+    "turnover": 3176791.444
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776754800000,
+    "open": 0.04,
+    "high": 0.04897,
+    "low": 0.04,
+    "close": 0.04261,
+    "volume": 79805600,
+    "turnover": 3512126.5523
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776758400000,
+    "open": 0.04261,
+    "high": 0.04504,
+    "low": 0.04103,
+    "close": 0.04127,
+    "volume": 36424290,
+    "turnover": 1573160.8652
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776762000000,
+    "open": 0.04127,
+    "high": 0.04648,
+    "low": 0.041,
+    "close": 0.04456,
+    "volume": 39572800,
+    "turnover": 1718656.0044
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776765600000,
+    "open": 0.04456,
+    "high": 0.04699,
+    "low": 0.04347,
+    "close": 0.04374,
+    "volume": 27032610,
+    "turnover": 1234028.1433
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776769200000,
+    "open": 0.04374,
+    "high": 0.0448,
+    "low": 0.0412,
+    "close": 0.04152,
+    "volume": 23020470,
+    "turnover": 991612.7743
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776772800000,
+    "open": 0.04152,
+    "high": 0.05542,
+    "low": 0.04123,
+    "close": 0.05174,
+    "volume": 202467220,
+    "turnover": 10006782.1041
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776776400000,
+    "open": 0.05174,
+    "high": 0.05569,
+    "low": 0.04268,
+    "close": 0.05441,
+    "volume": 296175960,
+    "turnover": 14584650.5001
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776780000000,
+    "open": 0.05441,
+    "high": 0.06175,
+    "low": 0.0504,
+    "close": 0.05738,
+    "volume": 309645370,
+    "turnover": 17760114.4615
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776783600000,
+    "open": 0.05738,
+    "high": 0.062,
+    "low": 0.05615,
+    "close": 0.05804,
+    "volume": 205287890,
+    "turnover": 12070048.3872
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776787200000,
+    "open": 0.05804,
+    "high": 0.05832,
+    "low": 0.0539,
+    "close": 0.05681,
+    "volume": 152607020,
+    "turnover": 8615733.1055
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776790800000,
+    "open": 0.05681,
+    "high": 0.05924,
+    "low": 0.05326,
+    "close": 0.05827,
+    "volume": 131400020,
+    "turnover": 7399239.8258
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776794400000,
+    "open": 0.05827,
+    "high": 0.06013,
+    "low": 0.0565,
+    "close": 0.05772,
+    "volume": 76831750,
+    "turnover": 4451224.3442
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776798000000,
+    "open": 0.05772,
+    "high": 0.06168,
+    "low": 0.05734,
+    "close": 0.05803,
+    "volume": 159261210,
+    "turnover": 9476978.7673
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776801600000,
+    "open": 0.05803,
+    "high": 0.06412,
+    "low": 0.05673,
+    "close": 0.06374,
+    "volume": 165300170,
+    "turnover": 9946428.9873
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776805200000,
+    "open": 0.06374,
+    "high": 0.06782,
+    "low": 0.06064,
+    "close": 0.06168,
+    "volume": 215089760,
+    "turnover": 13897995.7023
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776808800000,
+    "open": 0.06168,
+    "high": 0.06474,
+    "low": 0.05951,
+    "close": 0.06173,
+    "volume": 100948360,
+    "turnover": 6222220.4173
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776812400000,
+    "open": 0.06173,
+    "high": 0.06271,
+    "low": 0.06017,
+    "close": 0.06137,
+    "volume": 68545980,
+    "turnover": 4218017.6479
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776816000000,
+    "open": 0.06137,
+    "high": 0.065,
+    "low": 0.05351,
+    "close": 0.05771,
+    "volume": 160642660,
+    "turnover": 9453119.923
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776819600000,
+    "open": 0.05771,
+    "high": 0.05869,
+    "low": 0.05356,
+    "close": 0.05693,
+    "volume": 93094510,
+    "turnover": 5239497.4805
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776823200000,
+    "open": 0.05693,
+    "high": 0.06215,
+    "low": 0.05616,
+    "close": 0.05964,
+    "volume": 143924600,
+    "turnover": 8518401.1011
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776826800000,
+    "open": 0.05964,
+    "high": 0.06536,
+    "low": 0.0588,
+    "close": 0.06385,
+    "volume": 161609910,
+    "turnover": 10048882.9623
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776830400000,
+    "open": 0.06385,
+    "high": 0.06446,
+    "low": 0.06057,
+    "close": 0.06132,
+    "volume": 97148940,
+    "turnover": 6051742.7825
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776834000000,
+    "open": 0.06132,
+    "high": 0.07777,
+    "low": 0.06121,
+    "close": 0.07728,
+    "volume": 263721330,
+    "turnover": 18431049.6598
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776837600000,
+    "open": 0.07728,
+    "high": 0.08337,
+    "low": 0.0744,
+    "close": 0.07767,
+    "volume": 336498840,
+    "turnover": 26440012.28
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776841200000,
+    "open": 0.07767,
+    "high": 0.08644,
+    "low": 0.07653,
+    "close": 0.08526,
+    "volume": 264308700,
+    "turnover": 21347808.6111
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776844800000,
+    "open": 0.08526,
+    "high": 0.08948,
+    "low": 0.08149,
+    "close": 0.08478,
+    "volume": 299482160,
+    "turnover": 25523140.1743
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776848400000,
+    "open": 0.08478,
+    "high": 0.08599,
+    "low": 0.07526,
+    "close": 0.07979,
+    "volume": 277115430,
+    "turnover": 22125245.8514
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776852000000,
+    "open": 0.07979,
+    "high": 0.08578,
+    "low": 0.0791,
+    "close": 0.08499,
+    "volume": 177554020,
+    "turnover": 14706555.1989
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776855600000,
+    "open": 0.08499,
+    "high": 0.0975,
+    "low": 0.08386,
+    "close": 0.09406,
+    "volume": 355038550,
+    "turnover": 32429115.0892
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776859200000,
+    "open": 0.09406,
+    "high": 0.11893,
+    "low": 0.09258,
+    "close": 0.11028,
+    "volume": 624174080,
+    "turnover": 66746905.3234
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776862800000,
+    "open": 0.11028,
+    "high": 0.11724,
+    "low": 0.0936,
+    "close": 0.09546,
+    "volume": 537549610,
+    "turnover": 56508551.18
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776866400000,
+    "open": 0.09546,
+    "high": 0.11485,
+    "low": 0.09451,
+    "close": 0.10948,
+    "volume": 438354160,
+    "turnover": 44916239.9657
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776870000000,
+    "open": 0.10948,
+    "high": 0.11884,
+    "low": 0.101,
+    "close": 0.11267,
+    "volume": 391933230,
+    "turnover": 43004359.2592
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776873600000,
+    "open": 0.11267,
+    "high": 0.11966,
+    "low": 0.10227,
+    "close": 0.10726,
+    "volume": 298004460,
+    "turnover": 33100725.6337
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776877200000,
+    "open": 0.10726,
+    "high": 0.1132,
+    "low": 0.10137,
+    "close": 0.11105,
+    "volume": 168291760,
+    "turnover": 18134171.669
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776880800000,
+    "open": 0.11105,
+    "high": 0.12195,
+    "low": 0.10874,
+    "close": 0.11399,
+    "volume": 183719750,
+    "turnover": 21018044.1584
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776884400000,
+    "open": 0.11399,
+    "high": 0.1152,
+    "low": 0.10039,
+    "close": 0.10318,
+    "volume": 150006520,
+    "turnover": 16133048.5827
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776888000000,
+    "open": 0.10318,
+    "high": 0.10972,
+    "low": 0.09774,
+    "close": 0.10904,
+    "volume": 151630720,
+    "turnover": 15817936.8597
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776891600000,
+    "open": 0.10904,
+    "high": 0.11606,
+    "low": 0.10593,
+    "close": 0.10855,
+    "volume": 108618290,
+    "turnover": 12005193.3783
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776895200000,
+    "open": 0.10855,
+    "high": 0.1106,
+    "low": 0.10245,
+    "close": 0.10818,
+    "volume": 101873530,
+    "turnover": 10848016.8114
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776898800000,
+    "open": 0.10818,
+    "high": 0.11492,
+    "low": 0.10611,
+    "close": 0.11275,
+    "volume": 85216850,
+    "turnover": 9485633.6964
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776902400000,
+    "open": 0.11275,
+    "high": 0.12715,
+    "low": 0.1078,
+    "close": 0.12154,
+    "volume": 235473390,
+    "turnover": 27742671.6395
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776906000000,
+    "open": 0.12154,
+    "high": 0.14037,
+    "low": 0.11911,
+    "close": 0.1334,
+    "volume": 234192410,
+    "turnover": 30803283.2945
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776909600000,
+    "open": 0.1334,
+    "high": 0.13619,
+    "low": 0.11186,
+    "close": 0.12,
+    "volume": 189156900,
+    "turnover": 22981308.3094
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776913200000,
+    "open": 0.12,
+    "high": 0.12235,
+    "low": 0.09551,
+    "close": 0.09923,
+    "volume": 223136780,
+    "turnover": 24097627.9433
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776916800000,
+    "open": 0.09923,
+    "high": 0.10752,
+    "low": 0.08839,
+    "close": 0.09418,
+    "volume": 194207350,
+    "turnover": 19204545.8407
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776920400000,
+    "open": 0.09418,
+    "high": 0.10633,
+    "low": 0.0915,
+    "close": 0.10354,
+    "volume": 168777930,
+    "turnover": 16669937.941
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776924000000,
+    "open": 0.10354,
+    "high": 0.11422,
+    "low": 0.09701,
+    "close": 0.11085,
+    "volume": 145852530,
+    "turnover": 15423994.2676
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776927600000,
+    "open": 0.11085,
+    "high": 0.11362,
+    "low": 0.10437,
+    "close": 0.11003,
+    "volume": 122513790,
+    "turnover": 13265158.7214
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776931200000,
+    "open": 0.11003,
+    "high": 0.11877,
+    "low": 0.10616,
+    "close": 0.1145,
+    "volume": 118004660,
+    "turnover": 13356716.3443
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776934800000,
+    "open": 0.1145,
+    "high": 0.11694,
+    "low": 0.103,
+    "close": 0.10834,
+    "volume": 112547970,
+    "turnover": 12209945.3331
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776938400000,
+    "open": 0.10834,
+    "high": 0.11125,
+    "low": 0.10052,
+    "close": 0.10366,
+    "volume": 83690030,
+    "turnover": 8848244.4539
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776942000000,
+    "open": 0.10366,
+    "high": 0.10895,
+    "low": 0.099,
+    "close": 0.10642,
+    "volume": 109196030,
+    "turnover": 11290555.6573
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776945600000,
+    "open": 0.10642,
+    "high": 0.11074,
+    "low": 0.10193,
+    "close": 0.1058,
+    "volume": 101230980,
+    "turnover": 10790085.4518
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776949200000,
+    "open": 0.1058,
+    "high": 0.10648,
+    "low": 0.09655,
+    "close": 0.10051,
+    "volume": 89748210,
+    "turnover": 9064470.4865
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776952800000,
+    "open": 0.10051,
+    "high": 0.10212,
+    "low": 0.09555,
+    "close": 0.10028,
+    "volume": 77706140,
+    "turnover": 7677918.3779
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776956400000,
+    "open": 0.10028,
+    "high": 0.10459,
+    "low": 0.09193,
+    "close": 0.09503,
+    "volume": 145644600,
+    "turnover": 14254870.622
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776960000000,
+    "open": 0.09503,
+    "high": 0.09739,
+    "low": 0.0907,
+    "close": 0.09135,
+    "volume": 93873290,
+    "turnover": 8799901.2184
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776963600000,
+    "open": 0.09135,
+    "high": 0.09459,
+    "low": 0.08935,
+    "close": 0.09165,
+    "volume": 71264460,
+    "turnover": 6538964.8586
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776967200000,
+    "open": 0.09165,
+    "high": 0.09922,
+    "low": 0.09165,
+    "close": 0.09413,
+    "volume": 91302810,
+    "turnover": 8741804.5445
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776970800000,
+    "open": 0.09413,
+    "high": 0.09741,
+    "low": 0.09246,
+    "close": 0.09652,
+    "volume": 54553760,
+    "turnover": 5198335.6794
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776974400000,
+    "open": 0.09652,
+    "high": 0.1003,
+    "low": 0.09499,
+    "close": 0.09917,
+    "volume": 59091300,
+    "turnover": 5801505.1436
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776978000000,
+    "open": 0.09917,
+    "high": 0.10617,
+    "low": 0.09668,
+    "close": 0.1023,
+    "volume": 71875670,
+    "turnover": 7325852.4368
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776981600000,
+    "open": 0.1023,
+    "high": 0.1088,
+    "low": 0.1005,
+    "close": 0.10623,
+    "volume": 88251990,
+    "turnover": 9295169.6002
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776985200000,
+    "open": 0.10623,
+    "high": 0.10848,
+    "low": 0.1024,
+    "close": 0.10377,
+    "volume": 82868850,
+    "turnover": 8732499.3011
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776988800000,
+    "open": 0.10377,
+    "high": 0.10588,
+    "low": 0.09697,
+    "close": 0.09825,
+    "volume": 107524160,
+    "turnover": 10749701.8124
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776992400000,
+    "open": 0.09825,
+    "high": 0.1043,
+    "low": 0.09794,
+    "close": 0.09894,
+    "volume": 48622570,
+    "turnover": 4888507.0194
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776996000000,
+    "open": 0.09894,
+    "high": 0.10013,
+    "low": 0.09527,
+    "close": 0.09725,
+    "volume": 49236560,
+    "turnover": 4827941.3615
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1776999600000,
+    "open": 0.09725,
+    "high": 0.09812,
+    "low": 0.0937,
+    "close": 0.09425,
+    "volume": 37857910,
+    "turnover": 3621925.6141
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777003200000,
+    "open": 0.09425,
+    "high": 0.09664,
+    "low": 0.09333,
+    "close": 0.09626,
+    "volume": 31642160,
+    "turnover": 3004526.0103
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777006800000,
+    "open": 0.09626,
+    "high": 0.09856,
+    "low": 0.09397,
+    "close": 0.0944,
+    "volume": 41678790,
+    "turnover": 3984682.5157
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777010400000,
+    "open": 0.0944,
+    "high": 0.09555,
+    "low": 0.09105,
+    "close": 0.09307,
+    "volume": 45591370,
+    "turnover": 4236166.6952
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777014000000,
+    "open": 0.09307,
+    "high": 0.09541,
+    "low": 0.0928,
+    "close": 0.09377,
+    "volume": 36786590,
+    "turnover": 3457961.9334
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777017600000,
+    "open": 0.09377,
+    "high": 0.09767,
+    "low": 0.09252,
+    "close": 0.09581,
+    "volume": 43624260,
+    "turnover": 4140657.3646
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777021200000,
+    "open": 0.09581,
+    "high": 0.09684,
+    "low": 0.09288,
+    "close": 0.09494,
+    "volume": 48861740,
+    "turnover": 4626966.5305
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777024800000,
+    "open": 0.09494,
+    "high": 0.0961,
+    "low": 0.0915,
+    "close": 0.09449,
+    "volume": 47493810,
+    "turnover": 4467918.7061
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777028400000,
+    "open": 0.09449,
+    "high": 0.09519,
+    "low": 0.08738,
+    "close": 0.09017,
+    "volume": 107030840,
+    "turnover": 9785335.8659
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777032000000,
+    "open": 0.09017,
+    "high": 0.09379,
+    "low": 0.08906,
+    "close": 0.09243,
+    "volume": 57140860,
+    "turnover": 5252075.7835
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777035600000,
+    "open": 0.09243,
+    "high": 0.09323,
+    "low": 0.08898,
+    "close": 0.08931,
+    "volume": 49512520,
+    "turnover": 4511520.9772
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777039200000,
+    "open": 0.08931,
+    "high": 0.0898,
+    "low": 0.08608,
+    "close": 0.08791,
+    "volume": 85460500,
+    "turnover": 7542337.8415
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777042800000,
+    "open": 0.08791,
+    "high": 0.08938,
+    "low": 0.08732,
+    "close": 0.0887,
+    "volume": 53526810,
+    "turnover": 4728122.731
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777046400000,
+    "open": 0.0887,
+    "high": 0.08879,
+    "low": 0.08545,
+    "close": 0.08817,
+    "volume": 79596890,
+    "turnover": 6897305.0218
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777050000000,
+    "open": 0.08817,
+    "high": 0.09183,
+    "low": 0.08679,
+    "close": 0.08752,
+    "volume": 84578920,
+    "turnover": 7584298.8774
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777053600000,
+    "open": 0.08752,
+    "high": 0.08888,
+    "low": 0.08577,
+    "close": 0.08725,
+    "volume": 33998990,
+    "turnover": 2959367.2709
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777057200000,
+    "open": 0.08725,
+    "high": 0.08979,
+    "low": 0.08679,
+    "close": 0.08682,
+    "volume": 31619290,
+    "turnover": 2792332.0064
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777060800000,
+    "open": 0.08682,
+    "high": 0.08866,
+    "low": 0.0859,
+    "close": 0.08828,
+    "volume": 33133300,
+    "turnover": 2889763.642
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777064400000,
+    "open": 0.08828,
+    "high": 0.08973,
+    "low": 0.08713,
+    "close": 0.08866,
+    "volume": 24752760,
+    "turnover": 2192779.5068
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777068000000,
+    "open": 0.08866,
+    "high": 0.08978,
+    "low": 0.08607,
+    "close": 0.08665,
+    "volume": 36434240,
+    "turnover": 3195232.6674
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777071600000,
+    "open": 0.08665,
+    "high": 0.08701,
+    "low": 0.08293,
+    "close": 0.08476,
+    "volume": 55392320,
+    "turnover": 4707506.3413
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777075200000,
+    "open": 0.08476,
+    "high": 0.08631,
+    "low": 0.08129,
+    "close": 0.08277,
+    "volume": 63780820,
+    "turnover": 5308917.7502
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777078800000,
+    "open": 0.08277,
+    "high": 0.08308,
+    "low": 0.07913,
+    "close": 0.07955,
+    "volume": 58759630,
+    "turnover": 4775651.3101
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777082400000,
+    "open": 0.07955,
+    "high": 0.08086,
+    "low": 0.07747,
+    "close": 0.07818,
+    "volume": 76651280,
+    "turnover": 6054880.2462
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777086000000,
+    "open": 0.07818,
+    "high": 0.08036,
+    "low": 0.07574,
+    "close": 0.07932,
+    "volume": 61970300,
+    "turnover": 4818918.534
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777089600000,
+    "open": 0.07932,
+    "high": 0.08102,
+    "low": 0.07757,
+    "close": 0.07953,
+    "volume": 52425850,
+    "turnover": 4152866.2153
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777093200000,
+    "open": 0.07953,
+    "high": 0.08022,
+    "low": 0.07647,
+    "close": 0.07778,
+    "volume": 39255120,
+    "turnover": 3064598.6509
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777096800000,
+    "open": 0.07778,
+    "high": 0.07976,
+    "low": 0.07718,
+    "close": 0.07892,
+    "volume": 37769170,
+    "turnover": 2963350.4006
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777100400000,
+    "open": 0.07892,
+    "high": 0.08188,
+    "low": 0.07867,
+    "close": 0.07978,
+    "volume": 43128980,
+    "turnover": 3453394.6851
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777104000000,
+    "open": 0.07978,
+    "high": 0.08051,
+    "low": 0.07759,
+    "close": 0.07837,
+    "volume": 30926640,
+    "turnover": 2443520.1108
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777107600000,
+    "open": 0.07837,
+    "high": 0.07877,
+    "low": 0.07731,
+    "close": 0.07747,
+    "volume": 36525970,
+    "turnover": 2850544.305
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777111200000,
+    "open": 0.07747,
+    "high": 0.07959,
+    "low": 0.07677,
+    "close": 0.07851,
+    "volume": 39211520,
+    "turnover": 3074384.8566
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777114800000,
+    "open": 0.07851,
+    "high": 0.07915,
+    "low": 0.07721,
+    "close": 0.07752,
+    "volume": 42328270,
+    "turnover": 3302874.2193
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777118400000,
+    "open": 0.07752,
+    "high": 0.0778,
+    "low": 0.07121,
+    "close": 0.07253,
+    "volume": 146263020,
+    "turnover": 10695140.4091
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777122000000,
+    "open": 0.07253,
+    "high": 0.07365,
+    "low": 0.07185,
+    "close": 0.07279,
+    "volume": 40363360,
+    "turnover": 2932336.8297
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777125600000,
+    "open": 0.07279,
+    "high": 0.0729,
+    "low": 0.06978,
+    "close": 0.07104,
+    "volume": 47566280,
+    "turnover": 3402783.7173
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777129200000,
+    "open": 0.07104,
+    "high": 0.07165,
+    "low": 0.0691,
+    "close": 0.07037,
+    "volume": 44682270,
+    "turnover": 3153663.9132
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777132800000,
+    "open": 0.07037,
+    "high": 0.07226,
+    "low": 0.0687,
+    "close": 0.06968,
+    "volume": 60293370,
+    "turnover": 4244150.4375
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777136400000,
+    "open": 0.06968,
+    "high": 0.07162,
+    "low": 0.06952,
+    "close": 0.0701,
+    "volume": 36870910,
+    "turnover": 2595233.3159
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777140000000,
+    "open": 0.0701,
+    "high": 0.07386,
+    "low": 0.0701,
+    "close": 0.07244,
+    "volume": 29606510,
+    "turnover": 2129609.0053
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777143600000,
+    "open": 0.07244,
+    "high": 0.07277,
+    "low": 0.07097,
+    "close": 0.07272,
+    "volume": 28349740,
+    "turnover": 2037397.7498
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777147200000,
+    "open": 0.07272,
+    "high": 0.07293,
+    "low": 0.07173,
+    "close": 0.07223,
+    "volume": 17091860,
+    "turnover": 1235914.2238
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777150800000,
+    "open": 0.07223,
+    "high": 0.07245,
+    "low": 0.07167,
+    "close": 0.07209,
+    "volume": 15073970,
+    "turnover": 1085998.1963
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777154400000,
+    "open": 0.07209,
+    "high": 0.0755,
+    "low": 0.07207,
+    "close": 0.07261,
+    "volume": 42259510,
+    "turnover": 3102904.6934
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777158000000,
+    "open": 0.07261,
+    "high": 0.07313,
+    "low": 0.07181,
+    "close": 0.073,
+    "volume": 19303610,
+    "turnover": 1395706.5303
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777161600000,
+    "open": 0.073,
+    "high": 0.07331,
+    "low": 0.06882,
+    "close": 0.06974,
+    "volume": 52349660,
+    "turnover": 3692455.585
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777165200000,
+    "open": 0.06974,
+    "high": 0.07203,
+    "low": 0.06835,
+    "close": 0.07045,
+    "volume": 46112180,
+    "turnover": 3215315.5811
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777168800000,
+    "open": 0.07045,
+    "high": 0.07056,
+    "low": 0.06709,
+    "close": 0.06766,
+    "volume": 31924290,
+    "turnover": 2189557.4517
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777172400000,
+    "open": 0.06766,
+    "high": 0.06883,
+    "low": 0.06594,
+    "close": 0.06734,
+    "volume": 37955480,
+    "turnover": 2549748.1193
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777176000000,
+    "open": 0.06734,
+    "high": 0.06851,
+    "low": 0.06685,
+    "close": 0.06734,
+    "volume": 24133640,
+    "turnover": 1633352.9217
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777179600000,
+    "open": 0.06734,
+    "high": 0.06793,
+    "low": 0.06702,
+    "close": 0.06758,
+    "volume": 22856730,
+    "turnover": 1542402.8631
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777183200000,
+    "open": 0.06758,
+    "high": 0.07044,
+    "low": 0.06742,
+    "close": 0.06954,
+    "volume": 33532390,
+    "turnover": 2313567.4232
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777186800000,
+    "open": 0.06954,
+    "high": 0.0697,
+    "low": 0.06737,
+    "close": 0.06794,
+    "volume": 19389320,
+    "turnover": 1321777.5992
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777190400000,
+    "open": 0.06794,
+    "high": 0.06922,
+    "low": 0.06742,
+    "close": 0.0685,
+    "volume": 16391150,
+    "turnover": 1119551.2697
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777194000000,
+    "open": 0.0685,
+    "high": 0.06986,
+    "low": 0.06814,
+    "close": 0.06944,
+    "volume": 28274530,
+    "turnover": 1951953.1457
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777197600000,
+    "open": 0.06944,
+    "high": 0.07013,
+    "low": 0.06778,
+    "close": 0.06823,
+    "volume": 28837220,
+    "turnover": 1992560.8733
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777201200000,
+    "open": 0.06823,
+    "high": 0.06878,
+    "low": 0.06763,
+    "close": 0.06822,
+    "volume": 24184830,
+    "turnover": 1649933.4178
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777204800000,
+    "open": 0.06822,
+    "high": 0.07365,
+    "low": 0.06822,
+    "close": 0.07174,
+    "volume": 59662760,
+    "turnover": 4249916.3489
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777208400000,
+    "open": 0.07174,
+    "high": 0.07261,
+    "low": 0.06991,
+    "close": 0.07002,
+    "volume": 38021840,
+    "turnover": 2706043.0379
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777212000000,
+    "open": 0.07002,
+    "high": 0.07243,
+    "low": 0.0692,
+    "close": 0.07219,
+    "volume": 29708380,
+    "turnover": 2098714.4848
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777215600000,
+    "open": 0.07219,
+    "high": 0.07746,
+    "low": 0.07219,
+    "close": 0.07282,
+    "volume": 88496540,
+    "turnover": 6621245.2789
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777219200000,
+    "open": 0.07282,
+    "high": 0.0769,
+    "low": 0.07184,
+    "close": 0.07408,
+    "volume": 63542890,
+    "turnover": 4724506.48
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777222800000,
+    "open": 0.07408,
+    "high": 0.07862,
+    "low": 0.0735,
+    "close": 0.07609,
+    "volume": 45501550,
+    "turnover": 3461349.7341
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777226400000,
+    "open": 0.07609,
+    "high": 0.07945,
+    "low": 0.07574,
+    "close": 0.07847,
+    "volume": 51101800,
+    "turnover": 3972531.2271
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777230000000,
+    "open": 0.07847,
+    "high": 0.07855,
+    "low": 0.07504,
+    "close": 0.07633,
+    "volume": 35621550,
+    "turnover": 2724843.9793
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777233600000,
+    "open": 0.07633,
+    "high": 0.07799,
+    "low": 0.07343,
+    "close": 0.07355,
+    "volume": 45101870,
+    "turnover": 3412385.3781
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777237200000,
+    "open": 0.07355,
+    "high": 0.07526,
+    "low": 0.07155,
+    "close": 0.07377,
+    "volume": 35573130,
+    "turnover": 2615789.533
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777240800000,
+    "open": 0.07377,
+    "high": 0.07618,
+    "low": 0.0732,
+    "close": 0.07582,
+    "volume": 25746440,
+    "turnover": 1920105.2808
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777244400000,
+    "open": 0.07582,
+    "high": 0.07606,
+    "low": 0.07276,
+    "close": 0.07292,
+    "volume": 27181220,
+    "turnover": 2011304.618
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777248000000,
+    "open": 0.07292,
+    "high": 0.07627,
+    "low": 0.0725,
+    "close": 0.07291,
+    "volume": 41179120,
+    "turnover": 3049879.5146
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777251600000,
+    "open": 0.07291,
+    "high": 0.07406,
+    "low": 0.07179,
+    "close": 0.07249,
+    "volume": 44119390,
+    "turnover": 3203440.8566
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777255200000,
+    "open": 0.07249,
+    "high": 0.07824,
+    "low": 0.07243,
+    "close": 0.07814,
+    "volume": 43231310,
+    "turnover": 3244248.5526
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777258800000,
+    "open": 0.07814,
+    "high": 0.085,
+    "low": 0.07696,
+    "close": 0.08337,
+    "volume": 116357820,
+    "turnover": 9436538.473
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777262400000,
+    "open": 0.08337,
+    "high": 0.08578,
+    "low": 0.08039,
+    "close": 0.08273,
+    "volume": 97160510,
+    "turnover": 8101605.035
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777266000000,
+    "open": 0.08273,
+    "high": 0.08344,
+    "low": 0.07724,
+    "close": 0.07735,
+    "volume": 104881090,
+    "turnover": 8424150.5474
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777269600000,
+    "open": 0.07735,
+    "high": 0.07839,
+    "low": 0.0756,
+    "close": 0.07648,
+    "volume": 60125460,
+    "turnover": 4624232.273
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777273200000,
+    "open": 0.07648,
+    "high": 0.07694,
+    "low": 0.07372,
+    "close": 0.07494,
+    "volume": 61191680,
+    "turnover": 4612762.645
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777276800000,
+    "open": 0.07494,
+    "high": 0.07588,
+    "low": 0.07317,
+    "close": 0.0756,
+    "volume": 40210830,
+    "turnover": 3006726.7016
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777280400000,
+    "open": 0.0756,
+    "high": 0.07634,
+    "low": 0.07341,
+    "close": 0.0736,
+    "volume": 50575710,
+    "turnover": 3778018.4937
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777284000000,
+    "open": 0.0736,
+    "high": 0.07531,
+    "low": 0.07128,
+    "close": 0.07469,
+    "volume": 61024170,
+    "turnover": 4461562.4242
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777287600000,
+    "open": 0.07469,
+    "high": 0.07569,
+    "low": 0.07288,
+    "close": 0.07327,
+    "volume": 32781290,
+    "turnover": 2430922.5602
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777291200000,
+    "open": 0.07327,
+    "high": 0.07759,
+    "low": 0.0726,
+    "close": 0.07575,
+    "volume": 56357720,
+    "turnover": 4276518.3457
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777294800000,
+    "open": 0.07575,
+    "high": 0.077,
+    "low": 0.07404,
+    "close": 0.07488,
+    "volume": 39393180,
+    "turnover": 2983186.4186
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777298400000,
+    "open": 0.07488,
+    "high": 0.07574,
+    "low": 0.07329,
+    "close": 0.07337,
+    "volume": 31586660,
+    "turnover": 2353843.1664
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777302000000,
+    "open": 0.07337,
+    "high": 0.0739,
+    "low": 0.07176,
+    "close": 0.07266,
+    "volume": 39009140,
+    "turnover": 2842344.4716
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777305600000,
+    "open": 0.07266,
+    "high": 0.07277,
+    "low": 0.07,
+    "close": 0.07228,
+    "volume": 41782650,
+    "turnover": 2980446.3204
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777309200000,
+    "open": 0.07228,
+    "high": 0.07492,
+    "low": 0.07151,
+    "close": 0.07434,
+    "volume": 39834420,
+    "turnover": 2914775.0582
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777312800000,
+    "open": 0.07434,
+    "high": 0.07545,
+    "low": 0.07403,
+    "close": 0.07441,
+    "volume": 19227630,
+    "turnover": 1435372.1389
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777316400000,
+    "open": 0.07441,
+    "high": 0.0754,
+    "low": 0.07423,
+    "close": 0.07532,
+    "volume": 27378640,
+    "turnover": 2048512.5799
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777320000000,
+    "open": 0.07532,
+    "high": 0.0765,
+    "low": 0.07455,
+    "close": 0.07591,
+    "volume": 17889130,
+    "turnover": 1349026.0103
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777323600000,
+    "open": 0.07591,
+    "high": 0.07606,
+    "low": 0.0742,
+    "close": 0.07453,
+    "volume": 11655630,
+    "turnover": 873798.1804
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777327200000,
+    "open": 0.07453,
+    "high": 0.07526,
+    "low": 0.07416,
+    "close": 0.07507,
+    "volume": 11993580,
+    "turnover": 895367.5463
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777330800000,
+    "open": 0.07507,
+    "high": 0.07558,
+    "low": 0.0736,
+    "close": 0.07462,
+    "volume": 20193530,
+    "turnover": 1506484.3036
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777334400000,
+    "open": 0.07462,
+    "high": 0.07694,
+    "low": 0.07347,
+    "close": 0.07663,
+    "volume": 28797090,
+    "turnover": 2178093.2574
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777338000000,
+    "open": 0.07663,
+    "high": 0.07916,
+    "low": 0.07636,
+    "close": 0.07643,
+    "volume": 43462790,
+    "turnover": 3375678.2582
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777341600000,
+    "open": 0.07643,
+    "high": 0.07714,
+    "low": 0.07475,
+    "close": 0.07656,
+    "volume": 32250510,
+    "turnover": 2443370.2214
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777345200000,
+    "open": 0.07656,
+    "high": 0.07686,
+    "low": 0.07418,
+    "close": 0.07459,
+    "volume": 25514010,
+    "turnover": 1921348.0661
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777348800000,
+    "open": 0.07459,
+    "high": 0.07459,
+    "low": 0.07201,
+    "close": 0.07311,
+    "volume": 28200500,
+    "turnover": 2074177.7843
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777352400000,
+    "open": 0.07311,
+    "high": 0.07352,
+    "low": 0.07198,
+    "close": 0.07278,
+    "volume": 16289750,
+    "turnover": 1187168.8799
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777356000000,
+    "open": 0.07278,
+    "high": 0.07316,
+    "low": 0.07157,
+    "close": 0.07212,
+    "volume": 16835160,
+    "turnover": 1217124.2914
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777359600000,
+    "open": 0.07212,
+    "high": 0.07212,
+    "low": 0.07047,
+    "close": 0.07091,
+    "volume": 25301800,
+    "turnover": 1798661.4749
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777363200000,
+    "open": 0.07091,
+    "high": 0.07197,
+    "low": 0.06889,
+    "close": 0.07077,
+    "volume": 49308470,
+    "turnover": 3461824.9749
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777366800000,
+    "open": 0.07077,
+    "high": 0.07154,
+    "low": 0.0701,
+    "close": 0.07032,
+    "volume": 21662790,
+    "turnover": 1534798.1359
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777370400000,
+    "open": 0.07032,
+    "high": 0.0704,
+    "low": 0.06943,
+    "close": 0.06954,
+    "volume": 25531720,
+    "turnover": 1786247.597
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777374000000,
+    "open": 0.06954,
+    "high": 0.07001,
+    "low": 0.06907,
+    "close": 0.06951,
+    "volume": 18535330,
+    "turnover": 1290941.4618
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777377600000,
+    "open": 0.06951,
+    "high": 0.07074,
+    "low": 0.06932,
+    "close": 0.0704,
+    "volume": 16298230,
+    "turnover": 1141209.5221
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777381200000,
+    "open": 0.0704,
+    "high": 0.07088,
+    "low": 0.06943,
+    "close": 0.06999,
+    "volume": 19535600,
+    "turnover": 1368543.305
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777384800000,
+    "open": 0.06999,
+    "high": 0.07139,
+    "low": 0.06986,
+    "close": 0.07047,
+    "volume": 16537890,
+    "turnover": 1168927.333
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777388400000,
+    "open": 0.07047,
+    "high": 0.07195,
+    "low": 0.07022,
+    "close": 0.07172,
+    "volume": 16211230,
+    "turnover": 1150088.3185
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777392000000,
+    "open": 0.07172,
+    "high": 0.07172,
+    "low": 0.0704,
+    "close": 0.07066,
+    "volume": 15974210,
+    "turnover": 1131930.8176
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777395600000,
+    "open": 0.07066,
+    "high": 0.0715,
+    "low": 0.06961,
+    "close": 0.07085,
+    "volume": 17864180,
+    "turnover": 1263945.2569
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777399200000,
+    "open": 0.07085,
+    "high": 0.07147,
+    "low": 0.07062,
+    "close": 0.07082,
+    "volume": 9841650,
+    "turnover": 699468.2806
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777402800000,
+    "open": 0.07082,
+    "high": 0.07106,
+    "low": 0.0705,
+    "close": 0.0706,
+    "volume": 7485660,
+    "turnover": 530071.0932
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777406400000,
+    "open": 0.0706,
+    "high": 0.07131,
+    "low": 0.07056,
+    "close": 0.07062,
+    "volume": 7479480,
+    "turnover": 530077.2958
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777410000000,
+    "open": 0.07062,
+    "high": 0.07084,
+    "low": 0.06729,
+    "close": 0.06893,
+    "volume": 32434420,
+    "turnover": 2243900.4802
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777413600000,
+    "open": 0.06893,
+    "high": 0.06954,
+    "low": 0.06855,
+    "close": 0.06899,
+    "volume": 14208590,
+    "turnover": 980289.8205
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777417200000,
+    "open": 0.06899,
+    "high": 0.06942,
+    "low": 0.06852,
+    "close": 0.06875,
+    "volume": 9871980,
+    "turnover": 680555.5348
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777420800000,
+    "open": 0.06875,
+    "high": 0.06894,
+    "low": 0.06721,
+    "close": 0.0683,
+    "volume": 22664710,
+    "turnover": 1541047.7167
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777424400000,
+    "open": 0.0683,
+    "high": 0.0686,
+    "low": 0.067,
+    "close": 0.06777,
+    "volume": 16630590,
+    "turnover": 1125583.3253
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777428000000,
+    "open": 0.06777,
+    "high": 0.06793,
+    "low": 0.06666,
+    "close": 0.06717,
+    "volume": 15053270,
+    "turnover": 1011204.6173
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777431600000,
+    "open": 0.06717,
+    "high": 0.06918,
+    "low": 0.06716,
+    "close": 0.06866,
+    "volume": 17918530,
+    "turnover": 1224006.8461
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777435200000,
+    "open": 0.06866,
+    "high": 0.0693,
+    "low": 0.06841,
+    "close": 0.069,
+    "volume": 16374940,
+    "turnover": 1128031.6368
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777438800000,
+    "open": 0.069,
+    "high": 0.06996,
+    "low": 0.06865,
+    "close": 0.0688,
+    "volume": 14095230,
+    "turnover": 977570.1193
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777442400000,
+    "open": 0.0688,
+    "high": 0.06897,
+    "low": 0.06776,
+    "close": 0.06834,
+    "volume": 20486300,
+    "turnover": 1398547.114
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777446000000,
+    "open": 0.06834,
+    "high": 0.06857,
+    "low": 0.06638,
+    "close": 0.06721,
+    "volume": 23810810,
+    "turnover": 1605105.2613
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777449600000,
+    "open": 0.06721,
+    "high": 0.06735,
+    "low": 0.06613,
+    "close": 0.06702,
+    "volume": 20196350,
+    "turnover": 1349201.7429
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777453200000,
+    "open": 0.06702,
+    "high": 0.06707,
+    "low": 0.0648,
+    "close": 0.06538,
+    "volume": 45772430,
+    "turnover": 2999404.6938
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777456800000,
+    "open": 0.06538,
+    "high": 0.06607,
+    "low": 0.06343,
+    "close": 0.0638,
+    "volume": 47116760,
+    "turnover": 3058419.5101
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777460400000,
+    "open": 0.0638,
+    "high": 0.06407,
+    "low": 0.06291,
+    "close": 0.06361,
+    "volume": 25392650,
+    "turnover": 1611486.3156
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777464000000,
+    "open": 0.06361,
+    "high": 0.0644,
+    "low": 0.0628,
+    "close": 0.06417,
+    "volume": 35380390,
+    "turnover": 2247897.2484
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777467600000,
+    "open": 0.06417,
+    "high": 0.06469,
+    "low": 0.06235,
+    "close": 0.06338,
+    "volume": 31753470,
+    "turnover": 2016097.1592
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777471200000,
+    "open": 0.06338,
+    "high": 0.06383,
+    "low": 0.06297,
+    "close": 0.06344,
+    "volume": 9198760,
+    "turnover": 582791.0671
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777474800000,
+    "open": 0.06344,
+    "high": 0.06347,
+    "low": 0.0615,
+    "close": 0.06196,
+    "volume": 26474360,
+    "turnover": 1649435.6003
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777478400000,
+    "open": 0.06196,
+    "high": 0.06422,
+    "low": 0.06184,
+    "close": 0.06314,
+    "volume": 28511220,
+    "turnover": 1797577.4457
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777482000000,
+    "open": 0.06314,
+    "high": 0.06421,
+    "low": 0.06305,
+    "close": 0.06375,
+    "volume": 17611710,
+    "turnover": 1122537.9012
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777485600000,
+    "open": 0.06375,
+    "high": 0.06388,
+    "low": 0.06236,
+    "close": 0.06272,
+    "volume": 18880160,
+    "turnover": 1185915.8569
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777489200000,
+    "open": 0.06272,
+    "high": 0.06447,
+    "low": 0.06235,
+    "close": 0.06439,
+    "volume": 17962800,
+    "turnover": 1139456.1863
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777492800000,
+    "open": 0.06439,
+    "high": 0.06443,
+    "low": 0.06368,
+    "close": 0.06379,
+    "volume": 8269920,
+    "turnover": 529218.1094
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777496400000,
+    "open": 0.06379,
+    "high": 0.06469,
+    "low": 0.06366,
+    "close": 0.06418,
+    "volume": 12073630,
+    "turnover": 773998.3951
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777500000000,
+    "open": 0.06418,
+    "high": 0.06508,
+    "low": 0.06389,
+    "close": 0.06431,
+    "volume": 8273780,
+    "turnover": 533961.2724
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777503600000,
+    "open": 0.06431,
+    "high": 0.06449,
+    "low": 0.06344,
+    "close": 0.06366,
+    "volume": 7004440,
+    "turnover": 447558.8504
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777507200000,
+    "open": 0.06366,
+    "high": 0.06686,
+    "low": 0.06348,
+    "close": 0.0663,
+    "volume": 32809410,
+    "turnover": 2150018.3147
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777510800000,
+    "open": 0.0663,
+    "high": 0.06806,
+    "low": 0.06625,
+    "close": 0.06739,
+    "volume": 30699840,
+    "turnover": 2060643.1492
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777514400000,
+    "open": 0.06739,
+    "high": 0.0677,
+    "low": 0.06471,
+    "close": 0.06505,
+    "volume": 23453160,
+    "turnover": 1545907.8004
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777518000000,
+    "open": 0.06505,
+    "high": 0.06624,
+    "low": 0.0645,
+    "close": 0.06598,
+    "volume": 11472860,
+    "turnover": 753149.0212
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777521600000,
+    "open": 0.06598,
+    "high": 0.06602,
+    "low": 0.06428,
+    "close": 0.06518,
+    "volume": 12218000,
+    "turnover": 793925.37
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777525200000,
+    "open": 0.06518,
+    "high": 0.06561,
+    "low": 0.06393,
+    "close": 0.06494,
+    "volume": 11351760,
+    "turnover": 733813.45
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777528800000,
+    "open": 0.06494,
+    "high": 0.06727,
+    "low": 0.06489,
+    "close": 0.06675,
+    "volume": 23591580,
+    "turnover": 1560615.4964
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777532400000,
+    "open": 0.06675,
+    "high": 0.06778,
+    "low": 0.06563,
+    "close": 0.06616,
+    "volume": 18491730,
+    "turnover": 1236482.9184
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777536000000,
+    "open": 0.06616,
+    "high": 0.06621,
+    "low": 0.06435,
+    "close": 0.06485,
+    "volume": 14165920,
+    "turnover": 921545.6011
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777539600000,
+    "open": 0.06485,
+    "high": 0.06626,
+    "low": 0.06478,
+    "close": 0.06555,
+    "volume": 10883230,
+    "turnover": 712481.2511
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777543200000,
+    "open": 0.06555,
+    "high": 0.06769,
+    "low": 0.06546,
+    "close": 0.06625,
+    "volume": 24650350,
+    "turnover": 1645024.2527
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777546800000,
+    "open": 0.06625,
+    "high": 0.06645,
+    "low": 0.06354,
+    "close": 0.06442,
+    "volume": 22945210,
+    "turnover": 1490372.1895
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777550400000,
+    "open": 0.06442,
+    "high": 0.06442,
+    "low": 0.06222,
+    "close": 0.06329,
+    "volume": 23654760,
+    "turnover": 1499303.9874
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777554000000,
+    "open": 0.06329,
+    "high": 0.06382,
+    "low": 0.06218,
+    "close": 0.06286,
+    "volume": 22476550,
+    "turnover": 1412033.8794
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777557600000,
+    "open": 0.06286,
+    "high": 0.06368,
+    "low": 0.06268,
+    "close": 0.06286,
+    "volume": 10508010,
+    "turnover": 663489.2343
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777561200000,
+    "open": 0.06286,
+    "high": 0.0632,
+    "low": 0.0622,
+    "close": 0.06269,
+    "volume": 9276740,
+    "turnover": 582126.1379
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777564800000,
+    "open": 0.06269,
+    "high": 0.06359,
+    "low": 0.06238,
+    "close": 0.06337,
+    "volume": 5200130,
+    "turnover": 327952.3123
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777568400000,
+    "open": 0.06337,
+    "high": 0.06522,
+    "low": 0.06324,
+    "close": 0.06495,
+    "volume": 9933410,
+    "turnover": 639364.5817
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777572000000,
+    "open": 0.06495,
+    "high": 0.06547,
+    "low": 0.06409,
+    "close": 0.06409,
+    "volume": 11017220,
+    "turnover": 712949.9506
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777575600000,
+    "open": 0.06409,
+    "high": 0.06514,
+    "low": 0.06398,
+    "close": 0.06495,
+    "volume": 6541710,
+    "turnover": 423296.0625
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777579200000,
+    "open": 0.06495,
+    "high": 0.065,
+    "low": 0.06383,
+    "close": 0.06389,
+    "volume": 8654940,
+    "turnover": 556292.6439
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777582800000,
+    "open": 0.06389,
+    "high": 0.06444,
+    "low": 0.06369,
+    "close": 0.06375,
+    "volume": 5044720,
+    "turnover": 322963.7847
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777586400000,
+    "open": 0.06375,
+    "high": 0.06433,
+    "low": 0.06342,
+    "close": 0.06427,
+    "volume": 5858320,
+    "turnover": 374908.1571
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777590000000,
+    "open": 0.06427,
+    "high": 0.06427,
+    "low": 0.06325,
+    "close": 0.06367,
+    "volume": 8116120,
+    "turnover": 516616.1877
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777593600000,
+    "open": 0.06367,
+    "high": 0.06373,
+    "low": 0.06255,
+    "close": 0.06277,
+    "volume": 12335850,
+    "turnover": 776576.5987
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777597200000,
+    "open": 0.06277,
+    "high": 0.06467,
+    "low": 0.06247,
+    "close": 0.06384,
+    "volume": 12865790,
+    "turnover": 819891.1621
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777600800000,
+    "open": 0.06384,
+    "high": 0.06419,
+    "low": 0.06286,
+    "close": 0.06321,
+    "volume": 6247100,
+    "turnover": 396336.3985
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777604400000,
+    "open": 0.06321,
+    "high": 0.06476,
+    "low": 0.06298,
+    "close": 0.06392,
+    "volume": 10741970,
+    "turnover": 688394.3017
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777608000000,
+    "open": 0.06392,
+    "high": 0.06463,
+    "low": 0.06307,
+    "close": 0.06313,
+    "volume": 8561700,
+    "turnover": 546904.2517
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777611600000,
+    "open": 0.06313,
+    "high": 0.06323,
+    "low": 0.06119,
+    "close": 0.06189,
+    "volume": 25230990,
+    "turnover": 1566507.55
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777615200000,
+    "open": 0.06189,
+    "high": 0.06246,
+    "low": 0.06138,
+    "close": 0.06225,
+    "volume": 15805410,
+    "turnover": 979033.2339
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777618800000,
+    "open": 0.06225,
+    "high": 0.06322,
+    "low": 0.06211,
+    "close": 0.06318,
+    "volume": 9504140,
+    "turnover": 596522.0242
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777622400000,
+    "open": 0.06318,
+    "high": 0.0635,
+    "low": 0.06243,
+    "close": 0.06337,
+    "volume": 10473340,
+    "turnover": 660582.5664
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777626000000,
+    "open": 0.06337,
+    "high": 0.0634,
+    "low": 0.06222,
+    "close": 0.06247,
+    "volume": 6552510,
+    "turnover": 412191.0422
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777629600000,
+    "open": 0.06247,
+    "high": 0.06258,
+    "low": 0.0614,
+    "close": 0.06185,
+    "volume": 11451400,
+    "turnover": 708327.4652
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777633200000,
+    "open": 0.06185,
+    "high": 0.06224,
+    "low": 0.06156,
+    "close": 0.06184,
+    "volume": 7390150,
+    "turnover": 457298.8573
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777636800000,
+    "open": 0.06184,
+    "high": 0.06283,
+    "low": 0.06171,
+    "close": 0.06267,
+    "volume": 9760490,
+    "turnover": 607942.6293
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777640400000,
+    "open": 0.06267,
+    "high": 0.06297,
+    "low": 0.06167,
+    "close": 0.06292,
+    "volume": 11614320,
+    "turnover": 722889.8344
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777644000000,
+    "open": 0.06292,
+    "high": 0.063,
+    "low": 0.06187,
+    "close": 0.06204,
+    "volume": 11739050,
+    "turnover": 733115.5881
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777647600000,
+    "open": 0.06204,
+    "high": 0.06297,
+    "low": 0.0619,
+    "close": 0.06268,
+    "volume": 11007950,
+    "turnover": 687210.4017
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777651200000,
+    "open": 0.06268,
+    "high": 0.06385,
+    "low": 0.06206,
+    "close": 0.06345,
+    "volume": 19977680,
+    "turnover": 1257656.6909
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777654800000,
+    "open": 0.06345,
+    "high": 0.06385,
+    "low": 0.0625,
+    "close": 0.06303,
+    "volume": 9360450,
+    "turnover": 590427.9174
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777658400000,
+    "open": 0.06303,
+    "high": 0.06402,
+    "low": 0.06272,
+    "close": 0.06372,
+    "volume": 13606080,
+    "turnover": 863457.6172
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777662000000,
+    "open": 0.06372,
+    "high": 0.06423,
+    "low": 0.06341,
+    "close": 0.06373,
+    "volume": 6511550,
+    "turnover": 415662.7181
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777665600000,
+    "open": 0.06373,
+    "high": 0.06488,
+    "low": 0.0636,
+    "close": 0.06393,
+    "volume": 7802240,
+    "turnover": 501694.0953
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777669200000,
+    "open": 0.06393,
+    "high": 0.06487,
+    "low": 0.0635,
+    "close": 0.06487,
+    "volume": 5840290,
+    "turnover": 373225.276
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777672800000,
+    "open": 0.06487,
+    "high": 0.06524,
+    "low": 0.06423,
+    "close": 0.06454,
+    "volume": 8076670,
+    "turnover": 523422.3986
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777676400000,
+    "open": 0.06454,
+    "high": 0.06467,
+    "low": 0.06359,
+    "close": 0.06441,
+    "volume": 5410660,
+    "turnover": 347420.2806
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777680000000,
+    "open": 0.06441,
+    "high": 0.06758,
+    "low": 0.06389,
+    "close": 0.06681,
+    "volume": 42775450,
+    "turnover": 2801077.6537
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777683600000,
+    "open": 0.06681,
+    "high": 0.06743,
+    "low": 0.0655,
+    "close": 0.06652,
+    "volume": 18261910,
+    "turnover": 1213588.0645
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777687200000,
+    "open": 0.06652,
+    "high": 0.06663,
+    "low": 0.06506,
+    "close": 0.06553,
+    "volume": 13538700,
+    "turnover": 893637.6138
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777690800000,
+    "open": 0.06553,
+    "high": 0.06748,
+    "low": 0.06532,
+    "close": 0.06593,
+    "volume": 14045360,
+    "turnover": 935057.5257
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777694400000,
+    "open": 0.06593,
+    "high": 0.06603,
+    "low": 0.06425,
+    "close": 0.06535,
+    "volume": 13125370,
+    "turnover": 854893.6355
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777698000000,
+    "open": 0.06535,
+    "high": 0.0667,
+    "low": 0.06464,
+    "close": 0.06665,
+    "volume": 9647890,
+    "turnover": 633099.558
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777701600000,
+    "open": 0.06665,
+    "high": 0.06747,
+    "low": 0.06605,
+    "close": 0.06743,
+    "volume": 11699020,
+    "turnover": 782798.6177
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777705200000,
+    "open": 0.06743,
+    "high": 0.06815,
+    "low": 0.06678,
+    "close": 0.06717,
+    "volume": 15708590,
+    "turnover": 1058642.8936
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777708800000,
+    "open": 0.06717,
+    "high": 0.06906,
+    "low": 0.06651,
+    "close": 0.06866,
+    "volume": 21821110,
+    "turnover": 1485036.0659
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777712400000,
+    "open": 0.06866,
+    "high": 0.06903,
+    "low": 0.06696,
+    "close": 0.067,
+    "volume": 20078620,
+    "turnover": 1368060.1783
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777716000000,
+    "open": 0.067,
+    "high": 0.06715,
+    "low": 0.0657,
+    "close": 0.06617,
+    "volume": 12178310,
+    "turnover": 808584.1069
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777719600000,
+    "open": 0.06617,
+    "high": 0.06679,
+    "low": 0.06538,
+    "close": 0.06672,
+    "volume": 5525450,
+    "turnover": 365136.81
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777723200000,
+    "open": 0.06672,
+    "high": 0.06718,
+    "low": 0.06575,
+    "close": 0.06588,
+    "volume": 7441320,
+    "turnover": 495135.5405
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777726800000,
+    "open": 0.06588,
+    "high": 0.06791,
+    "low": 0.06546,
+    "close": 0.06744,
+    "volume": 15257820,
+    "turnover": 1017427.0373
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777730400000,
+    "open": 0.06744,
+    "high": 0.06784,
+    "low": 0.06641,
+    "close": 0.06677,
+    "volume": 13984890,
+    "turnover": 937653.9517
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777734000000,
+    "open": 0.06677,
+    "high": 0.06799,
+    "low": 0.06675,
+    "close": 0.06699,
+    "volume": 15166520,
+    "turnover": 1020864.9521
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777737600000,
+    "open": 0.06699,
+    "high": 0.06755,
+    "low": 0.06623,
+    "close": 0.06625,
+    "volume": 7792770,
+    "turnover": 520912.1179
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777741200000,
+    "open": 0.06625,
+    "high": 0.067,
+    "low": 0.06585,
+    "close": 0.06677,
+    "volume": 6660730,
+    "turnover": 442626.8053
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777744800000,
+    "open": 0.06677,
+    "high": 0.067,
+    "low": 0.06632,
+    "close": 0.06638,
+    "volume": 6634100,
+    "turnover": 441632.7103
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777748400000,
+    "open": 0.06638,
+    "high": 0.06647,
+    "low": 0.06548,
+    "close": 0.06569,
+    "volume": 7278050,
+    "turnover": 480377.8351
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777752000000,
+    "open": 0.06569,
+    "high": 0.0663,
+    "low": 0.05898,
+    "close": 0.0618,
+    "volume": 61781800,
+    "turnover": 3836272.6021
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777755600000,
+    "open": 0.0618,
+    "high": 0.06307,
+    "low": 0.06175,
+    "close": 0.06291,
+    "volume": 18975210,
+    "turnover": 1187617.1253
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777759200000,
+    "open": 0.06291,
+    "high": 0.06305,
+    "low": 0.06224,
+    "close": 0.06237,
+    "volume": 11694740,
+    "turnover": 732326.2984
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777762800000,
+    "open": 0.06237,
+    "high": 0.06237,
+    "low": 0.06121,
+    "close": 0.06125,
+    "volume": 16600690,
+    "turnover": 1025590.6407
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777766400000,
+    "open": 0.06125,
+    "high": 0.0617,
+    "low": 0.06046,
+    "close": 0.06084,
+    "volume": 18597800,
+    "turnover": 1133688.4051
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777770000000,
+    "open": 0.06084,
+    "high": 0.06125,
+    "low": 0.05933,
+    "close": 0.05959,
+    "volume": 17056660,
+    "turnover": 1026727.1793
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777773600000,
+    "open": 0.05959,
+    "high": 0.06028,
+    "low": 0.05955,
+    "close": 0.05983,
+    "volume": 7903110,
+    "turnover": 472796.0808
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777777200000,
+    "open": 0.05983,
+    "high": 0.06019,
+    "low": 0.05906,
+    "close": 0.05996,
+    "volume": 8922130,
+    "turnover": 533783.9497
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777780800000,
+    "open": 0.05996,
+    "high": 0.06023,
+    "low": 0.05976,
+    "close": 0.05992,
+    "volume": 5385490,
+    "turnover": 323124.4511
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777784400000,
+    "open": 0.05992,
+    "high": 0.06021,
+    "low": 0.05954,
+    "close": 0.05962,
+    "volume": 7292890,
+    "turnover": 437218.9339
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777788000000,
+    "open": 0.05962,
+    "high": 0.05997,
+    "low": 0.0592,
+    "close": 0.05984,
+    "volume": 5356580,
+    "turnover": 318913.6851
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777791600000,
+    "open": 0.05984,
+    "high": 0.06089,
+    "low": 0.0596,
+    "close": 0.05973,
+    "volume": 12862530,
+    "turnover": 775510.4077
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777795200000,
+    "open": 0.05973,
+    "high": 0.06007,
+    "low": 0.05934,
+    "close": 0.05954,
+    "volume": 5494660,
+    "turnover": 328019.4963
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777798800000,
+    "open": 0.05954,
+    "high": 0.05957,
+    "low": 0.05705,
+    "close": 0.05868,
+    "volume": 22879720,
+    "turnover": 1333196.1606
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777802400000,
+    "open": 0.05868,
+    "high": 0.05891,
+    "low": 0.05834,
+    "close": 0.05862,
+    "volume": 2918110,
+    "turnover": 171207.2668
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777806000000,
+    "open": 0.05862,
+    "high": 0.05902,
+    "low": 0.05808,
+    "close": 0.05814,
+    "volume": 4292330,
+    "turnover": 251619.2202
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777809600000,
+    "open": 0.05814,
+    "high": 0.05863,
+    "low": 0.05807,
+    "close": 0.05813,
+    "volume": 6452170,
+    "turnover": 376433.9747
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777813200000,
+    "open": 0.05813,
+    "high": 0.05853,
+    "low": 0.05775,
+    "close": 0.05838,
+    "volume": 5689800,
+    "turnover": 330521.7376
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777816800000,
+    "open": 0.05838,
+    "high": 0.05909,
+    "low": 0.05829,
+    "close": 0.05892,
+    "volume": 6912770,
+    "turnover": 405237.405
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777820400000,
+    "open": 0.05892,
+    "high": 0.05947,
+    "low": 0.05885,
+    "close": 0.05915,
+    "volume": 10339190,
+    "turnover": 611482.6497
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777824000000,
+    "open": 0.05915,
+    "high": 0.05965,
+    "low": 0.05855,
+    "close": 0.05907,
+    "volume": 5928090,
+    "turnover": 349994.8741
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777827600000,
+    "open": 0.05907,
+    "high": 0.0596,
+    "low": 0.05894,
+    "close": 0.05934,
+    "volume": 3073030,
+    "turnover": 182213.9732
+  },
+  {
+    "symbol": "CHIPUSDT",
+    "timestamp": 1777831200000,
+    "open": 0.05934,
+    "high": 0.05981,
+    "low": 0.05934,
+    "close": 0.05978,
+    "volume": 1866930,
+    "turnover": 111181.3174
+  }
+]

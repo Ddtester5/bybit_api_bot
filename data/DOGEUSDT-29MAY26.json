@@ -1,0 +1,7312 @@
+[
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775203200000,
+    "open": 0.09165,
+    "high": 0.09215,
+    "low": 0.09165,
+    "close": 0.09181,
+    "volume": 308,
+    "turnover": 28.29548
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775206800000,
+    "open": 0.09181,
+    "high": 0.09181,
+    "low": 0.09181,
+    "close": 0.09181,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775210400000,
+    "open": 0.09181,
+    "high": 0.09181,
+    "low": 0.09181,
+    "close": 0.09181,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775214000000,
+    "open": 0.09181,
+    "high": 0.09242,
+    "low": 0.09181,
+    "close": 0.09188,
+    "volume": 10848,
+    "turnover": 999.6432
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775217600000,
+    "open": 0.09188,
+    "high": 0.09188,
+    "low": 0.09188,
+    "close": 0.09188,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775221200000,
+    "open": 0.09188,
+    "high": 0.09188,
+    "low": 0.09188,
+    "close": 0.09188,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775224800000,
+    "open": 0.09188,
+    "high": 0.09188,
+    "low": 0.09188,
+    "close": 0.09188,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775228400000,
+    "open": 0.09188,
+    "high": 0.09188,
+    "low": 0.09188,
+    "close": 0.09188,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775232000000,
+    "open": 0.09188,
+    "high": 0.0926,
+    "low": 0.09188,
+    "close": 0.0926,
+    "volume": 378,
+    "turnover": 34.88373
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775235600000,
+    "open": 0.0926,
+    "high": 0.09312,
+    "low": 0.09215,
+    "close": 0.09273,
+    "volume": 2498,
+    "turnover": 231.41438
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775239200000,
+    "open": 0.09273,
+    "high": 0.09273,
+    "low": 0.09273,
+    "close": 0.09273,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775242800000,
+    "open": 0.09273,
+    "high": 0.09273,
+    "low": 0.09273,
+    "close": 0.09273,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775246400000,
+    "open": 0.09273,
+    "high": 0.09273,
+    "low": 0.09269,
+    "close": 0.09269,
+    "volume": 561,
+    "turnover": 51.99909
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775250000000,
+    "open": 0.09269,
+    "high": 0.09269,
+    "low": 0.09269,
+    "close": 0.09269,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775253600000,
+    "open": 0.09269,
+    "high": 0.09269,
+    "low": 0.09269,
+    "close": 0.09269,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775257200000,
+    "open": 0.09269,
+    "high": 0.09269,
+    "low": 0.09269,
+    "close": 0.09269,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775260800000,
+    "open": 0.09269,
+    "high": 0.09269,
+    "low": 0.09168,
+    "close": 0.09168,
+    "volume": 269,
+    "turnover": 24.66192
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775264400000,
+    "open": 0.09168,
+    "high": 0.09168,
+    "low": 0.09168,
+    "close": 0.09168,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775268000000,
+    "open": 0.09168,
+    "high": 0.09168,
+    "low": 0.09168,
+    "close": 0.09168,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775271600000,
+    "open": 0.09168,
+    "high": 0.09168,
+    "low": 0.09168,
+    "close": 0.09168,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775275200000,
+    "open": 0.09168,
+    "high": 0.09168,
+    "low": 0.09168,
+    "close": 0.09168,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775278800000,
+    "open": 0.09168,
+    "high": 0.09182,
+    "low": 0.09127,
+    "close": 0.09127,
+    "volume": 1222,
+    "turnover": 111.86799
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775282400000,
+    "open": 0.09127,
+    "high": 0.09196,
+    "low": 0.09125,
+    "close": 0.09196,
+    "volume": 14217,
+    "turnover": 1302.45277
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775286000000,
+    "open": 0.09196,
+    "high": 0.09196,
+    "low": 0.09137,
+    "close": 0.09196,
+    "volume": 10894,
+    "turnover": 998.59851
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775289600000,
+    "open": 0.09196,
+    "high": 0.09196,
+    "low": 0.09145,
+    "close": 0.09145,
+    "volume": 5446,
+    "turnover": 498.0367
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775293200000,
+    "open": 0.09145,
+    "high": 0.09145,
+    "low": 0.09114,
+    "close": 0.09114,
+    "volume": 566,
+    "turnover": 51.59071
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775296800000,
+    "open": 0.09114,
+    "high": 0.09114,
+    "low": 0.09114,
+    "close": 0.09114,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775300400000,
+    "open": 0.09114,
+    "high": 0.09114,
+    "low": 0.09114,
+    "close": 0.09114,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775304000000,
+    "open": 0.09114,
+    "high": 0.09114,
+    "low": 0.09114,
+    "close": 0.09114,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775307600000,
+    "open": 0.09114,
+    "high": 0.09153,
+    "low": 0.09114,
+    "close": 0.09153,
+    "volume": 178,
+    "turnover": 16.29234
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775311200000,
+    "open": 0.09153,
+    "high": 0.09153,
+    "low": 0.09116,
+    "close": 0.09116,
+    "volume": 178,
+    "turnover": 16.22648
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775314800000,
+    "open": 0.09116,
+    "high": 0.09233,
+    "low": 0.09116,
+    "close": 0.09233,
+    "volume": 172093,
+    "turnover": 15825.49791
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775318400000,
+    "open": 0.09233,
+    "high": 0.09257,
+    "low": 0.09196,
+    "close": 0.09203,
+    "volume": 2751,
+    "turnover": 253.95047
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775322000000,
+    "open": 0.09203,
+    "high": 0.09291,
+    "low": 0.09188,
+    "close": 0.09235,
+    "volume": 7940,
+    "turnover": 734.58946
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775325600000,
+    "open": 0.09235,
+    "high": 0.09297,
+    "low": 0.09235,
+    "close": 0.09286,
+    "volume": 2652,
+    "turnover": 245.6857
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775329200000,
+    "open": 0.09286,
+    "high": 0.09345,
+    "low": 0.09235,
+    "close": 0.09292,
+    "volume": 14795,
+    "turnover": 1375.66191
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775332800000,
+    "open": 0.09292,
+    "high": 0.09292,
+    "low": 0.09233,
+    "close": 0.09233,
+    "volume": 2176,
+    "turnover": 201.19296
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775336400000,
+    "open": 0.09233,
+    "high": 0.09289,
+    "low": 0.09217,
+    "close": 0.09233,
+    "volume": 3041,
+    "turnover": 281.23349
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775340000000,
+    "open": 0.09233,
+    "high": 0.09233,
+    "low": 0.09233,
+    "close": 0.09233,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775343600000,
+    "open": 0.09233,
+    "high": 0.09233,
+    "low": 0.09233,
+    "close": 0.09233,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775347200000,
+    "open": 0.09233,
+    "high": 0.09233,
+    "low": 0.09233,
+    "close": 0.09233,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775350800000,
+    "open": 0.09233,
+    "high": 0.09233,
+    "low": 0.09156,
+    "close": 0.09168,
+    "volume": 1211,
+    "turnover": 111.31098
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775354400000,
+    "open": 0.09168,
+    "high": 0.09168,
+    "low": 0.0916,
+    "close": 0.0916,
+    "volume": 91,
+    "turnover": 8.3356
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775358000000,
+    "open": 0.0916,
+    "high": 0.0916,
+    "low": 0.0916,
+    "close": 0.0916,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775361600000,
+    "open": 0.0916,
+    "high": 0.0916,
+    "low": 0.09124,
+    "close": 0.09124,
+    "volume": 3327,
+    "turnover": 303.88248
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775365200000,
+    "open": 0.09124,
+    "high": 0.09161,
+    "low": 0.09075,
+    "close": 0.09075,
+    "volume": 1651,
+    "turnover": 150.13355
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775368800000,
+    "open": 0.09075,
+    "high": 0.09075,
+    "low": 0.0901,
+    "close": 0.09065,
+    "volume": 738,
+    "turnover": 66.69675
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775372400000,
+    "open": 0.09065,
+    "high": 0.09065,
+    "low": 0.09065,
+    "close": 0.09065,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775376000000,
+    "open": 0.09065,
+    "high": 0.09065,
+    "low": 0.09065,
+    "close": 0.09065,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775379600000,
+    "open": 0.09065,
+    "high": 0.09065,
+    "low": 0.09065,
+    "close": 0.09065,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775383200000,
+    "open": 0.09065,
+    "high": 0.09065,
+    "low": 0.09065,
+    "close": 0.09065,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775386800000,
+    "open": 0.09065,
+    "high": 0.09065,
+    "low": 0.09065,
+    "close": 0.09065,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775390400000,
+    "open": 0.09065,
+    "high": 0.09065,
+    "low": 0.08994,
+    "close": 0.08994,
+    "volume": 110,
+    "turnover": 9.8934
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775394000000,
+    "open": 0.08994,
+    "high": 0.09059,
+    "low": 0.08994,
+    "close": 0.09053,
+    "volume": 117,
+    "turnover": 10.59537
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775397600000,
+    "open": 0.09053,
+    "high": 0.09053,
+    "low": 0.09053,
+    "close": 0.09053,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775401200000,
+    "open": 0.09053,
+    "high": 0.0917,
+    "low": 0.09053,
+    "close": 0.09082,
+    "volume": 453,
+    "turnover": 41.2277
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775404800000,
+    "open": 0.09082,
+    "high": 0.09096,
+    "low": 0.09082,
+    "close": 0.09096,
+    "volume": 574,
+    "turnover": 52.21104
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775408400000,
+    "open": 0.09096,
+    "high": 0.09096,
+    "low": 0.09096,
+    "close": 0.09096,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775412000000,
+    "open": 0.09096,
+    "high": 0.09109,
+    "low": 0.0904,
+    "close": 0.0904,
+    "volume": 653,
+    "turnover": 59.36993
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775415600000,
+    "open": 0.0904,
+    "high": 0.09066,
+    "low": 0.0904,
+    "close": 0.09066,
+    "volume": 14,
+    "turnover": 1.26924
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775419200000,
+    "open": 0.09066,
+    "high": 0.09066,
+    "low": 0.09066,
+    "close": 0.09066,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775422800000,
+    "open": 0.09066,
+    "high": 0.09066,
+    "low": 0.09066,
+    "close": 0.09066,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775426400000,
+    "open": 0.09066,
+    "high": 0.09208,
+    "low": 0.09066,
+    "close": 0.09208,
+    "volume": 3327,
+    "turnover": 306.13333
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775430000000,
+    "open": 0.09208,
+    "high": 0.09289,
+    "low": 0.09169,
+    "close": 0.09279,
+    "volume": 3740,
+    "turnover": 345.79257
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775433600000,
+    "open": 0.09279,
+    "high": 0.09357,
+    "low": 0.09274,
+    "close": 0.09283,
+    "volume": 4382,
+    "turnover": 408.20988
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775437200000,
+    "open": 0.09283,
+    "high": 0.09344,
+    "low": 0.09163,
+    "close": 0.09278,
+    "volume": 7065,
+    "turnover": 653.93729
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775440800000,
+    "open": 0.09278,
+    "high": 0.09355,
+    "low": 0.09278,
+    "close": 0.09355,
+    "volume": 547,
+    "turnover": 51.17185
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775444400000,
+    "open": 0.09355,
+    "high": 0.09355,
+    "low": 0.09279,
+    "close": 0.0928,
+    "volume": 1641,
+    "turnover": 152.62394
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775448000000,
+    "open": 0.0928,
+    "high": 0.09345,
+    "low": 0.09258,
+    "close": 0.09287,
+    "volume": 1560,
+    "turnover": 145.06048
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775451600000,
+    "open": 0.09287,
+    "high": 0.09287,
+    "low": 0.09287,
+    "close": 0.09287,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775455200000,
+    "open": 0.09287,
+    "high": 0.09297,
+    "low": 0.09214,
+    "close": 0.09285,
+    "volume": 4104,
+    "turnover": 379.87774
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775458800000,
+    "open": 0.09285,
+    "high": 0.09285,
+    "low": 0.09222,
+    "close": 0.09227,
+    "volume": 1906,
+    "turnover": 176.17388
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775462400000,
+    "open": 0.09227,
+    "high": 0.0928,
+    "low": 0.09224,
+    "close": 0.0928,
+    "volume": 2181,
+    "turnover": 201.78472
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775466000000,
+    "open": 0.0928,
+    "high": 0.09383,
+    "low": 0.0927,
+    "close": 0.09372,
+    "volume": 12489,
+    "turnover": 1167.60619
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775469600000,
+    "open": 0.09372,
+    "high": 0.09372,
+    "low": 0.09372,
+    "close": 0.09372,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775473200000,
+    "open": 0.09372,
+    "high": 0.09372,
+    "low": 0.09311,
+    "close": 0.09311,
+    "volume": 298,
+    "turnover": 27.82118
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775476800000,
+    "open": 0.09311,
+    "high": 0.09329,
+    "low": 0.09255,
+    "close": 0.09255,
+    "volume": 23069,
+    "turnover": 2141.19966
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775480400000,
+    "open": 0.09255,
+    "high": 0.09317,
+    "low": 0.09251,
+    "close": 0.09251,
+    "volume": 397,
+    "turnover": 36.84142
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775484000000,
+    "open": 0.09251,
+    "high": 0.09316,
+    "low": 0.09251,
+    "close": 0.09262,
+    "volume": 766,
+    "turnover": 71.09436
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775487600000,
+    "open": 0.09262,
+    "high": 0.09351,
+    "low": 0.09262,
+    "close": 0.09295,
+    "volume": 17266,
+    "turnover": 1608.23069
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775491200000,
+    "open": 0.09295,
+    "high": 0.09339,
+    "low": 0.09273,
+    "close": 0.09274,
+    "volume": 14683,
+    "turnover": 1364.95213
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775494800000,
+    "open": 0.09274,
+    "high": 0.09274,
+    "low": 0.09192,
+    "close": 0.09247,
+    "volume": 1352,
+    "turnover": 124.32586
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775498400000,
+    "open": 0.09247,
+    "high": 0.09247,
+    "low": 0.09214,
+    "close": 0.09214,
+    "volume": 214,
+    "turnover": 19.71796
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775502000000,
+    "open": 0.09214,
+    "high": 0.09234,
+    "low": 0.09201,
+    "close": 0.09234,
+    "volume": 450,
+    "turnover": 41.43333
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775505600000,
+    "open": 0.09234,
+    "high": 0.09234,
+    "low": 0.0919,
+    "close": 0.0919,
+    "volume": 214,
+    "turnover": 19.6666
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775509200000,
+    "open": 0.0919,
+    "high": 0.0919,
+    "low": 0.0916,
+    "close": 0.0916,
+    "volume": 870,
+    "turnover": 79.692
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775512800000,
+    "open": 0.0916,
+    "high": 0.0916,
+    "low": 0.09065,
+    "close": 0.09078,
+    "volume": 4574,
+    "turnover": 416.91233
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775516400000,
+    "open": 0.09078,
+    "high": 0.09103,
+    "low": 0.09004,
+    "close": 0.09103,
+    "volume": 5793,
+    "turnover": 526.04549
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775520000000,
+    "open": 0.09103,
+    "high": 0.09111,
+    "low": 0.09064,
+    "close": 0.09064,
+    "volume": 9227,
+    "turnover": 840.56528
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775523600000,
+    "open": 0.09064,
+    "high": 0.09072,
+    "low": 0.0904,
+    "close": 0.0904,
+    "volume": 2355,
+    "turnover": 213.09776
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775527200000,
+    "open": 0.0904,
+    "high": 0.0904,
+    "low": 0.0904,
+    "close": 0.0904,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775530800000,
+    "open": 0.0904,
+    "high": 0.0904,
+    "low": 0.0904,
+    "close": 0.0904,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775534400000,
+    "open": 0.0904,
+    "high": 0.09108,
+    "low": 0.0904,
+    "close": 0.09108,
+    "volume": 1838,
+    "turnover": 166.44276
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775538000000,
+    "open": 0.09108,
+    "high": 0.09108,
+    "low": 0.09108,
+    "close": 0.09108,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775541600000,
+    "open": 0.09108,
+    "high": 0.09108,
+    "low": 0.09108,
+    "close": 0.09108,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775545200000,
+    "open": 0.09108,
+    "high": 0.09108,
+    "low": 0.09085,
+    "close": 0.09097,
+    "volume": 234,
+    "turnover": 21.28636
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775548800000,
+    "open": 0.09097,
+    "high": 0.09119,
+    "low": 0.0909,
+    "close": 0.09119,
+    "volume": 605,
+    "turnover": 55.04565
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775552400000,
+    "open": 0.09119,
+    "high": 0.09159,
+    "low": 0.09112,
+    "close": 0.09136,
+    "volume": 3661,
+    "turnover": 334.9064
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775556000000,
+    "open": 0.09136,
+    "high": 0.09146,
+    "low": 0.09054,
+    "close": 0.09083,
+    "volume": 5622,
+    "turnover": 511.34802
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775559600000,
+    "open": 0.09083,
+    "high": 0.09106,
+    "low": 0.09059,
+    "close": 0.09068,
+    "volume": 3634,
+    "turnover": 330.11891
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775563200000,
+    "open": 0.09068,
+    "high": 0.09115,
+    "low": 0.09032,
+    "close": 0.09115,
+    "volume": 3029,
+    "turnover": 274.95165
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775566800000,
+    "open": 0.09115,
+    "high": 0.09115,
+    "low": 0.09053,
+    "close": 0.09065,
+    "volume": 7918,
+    "turnover": 719.16833
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775570400000,
+    "open": 0.09065,
+    "high": 0.09092,
+    "low": 0.09028,
+    "close": 0.09051,
+    "volume": 3591,
+    "turnover": 325.70048
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775574000000,
+    "open": 0.09051,
+    "high": 0.09099,
+    "low": 0.09033,
+    "close": 0.0905,
+    "volume": 4682,
+    "turnover": 425.0481
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775577600000,
+    "open": 0.0905,
+    "high": 0.09113,
+    "low": 0.0905,
+    "close": 0.0909,
+    "volume": 6598,
+    "turnover": 599.90575
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775581200000,
+    "open": 0.0909,
+    "high": 0.0909,
+    "low": 0.0909,
+    "close": 0.0909,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775584800000,
+    "open": 0.0909,
+    "high": 0.0909,
+    "low": 0.0909,
+    "close": 0.0909,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775588400000,
+    "open": 0.0909,
+    "high": 0.0909,
+    "low": 0.0909,
+    "close": 0.0909,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775592000000,
+    "open": 0.0909,
+    "high": 0.0909,
+    "low": 0.0909,
+    "close": 0.0909,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775595600000,
+    "open": 0.0909,
+    "high": 0.09325,
+    "low": 0.0909,
+    "close": 0.09304,
+    "volume": 385,
+    "turnover": 35.81758
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775599200000,
+    "open": 0.09304,
+    "high": 0.09451,
+    "low": 0.09304,
+    "close": 0.09451,
+    "volume": 2461,
+    "turnover": 230.63708
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775602800000,
+    "open": 0.09451,
+    "high": 0.09451,
+    "low": 0.09451,
+    "close": 0.09451,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775606400000,
+    "open": 0.09451,
+    "high": 0.09451,
+    "low": 0.09451,
+    "close": 0.09451,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775610000000,
+    "open": 0.09451,
+    "high": 0.09451,
+    "low": 0.09451,
+    "close": 0.09451,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775613600000,
+    "open": 0.09451,
+    "high": 0.09451,
+    "low": 0.09451,
+    "close": 0.09451,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775617200000,
+    "open": 0.09451,
+    "high": 0.09493,
+    "low": 0.09451,
+    "close": 0.09472,
+    "volume": 5907,
+    "turnover": 560.19167
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775620800000,
+    "open": 0.09472,
+    "high": 0.09472,
+    "low": 0.09472,
+    "close": 0.09472,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775624400000,
+    "open": 0.09472,
+    "high": 0.09472,
+    "low": 0.09472,
+    "close": 0.09472,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775628000000,
+    "open": 0.09472,
+    "high": 0.09512,
+    "low": 0.09472,
+    "close": 0.09505,
+    "volume": 65,
+    "turnover": 6.17499
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775631600000,
+    "open": 0.09505,
+    "high": 0.09505,
+    "low": 0.09478,
+    "close": 0.09478,
+    "volume": 90,
+    "turnover": 8.5302
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775635200000,
+    "open": 0.09478,
+    "high": 0.09478,
+    "low": 0.09476,
+    "close": 0.09476,
+    "volume": 53,
+    "turnover": 5.02228
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775638800000,
+    "open": 0.09476,
+    "high": 0.09476,
+    "low": 0.09476,
+    "close": 0.09476,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775642400000,
+    "open": 0.09476,
+    "high": 0.09531,
+    "low": 0.09476,
+    "close": 0.09492,
+    "volume": 156,
+    "turnover": 14.83794
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775646000000,
+    "open": 0.09492,
+    "high": 0.09492,
+    "low": 0.09492,
+    "close": 0.09492,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775649600000,
+    "open": 0.09492,
+    "high": 0.09492,
+    "low": 0.09433,
+    "close": 0.09478,
+    "volume": 465,
+    "turnover": 43.99426
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775653200000,
+    "open": 0.09478,
+    "high": 0.09478,
+    "low": 0.09478,
+    "close": 0.09478,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775656800000,
+    "open": 0.09478,
+    "high": 0.09478,
+    "low": 0.09323,
+    "close": 0.09323,
+    "volume": 1125,
+    "turnover": 105.14528
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775660400000,
+    "open": 0.09323,
+    "high": 0.09323,
+    "low": 0.09323,
+    "close": 0.09323,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775664000000,
+    "open": 0.09323,
+    "high": 0.09323,
+    "low": 0.09323,
+    "close": 0.09323,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775667600000,
+    "open": 0.09323,
+    "high": 0.09368,
+    "low": 0.09323,
+    "close": 0.09368,
+    "volume": 109,
+    "turnover": 10.21112
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775671200000,
+    "open": 0.09368,
+    "high": 0.09396,
+    "low": 0.09368,
+    "close": 0.09396,
+    "volume": 270,
+    "turnover": 25.3692
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775674800000,
+    "open": 0.09396,
+    "high": 0.09396,
+    "low": 0.09339,
+    "close": 0.09339,
+    "volume": 60,
+    "turnover": 5.6034
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775678400000,
+    "open": 0.09339,
+    "high": 0.09339,
+    "low": 0.09339,
+    "close": 0.09339,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775682000000,
+    "open": 0.09339,
+    "high": 0.09339,
+    "low": 0.09339,
+    "close": 0.09339,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775685600000,
+    "open": 0.09339,
+    "high": 0.09339,
+    "low": 0.09339,
+    "close": 0.09339,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775689200000,
+    "open": 0.09339,
+    "high": 0.09339,
+    "low": 0.09339,
+    "close": 0.09339,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775692800000,
+    "open": 0.09339,
+    "high": 0.09339,
+    "low": 0.09339,
+    "close": 0.09339,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775696400000,
+    "open": 0.09339,
+    "high": 0.09339,
+    "low": 0.09144,
+    "close": 0.09185,
+    "volume": 2618,
+    "turnover": 239.96137
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775700000000,
+    "open": 0.09185,
+    "high": 0.09185,
+    "low": 0.09185,
+    "close": 0.09185,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775703600000,
+    "open": 0.09185,
+    "high": 0.09185,
+    "low": 0.09185,
+    "close": 0.09185,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775707200000,
+    "open": 0.09185,
+    "high": 0.09185,
+    "low": 0.09185,
+    "close": 0.09185,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775710800000,
+    "open": 0.09185,
+    "high": 0.09185,
+    "low": 0.09185,
+    "close": 0.09185,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775714400000,
+    "open": 0.09185,
+    "high": 0.09185,
+    "low": 0.09185,
+    "close": 0.09185,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775718000000,
+    "open": 0.09185,
+    "high": 0.09185,
+    "low": 0.09185,
+    "close": 0.09185,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775721600000,
+    "open": 0.09185,
+    "high": 0.09185,
+    "low": 0.09156,
+    "close": 0.09156,
+    "volume": 304,
+    "turnover": 27.83424
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775725200000,
+    "open": 0.09156,
+    "high": 0.09156,
+    "low": 0.09156,
+    "close": 0.09156,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775728800000,
+    "open": 0.09156,
+    "high": 0.09156,
+    "low": 0.09156,
+    "close": 0.09156,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775732400000,
+    "open": 0.09156,
+    "high": 0.09156,
+    "low": 0.09156,
+    "close": 0.09156,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775736000000,
+    "open": 0.09156,
+    "high": 0.09156,
+    "low": 0.09156,
+    "close": 0.09156,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775739600000,
+    "open": 0.09156,
+    "high": 0.09156,
+    "low": 0.09156,
+    "close": 0.09156,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775743200000,
+    "open": 0.09156,
+    "high": 0.09156,
+    "low": 0.09156,
+    "close": 0.09156,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775746800000,
+    "open": 0.09156,
+    "high": 0.09323,
+    "low": 0.09156,
+    "close": 0.09323,
+    "volume": 392,
+    "turnover": 36.54494
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775750400000,
+    "open": 0.09323,
+    "high": 0.09323,
+    "low": 0.09323,
+    "close": 0.09323,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775754000000,
+    "open": 0.09323,
+    "high": 0.09386,
+    "low": 0.09323,
+    "close": 0.09358,
+    "volume": 2568,
+    "turnover": 240.39094
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775757600000,
+    "open": 0.09358,
+    "high": 0.09359,
+    "low": 0.09358,
+    "close": 0.09359,
+    "volume": 146,
+    "turnover": 13.66414
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775761200000,
+    "open": 0.09359,
+    "high": 0.09399,
+    "low": 0.09359,
+    "close": 0.09399,
+    "volume": 54,
+    "turnover": 5.07546
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775764800000,
+    "open": 0.09399,
+    "high": 0.09468,
+    "low": 0.09399,
+    "close": 0.09468,
+    "volume": 1159,
+    "turnover": 109.72988
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775768400000,
+    "open": 0.09468,
+    "high": 0.09468,
+    "low": 0.09396,
+    "close": 0.09396,
+    "volume": 2129,
+    "turnover": 200.05244
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775772000000,
+    "open": 0.09396,
+    "high": 0.09396,
+    "low": 0.09396,
+    "close": 0.09396,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775775600000,
+    "open": 0.09396,
+    "high": 0.09396,
+    "low": 0.09396,
+    "close": 0.09396,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775779200000,
+    "open": 0.09396,
+    "high": 0.09396,
+    "low": 0.09396,
+    "close": 0.09396,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775782800000,
+    "open": 0.09396,
+    "high": 0.09396,
+    "low": 0.09396,
+    "close": 0.09396,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775786400000,
+    "open": 0.09396,
+    "high": 0.09396,
+    "low": 0.09396,
+    "close": 0.09396,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775790000000,
+    "open": 0.09396,
+    "high": 0.09396,
+    "low": 0.09396,
+    "close": 0.09396,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775793600000,
+    "open": 0.09396,
+    "high": 0.09396,
+    "low": 0.09396,
+    "close": 0.09396,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775797200000,
+    "open": 0.09396,
+    "high": 0.09396,
+    "low": 0.09396,
+    "close": 0.09396,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775800800000,
+    "open": 0.09396,
+    "high": 0.09396,
+    "low": 0.09305,
+    "close": 0.09314,
+    "volume": 424,
+    "turnover": 39.47228
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775804400000,
+    "open": 0.09314,
+    "high": 0.09314,
+    "low": 0.09256,
+    "close": 0.09263,
+    "volume": 504,
+    "turnover": 46.66289
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775808000000,
+    "open": 0.09263,
+    "high": 0.09263,
+    "low": 0.09263,
+    "close": 0.09263,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775811600000,
+    "open": 0.09263,
+    "high": 0.09263,
+    "low": 0.09257,
+    "close": 0.09257,
+    "volume": 107,
+    "turnover": 9.90499
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775815200000,
+    "open": 0.09257,
+    "high": 0.09257,
+    "low": 0.09257,
+    "close": 0.09257,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775818800000,
+    "open": 0.09257,
+    "high": 0.09304,
+    "low": 0.09257,
+    "close": 0.09296,
+    "volume": 1130,
+    "turnover": 105.12664
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775822400000,
+    "open": 0.09296,
+    "high": 0.09296,
+    "low": 0.09296,
+    "close": 0.09296,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775826000000,
+    "open": 0.09296,
+    "high": 0.09332,
+    "low": 0.09296,
+    "close": 0.09317,
+    "volume": 158,
+    "turnover": 14.73271
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775829600000,
+    "open": 0.09317,
+    "high": 0.09334,
+    "low": 0.09317,
+    "close": 0.09334,
+    "volume": 270,
+    "turnover": 25.2018
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775833200000,
+    "open": 0.09334,
+    "high": 0.09334,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775836800000,
+    "open": 0.09334,
+    "high": 0.09334,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775840400000,
+    "open": 0.09334,
+    "high": 0.09334,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775844000000,
+    "open": 0.09334,
+    "high": 0.09334,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775847600000,
+    "open": 0.09334,
+    "high": 0.09334,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775851200000,
+    "open": 0.09334,
+    "high": 0.09334,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775854800000,
+    "open": 0.09334,
+    "high": 0.09334,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775858400000,
+    "open": 0.09334,
+    "high": 0.09418,
+    "low": 0.09334,
+    "close": 0.09418,
+    "volume": 240,
+    "turnover": 22.6032
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775862000000,
+    "open": 0.09418,
+    "high": 0.09418,
+    "low": 0.09418,
+    "close": 0.09418,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775865600000,
+    "open": 0.09418,
+    "high": 0.09418,
+    "low": 0.09418,
+    "close": 0.09418,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775869200000,
+    "open": 0.09418,
+    "high": 0.09418,
+    "low": 0.09418,
+    "close": 0.09418,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775872800000,
+    "open": 0.09418,
+    "high": 0.09418,
+    "low": 0.09418,
+    "close": 0.09418,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775876400000,
+    "open": 0.09418,
+    "high": 0.09418,
+    "low": 0.09418,
+    "close": 0.09418,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775880000000,
+    "open": 0.09418,
+    "high": 0.09418,
+    "low": 0.09377,
+    "close": 0.09377,
+    "volume": 324,
+    "turnover": 30.41118
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775883600000,
+    "open": 0.09377,
+    "high": 0.09377,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 535,
+    "turnover": 49.9369
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775887200000,
+    "open": 0.09334,
+    "high": 0.09335,
+    "low": 0.09304,
+    "close": 0.09304,
+    "volume": 10643,
+    "turnover": 991.25075
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775890800000,
+    "open": 0.09304,
+    "high": 0.0934,
+    "low": 0.09304,
+    "close": 0.09332,
+    "volume": 7572,
+    "turnover": 706.24061
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775894400000,
+    "open": 0.09332,
+    "high": 0.09343,
+    "low": 0.09306,
+    "close": 0.09309,
+    "volume": 21943,
+    "turnover": 2046.80237
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775898000000,
+    "open": 0.09309,
+    "high": 0.09345,
+    "low": 0.09291,
+    "close": 0.09334,
+    "volume": 13158,
+    "turnover": 1226.76859
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775901600000,
+    "open": 0.09334,
+    "high": 0.09343,
+    "low": 0.09301,
+    "close": 0.09332,
+    "volume": 7617,
+    "turnover": 710.29679
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775905200000,
+    "open": 0.09332,
+    "high": 0.09339,
+    "low": 0.09306,
+    "close": 0.09316,
+    "volume": 4707,
+    "turnover": 439.03049
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775908800000,
+    "open": 0.09316,
+    "high": 0.09347,
+    "low": 0.09309,
+    "close": 0.09347,
+    "volume": 8040,
+    "turnover": 749.93786
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775912400000,
+    "open": 0.09347,
+    "high": 0.09347,
+    "low": 0.09259,
+    "close": 0.09259,
+    "volume": 2773,
+    "turnover": 258.0611
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775916000000,
+    "open": 0.09259,
+    "high": 0.09316,
+    "low": 0.09259,
+    "close": 0.09313,
+    "volume": 2234,
+    "turnover": 207.78059
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775919600000,
+    "open": 0.09313,
+    "high": 0.09335,
+    "low": 0.09295,
+    "close": 0.09295,
+    "volume": 9472,
+    "turnover": 882.78108
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775923200000,
+    "open": 0.09295,
+    "high": 0.09385,
+    "low": 0.09292,
+    "close": 0.09385,
+    "volume": 8380,
+    "turnover": 783.43115
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775926800000,
+    "open": 0.09385,
+    "high": 0.09385,
+    "low": 0.09385,
+    "close": 0.09385,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775930400000,
+    "open": 0.09385,
+    "high": 0.09454,
+    "low": 0.09293,
+    "close": 0.09419,
+    "volume": 7412,
+    "turnover": 692.92181
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775934000000,
+    "open": 0.09419,
+    "high": 0.09499,
+    "low": 0.09419,
+    "close": 0.09489,
+    "volume": 15732,
+    "turnover": 1493.0763
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775937600000,
+    "open": 0.09489,
+    "high": 0.09509,
+    "low": 0.09408,
+    "close": 0.09408,
+    "volume": 20529,
+    "turnover": 1934.31098
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775941200000,
+    "open": 0.09408,
+    "high": 0.09408,
+    "low": 0.09408,
+    "close": 0.09408,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775944800000,
+    "open": 0.09408,
+    "high": 0.09439,
+    "low": 0.09408,
+    "close": 0.09417,
+    "volume": 1802,
+    "turnover": 169.8931
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775948400000,
+    "open": 0.09417,
+    "high": 0.09417,
+    "low": 0.0929,
+    "close": 0.09341,
+    "volume": 1229,
+    "turnover": 114.74973
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775952000000,
+    "open": 0.09341,
+    "high": 0.09341,
+    "low": 0.09297,
+    "close": 0.0933,
+    "volume": 26609,
+    "turnover": 2480.68045
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775955600000,
+    "open": 0.0933,
+    "high": 0.0933,
+    "low": 0.09104,
+    "close": 0.09125,
+    "volume": 15401,
+    "turnover": 1416.2965
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775959200000,
+    "open": 0.09125,
+    "high": 0.09188,
+    "low": 0.09114,
+    "close": 0.09188,
+    "volume": 11228,
+    "turnover": 1031.29574
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775962800000,
+    "open": 0.09188,
+    "high": 0.09188,
+    "low": 0.09133,
+    "close": 0.0916,
+    "volume": 4140,
+    "turnover": 379.79881
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775966400000,
+    "open": 0.0916,
+    "high": 0.0916,
+    "low": 0.09117,
+    "close": 0.09142,
+    "volume": 5832,
+    "turnover": 533.35533
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775970000000,
+    "open": 0.09142,
+    "high": 0.09171,
+    "low": 0.09139,
+    "close": 0.09171,
+    "volume": 508,
+    "turnover": 46.53293
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775973600000,
+    "open": 0.09171,
+    "high": 0.09182,
+    "low": 0.09145,
+    "close": 0.09168,
+    "volume": 725,
+    "turnover": 66.45913
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775977200000,
+    "open": 0.09168,
+    "high": 0.09175,
+    "low": 0.09145,
+    "close": 0.09174,
+    "volume": 676,
+    "turnover": 61.9314
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775980800000,
+    "open": 0.09174,
+    "high": 0.09174,
+    "low": 0.09138,
+    "close": 0.09138,
+    "volume": 315,
+    "turnover": 28.82656
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775984400000,
+    "open": 0.09138,
+    "high": 0.09167,
+    "low": 0.09132,
+    "close": 0.09132,
+    "volume": 495,
+    "turnover": 45.29563
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775988000000,
+    "open": 0.09132,
+    "high": 0.09145,
+    "low": 0.09112,
+    "close": 0.09138,
+    "volume": 1506,
+    "turnover": 137.67566
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775991600000,
+    "open": 0.09138,
+    "high": 0.09164,
+    "low": 0.09113,
+    "close": 0.09162,
+    "volume": 578,
+    "turnover": 52.85312
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775995200000,
+    "open": 0.09162,
+    "high": 0.09168,
+    "low": 0.09116,
+    "close": 0.09116,
+    "volume": 663,
+    "turnover": 60.58108
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1775998800000,
+    "open": 0.09116,
+    "high": 0.09148,
+    "low": 0.0909,
+    "close": 0.0909,
+    "volume": 2652,
+    "turnover": 241.65857
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776002400000,
+    "open": 0.0909,
+    "high": 0.0912,
+    "low": 0.09068,
+    "close": 0.09068,
+    "volume": 674,
+    "turnover": 61.2796
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776006000000,
+    "open": 0.09068,
+    "high": 0.09068,
+    "low": 0.09068,
+    "close": 0.09068,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776009600000,
+    "open": 0.09068,
+    "high": 0.09109,
+    "low": 0.09068,
+    "close": 0.09071,
+    "volume": 378,
+    "turnover": 34.35669
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776013200000,
+    "open": 0.09071,
+    "high": 0.09146,
+    "low": 0.09071,
+    "close": 0.09143,
+    "volume": 1498,
+    "turnover": 136.57874
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776016800000,
+    "open": 0.09143,
+    "high": 0.09154,
+    "low": 0.09117,
+    "close": 0.09121,
+    "volume": 2375,
+    "turnover": 216.95435
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776020400000,
+    "open": 0.09121,
+    "high": 0.09158,
+    "low": 0.091,
+    "close": 0.09103,
+    "volume": 1492,
+    "turnover": 136.18281
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776024000000,
+    "open": 0.09103,
+    "high": 0.09192,
+    "low": 0.09097,
+    "close": 0.09175,
+    "volume": 2664,
+    "turnover": 243.08465
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776027600000,
+    "open": 0.09175,
+    "high": 0.09175,
+    "low": 0.09133,
+    "close": 0.09141,
+    "volume": 1361,
+    "turnover": 124.58707
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776031200000,
+    "open": 0.09141,
+    "high": 0.09157,
+    "low": 0.09076,
+    "close": 0.09133,
+    "volume": 5719,
+    "turnover": 521.05331
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776034800000,
+    "open": 0.09133,
+    "high": 0.09133,
+    "low": 0.09061,
+    "close": 0.09115,
+    "volume": 1631,
+    "turnover": 148.44057
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776038400000,
+    "open": 0.09115,
+    "high": 0.09171,
+    "low": 0.0909,
+    "close": 0.09141,
+    "volume": 1539,
+    "turnover": 140.61559
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776042000000,
+    "open": 0.09141,
+    "high": 0.09175,
+    "low": 0.09116,
+    "close": 0.09173,
+    "volume": 7255,
+    "turnover": 663.04854
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776045600000,
+    "open": 0.09173,
+    "high": 0.09175,
+    "low": 0.09112,
+    "close": 0.09112,
+    "volume": 823,
+    "turnover": 75.26072
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776049200000,
+    "open": 0.09112,
+    "high": 0.09155,
+    "low": 0.0911,
+    "close": 0.09141,
+    "volume": 11950,
+    "turnover": 1091.8004
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776052800000,
+    "open": 0.09141,
+    "high": 0.09147,
+    "low": 0.091,
+    "close": 0.09125,
+    "volume": 1954,
+    "turnover": 178.40826
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776056400000,
+    "open": 0.09125,
+    "high": 0.0916,
+    "low": 0.09095,
+    "close": 0.09134,
+    "volume": 2547,
+    "turnover": 232.28173
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776060000000,
+    "open": 0.09134,
+    "high": 0.09168,
+    "low": 0.09134,
+    "close": 0.09165,
+    "volume": 11131,
+    "turnover": 1020.15471
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776063600000,
+    "open": 0.09165,
+    "high": 0.09165,
+    "low": 0.09114,
+    "close": 0.09114,
+    "volume": 11005,
+    "turnover": 1006.20845
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776067200000,
+    "open": 0.09114,
+    "high": 0.09131,
+    "low": 0.09089,
+    "close": 0.09122,
+    "volume": 1262,
+    "turnover": 114.91479
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776070800000,
+    "open": 0.09122,
+    "high": 0.09148,
+    "low": 0.09101,
+    "close": 0.09128,
+    "volume": 1220,
+    "turnover": 111.33222
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776074400000,
+    "open": 0.09128,
+    "high": 0.09128,
+    "low": 0.09094,
+    "close": 0.09094,
+    "volume": 1694,
+    "turnover": 154.28611
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776078000000,
+    "open": 0.09094,
+    "high": 0.09124,
+    "low": 0.09094,
+    "close": 0.09124,
+    "volume": 1427,
+    "turnover": 130.04087
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776081600000,
+    "open": 0.09124,
+    "high": 0.09175,
+    "low": 0.091,
+    "close": 0.09174,
+    "volume": 2123,
+    "turnover": 193.82957
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776085200000,
+    "open": 0.09174,
+    "high": 0.09211,
+    "low": 0.09113,
+    "close": 0.09211,
+    "volume": 5629,
+    "turnover": 515.06407
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776088800000,
+    "open": 0.09211,
+    "high": 0.0926,
+    "low": 0.09211,
+    "close": 0.0926,
+    "volume": 1080,
+    "turnover": 100.008
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776092400000,
+    "open": 0.0926,
+    "high": 0.0926,
+    "low": 0.09203,
+    "close": 0.09203,
+    "volume": 350,
+    "turnover": 32.25606
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776096000000,
+    "open": 0.09203,
+    "high": 0.09203,
+    "low": 0.0918,
+    "close": 0.09188,
+    "volume": 2384,
+    "turnover": 218.95472
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776099600000,
+    "open": 0.09188,
+    "high": 0.09225,
+    "low": 0.09188,
+    "close": 0.09198,
+    "volume": 6105,
+    "turnover": 561.59545
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776103200000,
+    "open": 0.09198,
+    "high": 0.09198,
+    "low": 0.0915,
+    "close": 0.09172,
+    "volume": 10719,
+    "turnover": 983.73987
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776106800000,
+    "open": 0.09172,
+    "high": 0.09308,
+    "low": 0.09172,
+    "close": 0.09308,
+    "volume": 10744,
+    "turnover": 1000.05152
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776110400000,
+    "open": 0.09308,
+    "high": 0.09308,
+    "low": 0.09286,
+    "close": 0.09291,
+    "volume": 499,
+    "turnover": 46.35849
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776114000000,
+    "open": 0.09291,
+    "high": 0.09309,
+    "low": 0.09285,
+    "close": 0.09309,
+    "volume": 4577,
+    "turnover": 425.70695
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776117600000,
+    "open": 0.09309,
+    "high": 0.09443,
+    "low": 0.09303,
+    "close": 0.09436,
+    "volume": 23115,
+    "turnover": 2169.3791
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776121200000,
+    "open": 0.09436,
+    "high": 0.09445,
+    "low": 0.0939,
+    "close": 0.09445,
+    "volume": 392,
+    "turnover": 36.91937
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776124800000,
+    "open": 0.09445,
+    "high": 0.09445,
+    "low": 0.09359,
+    "close": 0.09411,
+    "volume": 2065,
+    "turnover": 194.17479
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776128400000,
+    "open": 0.09411,
+    "high": 0.09411,
+    "low": 0.09342,
+    "close": 0.09343,
+    "volume": 6955,
+    "turnover": 649.76823
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776132000000,
+    "open": 0.09343,
+    "high": 0.09403,
+    "low": 0.09343,
+    "close": 0.09393,
+    "volume": 11380,
+    "turnover": 1069.9151
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776135600000,
+    "open": 0.09393,
+    "high": 0.09393,
+    "low": 0.09393,
+    "close": 0.09393,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776139200000,
+    "open": 0.09393,
+    "high": 0.09393,
+    "low": 0.0939,
+    "close": 0.0939,
+    "volume": 3310,
+    "turnover": 310.809
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776142800000,
+    "open": 0.0939,
+    "high": 0.0939,
+    "low": 0.0939,
+    "close": 0.0939,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776146400000,
+    "open": 0.0939,
+    "high": 0.0939,
+    "low": 0.0939,
+    "close": 0.0939,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776150000000,
+    "open": 0.0939,
+    "high": 0.0939,
+    "low": 0.0939,
+    "close": 0.0939,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776153600000,
+    "open": 0.0939,
+    "high": 0.09466,
+    "low": 0.0939,
+    "close": 0.09464,
+    "volume": 39991,
+    "turnover": 3781.89563
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776157200000,
+    "open": 0.09464,
+    "high": 0.09481,
+    "low": 0.09464,
+    "close": 0.09469,
+    "volume": 13204,
+    "turnover": 1251.02819
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776160800000,
+    "open": 0.09469,
+    "high": 0.09469,
+    "low": 0.09446,
+    "close": 0.09446,
+    "volume": 108,
+    "turnover": 10.20168
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776164400000,
+    "open": 0.09446,
+    "high": 0.09581,
+    "low": 0.09416,
+    "close": 0.09451,
+    "volume": 37075,
+    "turnover": 3526.47787
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776168000000,
+    "open": 0.09451,
+    "high": 0.09451,
+    "low": 0.09407,
+    "close": 0.09407,
+    "volume": 1723,
+    "turnover": 162.08261
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776171600000,
+    "open": 0.09407,
+    "high": 0.09733,
+    "low": 0.09407,
+    "close": 0.09727,
+    "volume": 54370,
+    "turnover": 5255.98589
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776175200000,
+    "open": 0.09727,
+    "high": 0.09795,
+    "low": 0.09623,
+    "close": 0.09657,
+    "volume": 50708,
+    "turnover": 4936.31964
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776178800000,
+    "open": 0.09657,
+    "high": 0.09657,
+    "low": 0.09575,
+    "close": 0.09581,
+    "volume": 16506,
+    "turnover": 1581.53443
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776182400000,
+    "open": 0.09581,
+    "high": 0.09594,
+    "low": 0.09581,
+    "close": 0.09594,
+    "volume": 10424,
+    "turnover": 1000.07856
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776186000000,
+    "open": 0.09594,
+    "high": 0.09594,
+    "low": 0.09447,
+    "close": 0.09447,
+    "volume": 366,
+    "turnover": 34.59285
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776189600000,
+    "open": 0.09447,
+    "high": 0.09447,
+    "low": 0.09298,
+    "close": 0.09341,
+    "volume": 2571,
+    "turnover": 240.16345
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776193200000,
+    "open": 0.09341,
+    "high": 0.0935,
+    "low": 0.09272,
+    "close": 0.09303,
+    "volume": 8622,
+    "turnover": 801.99791
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776196800000,
+    "open": 0.09303,
+    "high": 0.09322,
+    "low": 0.09272,
+    "close": 0.09292,
+    "volume": 408,
+    "turnover": 37.92586
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776200400000,
+    "open": 0.09292,
+    "high": 0.09322,
+    "low": 0.09292,
+    "close": 0.09322,
+    "volume": 1723,
+    "turnover": 160.61806
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776204000000,
+    "open": 0.09322,
+    "high": 0.09322,
+    "low": 0.09322,
+    "close": 0.09322,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776207600000,
+    "open": 0.09322,
+    "high": 0.09322,
+    "low": 0.09318,
+    "close": 0.09318,
+    "volume": 108,
+    "turnover": 10.06344
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776211200000,
+    "open": 0.09318,
+    "high": 0.09318,
+    "low": 0.09318,
+    "close": 0.09318,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776214800000,
+    "open": 0.09318,
+    "high": 0.09384,
+    "low": 0.09318,
+    "close": 0.09351,
+    "volume": 148955,
+    "turnover": 13965.11824
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776218400000,
+    "open": 0.09351,
+    "high": 0.09388,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 661,
+    "turnover": 61.80952
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776222000000,
+    "open": 0.09334,
+    "high": 0.09334,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776225600000,
+    "open": 0.09334,
+    "high": 0.09334,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776229200000,
+    "open": 0.09334,
+    "high": 0.09334,
+    "low": 0.09334,
+    "close": 0.09334,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776232800000,
+    "open": 0.09334,
+    "high": 0.09358,
+    "low": 0.09334,
+    "close": 0.09344,
+    "volume": 11374,
+    "turnover": 1063.67069
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776236400000,
+    "open": 0.09344,
+    "high": 0.09344,
+    "low": 0.09306,
+    "close": 0.09306,
+    "volume": 778,
+    "turnover": 72.40068
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776240000000,
+    "open": 0.09306,
+    "high": 0.09306,
+    "low": 0.09306,
+    "close": 0.09306,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776243600000,
+    "open": 0.09306,
+    "high": 0.09306,
+    "low": 0.09306,
+    "close": 0.09306,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776247200000,
+    "open": 0.09306,
+    "high": 0.09306,
+    "low": 0.09306,
+    "close": 0.09306,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776250800000,
+    "open": 0.09306,
+    "high": 0.094,
+    "low": 0.09306,
+    "close": 0.094,
+    "volume": 15756,
+    "turnover": 1480.38005
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776254400000,
+    "open": 0.094,
+    "high": 0.0942,
+    "low": 0.09359,
+    "close": 0.09373,
+    "volume": 1398,
+    "turnover": 131.25324
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776258000000,
+    "open": 0.09373,
+    "high": 0.09406,
+    "low": 0.09346,
+    "close": 0.09395,
+    "volume": 2846,
+    "turnover": 266.32048
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776261600000,
+    "open": 0.09395,
+    "high": 0.09455,
+    "low": 0.09347,
+    "close": 0.09455,
+    "volume": 1456,
+    "turnover": 136.90825
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776265200000,
+    "open": 0.09455,
+    "high": 0.09455,
+    "low": 0.09344,
+    "close": 0.09368,
+    "volume": 2374,
+    "turnover": 222.61521
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776268800000,
+    "open": 0.09368,
+    "high": 0.09489,
+    "low": 0.09368,
+    "close": 0.09489,
+    "volume": 873,
+    "turnover": 82.52698
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776272400000,
+    "open": 0.09489,
+    "high": 0.09559,
+    "low": 0.09481,
+    "close": 0.09481,
+    "volume": 376,
+    "turnover": 35.85804
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776276000000,
+    "open": 0.09481,
+    "high": 0.09571,
+    "low": 0.09481,
+    "close": 0.09571,
+    "volume": 112,
+    "turnover": 10.7089
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776279600000,
+    "open": 0.09571,
+    "high": 0.09715,
+    "low": 0.09571,
+    "close": 0.09677,
+    "volume": 222,
+    "turnover": 21.5223
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776283200000,
+    "open": 0.09677,
+    "high": 0.09677,
+    "low": 0.09543,
+    "close": 0.09543,
+    "volume": 254,
+    "turnover": 24.24283
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776286800000,
+    "open": 0.09543,
+    "high": 0.09577,
+    "low": 0.09493,
+    "close": 0.09577,
+    "volume": 185,
+    "turnover": 17.65333
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776290400000,
+    "open": 0.09577,
+    "high": 0.09577,
+    "low": 0.09556,
+    "close": 0.09556,
+    "volume": 200,
+    "turnover": 19.112
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776294000000,
+    "open": 0.09556,
+    "high": 0.09556,
+    "low": 0.09465,
+    "close": 0.0952,
+    "volume": 230,
+    "turnover": 21.83919
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776297600000,
+    "open": 0.0952,
+    "high": 0.0952,
+    "low": 0.0952,
+    "close": 0.0952,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776301200000,
+    "open": 0.0952,
+    "high": 0.0952,
+    "low": 0.0952,
+    "close": 0.0952,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776304800000,
+    "open": 0.0952,
+    "high": 0.09665,
+    "low": 0.0952,
+    "close": 0.09665,
+    "volume": 108,
+    "turnover": 10.38414
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776308400000,
+    "open": 0.09665,
+    "high": 0.09784,
+    "low": 0.09665,
+    "close": 0.09784,
+    "volume": 516,
+    "turnover": 50.16844
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776312000000,
+    "open": 0.09784,
+    "high": 0.09829,
+    "low": 0.09709,
+    "close": 0.09731,
+    "volume": 1282,
+    "turnover": 125.56184
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776315600000,
+    "open": 0.09731,
+    "high": 0.09731,
+    "low": 0.09697,
+    "close": 0.09697,
+    "volume": 52,
+    "turnover": 5.04244
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776319200000,
+    "open": 0.09697,
+    "high": 0.09697,
+    "low": 0.09697,
+    "close": 0.09697,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776322800000,
+    "open": 0.09697,
+    "high": 0.09697,
+    "low": 0.09693,
+    "close": 0.09693,
+    "volume": 3012,
+    "turnover": 291.95316
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776326400000,
+    "open": 0.09693,
+    "high": 0.09693,
+    "low": 0.09637,
+    "close": 0.09637,
+    "volume": 85865,
+    "turnover": 8274.81865
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776330000000,
+    "open": 0.09637,
+    "high": 0.09678,
+    "low": 0.09632,
+    "close": 0.09632,
+    "volume": 3402,
+    "turnover": 328.77921
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776333600000,
+    "open": 0.09632,
+    "high": 0.09632,
+    "low": 0.09582,
+    "close": 0.09619,
+    "volume": 65319,
+    "turnover": 6281.87577
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776337200000,
+    "open": 0.09619,
+    "high": 0.09671,
+    "low": 0.09599,
+    "close": 0.09671,
+    "volume": 83212,
+    "turnover": 8047.39508
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776340800000,
+    "open": 0.09671,
+    "high": 0.09757,
+    "low": 0.09671,
+    "close": 0.09704,
+    "volume": 80685,
+    "turnover": 7852.25515
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776344400000,
+    "open": 0.09704,
+    "high": 0.09791,
+    "low": 0.09563,
+    "close": 0.09563,
+    "volume": 81058,
+    "turnover": 7880.55277
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776348000000,
+    "open": 0.09563,
+    "high": 0.09603,
+    "low": 0.09497,
+    "close": 0.09574,
+    "volume": 217090,
+    "turnover": 20721.23715
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776351600000,
+    "open": 0.09574,
+    "high": 0.09759,
+    "low": 0.09574,
+    "close": 0.09759,
+    "volume": 137663,
+    "turnover": 13295.07632
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776355200000,
+    "open": 0.09759,
+    "high": 0.09887,
+    "low": 0.09672,
+    "close": 0.09742,
+    "volume": 146075,
+    "turnover": 14259.77829
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776358800000,
+    "open": 0.09742,
+    "high": 0.09829,
+    "low": 0.09729,
+    "close": 0.09777,
+    "volume": 299,
+    "turnover": 29.28223
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776362400000,
+    "open": 0.09777,
+    "high": 0.10015,
+    "low": 0.09777,
+    "close": 0.10015,
+    "volume": 127507,
+    "turnover": 12637.63323
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776366000000,
+    "open": 0.10015,
+    "high": 0.10015,
+    "low": 0.09972,
+    "close": 0.09972,
+    "volume": 213,
+    "turnover": 21.24198
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776369600000,
+    "open": 0.09972,
+    "high": 0.09995,
+    "low": 0.09844,
+    "close": 0.0991,
+    "volume": 1489,
+    "turnover": 147.31467
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776373200000,
+    "open": 0.0991,
+    "high": 0.09951,
+    "low": 0.09862,
+    "close": 0.09898,
+    "volume": 410524,
+    "turnover": 40693.40565
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776376800000,
+    "open": 0.09898,
+    "high": 0.09968,
+    "low": 0.09898,
+    "close": 0.09923,
+    "volume": 1013,
+    "turnover": 100.57396
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776380400000,
+    "open": 0.09923,
+    "high": 0.09964,
+    "low": 0.09923,
+    "close": 0.09964,
+    "volume": 5158,
+    "turnover": 513.89692
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776384000000,
+    "open": 0.09964,
+    "high": 0.09964,
+    "low": 0.09898,
+    "close": 0.09935,
+    "volume": 75873,
+    "turnover": 7510.33646
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776387600000,
+    "open": 0.09935,
+    "high": 0.09994,
+    "low": 0.09845,
+    "close": 0.09845,
+    "volume": 139646,
+    "turnover": 13875.01523
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776391200000,
+    "open": 0.09845,
+    "high": 0.09845,
+    "low": 0.09784,
+    "close": 0.09784,
+    "volume": 224,
+    "turnover": 21.97094
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776394800000,
+    "open": 0.09784,
+    "high": 0.09812,
+    "low": 0.09784,
+    "close": 0.09811,
+    "volume": 48442,
+    "turnover": 4753.12552
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776398400000,
+    "open": 0.09811,
+    "high": 0.09811,
+    "low": 0.09784,
+    "close": 0.09799,
+    "volume": 520,
+    "turnover": 50.89125
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776402000000,
+    "open": 0.09799,
+    "high": 0.09799,
+    "low": 0.09799,
+    "close": 0.09799,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776405600000,
+    "open": 0.09799,
+    "high": 0.09799,
+    "low": 0.09799,
+    "close": 0.09799,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776409200000,
+    "open": 0.09799,
+    "high": 0.09884,
+    "low": 0.09799,
+    "close": 0.09851,
+    "volume": 105189,
+    "turnover": 10396.29908
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776412800000,
+    "open": 0.09851,
+    "high": 0.09856,
+    "low": 0.09838,
+    "close": 0.09856,
+    "volume": 79125,
+    "turnover": 7784.38509
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776416400000,
+    "open": 0.09856,
+    "high": 0.09909,
+    "low": 0.09856,
+    "close": 0.09909,
+    "volume": 1612,
+    "turnover": 159.14514
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776420000000,
+    "open": 0.09909,
+    "high": 0.09909,
+    "low": 0.09847,
+    "close": 0.09847,
+    "volume": 4661,
+    "turnover": 460.35377
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776423600000,
+    "open": 0.09847,
+    "high": 0.0992,
+    "low": 0.09847,
+    "close": 0.0992,
+    "volume": 70379,
+    "turnover": 6981.51584
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776427200000,
+    "open": 0.0992,
+    "high": 0.10048,
+    "low": 0.0992,
+    "close": 0.10013,
+    "volume": 262585,
+    "turnover": 26274.59969
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776430800000,
+    "open": 0.10013,
+    "high": 0.10193,
+    "low": 0.10013,
+    "close": 0.1015,
+    "volume": 394379,
+    "turnover": 39896.99516
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776434400000,
+    "open": 0.1015,
+    "high": 0.10176,
+    "low": 0.10085,
+    "close": 0.10167,
+    "volume": 240212,
+    "turnover": 24344.78994
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776438000000,
+    "open": 0.10167,
+    "high": 0.10174,
+    "low": 0.10027,
+    "close": 0.10072,
+    "volume": 289197,
+    "turnover": 29240.49165
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776441600000,
+    "open": 0.10072,
+    "high": 0.1026,
+    "low": 0.10072,
+    "close": 0.10215,
+    "volume": 63264,
+    "turnover": 6429.28175
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776445200000,
+    "open": 0.10215,
+    "high": 0.10222,
+    "low": 0.10067,
+    "close": 0.10156,
+    "volume": 134100,
+    "turnover": 13673.58021
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776448800000,
+    "open": 0.10156,
+    "high": 0.10156,
+    "low": 0.10047,
+    "close": 0.10047,
+    "volume": 1224,
+    "turnover": 123.60074
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776452400000,
+    "open": 0.10047,
+    "high": 0.10076,
+    "low": 0.10047,
+    "close": 0.10055,
+    "volume": 248,
+    "turnover": 24.95274
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776456000000,
+    "open": 0.10055,
+    "high": 0.1007,
+    "low": 0.09979,
+    "close": 0.1007,
+    "volume": 26227,
+    "turnover": 2627.57849
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776459600000,
+    "open": 0.1007,
+    "high": 0.1007,
+    "low": 0.10063,
+    "close": 0.10063,
+    "volume": 172,
+    "turnover": 17.30836
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776463200000,
+    "open": 0.10063,
+    "high": 0.10063,
+    "low": 0.10063,
+    "close": 0.10063,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776466800000,
+    "open": 0.10063,
+    "high": 0.10063,
+    "low": 0.09934,
+    "close": 0.09949,
+    "volume": 30816,
+    "turnover": 3061.98025
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776470400000,
+    "open": 0.09949,
+    "high": 0.09972,
+    "low": 0.09949,
+    "close": 0.09972,
+    "volume": 500,
+    "turnover": 49.86
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776474000000,
+    "open": 0.09972,
+    "high": 0.09976,
+    "low": 0.09967,
+    "close": 0.09976,
+    "volume": 363,
+    "turnover": 36.1857
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776477600000,
+    "open": 0.09976,
+    "high": 0.09976,
+    "low": 0.09976,
+    "close": 0.09976,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776481200000,
+    "open": 0.09976,
+    "high": 0.09976,
+    "low": 0.09865,
+    "close": 0.0989,
+    "volume": 177538,
+    "turnover": 17541.52626
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776484800000,
+    "open": 0.0989,
+    "high": 0.09905,
+    "low": 0.09867,
+    "close": 0.09867,
+    "volume": 101720,
+    "turnover": 10043.81792
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776488400000,
+    "open": 0.09867,
+    "high": 0.09916,
+    "low": 0.09867,
+    "close": 0.09916,
+    "volume": 175,
+    "turnover": 17.3034
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776492000000,
+    "open": 0.09916,
+    "high": 0.09931,
+    "low": 0.09916,
+    "close": 0.09926,
+    "volume": 220,
+    "turnover": 21.84208
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776495600000,
+    "open": 0.09926,
+    "high": 0.09926,
+    "low": 0.09926,
+    "close": 0.09926,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776499200000,
+    "open": 0.09926,
+    "high": 0.09926,
+    "low": 0.09713,
+    "close": 0.09725,
+    "volume": 308178,
+    "turnover": 30065.11054
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776502800000,
+    "open": 0.09725,
+    "high": 0.09747,
+    "low": 0.09705,
+    "close": 0.09737,
+    "volume": 152130,
+    "turnover": 14782.18943
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776506400000,
+    "open": 0.09737,
+    "high": 0.09737,
+    "low": 0.0966,
+    "close": 0.09707,
+    "volume": 36815,
+    "turnover": 3564.66255
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776510000000,
+    "open": 0.09707,
+    "high": 0.09707,
+    "low": 0.09601,
+    "close": 0.09601,
+    "volume": 11730,
+    "turnover": 1126.97266
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776513600000,
+    "open": 0.09601,
+    "high": 0.09646,
+    "low": 0.09601,
+    "close": 0.09639,
+    "volume": 77307,
+    "turnover": 7447.49014
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776517200000,
+    "open": 0.09639,
+    "high": 0.09639,
+    "low": 0.09618,
+    "close": 0.09618,
+    "volume": 177617,
+    "turnover": 17096.87689
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776520800000,
+    "open": 0.09618,
+    "high": 0.09649,
+    "low": 0.09618,
+    "close": 0.09649,
+    "volume": 5018,
+    "turnover": 484.18682
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776524400000,
+    "open": 0.09649,
+    "high": 0.09655,
+    "low": 0.09639,
+    "close": 0.09639,
+    "volume": 15169,
+    "turnover": 1464.08789
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776528000000,
+    "open": 0.09639,
+    "high": 0.0964,
+    "low": 0.09595,
+    "close": 0.09615,
+    "volume": 176788,
+    "turnover": 17004.505
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776531600000,
+    "open": 0.09615,
+    "high": 0.09615,
+    "low": 0.0958,
+    "close": 0.0958,
+    "volume": 192,
+    "turnover": 18.40611
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776535200000,
+    "open": 0.0958,
+    "high": 0.0958,
+    "low": 0.09518,
+    "close": 0.09518,
+    "volume": 4607,
+    "turnover": 438.49426
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776538800000,
+    "open": 0.09518,
+    "high": 0.09518,
+    "low": 0.09518,
+    "close": 0.09518,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776542400000,
+    "open": 0.09518,
+    "high": 0.09518,
+    "low": 0.09518,
+    "close": 0.09518,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776546000000,
+    "open": 0.09518,
+    "high": 0.09558,
+    "low": 0.09518,
+    "close": 0.09558,
+    "volume": 419,
+    "turnover": 40.04802
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776549600000,
+    "open": 0.09558,
+    "high": 0.09558,
+    "low": 0.09558,
+    "close": 0.09558,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776553200000,
+    "open": 0.09558,
+    "high": 0.09558,
+    "low": 0.09558,
+    "close": 0.09558,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776556800000,
+    "open": 0.09558,
+    "high": 0.09558,
+    "low": 0.09502,
+    "close": 0.09516,
+    "volume": 283,
+    "turnover": 26.89892
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776560400000,
+    "open": 0.09516,
+    "high": 0.09528,
+    "low": 0.09516,
+    "close": 0.09528,
+    "volume": 51382,
+    "turnover": 4895.67696
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776564000000,
+    "open": 0.09528,
+    "high": 0.09528,
+    "low": 0.09509,
+    "close": 0.09509,
+    "volume": 4629,
+    "turnover": 440.17161
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776567600000,
+    "open": 0.09509,
+    "high": 0.09526,
+    "low": 0.09509,
+    "close": 0.09526,
+    "volume": 10255,
+    "turnover": 975.47002
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776571200000,
+    "open": 0.09526,
+    "high": 0.09526,
+    "low": 0.09467,
+    "close": 0.09467,
+    "volume": 173124,
+    "turnover": 16403.57326
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776574800000,
+    "open": 0.09467,
+    "high": 0.09541,
+    "low": 0.09467,
+    "close": 0.09541,
+    "volume": 259,
+    "turnover": 24.71119
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776578400000,
+    "open": 0.09541,
+    "high": 0.09541,
+    "low": 0.09513,
+    "close": 0.09513,
+    "volume": 12094,
+    "turnover": 1150.50222
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776582000000,
+    "open": 0.09513,
+    "high": 0.09513,
+    "low": 0.09384,
+    "close": 0.09401,
+    "volume": 370386,
+    "turnover": 34894.48047
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776585600000,
+    "open": 0.09401,
+    "high": 0.09451,
+    "low": 0.09401,
+    "close": 0.09451,
+    "volume": 2954,
+    "turnover": 279.16946
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776589200000,
+    "open": 0.09451,
+    "high": 0.09451,
+    "low": 0.09451,
+    "close": 0.09451,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776592800000,
+    "open": 0.09451,
+    "high": 0.09451,
+    "low": 0.09385,
+    "close": 0.09385,
+    "volume": 435,
+    "turnover": 40.82475
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776596400000,
+    "open": 0.09385,
+    "high": 0.09515,
+    "low": 0.09385,
+    "close": 0.09482,
+    "volume": 182560,
+    "turnover": 17336.68925
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776600000000,
+    "open": 0.09482,
+    "high": 0.09524,
+    "low": 0.09482,
+    "close": 0.09524,
+    "volume": 595,
+    "turnover": 56.6678
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776603600000,
+    "open": 0.09524,
+    "high": 0.09661,
+    "low": 0.09487,
+    "close": 0.09514,
+    "volume": 343686,
+    "turnover": 32867.05841
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776607200000,
+    "open": 0.09514,
+    "high": 0.09615,
+    "low": 0.09514,
+    "close": 0.09615,
+    "volume": 46903,
+    "turnover": 4482.73845
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776610800000,
+    "open": 0.09615,
+    "high": 0.09615,
+    "low": 0.09471,
+    "close": 0.09561,
+    "volume": 30938,
+    "turnover": 2947.81432
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776614400000,
+    "open": 0.09561,
+    "high": 0.09561,
+    "low": 0.09467,
+    "close": 0.09467,
+    "volume": 170,
+    "turnover": 16.128
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776618000000,
+    "open": 0.09467,
+    "high": 0.09476,
+    "low": 0.09424,
+    "close": 0.09428,
+    "volume": 17314,
+    "turnover": 1636.16234
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776621600000,
+    "open": 0.09428,
+    "high": 0.09492,
+    "low": 0.09428,
+    "close": 0.09463,
+    "volume": 39930,
+    "turnover": 3779.38276
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776625200000,
+    "open": 0.09463,
+    "high": 0.09478,
+    "low": 0.09463,
+    "close": 0.09478,
+    "volume": 1955,
+    "turnover": 185.25686
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776628800000,
+    "open": 0.09478,
+    "high": 0.09478,
+    "low": 0.09478,
+    "close": 0.09478,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776632400000,
+    "open": 0.09478,
+    "high": 0.09478,
+    "low": 0.09478,
+    "close": 0.09478,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776636000000,
+    "open": 0.09478,
+    "high": 0.09478,
+    "low": 0.09313,
+    "close": 0.09313,
+    "volume": 164388,
+    "turnover": 15329.64257
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776639600000,
+    "open": 0.09313,
+    "high": 0.09313,
+    "low": 0.09313,
+    "close": 0.09313,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776643200000,
+    "open": 0.09313,
+    "high": 0.0942,
+    "low": 0.09313,
+    "close": 0.09416,
+    "volume": 104330,
+    "turnover": 9816.82396
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776646800000,
+    "open": 0.09416,
+    "high": 0.09416,
+    "low": 0.09416,
+    "close": 0.09416,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776650400000,
+    "open": 0.09416,
+    "high": 0.09416,
+    "low": 0.09416,
+    "close": 0.09416,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776654000000,
+    "open": 0.09416,
+    "high": 0.09416,
+    "low": 0.09416,
+    "close": 0.09416,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776657600000,
+    "open": 0.09416,
+    "high": 0.09416,
+    "low": 0.09416,
+    "close": 0.09416,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776661200000,
+    "open": 0.09416,
+    "high": 0.09483,
+    "low": 0.09397,
+    "close": 0.09397,
+    "volume": 85731,
+    "turnover": 8129.77011
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776664800000,
+    "open": 0.09397,
+    "high": 0.09448,
+    "low": 0.09397,
+    "close": 0.09421,
+    "volume": 66584,
+    "turnover": 6290.74996
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776668400000,
+    "open": 0.09421,
+    "high": 0.09576,
+    "low": 0.09421,
+    "close": 0.09485,
+    "volume": 632,
+    "turnover": 60.31061
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776672000000,
+    "open": 0.09485,
+    "high": 0.09485,
+    "low": 0.09485,
+    "close": 0.09485,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776675600000,
+    "open": 0.09485,
+    "high": 0.09485,
+    "low": 0.09481,
+    "close": 0.09485,
+    "volume": 2873,
+    "turnover": 272.48813
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776679200000,
+    "open": 0.09485,
+    "high": 0.09512,
+    "low": 0.09485,
+    "close": 0.09512,
+    "volume": 2475,
+    "turnover": 235.422
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776682800000,
+    "open": 0.09512,
+    "high": 0.09512,
+    "low": 0.09512,
+    "close": 0.09512,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776686400000,
+    "open": 0.09512,
+    "high": 0.09524,
+    "low": 0.09471,
+    "close": 0.09524,
+    "volume": 51189,
+    "turnover": 4874.92091
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776690000000,
+    "open": 0.09524,
+    "high": 0.09546,
+    "low": 0.09524,
+    "close": 0.09546,
+    "volume": 61,
+    "turnover": 5.82306
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776693600000,
+    "open": 0.09546,
+    "high": 0.09546,
+    "low": 0.09462,
+    "close": 0.09462,
+    "volume": 585,
+    "turnover": 55.68068
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776697200000,
+    "open": 0.09462,
+    "high": 0.09582,
+    "low": 0.09462,
+    "close": 0.09517,
+    "volume": 194022,
+    "turnover": 18525.22219
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776700800000,
+    "open": 0.09517,
+    "high": 0.09524,
+    "low": 0.09472,
+    "close": 0.09472,
+    "volume": 297,
+    "turnover": 28.25872
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776704400000,
+    "open": 0.09472,
+    "high": 0.09563,
+    "low": 0.09472,
+    "close": 0.09511,
+    "volume": 86970,
+    "turnover": 8259.68051
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776708000000,
+    "open": 0.09511,
+    "high": 0.0964,
+    "low": 0.09511,
+    "close": 0.0964,
+    "volume": 108,
+    "turnover": 10.39014
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776711600000,
+    "open": 0.0964,
+    "high": 0.0964,
+    "low": 0.09566,
+    "close": 0.09573,
+    "volume": 454,
+    "turnover": 43.45803
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776715200000,
+    "open": 0.09573,
+    "high": 0.09573,
+    "low": 0.09573,
+    "close": 0.09573,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776718800000,
+    "open": 0.09573,
+    "high": 0.09663,
+    "low": 0.0957,
+    "close": 0.0957,
+    "volume": 3314,
+    "turnover": 317.75155
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776722400000,
+    "open": 0.0957,
+    "high": 0.09634,
+    "low": 0.0957,
+    "close": 0.09595,
+    "volume": 545,
+    "turnover": 52.36007
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776726000000,
+    "open": 0.09595,
+    "high": 0.09595,
+    "low": 0.09535,
+    "close": 0.09535,
+    "volume": 800,
+    "turnover": 76.43312
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776729600000,
+    "open": 0.09535,
+    "high": 0.09583,
+    "low": 0.09535,
+    "close": 0.09583,
+    "volume": 2922,
+    "turnover": 280.01526
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776733200000,
+    "open": 0.09583,
+    "high": 0.09583,
+    "low": 0.09583,
+    "close": 0.09583,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776736800000,
+    "open": 0.09583,
+    "high": 0.09583,
+    "low": 0.09583,
+    "close": 0.09583,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776740400000,
+    "open": 0.09583,
+    "high": 0.09583,
+    "low": 0.09515,
+    "close": 0.09533,
+    "volume": 120547,
+    "turnover": 11480.52561
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776744000000,
+    "open": 0.09533,
+    "high": 0.09567,
+    "low": 0.09533,
+    "close": 0.0956,
+    "volume": 73629,
+    "turnover": 7044.04251
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776747600000,
+    "open": 0.0956,
+    "high": 0.09568,
+    "low": 0.09542,
+    "close": 0.09568,
+    "volume": 22737,
+    "turnover": 2173.34141
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776751200000,
+    "open": 0.09568,
+    "high": 0.09568,
+    "low": 0.09568,
+    "close": 0.09568,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776754800000,
+    "open": 0.09568,
+    "high": 0.09576,
+    "low": 0.09555,
+    "close": 0.09576,
+    "volume": 755,
+    "turnover": 72.15243
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776758400000,
+    "open": 0.09576,
+    "high": 0.09647,
+    "low": 0.09559,
+    "close": 0.09559,
+    "volume": 95016,
+    "turnover": 9093.44463
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776762000000,
+    "open": 0.09559,
+    "high": 0.09639,
+    "low": 0.09547,
+    "close": 0.09639,
+    "volume": 4795,
+    "turnover": 458.56258
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776765600000,
+    "open": 0.09639,
+    "high": 0.09656,
+    "low": 0.09639,
+    "close": 0.09656,
+    "volume": 242,
+    "turnover": 23.34913
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776769200000,
+    "open": 0.09656,
+    "high": 0.09656,
+    "low": 0.09559,
+    "close": 0.09645,
+    "volume": 6192,
+    "turnover": 593.11032
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776772800000,
+    "open": 0.09645,
+    "high": 0.09645,
+    "low": 0.09492,
+    "close": 0.09565,
+    "volume": 984,
+    "turnover": 93.68414
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776776400000,
+    "open": 0.09565,
+    "high": 0.09599,
+    "low": 0.09513,
+    "close": 0.09586,
+    "volume": 1716,
+    "turnover": 163.84192
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776780000000,
+    "open": 0.09586,
+    "high": 0.09635,
+    "low": 0.0951,
+    "close": 0.09517,
+    "volume": 1436,
+    "turnover": 137.31361
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776783600000,
+    "open": 0.09517,
+    "high": 0.09589,
+    "low": 0.09465,
+    "close": 0.09481,
+    "volume": 4639,
+    "turnover": 443.47112
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776787200000,
+    "open": 0.09481,
+    "high": 0.09583,
+    "low": 0.09481,
+    "close": 0.09503,
+    "volume": 8188,
+    "turnover": 779.85331
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776790800000,
+    "open": 0.09503,
+    "high": 0.0953,
+    "low": 0.09397,
+    "close": 0.0953,
+    "volume": 266,
+    "turnover": 25.18862
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776794400000,
+    "open": 0.0953,
+    "high": 0.0953,
+    "low": 0.0953,
+    "close": 0.0953,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776798000000,
+    "open": 0.0953,
+    "high": 0.09554,
+    "low": 0.0941,
+    "close": 0.0941,
+    "volume": 168,
+    "turnover": 15.92608
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776801600000,
+    "open": 0.0941,
+    "high": 0.09553,
+    "low": 0.0941,
+    "close": 0.09478,
+    "volume": 187,
+    "turnover": 17.80871
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776805200000,
+    "open": 0.09478,
+    "high": 0.09478,
+    "low": 0.09478,
+    "close": 0.09478,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776808800000,
+    "open": 0.09478,
+    "high": 0.09478,
+    "low": 0.09478,
+    "close": 0.09478,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776812400000,
+    "open": 0.09478,
+    "high": 0.09585,
+    "low": 0.09478,
+    "close": 0.09585,
+    "volume": 233,
+    "turnover": 22.31289
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776816000000,
+    "open": 0.09585,
+    "high": 0.09599,
+    "low": 0.09533,
+    "close": 0.09533,
+    "volume": 129,
+    "turnover": 12.34179
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776819600000,
+    "open": 0.09533,
+    "high": 0.09533,
+    "low": 0.09515,
+    "close": 0.09515,
+    "volume": 68,
+    "turnover": 6.4702
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776823200000,
+    "open": 0.09515,
+    "high": 0.0971,
+    "low": 0.09515,
+    "close": 0.0971,
+    "volume": 1020,
+    "turnover": 98.53553
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776826800000,
+    "open": 0.0971,
+    "high": 0.09748,
+    "low": 0.09637,
+    "close": 0.09637,
+    "volume": 366,
+    "turnover": 35.48397
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776830400000,
+    "open": 0.09637,
+    "high": 0.0971,
+    "low": 0.0962,
+    "close": 0.09693,
+    "volume": 441,
+    "turnover": 42.63147
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776834000000,
+    "open": 0.09693,
+    "high": 0.09835,
+    "low": 0.09693,
+    "close": 0.09827,
+    "volume": 1368,
+    "turnover": 133.76145
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776837600000,
+    "open": 0.09827,
+    "high": 0.09838,
+    "low": 0.09718,
+    "close": 0.09838,
+    "volume": 551,
+    "turnover": 53.81924
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776841200000,
+    "open": 0.09838,
+    "high": 0.0995,
+    "low": 0.09721,
+    "close": 0.09764,
+    "volume": 5519,
+    "turnover": 542.31803
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776844800000,
+    "open": 0.09764,
+    "high": 0.09867,
+    "low": 0.09764,
+    "close": 0.09867,
+    "volume": 216,
+    "turnover": 21.2941
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776848400000,
+    "open": 0.09867,
+    "high": 0.09867,
+    "low": 0.09773,
+    "close": 0.09773,
+    "volume": 395,
+    "turnover": 38.77533
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776852000000,
+    "open": 0.09773,
+    "high": 0.09901,
+    "low": 0.09769,
+    "close": 0.09901,
+    "volume": 272,
+    "turnover": 26.80157
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776855600000,
+    "open": 0.09901,
+    "high": 0.09924,
+    "low": 0.09799,
+    "close": 0.09799,
+    "volume": 4466,
+    "turnover": 441.65149
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776859200000,
+    "open": 0.09799,
+    "high": 0.09799,
+    "low": 0.09764,
+    "close": 0.09764,
+    "volume": 180,
+    "turnover": 17.5781
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776862800000,
+    "open": 0.09764,
+    "high": 0.09883,
+    "low": 0.09764,
+    "close": 0.09883,
+    "volume": 191,
+    "turnover": 18.84986
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776866400000,
+    "open": 0.09883,
+    "high": 0.09883,
+    "low": 0.09883,
+    "close": 0.09883,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776870000000,
+    "open": 0.09883,
+    "high": 0.09884,
+    "low": 0.09771,
+    "close": 0.09884,
+    "volume": 8341,
+    "turnover": 818.51738
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776873600000,
+    "open": 0.09884,
+    "high": 0.09884,
+    "low": 0.09718,
+    "close": 0.09718,
+    "volume": 4078,
+    "turnover": 400.02924
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776877200000,
+    "open": 0.09718,
+    "high": 0.09803,
+    "low": 0.09718,
+    "close": 0.09802,
+    "volume": 197,
+    "turnover": 19.26494
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776880800000,
+    "open": 0.09802,
+    "high": 0.09802,
+    "low": 0.09802,
+    "close": 0.09802,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776884400000,
+    "open": 0.09802,
+    "high": 0.09802,
+    "low": 0.09648,
+    "close": 0.09716,
+    "volume": 1164,
+    "turnover": 112.62112
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776888000000,
+    "open": 0.09716,
+    "high": 0.09716,
+    "low": 0.09638,
+    "close": 0.09638,
+    "volume": 211,
+    "turnover": 20.33794
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776891600000,
+    "open": 0.09638,
+    "high": 0.09751,
+    "low": 0.09638,
+    "close": 0.09751,
+    "volume": 278,
+    "turnover": 27.06242
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776895200000,
+    "open": 0.09751,
+    "high": 0.09751,
+    "low": 0.09647,
+    "close": 0.09647,
+    "volume": 174,
+    "turnover": 16.80331
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776898800000,
+    "open": 0.09647,
+    "high": 0.09647,
+    "low": 0.0958,
+    "close": 0.0958,
+    "volume": 480,
+    "turnover": 46.0224
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776902400000,
+    "open": 0.0958,
+    "high": 0.09709,
+    "low": 0.0958,
+    "close": 0.09637,
+    "volume": 54158,
+    "turnover": 5222.66794
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776906000000,
+    "open": 0.09637,
+    "high": 0.09723,
+    "low": 0.09593,
+    "close": 0.09723,
+    "volume": 2035,
+    "turnover": 196.5981
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776909600000,
+    "open": 0.09723,
+    "high": 0.09723,
+    "low": 0.09587,
+    "close": 0.09587,
+    "volume": 1710,
+    "turnover": 164.27478
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776913200000,
+    "open": 0.09587,
+    "high": 0.09587,
+    "low": 0.09544,
+    "close": 0.09544,
+    "volume": 345,
+    "turnover": 32.97882
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776916800000,
+    "open": 0.09544,
+    "high": 0.09647,
+    "low": 0.09544,
+    "close": 0.09604,
+    "volume": 85721,
+    "turnover": 8243.05233
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776920400000,
+    "open": 0.09604,
+    "high": 0.0966,
+    "low": 0.09596,
+    "close": 0.09644,
+    "volume": 514,
+    "turnover": 49.51583
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776924000000,
+    "open": 0.09644,
+    "high": 0.09687,
+    "low": 0.09627,
+    "close": 0.09627,
+    "volume": 63812,
+    "turnover": 6155.51038
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776927600000,
+    "open": 0.09627,
+    "high": 0.0963,
+    "low": 0.09579,
+    "close": 0.09607,
+    "volume": 88240,
+    "turnover": 8472.10378
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776931200000,
+    "open": 0.09607,
+    "high": 0.0967,
+    "low": 0.09607,
+    "close": 0.09621,
+    "volume": 77171,
+    "turnover": 7435.70277
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776934800000,
+    "open": 0.09621,
+    "high": 0.09621,
+    "low": 0.09579,
+    "close": 0.09593,
+    "volume": 98606,
+    "turnover": 9451.52245
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776938400000,
+    "open": 0.09593,
+    "high": 0.09593,
+    "low": 0.09562,
+    "close": 0.09562,
+    "volume": 540,
+    "turnover": 51.68986
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776942000000,
+    "open": 0.09562,
+    "high": 0.09601,
+    "low": 0.09562,
+    "close": 0.09601,
+    "volume": 537,
+    "turnover": 51.55737
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776945600000,
+    "open": 0.09601,
+    "high": 0.09713,
+    "low": 0.09601,
+    "close": 0.09653,
+    "volume": 11770,
+    "turnover": 1138.2019
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776949200000,
+    "open": 0.09653,
+    "high": 0.09674,
+    "low": 0.09625,
+    "close": 0.09653,
+    "volume": 90113,
+    "turnover": 8673.82578
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776952800000,
+    "open": 0.09653,
+    "high": 0.09747,
+    "low": 0.09653,
+    "close": 0.09747,
+    "volume": 47908,
+    "turnover": 4650.35362
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776956400000,
+    "open": 0.09747,
+    "high": 0.09835,
+    "low": 0.0973,
+    "close": 0.09758,
+    "volume": 61184,
+    "turnover": 6007.58757
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776960000000,
+    "open": 0.09758,
+    "high": 0.09758,
+    "low": 0.09707,
+    "close": 0.09707,
+    "volume": 46727,
+    "turnover": 4556.94612
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776963600000,
+    "open": 0.09707,
+    "high": 0.09707,
+    "low": 0.09579,
+    "close": 0.09632,
+    "volume": 62724,
+    "turnover": 6034.04033
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776967200000,
+    "open": 0.09632,
+    "high": 0.0964,
+    "low": 0.09632,
+    "close": 0.0964,
+    "volume": 52,
+    "turnover": 5.0128
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776970800000,
+    "open": 0.0964,
+    "high": 0.09673,
+    "low": 0.09621,
+    "close": 0.09637,
+    "volume": 504,
+    "turnover": 48.6009
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776974400000,
+    "open": 0.09637,
+    "high": 0.09659,
+    "low": 0.09637,
+    "close": 0.09659,
+    "volume": 159,
+    "turnover": 15.35781
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776978000000,
+    "open": 0.09659,
+    "high": 0.09784,
+    "low": 0.09659,
+    "close": 0.09784,
+    "volume": 210,
+    "turnover": 20.50934
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776981600000,
+    "open": 0.09784,
+    "high": 0.09784,
+    "low": 0.09748,
+    "close": 0.09748,
+    "volume": 88,
+    "turnover": 8.57824
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776985200000,
+    "open": 0.09748,
+    "high": 0.09748,
+    "low": 0.09722,
+    "close": 0.09722,
+    "volume": 52,
+    "turnover": 5.05544
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776988800000,
+    "open": 0.09722,
+    "high": 0.09782,
+    "low": 0.09722,
+    "close": 0.09782,
+    "volume": 55,
+    "turnover": 5.3801
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776992400000,
+    "open": 0.09782,
+    "high": 0.09828,
+    "low": 0.09727,
+    "close": 0.09828,
+    "volume": 10860,
+    "turnover": 1060.35321
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776996000000,
+    "open": 0.09828,
+    "high": 0.09828,
+    "low": 0.09828,
+    "close": 0.09828,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1776999600000,
+    "open": 0.09828,
+    "high": 0.09828,
+    "low": 0.09726,
+    "close": 0.09726,
+    "volume": 105,
+    "turnover": 10.23191
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777003200000,
+    "open": 0.09726,
+    "high": 0.09726,
+    "low": 0.09721,
+    "close": 0.09721,
+    "volume": 341,
+    "turnover": 33.14861
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777006800000,
+    "open": 0.09721,
+    "high": 0.09766,
+    "low": 0.09721,
+    "close": 0.0974,
+    "volume": 55368,
+    "turnover": 5406.95848
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777010400000,
+    "open": 0.0974,
+    "high": 0.09787,
+    "low": 0.0974,
+    "close": 0.09787,
+    "volume": 1304,
+    "turnover": 127.03592
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777014000000,
+    "open": 0.09787,
+    "high": 0.09836,
+    "low": 0.09787,
+    "close": 0.09794,
+    "volume": 76667,
+    "turnover": 7509.32444
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777017600000,
+    "open": 0.09794,
+    "high": 0.09836,
+    "low": 0.09769,
+    "close": 0.09836,
+    "volume": 1034,
+    "turnover": 101.34577
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777021200000,
+    "open": 0.09836,
+    "high": 0.09836,
+    "low": 0.09717,
+    "close": 0.09717,
+    "volume": 95903,
+    "turnover": 9319.50336
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777024800000,
+    "open": 0.09717,
+    "high": 0.09826,
+    "low": 0.09717,
+    "close": 0.09826,
+    "volume": 18652,
+    "turnover": 1827.52358
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777028400000,
+    "open": 0.09826,
+    "high": 0.0991,
+    "low": 0.09826,
+    "close": 0.0991,
+    "volume": 254,
+    "turnover": 25.10209
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777032000000,
+    "open": 0.0991,
+    "high": 0.0991,
+    "low": 0.09816,
+    "close": 0.09816,
+    "volume": 4231,
+    "turnover": 416.03808
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777035600000,
+    "open": 0.09816,
+    "high": 0.09899,
+    "low": 0.09815,
+    "close": 0.09815,
+    "volume": 13429,
+    "turnover": 1321.42919
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777039200000,
+    "open": 0.09815,
+    "high": 0.09834,
+    "low": 0.09765,
+    "close": 0.09834,
+    "volume": 13038,
+    "turnover": 1273.20183
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777042800000,
+    "open": 0.09834,
+    "high": 0.0985,
+    "low": 0.0976,
+    "close": 0.09849,
+    "volume": 24827,
+    "turnover": 2442.2241
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777046400000,
+    "open": 0.09849,
+    "high": 0.09854,
+    "low": 0.09849,
+    "close": 0.09854,
+    "volume": 2297,
+    "turnover": 226.34638
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777050000000,
+    "open": 0.09854,
+    "high": 0.09854,
+    "low": 0.09842,
+    "close": 0.09842,
+    "volume": 505,
+    "turnover": 49.7021
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777053600000,
+    "open": 0.09842,
+    "high": 0.09842,
+    "low": 0.09842,
+    "close": 0.09842,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777057200000,
+    "open": 0.09842,
+    "high": 0.09883,
+    "low": 0.09842,
+    "close": 0.09883,
+    "volume": 3150,
+    "turnover": 310.56231
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777060800000,
+    "open": 0.09883,
+    "high": 0.09928,
+    "low": 0.09836,
+    "close": 0.09928,
+    "volume": 7975,
+    "turnover": 788.89849
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777064400000,
+    "open": 0.09928,
+    "high": 0.09977,
+    "low": 0.09875,
+    "close": 0.09875,
+    "volume": 130362,
+    "turnover": 12960.19048
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777068000000,
+    "open": 0.09875,
+    "high": 0.09875,
+    "low": 0.09804,
+    "close": 0.09804,
+    "volume": 264,
+    "turnover": 25.97993
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777071600000,
+    "open": 0.09804,
+    "high": 0.0988,
+    "low": 0.09804,
+    "close": 0.0988,
+    "volume": 224,
+    "turnover": 22.0683
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777075200000,
+    "open": 0.0988,
+    "high": 0.0988,
+    "low": 0.09839,
+    "close": 0.09839,
+    "volume": 55,
+    "turnover": 5.41145
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777078800000,
+    "open": 0.09839,
+    "high": 0.09936,
+    "low": 0.09839,
+    "close": 0.09856,
+    "volume": 147571,
+    "turnover": 14650.82671
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777082400000,
+    "open": 0.09856,
+    "high": 0.09899,
+    "low": 0.09835,
+    "close": 0.09859,
+    "volume": 93022,
+    "turnover": 9175.98075
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777086000000,
+    "open": 0.09859,
+    "high": 0.09917,
+    "low": 0.09859,
+    "close": 0.09917,
+    "volume": 124,
+    "turnover": 12.28548
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777089600000,
+    "open": 0.09917,
+    "high": 0.09917,
+    "low": 0.09878,
+    "close": 0.09878,
+    "volume": 60,
+    "turnover": 5.9268
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777093200000,
+    "open": 0.09878,
+    "high": 0.09899,
+    "low": 0.09861,
+    "close": 0.09863,
+    "volume": 277,
+    "turnover": 27.37661
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777096800000,
+    "open": 0.09863,
+    "high": 0.099,
+    "low": 0.09832,
+    "close": 0.09891,
+    "volume": 17226,
+    "turnover": 1697.50707
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777100400000,
+    "open": 0.09891,
+    "high": 0.09958,
+    "low": 0.09847,
+    "close": 0.09859,
+    "volume": 76842,
+    "turnover": 7623.2553
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777104000000,
+    "open": 0.09859,
+    "high": 0.09901,
+    "low": 0.09859,
+    "close": 0.09896,
+    "volume": 71714,
+    "turnover": 7078.42399
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777107600000,
+    "open": 0.09896,
+    "high": 0.099,
+    "low": 0.09859,
+    "close": 0.099,
+    "volume": 1402,
+    "turnover": 138.73915
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777111200000,
+    "open": 0.099,
+    "high": 0.099,
+    "low": 0.0987,
+    "close": 0.0987,
+    "volume": 338,
+    "turnover": 33.39307
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777114800000,
+    "open": 0.0987,
+    "high": 0.0987,
+    "low": 0.09837,
+    "close": 0.09837,
+    "volume": 628,
+    "turnover": 61.92078
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777118400000,
+    "open": 0.09837,
+    "high": 0.09837,
+    "low": 0.09803,
+    "close": 0.09803,
+    "volume": 54,
+    "turnover": 5.29362
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777122000000,
+    "open": 0.09803,
+    "high": 0.09873,
+    "low": 0.09803,
+    "close": 0.09873,
+    "volume": 6734,
+    "turnover": 664.18111
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777125600000,
+    "open": 0.09873,
+    "high": 0.09892,
+    "low": 0.09873,
+    "close": 0.09892,
+    "volume": 60,
+    "turnover": 5.9352
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777129200000,
+    "open": 0.09892,
+    "high": 0.09902,
+    "low": 0.09839,
+    "close": 0.09839,
+    "volume": 10466,
+    "turnover": 1035.9531
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777132800000,
+    "open": 0.09839,
+    "high": 0.09839,
+    "low": 0.09789,
+    "close": 0.09829,
+    "volume": 1256,
+    "turnover": 122.99403
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777136400000,
+    "open": 0.09829,
+    "high": 0.09829,
+    "low": 0.09814,
+    "close": 0.09814,
+    "volume": 76934,
+    "turnover": 7550.30276
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777140000000,
+    "open": 0.09814,
+    "high": 0.09815,
+    "low": 0.09776,
+    "close": 0.09789,
+    "volume": 86247,
+    "turnover": 8433.07481
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777143600000,
+    "open": 0.09789,
+    "high": 0.09796,
+    "low": 0.09789,
+    "close": 0.09796,
+    "volume": 147,
+    "turnover": 14.40012
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777147200000,
+    "open": 0.09796,
+    "high": 0.09796,
+    "low": 0.09795,
+    "close": 0.09795,
+    "volume": 255,
+    "turnover": 24.97725
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777150800000,
+    "open": 0.09795,
+    "high": 0.09795,
+    "low": 0.09795,
+    "close": 0.09795,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777154400000,
+    "open": 0.09795,
+    "high": 0.09795,
+    "low": 0.09795,
+    "close": 0.09795,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777158000000,
+    "open": 0.09795,
+    "high": 0.09837,
+    "low": 0.09795,
+    "close": 0.0983,
+    "volume": 1504,
+    "turnover": 147.81151
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777161600000,
+    "open": 0.0983,
+    "high": 0.0983,
+    "low": 0.0983,
+    "close": 0.0983,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777165200000,
+    "open": 0.0983,
+    "high": 0.0983,
+    "low": 0.0983,
+    "close": 0.0983,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777168800000,
+    "open": 0.0983,
+    "high": 0.0983,
+    "low": 0.09796,
+    "close": 0.09814,
+    "volume": 71790,
+    "turnover": 7041.6161
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777172400000,
+    "open": 0.09814,
+    "high": 0.09864,
+    "low": 0.09793,
+    "close": 0.09803,
+    "volume": 102315,
+    "turnover": 10069.16623
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777176000000,
+    "open": 0.09803,
+    "high": 0.09855,
+    "low": 0.09789,
+    "close": 0.09855,
+    "volume": 94412,
+    "turnover": 9254.15283
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777179600000,
+    "open": 0.09855,
+    "high": 0.09919,
+    "low": 0.09852,
+    "close": 0.09852,
+    "volume": 23317,
+    "turnover": 2304.92761
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777183200000,
+    "open": 0.09852,
+    "high": 0.09871,
+    "low": 0.09852,
+    "close": 0.09871,
+    "volume": 68,
+    "turnover": 6.71228
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777186800000,
+    "open": 0.09871,
+    "high": 0.09901,
+    "low": 0.09871,
+    "close": 0.09901,
+    "volume": 52,
+    "turnover": 5.14852
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777190400000,
+    "open": 0.09901,
+    "high": 0.09901,
+    "low": 0.09862,
+    "close": 0.09862,
+    "volume": 64,
+    "turnover": 6.31168
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777194000000,
+    "open": 0.09862,
+    "high": 0.09889,
+    "low": 0.09853,
+    "close": 0.09881,
+    "volume": 44533,
+    "turnover": 4394.24424
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777197600000,
+    "open": 0.09881,
+    "high": 0.09901,
+    "low": 0.09881,
+    "close": 0.09901,
+    "volume": 52,
+    "turnover": 5.14852
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777201200000,
+    "open": 0.09901,
+    "high": 0.09937,
+    "low": 0.09898,
+    "close": 0.09937,
+    "volume": 309,
+    "turnover": 30.63201
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777204800000,
+    "open": 0.09937,
+    "high": 0.09955,
+    "low": 0.09885,
+    "close": 0.09905,
+    "volume": 11491,
+    "turnover": 1140.17409
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777208400000,
+    "open": 0.09905,
+    "high": 0.09907,
+    "low": 0.09851,
+    "close": 0.09869,
+    "volume": 50536,
+    "turnover": 4979.82254
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777212000000,
+    "open": 0.09869,
+    "high": 0.09929,
+    "low": 0.09869,
+    "close": 0.09929,
+    "volume": 105,
+    "turnover": 10.41921
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777215600000,
+    "open": 0.09929,
+    "high": 0.09943,
+    "low": 0.09916,
+    "close": 0.09916,
+    "volume": 646,
+    "turnover": 64.08464
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777219200000,
+    "open": 0.09916,
+    "high": 0.09938,
+    "low": 0.09902,
+    "close": 0.09916,
+    "volume": 15331,
+    "turnover": 1520.09208
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777222800000,
+    "open": 0.09916,
+    "high": 0.09916,
+    "low": 0.0988,
+    "close": 0.09891,
+    "volume": 4930,
+    "turnover": 487.6626
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777226400000,
+    "open": 0.09891,
+    "high": 0.10058,
+    "low": 0.09891,
+    "close": 0.09943,
+    "volume": 252407,
+    "turnover": 25209.87342
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777230000000,
+    "open": 0.09943,
+    "high": 0.09987,
+    "low": 0.09937,
+    "close": 0.09937,
+    "volume": 43091,
+    "turnover": 4297.10391
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777233600000,
+    "open": 0.09937,
+    "high": 0.1,
+    "low": 0.09921,
+    "close": 0.09921,
+    "volume": 25936,
+    "turnover": 2591.33729
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777237200000,
+    "open": 0.09921,
+    "high": 0.0996,
+    "low": 0.0989,
+    "close": 0.09942,
+    "volume": 215299,
+    "turnover": 21392.75834
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777240800000,
+    "open": 0.09942,
+    "high": 0.0998,
+    "low": 0.09942,
+    "close": 0.0998,
+    "volume": 101,
+    "turnover": 10.0798
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777244400000,
+    "open": 0.0998,
+    "high": 0.0998,
+    "low": 0.09915,
+    "close": 0.09934,
+    "volume": 1406,
+    "turnover": 139.57097
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777248000000,
+    "open": 0.09934,
+    "high": 0.1001,
+    "low": 0.09934,
+    "close": 0.1001,
+    "volume": 65,
+    "turnover": 6.5065
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777251600000,
+    "open": 0.1001,
+    "high": 0.10058,
+    "low": 0.1001,
+    "close": 0.10021,
+    "volume": 9073,
+    "turnover": 912.53755
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777255200000,
+    "open": 0.10021,
+    "high": 0.10081,
+    "low": 0.10021,
+    "close": 0.10081,
+    "volume": 5324,
+    "turnover": 536.71244
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777258800000,
+    "open": 0.10081,
+    "high": 0.10081,
+    "low": 0.10081,
+    "close": 0.10081,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777262400000,
+    "open": 0.10081,
+    "high": 0.10081,
+    "low": 0.10081,
+    "close": 0.10081,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777266000000,
+    "open": 0.10081,
+    "high": 0.10081,
+    "low": 0.09857,
+    "close": 0.09875,
+    "volume": 7813,
+    "turnover": 770.42934
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777269600000,
+    "open": 0.09875,
+    "high": 0.09876,
+    "low": 0.09853,
+    "close": 0.09865,
+    "volume": 3564,
+    "turnover": 351.57501
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777273200000,
+    "open": 0.09865,
+    "high": 0.09865,
+    "low": 0.09821,
+    "close": 0.09821,
+    "volume": 1019,
+    "turnover": 100.07599
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777276800000,
+    "open": 0.09821,
+    "high": 0.09832,
+    "low": 0.09818,
+    "close": 0.09831,
+    "volume": 4887,
+    "turnover": 480.40755
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777280400000,
+    "open": 0.09831,
+    "high": 0.09857,
+    "low": 0.09831,
+    "close": 0.09847,
+    "volume": 26779,
+    "turnover": 2637.29934
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777284000000,
+    "open": 0.09847,
+    "high": 0.09855,
+    "low": 0.09837,
+    "close": 0.0984,
+    "volume": 83108,
+    "turnover": 8190.24303
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777287600000,
+    "open": 0.0984,
+    "high": 0.0984,
+    "low": 0.0984,
+    "close": 0.0984,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777291200000,
+    "open": 0.0984,
+    "high": 0.0984,
+    "low": 0.0984,
+    "close": 0.0984,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777294800000,
+    "open": 0.0984,
+    "high": 0.0984,
+    "low": 0.0984,
+    "close": 0.0984,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777298400000,
+    "open": 0.0984,
+    "high": 0.09943,
+    "low": 0.0984,
+    "close": 0.09899,
+    "volume": 70336,
+    "turnover": 6964.04102
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777302000000,
+    "open": 0.09899,
+    "high": 0.09915,
+    "low": 0.09731,
+    "close": 0.09731,
+    "volume": 184075,
+    "turnover": 18067.64412
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777305600000,
+    "open": 0.09731,
+    "high": 0.09793,
+    "low": 0.09731,
+    "close": 0.09787,
+    "volume": 82610,
+    "turnover": 8084.22543
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777309200000,
+    "open": 0.09787,
+    "high": 0.09787,
+    "low": 0.09787,
+    "close": 0.09787,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777312800000,
+    "open": 0.09787,
+    "high": 0.09813,
+    "low": 0.09787,
+    "close": 0.09813,
+    "volume": 56,
+    "turnover": 5.49528
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777316400000,
+    "open": 0.09813,
+    "high": 0.09813,
+    "low": 0.09813,
+    "close": 0.09813,
+    "volume": 946,
+    "turnover": 92.83098
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777320000000,
+    "open": 0.09813,
+    "high": 0.09813,
+    "low": 0.09813,
+    "close": 0.09813,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777323600000,
+    "open": 0.09813,
+    "high": 0.09813,
+    "low": 0.09813,
+    "close": 0.09813,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777327200000,
+    "open": 0.09813,
+    "high": 0.09892,
+    "low": 0.09813,
+    "close": 0.09892,
+    "volume": 6530,
+    "turnover": 644.12524
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777330800000,
+    "open": 0.09892,
+    "high": 0.09923,
+    "low": 0.09892,
+    "close": 0.0992,
+    "volume": 88239,
+    "turnover": 8755.94895
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777334400000,
+    "open": 0.0992,
+    "high": 0.0992,
+    "low": 0.0992,
+    "close": 0.0992,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777338000000,
+    "open": 0.0992,
+    "high": 0.0992,
+    "low": 0.0992,
+    "close": 0.0992,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777341600000,
+    "open": 0.0992,
+    "high": 0.0992,
+    "low": 0.0992,
+    "close": 0.0992,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777345200000,
+    "open": 0.0992,
+    "high": 0.0992,
+    "low": 0.0992,
+    "close": 0.0992,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777348800000,
+    "open": 0.0992,
+    "high": 0.10127,
+    "low": 0.0992,
+    "close": 0.09993,
+    "volume": 77026,
+    "turnover": 7759.79302
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777352400000,
+    "open": 0.09993,
+    "high": 0.10069,
+    "low": 0.09987,
+    "close": 0.10035,
+    "volume": 220594,
+    "turnover": 22127.98567
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777356000000,
+    "open": 0.10035,
+    "high": 0.10071,
+    "low": 0.09934,
+    "close": 0.09994,
+    "volume": 186610,
+    "turnover": 18689.3841
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777359600000,
+    "open": 0.09994,
+    "high": 0.09997,
+    "low": 0.09931,
+    "close": 0.09997,
+    "volume": 7099,
+    "turnover": 708.34761
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777363200000,
+    "open": 0.09997,
+    "high": 0.10026,
+    "low": 0.09958,
+    "close": 0.10006,
+    "volume": 81569,
+    "turnover": 8127.51511
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777366800000,
+    "open": 0.10006,
+    "high": 0.10006,
+    "low": 0.09914,
+    "close": 0.09914,
+    "volume": 75327,
+    "turnover": 7531.23542
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777370400000,
+    "open": 0.09914,
+    "high": 0.09962,
+    "low": 0.09914,
+    "close": 0.09957,
+    "volume": 5139,
+    "turnover": 511.69479
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777374000000,
+    "open": 0.09957,
+    "high": 0.09957,
+    "low": 0.09884,
+    "close": 0.09884,
+    "volume": 15329,
+    "turnover": 1517.5203
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777377600000,
+    "open": 0.09884,
+    "high": 0.09892,
+    "low": 0.09884,
+    "close": 0.09889,
+    "volume": 39084,
+    "turnover": 3865.52432
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777381200000,
+    "open": 0.09889,
+    "high": 0.09934,
+    "low": 0.0987,
+    "close": 0.09888,
+    "volume": 37668,
+    "turnover": 3727.19277
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777384800000,
+    "open": 0.09888,
+    "high": 0.09913,
+    "low": 0.09833,
+    "close": 0.09913,
+    "volume": 1822,
+    "turnover": 179.22534
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777388400000,
+    "open": 0.09913,
+    "high": 0.09968,
+    "low": 0.09913,
+    "close": 0.09963,
+    "volume": 4781,
+    "turnover": 474.97562
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777392000000,
+    "open": 0.09963,
+    "high": 0.10039,
+    "low": 0.09936,
+    "close": 0.10039,
+    "volume": 2612,
+    "turnover": 260.70281
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777395600000,
+    "open": 0.10039,
+    "high": 0.10039,
+    "low": 0.09934,
+    "close": 0.09992,
+    "volume": 377,
+    "turnover": 37.53109
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777399200000,
+    "open": 0.09992,
+    "high": 0.09992,
+    "low": 0.09937,
+    "close": 0.09968,
+    "volume": 32495,
+    "turnover": 3236.93884
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777402800000,
+    "open": 0.09968,
+    "high": 0.10022,
+    "low": 0.09959,
+    "close": 0.09986,
+    "volume": 3526,
+    "turnover": 351.73794
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777406400000,
+    "open": 0.09986,
+    "high": 0.10019,
+    "low": 0.09986,
+    "close": 0.10002,
+    "volume": 3376,
+    "turnover": 338.01435
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777410000000,
+    "open": 0.10002,
+    "high": 0.10025,
+    "low": 0.09938,
+    "close": 0.10003,
+    "volume": 5582,
+    "turnover": 555.72731
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777413600000,
+    "open": 0.10003,
+    "high": 0.10076,
+    "low": 0.09976,
+    "close": 0.0999,
+    "volume": 98489,
+    "turnover": 9871.00204
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777417200000,
+    "open": 0.0999,
+    "high": 0.0999,
+    "low": 0.09907,
+    "close": 0.09952,
+    "volume": 40968,
+    "turnover": 4064.62431
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777420800000,
+    "open": 0.09952,
+    "high": 0.10014,
+    "low": 0.09952,
+    "close": 0.10014,
+    "volume": 149073,
+    "turnover": 14915.18993
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777424400000,
+    "open": 0.10014,
+    "high": 0.10043,
+    "low": 0.09997,
+    "close": 0.10043,
+    "volume": 3363,
+    "turnover": 337.57359
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777428000000,
+    "open": 0.10043,
+    "high": 0.10051,
+    "low": 0.10009,
+    "close": 0.10009,
+    "volume": 66,
+    "turnover": 6.6303
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777431600000,
+    "open": 0.10009,
+    "high": 0.10171,
+    "low": 0.10009,
+    "close": 0.10149,
+    "volume": 99043,
+    "turnover": 10035.75112
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777435200000,
+    "open": 0.10149,
+    "high": 0.10277,
+    "low": 0.10149,
+    "close": 0.10248,
+    "volume": 80115,
+    "turnover": 8185.64422
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777438800000,
+    "open": 0.10248,
+    "high": 0.10248,
+    "low": 0.10213,
+    "close": 0.10213,
+    "volume": 794,
+    "turnover": 81.09122
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777442400000,
+    "open": 0.10213,
+    "high": 0.10213,
+    "low": 0.10213,
+    "close": 0.10213,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777446000000,
+    "open": 0.10213,
+    "high": 0.10553,
+    "low": 0.10213,
+    "close": 0.10532,
+    "volume": 388662,
+    "turnover": 40645.81887
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777449600000,
+    "open": 0.10532,
+    "high": 0.10612,
+    "low": 0.10493,
+    "close": 0.1058,
+    "volume": 339373,
+    "turnover": 35802.99738
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777453200000,
+    "open": 0.1058,
+    "high": 0.11169,
+    "low": 0.1058,
+    "close": 0.10956,
+    "volume": 762501,
+    "turnover": 84003.86052
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777456800000,
+    "open": 0.10956,
+    "high": 0.11116,
+    "low": 0.10952,
+    "close": 0.11092,
+    "volume": 29481,
+    "turnover": 3249.55721
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777460400000,
+    "open": 0.11092,
+    "high": 0.11113,
+    "low": 0.10963,
+    "close": 0.10995,
+    "volume": 12777,
+    "turnover": 1408.60549
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777464000000,
+    "open": 0.10995,
+    "high": 0.10995,
+    "low": 0.10688,
+    "close": 0.10724,
+    "volume": 26755,
+    "turnover": 2896.30718
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777467600000,
+    "open": 0.10724,
+    "high": 0.10724,
+    "low": 0.10589,
+    "close": 0.10625,
+    "volume": 3171,
+    "turnover": 336.78356
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777471200000,
+    "open": 0.10625,
+    "high": 0.10662,
+    "low": 0.10487,
+    "close": 0.10506,
+    "volume": 3709,
+    "turnover": 391.27357
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777474800000,
+    "open": 0.10506,
+    "high": 0.10506,
+    "low": 0.10335,
+    "close": 0.10335,
+    "volume": 3292,
+    "turnover": 342.72729
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777478400000,
+    "open": 0.10335,
+    "high": 0.1045,
+    "low": 0.10211,
+    "close": 0.10225,
+    "volume": 49881,
+    "turnover": 5129.23669
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777482000000,
+    "open": 0.10225,
+    "high": 0.10492,
+    "low": 0.10225,
+    "close": 0.10419,
+    "volume": 199891,
+    "turnover": 20694.75517
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777485600000,
+    "open": 0.10419,
+    "high": 0.10425,
+    "low": 0.10126,
+    "close": 0.10187,
+    "volume": 119803,
+    "turnover": 12291.13149
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777489200000,
+    "open": 0.10187,
+    "high": 0.10243,
+    "low": 0.1014,
+    "close": 0.1014,
+    "volume": 59287,
+    "turnover": 6047.03609
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777492800000,
+    "open": 0.1014,
+    "high": 0.10304,
+    "low": 0.1014,
+    "close": 0.1025,
+    "volume": 32496,
+    "turnover": 3318.01514
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777496400000,
+    "open": 0.1025,
+    "high": 0.10403,
+    "low": 0.1025,
+    "close": 0.10369,
+    "volume": 11,
+    "turnover": 1.14001
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777500000000,
+    "open": 0.10369,
+    "high": 0.10437,
+    "low": 0.10359,
+    "close": 0.1038,
+    "volume": 8620,
+    "turnover": 896.14743
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777503600000,
+    "open": 0.1038,
+    "high": 0.1048,
+    "low": 0.1038,
+    "close": 0.1048,
+    "volume": 369,
+    "turnover": 38.32281
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777507200000,
+    "open": 0.1048,
+    "high": 0.10867,
+    "low": 0.1048,
+    "close": 0.10828,
+    "volume": 365458,
+    "turnover": 39218.01553
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777510800000,
+    "open": 0.10828,
+    "high": 0.1089,
+    "low": 0.10688,
+    "close": 0.10709,
+    "volume": 118725,
+    "turnover": 12765.66626
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777514400000,
+    "open": 0.10709,
+    "high": 0.10798,
+    "low": 0.10491,
+    "close": 0.1057,
+    "volume": 105552,
+    "turnover": 11177.57567
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777518000000,
+    "open": 0.1057,
+    "high": 0.10787,
+    "low": 0.10567,
+    "close": 0.10787,
+    "volume": 50898,
+    "turnover": 5402.95464
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777521600000,
+    "open": 0.10787,
+    "high": 0.10787,
+    "low": 0.10485,
+    "close": 0.10485,
+    "volume": 7905,
+    "turnover": 833.92825
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777525200000,
+    "open": 0.10485,
+    "high": 0.10623,
+    "low": 0.10463,
+    "close": 0.10567,
+    "volume": 57878,
+    "turnover": 6119.12007
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777528800000,
+    "open": 0.10567,
+    "high": 0.10651,
+    "low": 0.10537,
+    "close": 0.10635,
+    "volume": 29109,
+    "turnover": 3090.39268
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777532400000,
+    "open": 0.10635,
+    "high": 0.10762,
+    "low": 0.10635,
+    "close": 0.10762,
+    "volume": 12001,
+    "turnover": 1278.08564
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777536000000,
+    "open": 0.10762,
+    "high": 0.10794,
+    "low": 0.10687,
+    "close": 0.10794,
+    "volume": 13928,
+    "turnover": 1493.25679
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777539600000,
+    "open": 0.10794,
+    "high": 0.10871,
+    "low": 0.10791,
+    "close": 0.10825,
+    "volume": 16210,
+    "turnover": 1751.20209
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777543200000,
+    "open": 0.10825,
+    "high": 0.10825,
+    "low": 0.10639,
+    "close": 0.10658,
+    "volume": 3300,
+    "turnover": 352.38681
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777546800000,
+    "open": 0.10658,
+    "high": 0.10691,
+    "low": 0.10644,
+    "close": 0.10649,
+    "volume": 17983,
+    "turnover": 1920.05375
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777550400000,
+    "open": 0.10649,
+    "high": 0.1071,
+    "low": 0.10649,
+    "close": 0.1071,
+    "volume": 162,
+    "turnover": 17.3502
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777554000000,
+    "open": 0.1071,
+    "high": 0.10743,
+    "low": 0.10655,
+    "close": 0.10707,
+    "volume": 77353,
+    "turnover": 8272.85952
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777557600000,
+    "open": 0.10707,
+    "high": 0.10753,
+    "low": 0.10641,
+    "close": 0.10685,
+    "volume": 25365,
+    "turnover": 2706.37052
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777561200000,
+    "open": 0.10685,
+    "high": 0.10761,
+    "low": 0.10657,
+    "close": 0.10761,
+    "volume": 10155,
+    "turnover": 1085.48702
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777564800000,
+    "open": 0.10761,
+    "high": 0.10761,
+    "low": 0.10652,
+    "close": 0.10705,
+    "volume": 4740,
+    "turnover": 507.00985
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777568400000,
+    "open": 0.10705,
+    "high": 0.10705,
+    "low": 0.10574,
+    "close": 0.10595,
+    "volume": 10247,
+    "turnover": 1086.35669
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777572000000,
+    "open": 0.10595,
+    "high": 0.10595,
+    "low": 0.10595,
+    "close": 0.10595,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777575600000,
+    "open": 0.10595,
+    "high": 0.10595,
+    "low": 0.10595,
+    "close": 0.10595,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777579200000,
+    "open": 0.10595,
+    "high": 0.10719,
+    "low": 0.10595,
+    "close": 0.10719,
+    "volume": 87,
+    "turnover": 9.32553
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777582800000,
+    "open": 0.10719,
+    "high": 0.10746,
+    "low": 0.10646,
+    "close": 0.10665,
+    "volume": 84656,
+    "turnover": 9048.70493
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777586400000,
+    "open": 0.10665,
+    "high": 0.10689,
+    "low": 0.10627,
+    "close": 0.10644,
+    "volume": 43240,
+    "turnover": 4611.07425
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777590000000,
+    "open": 0.10644,
+    "high": 0.10687,
+    "low": 0.10628,
+    "close": 0.10684,
+    "volume": 45789,
+    "turnover": 4882.05994
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777593600000,
+    "open": 0.10684,
+    "high": 0.10845,
+    "low": 0.10672,
+    "close": 0.10782,
+    "volume": 58328,
+    "turnover": 6274.83993
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777597200000,
+    "open": 0.10782,
+    "high": 0.10993,
+    "low": 0.10765,
+    "close": 0.10904,
+    "volume": 77497,
+    "turnover": 8420.95758
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777600800000,
+    "open": 0.10904,
+    "high": 0.10992,
+    "low": 0.10864,
+    "close": 0.10873,
+    "volume": 378755,
+    "turnover": 41334.62463
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777604400000,
+    "open": 0.10873,
+    "high": 0.1101,
+    "low": 0.10834,
+    "close": 0.10931,
+    "volume": 253186,
+    "turnover": 27740.5302
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777608000000,
+    "open": 0.10931,
+    "high": 0.11,
+    "low": 0.10841,
+    "close": 0.10913,
+    "volume": 118427,
+    "turnover": 12936.57656
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777611600000,
+    "open": 0.10913,
+    "high": 0.10964,
+    "low": 0.10913,
+    "close": 0.10935,
+    "volume": 53912,
+    "turnover": 5894.10393
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777615200000,
+    "open": 0.10935,
+    "high": 0.10945,
+    "low": 0.10863,
+    "close": 0.1087,
+    "volume": 87663,
+    "turnover": 9563.49511
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777618800000,
+    "open": 0.1087,
+    "high": 0.1087,
+    "low": 0.10827,
+    "close": 0.10843,
+    "volume": 2842,
+    "turnover": 308.04021
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777622400000,
+    "open": 0.10843,
+    "high": 0.10941,
+    "low": 0.10838,
+    "close": 0.10884,
+    "volume": 6226,
+    "turnover": 677.23787
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777626000000,
+    "open": 0.10884,
+    "high": 0.10919,
+    "low": 0.10755,
+    "close": 0.10789,
+    "volume": 48021,
+    "turnover": 5189.10187
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777629600000,
+    "open": 0.10789,
+    "high": 0.10883,
+    "low": 0.10772,
+    "close": 0.10883,
+    "volume": 20953,
+    "turnover": 2261.11709
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777633200000,
+    "open": 0.10883,
+    "high": 0.10966,
+    "low": 0.10858,
+    "close": 0.10896,
+    "volume": 13298,
+    "turnover": 1450.62929
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777636800000,
+    "open": 0.10896,
+    "high": 0.10964,
+    "low": 0.10882,
+    "close": 0.10882,
+    "volume": 961,
+    "turnover": 104.91412
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777640400000,
+    "open": 0.10882,
+    "high": 0.11087,
+    "low": 0.10882,
+    "close": 0.10987,
+    "volume": 7504,
+    "turnover": 826.70144
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777644000000,
+    "open": 0.10987,
+    "high": 0.11043,
+    "low": 0.10917,
+    "close": 0.10988,
+    "volume": 6567,
+    "turnover": 722.20172
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777647600000,
+    "open": 0.10988,
+    "high": 0.11061,
+    "low": 0.10917,
+    "close": 0.10964,
+    "volume": 10450,
+    "turnover": 1147.89083
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777651200000,
+    "open": 0.10964,
+    "high": 0.11007,
+    "low": 0.10868,
+    "close": 0.10949,
+    "volume": 211276,
+    "turnover": 22997.41584
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777654800000,
+    "open": 0.10949,
+    "high": 0.10957,
+    "low": 0.10867,
+    "close": 0.10917,
+    "volume": 3966,
+    "turnover": 432.87668
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777658400000,
+    "open": 0.10917,
+    "high": 0.10935,
+    "low": 0.10873,
+    "close": 0.10915,
+    "volume": 897,
+    "turnover": 97.75655
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777662000000,
+    "open": 0.10915,
+    "high": 0.10972,
+    "low": 0.10902,
+    "close": 0.10929,
+    "volume": 1748,
+    "turnover": 191.02209
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777665600000,
+    "open": 0.10929,
+    "high": 0.10966,
+    "low": 0.1084,
+    "close": 0.10869,
+    "volume": 6630,
+    "turnover": 723.37037
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777669200000,
+    "open": 0.10869,
+    "high": 0.11007,
+    "low": 0.10869,
+    "close": 0.10969,
+    "volume": 2037,
+    "turnover": 223.249
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777672800000,
+    "open": 0.10969,
+    "high": 0.10987,
+    "low": 0.10857,
+    "close": 0.10857,
+    "volume": 20878,
+    "turnover": 2272.95215
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777676400000,
+    "open": 0.10857,
+    "high": 0.10888,
+    "low": 0.10782,
+    "close": 0.10884,
+    "volume": 33658,
+    "turnover": 3650.15441
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777680000000,
+    "open": 0.10884,
+    "high": 0.1099,
+    "low": 0.10875,
+    "close": 0.10901,
+    "volume": 173772,
+    "turnover": 18970.47317
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777683600000,
+    "open": 0.10901,
+    "high": 0.10948,
+    "low": 0.10861,
+    "close": 0.10871,
+    "volume": 2582,
+    "turnover": 281.2549
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777687200000,
+    "open": 0.10871,
+    "high": 0.10892,
+    "low": 0.10846,
+    "close": 0.1088,
+    "volume": 2557,
+    "turnover": 277.95894
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777690800000,
+    "open": 0.1088,
+    "high": 0.1088,
+    "low": 0.10834,
+    "close": 0.1085,
+    "volume": 935,
+    "turnover": 101.38927
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777694400000,
+    "open": 0.1085,
+    "high": 0.10891,
+    "low": 0.10808,
+    "close": 0.1083,
+    "volume": 2036,
+    "turnover": 220.78719
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777698000000,
+    "open": 0.1083,
+    "high": 0.10857,
+    "low": 0.10755,
+    "close": 0.10755,
+    "volume": 7669,
+    "turnover": 828.22742
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777701600000,
+    "open": 0.10755,
+    "high": 0.10861,
+    "low": 0.10755,
+    "close": 0.10861,
+    "volume": 4877,
+    "turnover": 527.42272
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777705200000,
+    "open": 0.10861,
+    "high": 0.10875,
+    "low": 0.10817,
+    "close": 0.10822,
+    "volume": 6146,
+    "turnover": 666.39973
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777708800000,
+    "open": 0.10822,
+    "high": 0.10847,
+    "low": 0.10777,
+    "close": 0.10789,
+    "volume": 13389,
+    "turnover": 1446.53153
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777712400000,
+    "open": 0.10789,
+    "high": 0.10867,
+    "low": 0.10767,
+    "close": 0.108,
+    "volume": 7929,
+    "turnover": 857.01991
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777716000000,
+    "open": 0.108,
+    "high": 0.10832,
+    "low": 0.108,
+    "close": 0.10816,
+    "volume": 1156,
+    "turnover": 125.15154
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777719600000,
+    "open": 0.10816,
+    "high": 0.10843,
+    "low": 0.10765,
+    "close": 0.10771,
+    "volume": 20410,
+    "turnover": 2203.76752
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777723200000,
+    "open": 0.10771,
+    "high": 0.10849,
+    "low": 0.10735,
+    "close": 0.10779,
+    "volume": 13631,
+    "turnover": 1470.01235
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777726800000,
+    "open": 0.10779,
+    "high": 0.10882,
+    "low": 0.10779,
+    "close": 0.10877,
+    "volume": 4316,
+    "turnover": 467.55712
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777730400000,
+    "open": 0.10877,
+    "high": 0.10958,
+    "low": 0.10867,
+    "close": 0.1089,
+    "volume": 17180,
+    "turnover": 1871.94521
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777734000000,
+    "open": 0.1089,
+    "high": 0.10965,
+    "low": 0.10888,
+    "close": 0.10924,
+    "volume": 13253,
+    "turnover": 1447.17899
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777737600000,
+    "open": 0.10924,
+    "high": 0.10978,
+    "low": 0.10887,
+    "close": 0.10922,
+    "volume": 8408,
+    "turnover": 918.43337
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777741200000,
+    "open": 0.10922,
+    "high": 0.10935,
+    "low": 0.10897,
+    "close": 0.10897,
+    "volume": 7882,
+    "turnover": 860.61831
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777744800000,
+    "open": 0.10897,
+    "high": 0.10897,
+    "low": 0.10842,
+    "close": 0.10879,
+    "volume": 4847,
+    "turnover": 526.87562
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777748400000,
+    "open": 0.10879,
+    "high": 0.10879,
+    "low": 0.1085,
+    "close": 0.10856,
+    "volume": 4030,
+    "turnover": 437.94055
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777752000000,
+    "open": 0.10856,
+    "high": 0.109,
+    "low": 0.10856,
+    "close": 0.109,
+    "volume": 2160,
+    "turnover": 234.8759
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777755600000,
+    "open": 0.109,
+    "high": 0.10937,
+    "low": 0.10853,
+    "close": 0.10908,
+    "volume": 16570,
+    "turnover": 1803.73901
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777759200000,
+    "open": 0.10908,
+    "high": 0.1094,
+    "low": 0.10881,
+    "close": 0.10909,
+    "volume": 3537,
+    "turnover": 385.85108
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777762800000,
+    "open": 0.10909,
+    "high": 0.10909,
+    "low": 0.10852,
+    "close": 0.10874,
+    "volume": 14277,
+    "turnover": 1552.3841
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777766400000,
+    "open": 0.10874,
+    "high": 0.10878,
+    "low": 0.10807,
+    "close": 0.10836,
+    "volume": 4445,
+    "turnover": 482.09789
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777770000000,
+    "open": 0.10836,
+    "high": 0.1084,
+    "low": 0.1077,
+    "close": 0.10823,
+    "volume": 12377,
+    "turnover": 1336.86974
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777773600000,
+    "open": 0.10823,
+    "high": 0.1084,
+    "low": 0.10729,
+    "close": 0.10762,
+    "volume": 7676,
+    "turnover": 827.12138
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777777200000,
+    "open": 0.10762,
+    "high": 0.10843,
+    "low": 0.10755,
+    "close": 0.10808,
+    "volume": 2556,
+    "turnover": 275.48865
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777780800000,
+    "open": 0.10808,
+    "high": 0.1087,
+    "low": 0.10808,
+    "close": 0.10816,
+    "volume": 9637,
+    "turnover": 1043.65987
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777784400000,
+    "open": 0.10816,
+    "high": 0.10825,
+    "low": 0.10811,
+    "close": 0.10817,
+    "volume": 513,
+    "turnover": 55.48901
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777788000000,
+    "open": 0.10817,
+    "high": 0.10817,
+    "low": 0.10773,
+    "close": 0.10801,
+    "volume": 21052,
+    "turnover": 2272.59811
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777791600000,
+    "open": 0.10801,
+    "high": 0.10834,
+    "low": 0.10801,
+    "close": 0.10821,
+    "volume": 3364,
+    "turnover": 364.00648
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777795200000,
+    "open": 0.10821,
+    "high": 0.10868,
+    "low": 0.10818,
+    "close": 0.10868,
+    "volume": 2784,
+    "turnover": 301.27515
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777798800000,
+    "open": 0.10868,
+    "high": 0.10873,
+    "low": 0.10831,
+    "close": 0.10845,
+    "volume": 507,
+    "turnover": 55.00738
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777802400000,
+    "open": 0.10845,
+    "high": 0.10845,
+    "low": 0.10775,
+    "close": 0.10785,
+    "volume": 460,
+    "turnover": 49.6319
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777806000000,
+    "open": 0.10785,
+    "high": 0.10936,
+    "low": 0.10777,
+    "close": 0.10889,
+    "volume": 3250,
+    "turnover": 353.42672
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777809600000,
+    "open": 0.10889,
+    "high": 0.10977,
+    "low": 0.10889,
+    "close": 0.10977,
+    "volume": 2753,
+    "turnover": 301.11668
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777813200000,
+    "open": 0.10977,
+    "high": 0.10977,
+    "low": 0.10889,
+    "close": 0.10889,
+    "volume": 2464,
+    "turnover": 268.36765
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777816800000,
+    "open": 0.10889,
+    "high": 0.10889,
+    "low": 0.10889,
+    "close": 0.10889,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777820400000,
+    "open": 0.10889,
+    "high": 0.1094,
+    "low": 0.10838,
+    "close": 0.10911,
+    "volume": 2866,
+    "turnover": 311.80553
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777824000000,
+    "open": 0.10911,
+    "high": 0.10913,
+    "low": 0.10824,
+    "close": 0.10841,
+    "volume": 3808,
+    "turnover": 413.6853
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777827600000,
+    "open": 0.10841,
+    "high": 0.10936,
+    "low": 0.10841,
+    "close": 0.10936,
+    "volume": 1207,
+    "turnover": 131.61637
+  },
+  {
+    "symbol": "DOGEUSDT-29MAY26",
+    "timestamp": 1777831200000,
+    "open": 0.10936,
+    "high": 0.10936,
+    "low": 0.1085,
+    "close": 0.10861,
+    "volume": 139187,
+    "turnover": 15123.30752
+  }
+]

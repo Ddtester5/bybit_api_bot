@@ -1,0 +1,1072 @@
+[
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777449600000,
+    "open": 192.33,
+    "high": 192.51,
+    "low": 192.06,
+    "close": 192.51,
+    "volume": 54.22,
+    "turnover": 10421.3321
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777453200000,
+    "open": 192.51,
+    "high": 193.22,
+    "low": 191.44,
+    "close": 193.07,
+    "volume": 327.44,
+    "turnover": 62930.1393
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777456800000,
+    "open": 193.07,
+    "high": 193.51,
+    "low": 191.82,
+    "close": 192.53,
+    "volume": 121.34,
+    "turnover": 23417.8613
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777460400000,
+    "open": 192.53,
+    "high": 192.53,
+    "low": 190.76,
+    "close": 191.35,
+    "volume": 109.78,
+    "turnover": 21002.0007
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777464000000,
+    "open": 191.35,
+    "high": 191.51,
+    "low": 189.78,
+    "close": 190.22,
+    "volume": 60.65,
+    "turnover": 11553.6132
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777467600000,
+    "open": 190.22,
+    "high": 190.22,
+    "low": 179.2,
+    "close": 180.85,
+    "volume": 904.2,
+    "turnover": 165352.1675
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777471200000,
+    "open": 180.85,
+    "high": 180.85,
+    "low": 177.87,
+    "close": 178.44,
+    "volume": 209.81,
+    "turnover": 37560.6836
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777474800000,
+    "open": 178.44,
+    "high": 180.82,
+    "low": 177.79,
+    "close": 178.75,
+    "volume": 261.53,
+    "turnover": 46963.962
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777478400000,
+    "open": 178.75,
+    "high": 179.84,
+    "low": 178.55,
+    "close": 179,
+    "volume": 91.59,
+    "turnover": 16422.722
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777482000000,
+    "open": 179,
+    "high": 181.65,
+    "low": 178.9,
+    "close": 181.25,
+    "volume": 140.09,
+    "turnover": 25294.4163
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777485600000,
+    "open": 181.25,
+    "high": 181.3,
+    "low": 178.62,
+    "close": 180.8,
+    "volume": 390.68,
+    "turnover": 70226.3073
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777489200000,
+    "open": 180.8,
+    "high": 181.84,
+    "low": 179.55,
+    "close": 181.84,
+    "volume": 67.33,
+    "turnover": 12159.1068
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777492800000,
+    "open": 181.84,
+    "high": 181.84,
+    "low": 180.06,
+    "close": 180.06,
+    "volume": 45.1,
+    "turnover": 8157.9172
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777496400000,
+    "open": 180.06,
+    "high": 181.41,
+    "low": 180.06,
+    "close": 181.28,
+    "volume": 4.6,
+    "turnover": 832.147
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777500000000,
+    "open": 181.28,
+    "high": 182.46,
+    "low": 181.19,
+    "close": 182.25,
+    "volume": 30.27,
+    "turnover": 5503.287
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777503600000,
+    "open": 182.25,
+    "high": 182.25,
+    "low": 181.65,
+    "close": 182.1,
+    "volume": 8.56,
+    "turnover": 1558.6531
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777507200000,
+    "open": 182.1,
+    "high": 182.88,
+    "low": 181.65,
+    "close": 182.71,
+    "volume": 102.26,
+    "turnover": 18630.1862
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777510800000,
+    "open": 182.71,
+    "high": 183.44,
+    "low": 182.31,
+    "close": 182.87,
+    "volume": 66.4,
+    "turnover": 12137.1613
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777514400000,
+    "open": 182.87,
+    "high": 183.44,
+    "low": 181.49,
+    "close": 181.75,
+    "volume": 127.01,
+    "turnover": 23179.7906
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777518000000,
+    "open": 181.75,
+    "high": 182.54,
+    "low": 181.67,
+    "close": 182.5,
+    "volume": 49.8,
+    "turnover": 9069.6331
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777521600000,
+    "open": 182.5,
+    "high": 182.5,
+    "low": 180.4,
+    "close": 180.4,
+    "volume": 39.71,
+    "turnover": 7194.489
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777525200000,
+    "open": 180.4,
+    "high": 181.43,
+    "low": 180.4,
+    "close": 180.68,
+    "volume": 62.75,
+    "turnover": 11359.5065
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777528800000,
+    "open": 180.68,
+    "high": 181.45,
+    "low": 180.53,
+    "close": 180.99,
+    "volume": 5.49,
+    "turnover": 994.837
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777532400000,
+    "open": 180.99,
+    "high": 181.95,
+    "low": 180.99,
+    "close": 181.84,
+    "volume": 58,
+    "turnover": 10528.7428
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777536000000,
+    "open": 181.84,
+    "high": 182.12,
+    "low": 181.13,
+    "close": 181.4,
+    "volume": 209.75,
+    "turnover": 38067.8567
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777539600000,
+    "open": 181.4,
+    "high": 182.28,
+    "low": 181.24,
+    "close": 181.95,
+    "volume": 124.88,
+    "turnover": 22710.9671
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777543200000,
+    "open": 181.95,
+    "high": 182.25,
+    "low": 181.6,
+    "close": 181.82,
+    "volume": 25.05,
+    "turnover": 4559.6002
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777546800000,
+    "open": 181.82,
+    "high": 182.8,
+    "low": 181.65,
+    "close": 182.6,
+    "volume": 72.77,
+    "turnover": 13263.9828
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777550400000,
+    "open": 182.6,
+    "high": 184.01,
+    "low": 182.6,
+    "close": 183.36,
+    "volume": 28.43,
+    "turnover": 5213.0045
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777554000000,
+    "open": 183.36,
+    "high": 185.07,
+    "low": 180.09,
+    "close": 182.73,
+    "volume": 740.42,
+    "turnover": 135020.0449
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777557600000,
+    "open": 182.73,
+    "high": 187.1,
+    "low": 182.73,
+    "close": 186.73,
+    "volume": 383.43,
+    "turnover": 71000.1361
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777561200000,
+    "open": 186.73,
+    "high": 188.96,
+    "low": 186.4,
+    "close": 188.48,
+    "volume": 106.62,
+    "turnover": 20006.1923
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777564800000,
+    "open": 188.48,
+    "high": 188.6,
+    "low": 185.53,
+    "close": 185.91,
+    "volume": 74.24,
+    "turnover": 13894.6107
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777568400000,
+    "open": 185.91,
+    "high": 187.53,
+    "low": 185.53,
+    "close": 187.53,
+    "volume": 117.94,
+    "turnover": 22015.3318
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777572000000,
+    "open": 187.53,
+    "high": 189.42,
+    "low": 187.53,
+    "close": 188.37,
+    "volume": 82.36,
+    "turnover": 15520.2594
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777575600000,
+    "open": 188.37,
+    "high": 188.75,
+    "low": 187,
+    "close": 187.85,
+    "volume": 97.54,
+    "turnover": 18311.9885
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777579200000,
+    "open": 187.85,
+    "high": 188.05,
+    "low": 187.1,
+    "close": 187.75,
+    "volume": 12.63,
+    "turnover": 2371.3255
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777582800000,
+    "open": 187.75,
+    "high": 187.9,
+    "low": 187.55,
+    "close": 187.55,
+    "volume": 2.2,
+    "turnover": 413.0502
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777586400000,
+    "open": 187.55,
+    "high": 187.87,
+    "low": 187.49,
+    "close": 187.55,
+    "volume": 5.09,
+    "turnover": 955.2619
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777590000000,
+    "open": 187.55,
+    "high": 187.81,
+    "low": 187.5,
+    "close": 187.8,
+    "volume": 3.49,
+    "turnover": 655.1191
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777593600000,
+    "open": 187.8,
+    "high": 188.16,
+    "low": 187.5,
+    "close": 187.9,
+    "volume": 34.62,
+    "turnover": 6502.7558
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777597200000,
+    "open": 187.9,
+    "high": 188.45,
+    "low": 187.9,
+    "close": 188.35,
+    "volume": 8.63,
+    "turnover": 1625.8439
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777600800000,
+    "open": 188.35,
+    "high": 188.35,
+    "low": 187.67,
+    "close": 188.05,
+    "volume": 11.44,
+    "turnover": 2150.6531
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777604400000,
+    "open": 188.05,
+    "high": 190.25,
+    "low": 188.05,
+    "close": 189.65,
+    "volume": 86.56,
+    "turnover": 16396.2983
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777608000000,
+    "open": 189.65,
+    "high": 190.36,
+    "low": 189.4,
+    "close": 190.3,
+    "volume": 19.51,
+    "turnover": 3704.9484
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777611600000,
+    "open": 190.3,
+    "high": 190.63,
+    "low": 190.2,
+    "close": 190.62,
+    "volume": 9.96,
+    "turnover": 1897.9232
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777615200000,
+    "open": 190.62,
+    "high": 190.68,
+    "low": 189.5,
+    "close": 189.88,
+    "volume": 12.6,
+    "turnover": 2391.7102
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777618800000,
+    "open": 189.88,
+    "high": 190.1,
+    "low": 188.7,
+    "close": 189.25,
+    "volume": 32.67,
+    "turnover": 6188.5626
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777622400000,
+    "open": 189.25,
+    "high": 189.7,
+    "low": 188.9,
+    "close": 189.25,
+    "volume": 23.96,
+    "turnover": 4536.0794
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777626000000,
+    "open": 189.25,
+    "high": 189.6,
+    "low": 188.54,
+    "close": 188.8,
+    "volume": 32.92,
+    "turnover": 6220.0711
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777629600000,
+    "open": 188.8,
+    "high": 188.96,
+    "low": 188.09,
+    "close": 188.55,
+    "volume": 35.5,
+    "turnover": 6691.8183
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777633200000,
+    "open": 188.55,
+    "high": 189.45,
+    "low": 188.55,
+    "close": 189.3,
+    "volume": 15.41,
+    "turnover": 2910.7776
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777636800000,
+    "open": 189.3,
+    "high": 191.12,
+    "low": 189.3,
+    "close": 190.51,
+    "volume": 43.43,
+    "turnover": 8257.3468
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777640400000,
+    "open": 190.51,
+    "high": 193.85,
+    "low": 190.08,
+    "close": 192.92,
+    "volume": 1269.28,
+    "turnover": 243235.0041
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777644000000,
+    "open": 192.92,
+    "high": 194.39,
+    "low": 191.86,
+    "close": 194.39,
+    "volume": 365.97,
+    "turnover": 70701.2709
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777647600000,
+    "open": 194.39,
+    "high": 194.39,
+    "low": 192.4,
+    "close": 193.15,
+    "volume": 223.48,
+    "turnover": 43181.6767
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777651200000,
+    "open": 193.15,
+    "high": 193.44,
+    "low": 190.96,
+    "close": 192.48,
+    "volume": 146.54,
+    "turnover": 28149.4312
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777654800000,
+    "open": 192.48,
+    "high": 193.4,
+    "low": 191.8,
+    "close": 193.4,
+    "volume": 38.95,
+    "turnover": 7508.2723
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777658400000,
+    "open": 193.4,
+    "high": 193.55,
+    "low": 191.5,
+    "close": 191.72,
+    "volume": 68.5,
+    "turnover": 13177.6089
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777662000000,
+    "open": 191.72,
+    "high": 191.8,
+    "low": 190.84,
+    "close": 191.33,
+    "volume": 47.58,
+    "turnover": 9099.8033
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777665600000,
+    "open": 191.33,
+    "high": 193.65,
+    "low": 190.91,
+    "close": 191.03,
+    "volume": 568.4,
+    "turnover": 109342.3668
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777669200000,
+    "open": 191.03,
+    "high": 191.48,
+    "low": 190.9,
+    "close": 191.48,
+    "volume": 64.33,
+    "turnover": 12305.0703
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777672800000,
+    "open": 191.48,
+    "high": 193.22,
+    "low": 191.48,
+    "close": 193.22,
+    "volume": 61.84,
+    "turnover": 11876.8848
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777676400000,
+    "open": 193.22,
+    "high": 193.54,
+    "low": 192.5,
+    "close": 193.54,
+    "volume": 63.52,
+    "turnover": 12258.1764
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777680000000,
+    "open": 193.54,
+    "high": 193.54,
+    "low": 192.85,
+    "close": 193.11,
+    "volume": 6.26,
+    "turnover": 1208.6187
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777683600000,
+    "open": 193.11,
+    "high": 193.32,
+    "low": 192.72,
+    "close": 192.72,
+    "volume": 45.49,
+    "turnover": 8779.9012
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777687200000,
+    "open": 192.72,
+    "high": 192.92,
+    "low": 192.66,
+    "close": 192.66,
+    "volume": 3.68,
+    "turnover": 709.3443
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777690800000,
+    "open": 192.66,
+    "high": 193.47,
+    "low": 192.66,
+    "close": 193.35,
+    "volume": 17.82,
+    "turnover": 3442.6778
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777694400000,
+    "open": 193.35,
+    "high": 193.38,
+    "low": 192.62,
+    "close": 192.66,
+    "volume": 69.97,
+    "turnover": 13501.2633
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777698000000,
+    "open": 192.66,
+    "high": 193.15,
+    "low": 192.66,
+    "close": 192.94,
+    "volume": 15,
+    "turnover": 2894.6193
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777701600000,
+    "open": 192.94,
+    "high": 193.32,
+    "low": 192.94,
+    "close": 193.32,
+    "volume": 1.85,
+    "turnover": 357.5764
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777705200000,
+    "open": 193.32,
+    "high": 193.32,
+    "low": 192.83,
+    "close": 192.83,
+    "volume": 4.57,
+    "turnover": 881.8062
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777708800000,
+    "open": 192.83,
+    "high": 193,
+    "low": 192.55,
+    "close": 192.97,
+    "volume": 66.29,
+    "turnover": 12777.4764
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777712400000,
+    "open": 192.97,
+    "high": 193.72,
+    "low": 192.91,
+    "close": 193.43,
+    "volume": 87.6,
+    "turnover": 16925.1308
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777716000000,
+    "open": 193.43,
+    "high": 193.55,
+    "low": 193.21,
+    "close": 193.3,
+    "volume": 29.12,
+    "turnover": 5634.0993
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777719600000,
+    "open": 193.3,
+    "high": 193.6,
+    "low": 193.16,
+    "close": 193.28,
+    "volume": 35.77,
+    "turnover": 6918.1232
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777723200000,
+    "open": 193.28,
+    "high": 193.37,
+    "low": 193.02,
+    "close": 193.37,
+    "volume": 15.4,
+    "turnover": 2974.8673
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777726800000,
+    "open": 193.37,
+    "high": 193.49,
+    "low": 193.24,
+    "close": 193.24,
+    "volume": 9.8,
+    "turnover": 1895.0762
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777730400000,
+    "open": 193.24,
+    "high": 193.79,
+    "low": 193.22,
+    "close": 193.54,
+    "volume": 14.81,
+    "turnover": 2865.1798
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777734000000,
+    "open": 193.54,
+    "high": 193.64,
+    "low": 193.36,
+    "close": 193.61,
+    "volume": 18.03,
+    "turnover": 3488.001
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777737600000,
+    "open": 193.61,
+    "high": 193.65,
+    "low": 193.61,
+    "close": 193.65,
+    "volume": 0.03,
+    "turnover": 5.8095
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777741200000,
+    "open": 193.65,
+    "high": 193.69,
+    "low": 193.5,
+    "close": 193.5,
+    "volume": 4.71,
+    "turnover": 911.5923
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777744800000,
+    "open": 193.5,
+    "high": 193.74,
+    "low": 193.46,
+    "close": 193.74,
+    "volume": 2.32,
+    "turnover": 449.3788
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777748400000,
+    "open": 193.74,
+    "high": 193.74,
+    "low": 193.74,
+    "close": 193.74,
+    "volume": 0.32,
+    "turnover": 61.9968
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777752000000,
+    "open": 193.74,
+    "high": 193.74,
+    "low": 193.74,
+    "close": 193.74,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777755600000,
+    "open": 193.74,
+    "high": 194.03,
+    "low": 193.33,
+    "close": 193.55,
+    "volume": 137.68,
+    "turnover": 26652.7661
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777759200000,
+    "open": 193.55,
+    "high": 193.84,
+    "low": 193.5,
+    "close": 193.84,
+    "volume": 4,
+    "turnover": 775.1451
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777762800000,
+    "open": 193.84,
+    "high": 193.87,
+    "low": 193.52,
+    "close": 193.87,
+    "volume": 3.06,
+    "turnover": 592.5812
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777766400000,
+    "open": 193.87,
+    "high": 193.87,
+    "low": 193.33,
+    "close": 193.73,
+    "volume": 5.36,
+    "turnover": 1037.2275
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777770000000,
+    "open": 193.73,
+    "high": 193.73,
+    "low": 193.28,
+    "close": 193.28,
+    "volume": 3.21,
+    "turnover": 620.4913
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777773600000,
+    "open": 193.28,
+    "high": 193.28,
+    "low": 193.13,
+    "close": 193.13,
+    "volume": 11.3,
+    "turnover": 2182.9734
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777777200000,
+    "open": 193.13,
+    "high": 193.13,
+    "low": 193.09,
+    "close": 193.09,
+    "volume": 4.77,
+    "turnover": 921.1222
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777780800000,
+    "open": 193.09,
+    "high": 193.35,
+    "low": 193.09,
+    "close": 193.31,
+    "volume": 3.63,
+    "turnover": 701.6198
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777784400000,
+    "open": 193.31,
+    "high": 193.34,
+    "low": 193.31,
+    "close": 193.34,
+    "volume": 0.03,
+    "turnover": 5.8002
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777788000000,
+    "open": 193.34,
+    "high": 193.34,
+    "low": 193.34,
+    "close": 193.34,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777791600000,
+    "open": 193.34,
+    "high": 193.47,
+    "low": 193.28,
+    "close": 193.29,
+    "volume": 7.62,
+    "turnover": 1473.9481
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777795200000,
+    "open": 193.29,
+    "high": 193.51,
+    "low": 193.29,
+    "close": 193.31,
+    "volume": 4.3,
+    "turnover": 831.5373
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777798800000,
+    "open": 193.31,
+    "high": 193.85,
+    "low": 193.31,
+    "close": 193.85,
+    "volume": 17.08,
+    "turnover": 3307.4229
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777802400000,
+    "open": 193.85,
+    "high": 193.85,
+    "low": 193.57,
+    "close": 193.75,
+    "volume": 4.08,
+    "turnover": 790.1377
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777806000000,
+    "open": 193.75,
+    "high": 193.83,
+    "low": 193.58,
+    "close": 193.58,
+    "volume": 3.06,
+    "turnover": 592.8816
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777809600000,
+    "open": 193.58,
+    "high": 193.87,
+    "low": 193.58,
+    "close": 193.58,
+    "volume": 1.86,
+    "turnover": 360.1921
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777813200000,
+    "open": 193.58,
+    "high": 193.77,
+    "low": 193.55,
+    "close": 193.55,
+    "volume": 0.91,
+    "turnover": 176.1948
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777816800000,
+    "open": 193.55,
+    "high": 193.55,
+    "low": 193.55,
+    "close": 193.55,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777820400000,
+    "open": 193.55,
+    "high": 193.8,
+    "low": 193.55,
+    "close": 193.8,
+    "volume": 0.03,
+    "turnover": 5.814
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777824000000,
+    "open": 193.8,
+    "high": 194,
+    "low": 193.72,
+    "close": 194,
+    "volume": 7.12,
+    "turnover": 1381.001
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777827600000,
+    "open": 194,
+    "high": 194.29,
+    "low": 193.84,
+    "close": 194.29,
+    "volume": 3.68,
+    "turnover": 713.9253
+  },
+  {
+    "symbol": "COINUSDT",
+    "timestamp": 1777831200000,
+    "open": 194.29,
+    "high": 194.29,
+    "low": 194.01,
+    "close": 194.01,
+    "volume": 1.35,
+    "turnover": 261.9354
+  }
+]

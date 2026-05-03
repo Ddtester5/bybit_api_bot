@@ -1,0 +1,7312 @@
+[
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775203200000,
+    "open": 69600.6,
+    "high": 69645.6,
+    "low": 69336,
+    "close": 69336,
+    "volume": 9.231,
+    "turnover": 642487.8148
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775206800000,
+    "open": 69336,
+    "high": 69400,
+    "low": 69313,
+    "close": 69400,
+    "volume": 0.107,
+    "turnover": 7417.1
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775210400000,
+    "open": 69400,
+    "high": 69400,
+    "low": 69154.6,
+    "close": 69154.6,
+    "volume": 0.028,
+    "turnover": 1936.5514
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775214000000,
+    "open": 69154.6,
+    "high": 69505.4,
+    "low": 69154.6,
+    "close": 69338.8,
+    "volume": 0.102,
+    "turnover": 7067.2762
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775217600000,
+    "open": 69338.8,
+    "high": 69643.3,
+    "low": 69310.1,
+    "close": 69310.1,
+    "volume": 1.338,
+    "turnover": 92759.5568
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775221200000,
+    "open": 69310.1,
+    "high": 69310.1,
+    "low": 68976.3,
+    "close": 69053.8,
+    "volume": 0.378,
+    "turnover": 26110.6244
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775224800000,
+    "open": 69053.8,
+    "high": 69385.1,
+    "low": 69053.8,
+    "close": 69201.6,
+    "volume": 0.352,
+    "turnover": 24409.2975
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775228400000,
+    "open": 69201.6,
+    "high": 69298.5,
+    "low": 69201.6,
+    "close": 69298.5,
+    "volume": 0.058,
+    "turnover": 4019.0575
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775232000000,
+    "open": 69298.5,
+    "high": 69298.5,
+    "low": 69298.5,
+    "close": 69298.5,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775235600000,
+    "open": 69298.5,
+    "high": 69298.5,
+    "low": 69179.7,
+    "close": 69179.7,
+    "volume": 0.01,
+    "turnover": 691.797
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775239200000,
+    "open": 69179.7,
+    "high": 69270.4,
+    "low": 69179.7,
+    "close": 69200.3,
+    "volume": 0.009,
+    "turnover": 622.9198
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775242800000,
+    "open": 69200.3,
+    "high": 69241.7,
+    "low": 69160.2,
+    "close": 69241.7,
+    "volume": 0.087,
+    "turnover": 6022.6424
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775246400000,
+    "open": 69241.7,
+    "high": 69241.7,
+    "low": 69241.7,
+    "close": 69241.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775250000000,
+    "open": 69241.7,
+    "high": 69250,
+    "low": 69220,
+    "close": 69222.4,
+    "volume": 1.056,
+    "turnover": 73126.6378
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775253600000,
+    "open": 69222.4,
+    "high": 69293.3,
+    "low": 69219.1,
+    "close": 69263.7,
+    "volume": 0.01,
+    "turnover": 692.3098
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775257200000,
+    "open": 69263.7,
+    "high": 69275.8,
+    "low": 69249.2,
+    "close": 69249.2,
+    "volume": 0.002,
+    "turnover": 138.525
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775260800000,
+    "open": 69249.2,
+    "high": 69325.4,
+    "low": 69249.2,
+    "close": 69278.7,
+    "volume": 0.014,
+    "turnover": 970.1823
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775264400000,
+    "open": 69278.7,
+    "high": 69278.7,
+    "low": 69278.7,
+    "close": 69278.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775268000000,
+    "open": 69278.7,
+    "high": 69278.7,
+    "low": 69143.1,
+    "close": 69143.1,
+    "volume": 0.002,
+    "turnover": 138.2862
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775271600000,
+    "open": 69143.1,
+    "high": 69212.5,
+    "low": 69143.1,
+    "close": 69212.5,
+    "volume": 0.002,
+    "turnover": 138.425
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775275200000,
+    "open": 69212.5,
+    "high": 69212.5,
+    "low": 69208.4,
+    "close": 69208.4,
+    "volume": 0.001,
+    "turnover": 69.2084
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775278800000,
+    "open": 69208.4,
+    "high": 69208.4,
+    "low": 69208.4,
+    "close": 69208.4,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775282400000,
+    "open": 69208.4,
+    "high": 69208.4,
+    "low": 69208.4,
+    "close": 69208.4,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775286000000,
+    "open": 69208.4,
+    "high": 69340,
+    "low": 69208.4,
+    "close": 69340,
+    "volume": 0.005,
+    "turnover": 346.7
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775289600000,
+    "open": 69340,
+    "high": 69340,
+    "low": 69340,
+    "close": 69340,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775293200000,
+    "open": 69340,
+    "high": 69340,
+    "low": 69301.5,
+    "close": 69301.5,
+    "volume": 0.001,
+    "turnover": 69.3015
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775296800000,
+    "open": 69301.5,
+    "high": 69503.1,
+    "low": 69236.1,
+    "close": 69503.1,
+    "volume": 0.113,
+    "turnover": 7834.8341
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775300400000,
+    "open": 69503.1,
+    "high": 69503.1,
+    "low": 69417.3,
+    "close": 69468.2,
+    "volume": 0.378,
+    "turnover": 26245.4584
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775304000000,
+    "open": 69468.2,
+    "high": 69470.6,
+    "low": 69392.9,
+    "close": 69470.6,
+    "volume": 0.142,
+    "turnover": 9861.3312
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775307600000,
+    "open": 69470.6,
+    "high": 69566.6,
+    "low": 69414.6,
+    "close": 69534.6,
+    "volume": 0.868,
+    "turnover": 60295.0754
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775311200000,
+    "open": 69534.6,
+    "high": 69578.1,
+    "low": 69534.6,
+    "close": 69562.8,
+    "volume": 0.112,
+    "turnover": 7792.1522
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775314800000,
+    "open": 69562.8,
+    "high": 69661.1,
+    "low": 69562.8,
+    "close": 69661.1,
+    "volume": 0.003,
+    "turnover": 208.9833
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775318400000,
+    "open": 69661.1,
+    "high": 69775.6,
+    "low": 69661.1,
+    "close": 69721.9,
+    "volume": 0.002,
+    "turnover": 139.4975
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775322000000,
+    "open": 69721.9,
+    "high": 69721.9,
+    "low": 69626.1,
+    "close": 69660.5,
+    "volume": 0.007,
+    "turnover": 487.6109
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775325600000,
+    "open": 69660.5,
+    "high": 69682.6,
+    "low": 69606.4,
+    "close": 69635.9,
+    "volume": 0.037,
+    "turnover": 2576.5928
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775329200000,
+    "open": 69635.9,
+    "high": 69809,
+    "low": 69624.6,
+    "close": 69661,
+    "volume": 0.164,
+    "turnover": 11430.8881
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775332800000,
+    "open": 69661,
+    "high": 69661,
+    "low": 69523.9,
+    "close": 69584.4,
+    "volume": 0.011,
+    "turnover": 765.1668
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775336400000,
+    "open": 69584.4,
+    "high": 69757.8,
+    "low": 69555.9,
+    "close": 69757.8,
+    "volume": 0.014,
+    "turnover": 975.13
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775340000000,
+    "open": 69757.8,
+    "high": 69757.8,
+    "low": 69695.2,
+    "close": 69718.8,
+    "volume": 0.012,
+    "turnover": 836.6404
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775343600000,
+    "open": 69718.8,
+    "high": 69718.8,
+    "low": 69622.6,
+    "close": 69622.6,
+    "volume": 0.008,
+    "turnover": 557.1832
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775347200000,
+    "open": 69622.6,
+    "high": 69622.6,
+    "low": 69515.6,
+    "close": 69515.6,
+    "volume": 0.004,
+    "turnover": 278.196
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775350800000,
+    "open": 69515.6,
+    "high": 69516.7,
+    "low": 69451.4,
+    "close": 69451.4,
+    "volume": 0.018,
+    "turnover": 1251.1403
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775354400000,
+    "open": 69451.4,
+    "high": 69514,
+    "low": 69319.9,
+    "close": 69514,
+    "volume": 0.118,
+    "turnover": 8193.239
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775358000000,
+    "open": 69514,
+    "high": 69514,
+    "low": 69433.7,
+    "close": 69433.7,
+    "volume": 0.004,
+    "turnover": 277.7366
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775361600000,
+    "open": 69433.7,
+    "high": 69516.4,
+    "low": 69419.8,
+    "close": 69433.5,
+    "volume": 0.048,
+    "turnover": 3336.3334
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775365200000,
+    "open": 69433.5,
+    "high": 69490.1,
+    "low": 69254.2,
+    "close": 69254.2,
+    "volume": 0.119,
+    "turnover": 8265.1226
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775368800000,
+    "open": 69254.2,
+    "high": 69276.5,
+    "low": 68931.3,
+    "close": 69136.6,
+    "volume": 0.024,
+    "turnover": 1658.027
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775372400000,
+    "open": 69136.6,
+    "high": 69252.6,
+    "low": 69059.4,
+    "close": 69086.5,
+    "volume": 0.017,
+    "turnover": 1175.7395
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775376000000,
+    "open": 69086.5,
+    "high": 69283.2,
+    "low": 69086.5,
+    "close": 69283.2,
+    "volume": 0.011,
+    "turnover": 761.248
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775379600000,
+    "open": 69283.2,
+    "high": 69357.2,
+    "low": 69258.6,
+    "close": 69357.2,
+    "volume": 0.01,
+    "turnover": 693.0533
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775383200000,
+    "open": 69357.2,
+    "high": 69444.3,
+    "low": 69334,
+    "close": 69377.2,
+    "volume": 0.009,
+    "turnover": 624.4381
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775386800000,
+    "open": 69377.2,
+    "high": 69404,
+    "low": 69377.2,
+    "close": 69404,
+    "volume": 0.002,
+    "turnover": 138.808
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775390400000,
+    "open": 69404,
+    "high": 69404,
+    "low": 68909,
+    "close": 69057.9,
+    "volume": 0.005,
+    "turnover": 345.5044
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775394000000,
+    "open": 69057.9,
+    "high": 69271.5,
+    "low": 69057.9,
+    "close": 69233.6,
+    "volume": 0.072,
+    "turnover": 4983.2817
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775397600000,
+    "open": 69233.6,
+    "high": 69299,
+    "low": 69211.4,
+    "close": 69288.7,
+    "volume": 0.048,
+    "turnover": 3323.6745
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775401200000,
+    "open": 69288.7,
+    "high": 70208,
+    "low": 69194.1,
+    "close": 69667,
+    "volume": 0.122,
+    "turnover": 8507.1836
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775404800000,
+    "open": 69667,
+    "high": 69667,
+    "low": 69667,
+    "close": 69667,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775408400000,
+    "open": 69667,
+    "high": 69721,
+    "low": 69667,
+    "close": 69713,
+    "volume": 0.01,
+    "turnover": 697.17
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775412000000,
+    "open": 69713,
+    "high": 69713,
+    "low": 69688.4,
+    "close": 69688.4,
+    "volume": 0.005,
+    "turnover": 348.442
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775415600000,
+    "open": 69688.4,
+    "high": 69688.4,
+    "low": 69688.4,
+    "close": 69688.4,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775419200000,
+    "open": 69688.4,
+    "high": 69688.4,
+    "low": 69688.4,
+    "close": 69688.4,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775422800000,
+    "open": 69688.4,
+    "high": 69904.2,
+    "low": 69688.4,
+    "close": 69837.5,
+    "volume": 0.002,
+    "turnover": 139.7417
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775426400000,
+    "open": 69837.5,
+    "high": 70922.1,
+    "low": 69741.1,
+    "close": 70718.1,
+    "volume": 0.064,
+    "turnover": 4499.883
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775430000000,
+    "open": 70718.1,
+    "high": 71225.8,
+    "low": 70718.1,
+    "close": 71225.8,
+    "volume": 0.017,
+    "turnover": 1205.6909
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775433600000,
+    "open": 71225.8,
+    "high": 71699.2,
+    "low": 71225.8,
+    "close": 71630.8,
+    "volume": 0.017,
+    "turnover": 1217.9972
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775437200000,
+    "open": 71630.8,
+    "high": 71630.8,
+    "low": 71282.1,
+    "close": 71282.1,
+    "volume": 0.004,
+    "turnover": 285.1284
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775440800000,
+    "open": 71282.1,
+    "high": 71769.1,
+    "low": 71282.1,
+    "close": 71769.1,
+    "volume": 0.017,
+    "turnover": 1219.0419
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775444400000,
+    "open": 71769.1,
+    "high": 71769.1,
+    "low": 71550.8,
+    "close": 71550.8,
+    "volume": 0.012,
+    "turnover": 859.1572
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775448000000,
+    "open": 71550.8,
+    "high": 71568.3,
+    "low": 71550.4,
+    "close": 71550.4,
+    "volume": 0.014,
+    "turnover": 1001.8846
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775451600000,
+    "open": 71550.4,
+    "high": 71630.4,
+    "low": 71550.4,
+    "close": 71630.4,
+    "volume": 0.002,
+    "turnover": 143.2337
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775455200000,
+    "open": 71630.4,
+    "high": 71630.4,
+    "low": 71270.6,
+    "close": 71270.6,
+    "volume": 0.001,
+    "turnover": 71.2706
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775458800000,
+    "open": 71270.6,
+    "high": 71490.1,
+    "low": 71222.9,
+    "close": 71490.1,
+    "volume": 0.002,
+    "turnover": 142.713
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775462400000,
+    "open": 71490.1,
+    "high": 71652.5,
+    "low": 71490.1,
+    "close": 71652.5,
+    "volume": 0.079,
+    "turnover": 5660.5208
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775466000000,
+    "open": 71652.5,
+    "high": 72503.1,
+    "low": 71652.5,
+    "close": 71985.1,
+    "volume": 0.087,
+    "turnover": 6275.6667
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775469600000,
+    "open": 71985.1,
+    "high": 72180.8,
+    "low": 71985.1,
+    "close": 72180.8,
+    "volume": 0.02,
+    "turnover": 1443.616
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775473200000,
+    "open": 72180.8,
+    "high": 72180.8,
+    "low": 72094.3,
+    "close": 72104.1,
+    "volume": 0.145,
+    "turnover": 10453.7268
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775476800000,
+    "open": 72104.1,
+    "high": 72104.1,
+    "low": 71848,
+    "close": 71848,
+    "volume": 0.014,
+    "turnover": 1006.3288
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775480400000,
+    "open": 71848,
+    "high": 71911.7,
+    "low": 71784.1,
+    "close": 71814.1,
+    "volume": 0.051,
+    "turnover": 3665.9817
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775484000000,
+    "open": 71814.1,
+    "high": 72082.4,
+    "low": 71611.9,
+    "close": 71870.2,
+    "volume": 0.03,
+    "turnover": 2154.5757
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775487600000,
+    "open": 71870.2,
+    "high": 72198.5,
+    "low": 71870.2,
+    "close": 72198.5,
+    "volume": 0.01,
+    "turnover": 721.8819
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775491200000,
+    "open": 72198.5,
+    "high": 72643.8,
+    "low": 72198.5,
+    "close": 72643.8,
+    "volume": 0.027,
+    "turnover": 1958.0523
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775494800000,
+    "open": 72643.8,
+    "high": 72643.8,
+    "low": 71808.5,
+    "close": 71939.2,
+    "volume": 0.026,
+    "turnover": 1868.7201
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775498400000,
+    "open": 71939.2,
+    "high": 72020.4,
+    "low": 71939.2,
+    "close": 72020.4,
+    "volume": 0.001,
+    "turnover": 72.0204
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775502000000,
+    "open": 72020.4,
+    "high": 72313.9,
+    "low": 72020.4,
+    "close": 72172.2,
+    "volume": 0.009,
+    "turnover": 650.5417
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775505600000,
+    "open": 72172.2,
+    "high": 72410,
+    "low": 72119.2,
+    "close": 72390.9,
+    "volume": 0.1,
+    "turnover": 7237.7718
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775509200000,
+    "open": 72390.9,
+    "high": 72390.9,
+    "low": 71928.2,
+    "close": 71985.1,
+    "volume": 0.028,
+    "turnover": 2018.4786
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775512800000,
+    "open": 71985.1,
+    "high": 72045.3,
+    "low": 71357.6,
+    "close": 71357.6,
+    "volume": 1.192,
+    "turnover": 85525.9941
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775516400000,
+    "open": 71357.6,
+    "high": 71410.7,
+    "low": 71135.7,
+    "close": 71410.7,
+    "volume": 0.259,
+    "turnover": 18447.2216
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775520000000,
+    "open": 71410.7,
+    "high": 71537.6,
+    "low": 71381.9,
+    "close": 71381.9,
+    "volume": 0.142,
+    "turnover": 10147.5453
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775523600000,
+    "open": 71381.9,
+    "high": 71381.9,
+    "low": 71000.4,
+    "close": 71176.8,
+    "volume": 0.42,
+    "turnover": 29875.9755
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775527200000,
+    "open": 71176.8,
+    "high": 71176.8,
+    "low": 71053.5,
+    "close": 71053.5,
+    "volume": 0.008,
+    "turnover": 568.562
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775530800000,
+    "open": 71053.5,
+    "high": 71334.2,
+    "low": 71053.5,
+    "close": 71302.2,
+    "volume": 0.023,
+    "turnover": 1640.3615
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775534400000,
+    "open": 71302.2,
+    "high": 71302.2,
+    "low": 71097.3,
+    "close": 71097.3,
+    "volume": 0.008,
+    "turnover": 569.7773
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775538000000,
+    "open": 71097.3,
+    "high": 71286.5,
+    "low": 71097.3,
+    "close": 71286.5,
+    "volume": 0.001,
+    "turnover": 71.2865
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775541600000,
+    "open": 71286.5,
+    "high": 71286.5,
+    "low": 70996,
+    "close": 71096.2,
+    "volume": 0.013,
+    "turnover": 923.383
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775545200000,
+    "open": 71096.2,
+    "high": 71223.5,
+    "low": 71037.2,
+    "close": 71198.2,
+    "volume": 0.008,
+    "turnover": 569.326
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775548800000,
+    "open": 71198.2,
+    "high": 71435,
+    "low": 71160.1,
+    "close": 71435,
+    "volume": 0.363,
+    "turnover": 25875.4734
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775552400000,
+    "open": 71435,
+    "high": 71725.1,
+    "low": 71435,
+    "close": 71654.5,
+    "volume": 0.238,
+    "turnover": 17039.5541
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775556000000,
+    "open": 71654.5,
+    "high": 71654.5,
+    "low": 70732.2,
+    "close": 70732.2,
+    "volume": 1.004,
+    "turnover": 71728.3148
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775559600000,
+    "open": 70732.2,
+    "high": 70912.1,
+    "low": 70549.9,
+    "close": 70912.1,
+    "volume": 0.025,
+    "turnover": 1768.6119
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775563200000,
+    "open": 70912.1,
+    "high": 70912.1,
+    "low": 70658.1,
+    "close": 70801.5,
+    "volume": 1.072,
+    "turnover": 75925.2796
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775566800000,
+    "open": 70801.5,
+    "high": 71136.5,
+    "low": 70801.5,
+    "close": 70885.7,
+    "volume": 0.144,
+    "turnover": 10229.2027
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775570400000,
+    "open": 70885.7,
+    "high": 70885.7,
+    "low": 70501,
+    "close": 70633.8,
+    "volume": 0.049,
+    "turnover": 3460.3922
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775574000000,
+    "open": 70633.8,
+    "high": 70688.9,
+    "low": 70362.5,
+    "close": 70688.9,
+    "volume": 0.035,
+    "turnover": 2471.5428
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775577600000,
+    "open": 70688.9,
+    "high": 70907,
+    "low": 70661.2,
+    "close": 70907,
+    "volume": 0.074,
+    "turnover": 5233.7306
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775581200000,
+    "open": 70907,
+    "high": 71293.3,
+    "low": 70824.1,
+    "close": 71215.4,
+    "volume": 0.136,
+    "turnover": 9667.9766
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775584800000,
+    "open": 71215.4,
+    "high": 71215.4,
+    "low": 71178,
+    "close": 71178,
+    "volume": 0.001,
+    "turnover": 71.178
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775588400000,
+    "open": 71178,
+    "high": 71507,
+    "low": 70881.2,
+    "close": 71432.3,
+    "volume": 0.061,
+    "turnover": 4358.4044
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775592000000,
+    "open": 71432.3,
+    "high": 72018.7,
+    "low": 71432.3,
+    "close": 71744.7,
+    "volume": 0.085,
+    "turnover": 6091.9243
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775595600000,
+    "open": 71744.7,
+    "high": 72696.7,
+    "low": 71744.7,
+    "close": 72372,
+    "volume": 0.545,
+    "turnover": 39397.8938
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775599200000,
+    "open": 72372,
+    "high": 73990.8,
+    "low": 72372,
+    "close": 73990.8,
+    "volume": 2.187,
+    "turnover": 159707.9891
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775602800000,
+    "open": 73990.8,
+    "high": 75325.5,
+    "low": 73697.5,
+    "close": 74527.8,
+    "volume": 0.856,
+    "turnover": 63901.4793
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775606400000,
+    "open": 74527.8,
+    "high": 74560.2,
+    "low": 74217.4,
+    "close": 74219.1,
+    "volume": 0.367,
+    "turnover": 27308.6132
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775610000000,
+    "open": 74219.1,
+    "high": 74248.4,
+    "low": 73928,
+    "close": 74045.1,
+    "volume": 0.102,
+    "turnover": 7546.0691
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775613600000,
+    "open": 74045.1,
+    "high": 74045.1,
+    "low": 73744.7,
+    "close": 73849.9,
+    "volume": 0.11,
+    "turnover": 8121.3989
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775617200000,
+    "open": 73849.9,
+    "high": 73868.4,
+    "low": 73743.3,
+    "close": 73789.1,
+    "volume": 0.056,
+    "turnover": 4132.6665
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775620800000,
+    "open": 73789.1,
+    "high": 74324.8,
+    "low": 73759.4,
+    "close": 73847.4,
+    "volume": 2.003,
+    "turnover": 148423.2877
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775624400000,
+    "open": 73847.4,
+    "high": 74282.7,
+    "low": 73847.4,
+    "close": 74199.9,
+    "volume": 0.032,
+    "turnover": 2374.8416
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775628000000,
+    "open": 74199.9,
+    "high": 74199.9,
+    "low": 74199.9,
+    "close": 74199.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775631600000,
+    "open": 74199.9,
+    "high": 74199.9,
+    "low": 74199.9,
+    "close": 74199.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775635200000,
+    "open": 74199.9,
+    "high": 74285,
+    "low": 74177.1,
+    "close": 74177.1,
+    "volume": 0.002,
+    "turnover": 148.4621
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775638800000,
+    "open": 74177.1,
+    "high": 74308.4,
+    "low": 74109.6,
+    "close": 74109.6,
+    "volume": 0.002,
+    "turnover": 148.418
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775642400000,
+    "open": 74109.6,
+    "high": 74109.6,
+    "low": 74109.6,
+    "close": 74109.6,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775646000000,
+    "open": 74109.6,
+    "high": 74109.6,
+    "low": 73946.6,
+    "close": 74014.8,
+    "volume": 0.003,
+    "turnover": 221.9762
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775649600000,
+    "open": 74014.8,
+    "high": 74588.3,
+    "low": 74014.8,
+    "close": 74588.3,
+    "volume": 0.036,
+    "turnover": 2685.1788
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775653200000,
+    "open": 74588.3,
+    "high": 75308.7,
+    "low": 73972.8,
+    "close": 73972.8,
+    "volume": 1.316,
+    "turnover": 98873.1563
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775656800000,
+    "open": 73972.8,
+    "high": 74124.6,
+    "low": 73328.3,
+    "close": 73370.3,
+    "volume": 0.087,
+    "turnover": 6387.6994
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775660400000,
+    "open": 73370.3,
+    "high": 73658.8,
+    "low": 73370.3,
+    "close": 73651.4,
+    "volume": 0.017,
+    "turnover": 1251.9311
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775664000000,
+    "open": 73651.4,
+    "high": 73837.6,
+    "low": 73651.4,
+    "close": 73837.6,
+    "volume": 0.001,
+    "turnover": 73.8376
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775667600000,
+    "open": 73837.6,
+    "high": 74261.9,
+    "low": 73837.6,
+    "close": 74216.5,
+    "volume": 0.175,
+    "turnover": 12994.2451
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775671200000,
+    "open": 74216.5,
+    "high": 74311.6,
+    "low": 73673.3,
+    "close": 73673.3,
+    "volume": 0.022,
+    "turnover": 1629.9667
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775674800000,
+    "open": 73673.3,
+    "high": 73756.8,
+    "low": 73554.6,
+    "close": 73756.8,
+    "volume": 0.018,
+    "turnover": 1326.5757
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775678400000,
+    "open": 73756.8,
+    "high": 73884.2,
+    "low": 73705.1,
+    "close": 73750.5,
+    "volume": 0.003,
+    "turnover": 221.3398
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775682000000,
+    "open": 73750.5,
+    "high": 73750.5,
+    "low": 73750.5,
+    "close": 73750.5,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775685600000,
+    "open": 73750.5,
+    "high": 73750.5,
+    "low": 73681.3,
+    "close": 73691.3,
+    "volume": 0.004,
+    "turnover": 294.8192
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775689200000,
+    "open": 73691.3,
+    "high": 73691.3,
+    "low": 73476,
+    "close": 73515.3,
+    "volume": 0.002,
+    "turnover": 146.9913
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775692800000,
+    "open": 73515.3,
+    "high": 73515.3,
+    "low": 73253.1,
+    "close": 73253.1,
+    "volume": 0.01,
+    "turnover": 732.531
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775696400000,
+    "open": 73253.1,
+    "high": 73253.1,
+    "low": 73253.1,
+    "close": 73253.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775700000000,
+    "open": 73253.1,
+    "high": 73638.4,
+    "low": 73253.1,
+    "close": 73525.5,
+    "volume": 0.032,
+    "turnover": 2352.7776
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775703600000,
+    "open": 73525.5,
+    "high": 73525.5,
+    "low": 73325.3,
+    "close": 73455,
+    "volume": 0.033,
+    "turnover": 2423.0973
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775707200000,
+    "open": 73455,
+    "high": 73455,
+    "low": 73318.7,
+    "close": 73318.7,
+    "volume": 0.004,
+    "turnover": 293.3277
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775710800000,
+    "open": 73318.7,
+    "high": 73452.9,
+    "low": 73178.2,
+    "close": 73452.9,
+    "volume": 0.353,
+    "turnover": 25899.5921
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775714400000,
+    "open": 73452.9,
+    "high": 73452.9,
+    "low": 73429.7,
+    "close": 73429.7,
+    "volume": 0.001,
+    "turnover": 73.4297
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775718000000,
+    "open": 73429.7,
+    "high": 73429.7,
+    "low": 73367.1,
+    "close": 73376.9,
+    "volume": 0.17,
+    "turnover": 12474.0632
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775721600000,
+    "open": 73376.9,
+    "high": 73721.9,
+    "low": 73332.6,
+    "close": 73721.9,
+    "volume": 0.035,
+    "turnover": 2575.6648
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775725200000,
+    "open": 73721.9,
+    "high": 73810.1,
+    "low": 73721.9,
+    "close": 73810.1,
+    "volume": 0.909,
+    "turnover": 67093.3809
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775728800000,
+    "open": 73810.1,
+    "high": 73810.1,
+    "low": 73746.6,
+    "close": 73746.6,
+    "volume": 0.022,
+    "turnover": 1622.488
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775732400000,
+    "open": 73746.6,
+    "high": 73746.6,
+    "low": 73433,
+    "close": 73433,
+    "volume": 0.009,
+    "turnover": 661.033
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775736000000,
+    "open": 73433,
+    "high": 73433,
+    "low": 73433,
+    "close": 73433,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775739600000,
+    "open": 73433,
+    "high": 73433,
+    "low": 72980.1,
+    "close": 72980.1,
+    "volume": 0.022,
+    "turnover": 1605.5622
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775743200000,
+    "open": 72980.1,
+    "high": 73542.2,
+    "low": 72980.1,
+    "close": 73532.5,
+    "volume": 0.404,
+    "turnover": 29665.0982
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775746800000,
+    "open": 73532.5,
+    "high": 74629.9,
+    "low": 73363.8,
+    "close": 74450.9,
+    "volume": 0.078,
+    "turnover": 5770.8912
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775750400000,
+    "open": 74450.9,
+    "high": 74721.2,
+    "low": 74320.9,
+    "close": 74403.4,
+    "volume": 0.099,
+    "turnover": 7366.3809
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775754000000,
+    "open": 74403.4,
+    "high": 74924.2,
+    "low": 74403.4,
+    "close": 74730.1,
+    "volume": 1.543,
+    "turnover": 115170.9026
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775757600000,
+    "open": 74730.1,
+    "high": 74730.1,
+    "low": 74092.9,
+    "close": 74253.1,
+    "volume": 5.272,
+    "turnover": 391579.9871
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775761200000,
+    "open": 74253.1,
+    "high": 74582.5,
+    "low": 74161.9,
+    "close": 74523.7,
+    "volume": 0.453,
+    "turnover": 33657.1976
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775764800000,
+    "open": 74523.7,
+    "high": 74890.5,
+    "low": 74523.7,
+    "close": 74732,
+    "volume": 2.044,
+    "turnover": 152840.9835
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775768400000,
+    "open": 74732,
+    "high": 75075,
+    "low": 74572.6,
+    "close": 74698.3,
+    "volume": 0.028,
+    "turnover": 2095.679
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775772000000,
+    "open": 74698.3,
+    "high": 75387.8,
+    "low": 74470.6,
+    "close": 74470.6,
+    "volume": 0.141,
+    "turnover": 10581.8172
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775775600000,
+    "open": 74470.6,
+    "high": 74470.6,
+    "low": 74210.1,
+    "close": 74210.1,
+    "volume": 0.042,
+    "turnover": 3118.0113
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775779200000,
+    "open": 74210.1,
+    "high": 74257.3,
+    "low": 74182.1,
+    "close": 74257.3,
+    "volume": 0.004,
+    "turnover": 296.8036
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775782800000,
+    "open": 74257.3,
+    "high": 74739,
+    "low": 74257.3,
+    "close": 74606.8,
+    "volume": 0.011,
+    "turnover": 821.4974
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775786400000,
+    "open": 74606.8,
+    "high": 74619.1,
+    "low": 74357.3,
+    "close": 74357.3,
+    "volume": 0.039,
+    "turnover": 2905.862
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775790000000,
+    "open": 74357.3,
+    "high": 74364.5,
+    "low": 74260.5,
+    "close": 74364.5,
+    "volume": 0.005,
+    "turnover": 371.4065
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775793600000,
+    "open": 74364.5,
+    "high": 74413.2,
+    "low": 74305.9,
+    "close": 74413.2,
+    "volume": 0.004,
+    "turnover": 297.4444
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775797200000,
+    "open": 74413.2,
+    "high": 74596.8,
+    "low": 74413.2,
+    "close": 74537.5,
+    "volume": 0.014,
+    "turnover": 1043.0443
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775800800000,
+    "open": 74537.5,
+    "high": 74537.5,
+    "low": 74228.7,
+    "close": 74228.7,
+    "volume": 0.014,
+    "turnover": 1041.1894
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775804400000,
+    "open": 74228.7,
+    "high": 74228.7,
+    "low": 73875.6,
+    "close": 73875.6,
+    "volume": 0.041,
+    "turnover": 3030.2275
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775808000000,
+    "open": 73875.6,
+    "high": 74050.9,
+    "low": 73861.3,
+    "close": 73861.3,
+    "volume": 0.387,
+    "turnover": 28616.5223
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775811600000,
+    "open": 73861.3,
+    "high": 74154.9,
+    "low": 73861.3,
+    "close": 74154.9,
+    "volume": 0.001,
+    "turnover": 74.1549
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775815200000,
+    "open": 74154.9,
+    "high": 74215,
+    "low": 74114.9,
+    "close": 74215,
+    "volume": 0.168,
+    "turnover": 12451.4033
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775818800000,
+    "open": 74215,
+    "high": 74561.8,
+    "low": 74215,
+    "close": 74472.5,
+    "volume": 0.168,
+    "turnover": 12511.5151
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775822400000,
+    "open": 74472.5,
+    "high": 74707.5,
+    "low": 74449.1,
+    "close": 74707.5,
+    "volume": 0.005,
+    "turnover": 372.8754
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775826000000,
+    "open": 74707.5,
+    "high": 74778.3,
+    "low": 74417.1,
+    "close": 74723.3,
+    "volume": 0.199,
+    "turnover": 14842.0178
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775829600000,
+    "open": 74723.3,
+    "high": 75045.6,
+    "low": 74723.3,
+    "close": 75045.6,
+    "volume": 0.006,
+    "turnover": 450.2736
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775833200000,
+    "open": 75045.6,
+    "high": 75453.1,
+    "low": 75045.6,
+    "close": 75184.9,
+    "volume": 0.011,
+    "turnover": 829.3362
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775836800000,
+    "open": 75184.9,
+    "high": 75544,
+    "low": 74826.2,
+    "close": 75544,
+    "volume": 0.324,
+    "turnover": 24306.2525
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775840400000,
+    "open": 75544,
+    "high": 75544,
+    "low": 75280,
+    "close": 75280,
+    "volume": 0.002,
+    "turnover": 150.6951
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775844000000,
+    "open": 75280,
+    "high": 75519.3,
+    "low": 75280,
+    "close": 75417.6,
+    "volume": 0.003,
+    "turnover": 226.4284
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775847600000,
+    "open": 75417.6,
+    "high": 75729.2,
+    "low": 75417.6,
+    "close": 75599.2,
+    "volume": 0.019,
+    "turnover": 1436.5171
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775851200000,
+    "open": 75599.2,
+    "high": 75800.9,
+    "low": 75545.5,
+    "close": 75726.6,
+    "volume": 0.747,
+    "turnover": 56489.4209
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775854800000,
+    "open": 75726.6,
+    "high": 75810.8,
+    "low": 75582.9,
+    "close": 75683.3,
+    "volume": 0.079,
+    "turnover": 5978.5706
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775858400000,
+    "open": 75683.3,
+    "high": 75732.8,
+    "low": 75242.5,
+    "close": 75372.9,
+    "volume": 0.024,
+    "turnover": 1809.9271
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775862000000,
+    "open": 75372.9,
+    "high": 75372.9,
+    "low": 75303.5,
+    "close": 75303.5,
+    "volume": 0.002,
+    "turnover": 150.638
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775865600000,
+    "open": 75303.5,
+    "high": 75360.6,
+    "low": 75267.5,
+    "close": 75267.5,
+    "volume": 0.002,
+    "turnover": 150.6281
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775869200000,
+    "open": 75267.5,
+    "high": 75267.5,
+    "low": 75267.5,
+    "close": 75267.5,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775872800000,
+    "open": 75267.5,
+    "high": 75267.5,
+    "low": 75267.5,
+    "close": 75267.5,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775876400000,
+    "open": 75267.5,
+    "high": 75267.5,
+    "low": 75267.5,
+    "close": 75267.5,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775880000000,
+    "open": 75267.5,
+    "high": 75380.9,
+    "low": 75185.8,
+    "close": 75230.4,
+    "volume": 0.481,
+    "turnover": 36175.8351
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775883600000,
+    "open": 75230.4,
+    "high": 75230.4,
+    "low": 75132.7,
+    "close": 75132.7,
+    "volume": 0.001,
+    "turnover": 75.1327
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775887200000,
+    "open": 75132.7,
+    "high": 75132.7,
+    "low": 75132.7,
+    "close": 75132.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775890800000,
+    "open": 75132.7,
+    "high": 75185.6,
+    "low": 75132.7,
+    "close": 75185.5,
+    "volume": 0.502,
+    "turnover": 37743.1212
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775894400000,
+    "open": 75185.5,
+    "high": 75185.5,
+    "low": 75102.7,
+    "close": 75102.7,
+    "volume": 0.3,
+    "turnover": 22530.81
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775898000000,
+    "open": 75102.7,
+    "high": 75230.8,
+    "low": 74986.7,
+    "close": 75230.8,
+    "volume": 0.227,
+    "turnover": 17064.4813
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775901600000,
+    "open": 75230.8,
+    "high": 75230.8,
+    "low": 75230.8,
+    "close": 75230.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775905200000,
+    "open": 75230.8,
+    "high": 75230.8,
+    "low": 75230.8,
+    "close": 75230.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775908800000,
+    "open": 75230.8,
+    "high": 75230.8,
+    "low": 75140.7,
+    "close": 75230,
+    "volume": 0.237,
+    "turnover": 17815.6253
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775912400000,
+    "open": 75230,
+    "high": 75230,
+    "low": 74903.4,
+    "close": 74997.9,
+    "volume": 0.859,
+    "turnover": 64398.7079
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775916000000,
+    "open": 74997.9,
+    "high": 75042.4,
+    "low": 74951.4,
+    "close": 75042.4,
+    "volume": 0.261,
+    "turnover": 19574.634
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775919600000,
+    "open": 75042.4,
+    "high": 75042.4,
+    "low": 75028.3,
+    "close": 75028.3,
+    "volume": 0.001,
+    "turnover": 75.0283
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775923200000,
+    "open": 75028.3,
+    "high": 75499.6,
+    "low": 75028.3,
+    "close": 75469.2,
+    "volume": 1.116,
+    "turnover": 84257.2551
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775926800000,
+    "open": 75469.2,
+    "high": 75469.2,
+    "low": 75469.2,
+    "close": 75469.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775930400000,
+    "open": 75469.2,
+    "high": 75951.5,
+    "low": 75469.2,
+    "close": 75943.9,
+    "volume": 1.25,
+    "turnover": 94933.4189
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775934000000,
+    "open": 75943.9,
+    "high": 76039.8,
+    "low": 75893,
+    "close": 75974.1,
+    "volume": 0.341,
+    "turnover": 25895.6437
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775937600000,
+    "open": 75974.1,
+    "high": 75974.1,
+    "low": 75824.3,
+    "close": 75824.3,
+    "volume": 0.18,
+    "turnover": 13664.7189
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775941200000,
+    "open": 75824.3,
+    "high": 75824.3,
+    "low": 75824.3,
+    "close": 75824.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775944800000,
+    "open": 75824.3,
+    "high": 75824.3,
+    "low": 75638.8,
+    "close": 75638.8,
+    "volume": 0.002,
+    "turnover": 151.451
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775948400000,
+    "open": 75638.8,
+    "high": 75638.8,
+    "low": 75276.8,
+    "close": 75306.1,
+    "volume": 1.12,
+    "turnover": 84502.9792
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775952000000,
+    "open": 75306.1,
+    "high": 75306.1,
+    "low": 75225.1,
+    "close": 75225.1,
+    "volume": 0.261,
+    "turnover": 19633.7511
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775955600000,
+    "open": 75225.1,
+    "high": 75225.1,
+    "low": 73728.9,
+    "close": 73796.3,
+    "volume": 2.392,
+    "turnover": 177534.0641
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775959200000,
+    "open": 73796.3,
+    "high": 74137.1,
+    "low": 73609.3,
+    "close": 74013.4,
+    "volume": 0.25,
+    "turnover": 18419.464
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775962800000,
+    "open": 74013.4,
+    "high": 74013.4,
+    "low": 73946.1,
+    "close": 73946.1,
+    "volume": 0.002,
+    "turnover": 147.8922
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775966400000,
+    "open": 73946.1,
+    "high": 73946.1,
+    "low": 73795.6,
+    "close": 73795.6,
+    "volume": 0.001,
+    "turnover": 73.7956
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775970000000,
+    "open": 73795.6,
+    "high": 73795.6,
+    "low": 73795.6,
+    "close": 73795.6,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775973600000,
+    "open": 73795.6,
+    "high": 73795.6,
+    "low": 73795.6,
+    "close": 73795.6,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775977200000,
+    "open": 73795.6,
+    "high": 73960.9,
+    "low": 73795.6,
+    "close": 73960.9,
+    "volume": 0.222,
+    "turnover": 16404.3098
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775980800000,
+    "open": 73960.9,
+    "high": 73976,
+    "low": 73898.3,
+    "close": 73976,
+    "volume": 0.015,
+    "turnover": 1109.4846
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775984400000,
+    "open": 73976,
+    "high": 73976,
+    "low": 73686.2,
+    "close": 73708.4,
+    "volume": 0.885,
+    "turnover": 65269.8123
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775988000000,
+    "open": 73708.4,
+    "high": 73826.9,
+    "low": 73591.9,
+    "close": 73591.9,
+    "volume": 0.004,
+    "turnover": 294.8462
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775991600000,
+    "open": 73591.9,
+    "high": 73731.3,
+    "low": 73591.9,
+    "close": 73655,
+    "volume": 0.005,
+    "turnover": 368.4269
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775995200000,
+    "open": 73655,
+    "high": 73663.1,
+    "low": 73319.4,
+    "close": 73319.4,
+    "volume": 0.607,
+    "turnover": 44569.7691
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1775998800000,
+    "open": 73319.4,
+    "high": 73319.4,
+    "low": 73029.8,
+    "close": 73029.8,
+    "volume": 2.609,
+    "turnover": 190819.6992
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776002400000,
+    "open": 73029.8,
+    "high": 73155.7,
+    "low": 72875.3,
+    "close": 72875.3,
+    "volume": 0.866,
+    "turnover": 63302.6595
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776006000000,
+    "open": 72875.3,
+    "high": 72912.6,
+    "low": 72762.2,
+    "close": 72857.5,
+    "volume": 0.017,
+    "turnover": 1238.1334
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776009600000,
+    "open": 72857.5,
+    "high": 73021.1,
+    "low": 72857.5,
+    "close": 73011.5,
+    "volume": 0.002,
+    "turnover": 146.0326
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776013200000,
+    "open": 73011.5,
+    "high": 73031.8,
+    "low": 72993.4,
+    "close": 73005.1,
+    "volume": 0.2,
+    "turnover": 14601.25
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776016800000,
+    "open": 73005.1,
+    "high": 73205.4,
+    "low": 73005.1,
+    "close": 73205.4,
+    "volume": 0.001,
+    "turnover": 73.2054
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776020400000,
+    "open": 73205.4,
+    "high": 73256.4,
+    "low": 73205.4,
+    "close": 73256.4,
+    "volume": 0.013,
+    "turnover": 952.3332
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776024000000,
+    "open": 73256.4,
+    "high": 73485.5,
+    "low": 73256.4,
+    "close": 73485.5,
+    "volume": 0.015,
+    "turnover": 1102.2523
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776027600000,
+    "open": 73485.5,
+    "high": 73485.5,
+    "low": 73301.7,
+    "close": 73374.6,
+    "volume": 0.014,
+    "turnover": 1027.5923
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776031200000,
+    "open": 73374.6,
+    "high": 73374.6,
+    "low": 72751.4,
+    "close": 73012.8,
+    "volume": 3.017,
+    "turnover": 220549.2724
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776034800000,
+    "open": 73012.8,
+    "high": 73012.8,
+    "low": 72818.2,
+    "close": 72851.8,
+    "volume": 0.003,
+    "turnover": 218.5393
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776038400000,
+    "open": 72851.8,
+    "high": 73329.7,
+    "low": 72843.5,
+    "close": 73329.7,
+    "volume": 0.078,
+    "turnover": 5708.0158
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776042000000,
+    "open": 73329.7,
+    "high": 73329.7,
+    "low": 73197.1,
+    "close": 73296.2,
+    "volume": 0.022,
+    "turnover": 1612.1081
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776045600000,
+    "open": 73296.2,
+    "high": 73319,
+    "low": 73134.2,
+    "close": 73319,
+    "volume": 0.003,
+    "turnover": 219.6301
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776049200000,
+    "open": 73319,
+    "high": 73319,
+    "low": 73117.2,
+    "close": 73130.5,
+    "volume": 0.012,
+    "turnover": 877.607
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776052800000,
+    "open": 73130.5,
+    "high": 73130.5,
+    "low": 72994.4,
+    "close": 72994.4,
+    "volume": 0.274,
+    "turnover": 20000.4656
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776056400000,
+    "open": 72994.4,
+    "high": 72994.4,
+    "low": 72819.2,
+    "close": 72889.8,
+    "volume": 1.373,
+    "turnover": 100076.9009
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776060000000,
+    "open": 72889.8,
+    "high": 73136.4,
+    "low": 72889.8,
+    "close": 73136.4,
+    "volume": 0.007,
+    "turnover": 511.9548
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776063600000,
+    "open": 73136.4,
+    "high": 73136.4,
+    "low": 72830.3,
+    "close": 72905.2,
+    "volume": 0.007,
+    "turnover": 510.2639
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776067200000,
+    "open": 72905.2,
+    "high": 72905.2,
+    "low": 72754.3,
+    "close": 72754.3,
+    "volume": 0.002,
+    "turnover": 145.5491
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776070800000,
+    "open": 72754.3,
+    "high": 72910.7,
+    "low": 72754.3,
+    "close": 72910.7,
+    "volume": 0.212,
+    "turnover": 15456.9844
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776074400000,
+    "open": 72910.7,
+    "high": 72910.7,
+    "low": 72851.5,
+    "close": 72851.5,
+    "volume": 0.007,
+    "turnover": 510.186
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776078000000,
+    "open": 72851.5,
+    "high": 73028.7,
+    "low": 72851.5,
+    "close": 73028.7,
+    "volume": 0.003,
+    "turnover": 218.8176
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776081600000,
+    "open": 73028.7,
+    "high": 73259.1,
+    "low": 72996.5,
+    "close": 73259.1,
+    "volume": 0.014,
+    "turnover": 1025.3648
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776085200000,
+    "open": 73259.1,
+    "high": 73802.7,
+    "low": 73259.1,
+    "close": 73802.7,
+    "volume": 0.303,
+    "turnover": 22217.8753
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776088800000,
+    "open": 73802.7,
+    "high": 74489.2,
+    "low": 73624.1,
+    "close": 74489.2,
+    "volume": 0.026,
+    "turnover": 1926.7163
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776092400000,
+    "open": 74489.2,
+    "high": 74489.2,
+    "low": 73857.6,
+    "close": 73857.6,
+    "volume": 0.181,
+    "turnover": 13412.0976
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776096000000,
+    "open": 73857.6,
+    "high": 74447.4,
+    "low": 73857.6,
+    "close": 74230,
+    "volume": 0.06,
+    "turnover": 4455.974
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776099600000,
+    "open": 74230,
+    "high": 74580.4,
+    "low": 74230,
+    "close": 74580.4,
+    "volume": 0.04,
+    "turnover": 2982.108
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776103200000,
+    "open": 74580.4,
+    "high": 74580.4,
+    "low": 74580.4,
+    "close": 74580.4,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776106800000,
+    "open": 74580.4,
+    "high": 75531.7,
+    "low": 74479,
+    "close": 75531.7,
+    "volume": 0.282,
+    "turnover": 21051.2092
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776110400000,
+    "open": 75531.7,
+    "high": 75531.7,
+    "low": 75195.6,
+    "close": 75240.1,
+    "volume": 0.927,
+    "turnover": 69728.6123
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776114000000,
+    "open": 75240.1,
+    "high": 75240.1,
+    "low": 75240.1,
+    "close": 75240.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776117600000,
+    "open": 75240.1,
+    "high": 76726.6,
+    "low": 75240.1,
+    "close": 76705.7,
+    "volume": 2.185,
+    "turnover": 166005.5702
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776121200000,
+    "open": 76705.7,
+    "high": 76919.4,
+    "low": 76628.8,
+    "close": 76647,
+    "volume": 2.214,
+    "turnover": 170194.4898
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776124800000,
+    "open": 76647,
+    "high": 76654.5,
+    "low": 76318,
+    "close": 76318,
+    "volume": 0.088,
+    "turnover": 6728.2251
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776128400000,
+    "open": 76318,
+    "high": 76552.6,
+    "low": 76318,
+    "close": 76552.6,
+    "volume": 0.146,
+    "turnover": 11174.548
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776132000000,
+    "open": 76552.6,
+    "high": 76552.6,
+    "low": 76506.9,
+    "close": 76506.9,
+    "volume": 0.073,
+    "turnover": 5585.0037
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776135600000,
+    "open": 76506.9,
+    "high": 76550.1,
+    "low": 76506.9,
+    "close": 76550.1,
+    "volume": 0.073,
+    "turnover": 5588.1573
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776139200000,
+    "open": 76550.1,
+    "high": 76550.1,
+    "low": 76550.1,
+    "close": 76550.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776142800000,
+    "open": 76550.1,
+    "high": 76550.1,
+    "low": 76435,
+    "close": 76435,
+    "volume": 0.001,
+    "turnover": 76.435
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776146400000,
+    "open": 76435,
+    "high": 76691.3,
+    "low": 76435,
+    "close": 76691.3,
+    "volume": 0.685,
+    "turnover": 52423.8114
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776150000000,
+    "open": 76691.3,
+    "high": 77032.5,
+    "low": 76691.3,
+    "close": 76735.4,
+    "volume": 0.28,
+    "turnover": 21502.8752
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776153600000,
+    "open": 76735.4,
+    "high": 77066.6,
+    "low": 76735.4,
+    "close": 77066.6,
+    "volume": 0.072,
+    "turnover": 5548.7952
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776157200000,
+    "open": 77066.6,
+    "high": 77066.6,
+    "low": 76850.2,
+    "close": 76899.1,
+    "volume": 0.501,
+    "turnover": 38526.4018
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776160800000,
+    "open": 76899.1,
+    "high": 76899.1,
+    "low": 76619.9,
+    "close": 76619.9,
+    "volume": 0.002,
+    "turnover": 153.2414
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776164400000,
+    "open": 76619.9,
+    "high": 76619.9,
+    "low": 76534.7,
+    "close": 76587,
+    "volume": 0.089,
+    "turnover": 6815.9231
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776168000000,
+    "open": 76587,
+    "high": 76597.3,
+    "low": 76587,
+    "close": 76597.3,
+    "volume": 0.013,
+    "turnover": 995.7649
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776171600000,
+    "open": 76597.3,
+    "high": 77591.1,
+    "low": 76597.3,
+    "close": 77591.1,
+    "volume": 0.116,
+    "turnover": 8941.3163
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776175200000,
+    "open": 77591.1,
+    "high": 78168.6,
+    "low": 77183.3,
+    "close": 77183.3,
+    "volume": 0.041,
+    "turnover": 3182.1474
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776178800000,
+    "open": 77183.3,
+    "high": 77600.4,
+    "low": 76837.8,
+    "close": 77523.5,
+    "volume": 0.078,
+    "turnover": 6027.8178
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776182400000,
+    "open": 77523.5,
+    "high": 77523.5,
+    "low": 76756.2,
+    "close": 76756.2,
+    "volume": 0.011,
+    "turnover": 849.7574
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776186000000,
+    "open": 76756.2,
+    "high": 77101.3,
+    "low": 76579.4,
+    "close": 76581.9,
+    "volume": 0.039,
+    "turnover": 2989.0898
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776189600000,
+    "open": 76581.9,
+    "high": 76779.1,
+    "low": 76113.4,
+    "close": 76113.4,
+    "volume": 0.028,
+    "turnover": 2148.5143
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776193200000,
+    "open": 76113.4,
+    "high": 76432.8,
+    "low": 76113.4,
+    "close": 76288.9,
+    "volume": 0.017,
+    "turnover": 1298.094
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776196800000,
+    "open": 76288.9,
+    "high": 76539.2,
+    "low": 76288.9,
+    "close": 76539.2,
+    "volume": 0.001,
+    "turnover": 76.5392
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776200400000,
+    "open": 76539.2,
+    "high": 76539.2,
+    "low": 76371.4,
+    "close": 76371.4,
+    "volume": 0.001,
+    "turnover": 76.3714
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776204000000,
+    "open": 76371.4,
+    "high": 76371.4,
+    "low": 76082,
+    "close": 76302,
+    "volume": 0.212,
+    "turnover": 16165.024
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776207600000,
+    "open": 76302,
+    "high": 76433.4,
+    "low": 76302,
+    "close": 76433.4,
+    "volume": 0.325,
+    "turnover": 24840.2779
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776211200000,
+    "open": 76433.4,
+    "high": 76814,
+    "low": 76433.4,
+    "close": 76692.4,
+    "volume": 0.053,
+    "turnover": 4067.8441
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776214800000,
+    "open": 76692.4,
+    "high": 77080.8,
+    "low": 76687.7,
+    "close": 76854.3,
+    "volume": 2.194,
+    "turnover": 168725.5114
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776218400000,
+    "open": 76854.3,
+    "high": 76854.3,
+    "low": 76406.4,
+    "close": 76470.3,
+    "volume": 0.125,
+    "turnover": 9564.5876
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776222000000,
+    "open": 76470.3,
+    "high": 76470.3,
+    "low": 76410.5,
+    "close": 76410.5,
+    "volume": 0.001,
+    "turnover": 76.4105
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776225600000,
+    "open": 76410.5,
+    "high": 76410.5,
+    "low": 76410.5,
+    "close": 76410.5,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776229200000,
+    "open": 76410.5,
+    "high": 76578.4,
+    "low": 76084.1,
+    "close": 76093.2,
+    "volume": 0.101,
+    "turnover": 7699.814
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776232800000,
+    "open": 76093.2,
+    "high": 76202.7,
+    "low": 76053.8,
+    "close": 76103.2,
+    "volume": 0.086,
+    "turnover": 6543.7092
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776236400000,
+    "open": 76103.2,
+    "high": 76120,
+    "low": 75810.7,
+    "close": 75849.1,
+    "volume": 0.19,
+    "turnover": 14428.7772
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776240000000,
+    "open": 75849.1,
+    "high": 76338,
+    "low": 75849.1,
+    "close": 76306.3,
+    "volume": 0.07,
+    "turnover": 5338.7924
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776243600000,
+    "open": 76306.3,
+    "high": 76306.3,
+    "low": 76154.9,
+    "close": 76154.9,
+    "volume": 0.002,
+    "turnover": 152.3435
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776247200000,
+    "open": 76154.9,
+    "high": 76154.9,
+    "low": 76154.9,
+    "close": 76154.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776250800000,
+    "open": 76154.9,
+    "high": 76284.9,
+    "low": 76071.5,
+    "close": 76284.9,
+    "volume": 0.124,
+    "turnover": 9445.2746
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776254400000,
+    "open": 76284.9,
+    "high": 76284.9,
+    "low": 76284.9,
+    "close": 76284.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776258000000,
+    "open": 76284.9,
+    "high": 76337.6,
+    "low": 76284.9,
+    "close": 76337.6,
+    "volume": 0.013,
+    "turnover": 992.3888
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776261600000,
+    "open": 76337.6,
+    "high": 76337.6,
+    "low": 76337.6,
+    "close": 76337.6,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776265200000,
+    "open": 76337.6,
+    "high": 76375.1,
+    "low": 76009.4,
+    "close": 76009.4,
+    "volume": 0.014,
+    "turnover": 1064.4973
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776268800000,
+    "open": 76009.4,
+    "high": 76279.5,
+    "low": 76009.4,
+    "close": 76279.5,
+    "volume": 0.002,
+    "turnover": 152.4601
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776272400000,
+    "open": 76279.5,
+    "high": 76359.3,
+    "low": 76279.5,
+    "close": 76359.3,
+    "volume": 0.001,
+    "turnover": 76.3593
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776276000000,
+    "open": 76359.3,
+    "high": 76620,
+    "low": 76359.3,
+    "close": 76620,
+    "volume": 0.161,
+    "turnover": 12335.82
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776279600000,
+    "open": 76620,
+    "high": 77577.2,
+    "low": 76620,
+    "close": 77275.6,
+    "volume": 0.032,
+    "turnover": 2474.4473
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776283200000,
+    "open": 77275.6,
+    "high": 77275.6,
+    "low": 76814.3,
+    "close": 76814.3,
+    "volume": 0.003,
+    "turnover": 230.7777
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776286800000,
+    "open": 76814.3,
+    "high": 76814.3,
+    "low": 76814.3,
+    "close": 76814.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776290400000,
+    "open": 76814.3,
+    "high": 77336.6,
+    "low": 76814.3,
+    "close": 77227.7,
+    "volume": 0.004,
+    "turnover": 309.0255
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776294000000,
+    "open": 77227.7,
+    "high": 77227.7,
+    "low": 77025.9,
+    "close": 77025.9,
+    "volume": 0.13,
+    "turnover": 10018.255
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776297600000,
+    "open": 77025.9,
+    "high": 77025.9,
+    "low": 76957.9,
+    "close": 76973.7,
+    "volume": 0.228,
+    "turnover": 17554.4796
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776301200000,
+    "open": 76973.7,
+    "high": 76973.7,
+    "low": 76694.2,
+    "close": 76741.6,
+    "volume": 0.002,
+    "turnover": 153.4358
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776304800000,
+    "open": 76741.6,
+    "high": 77239.2,
+    "low": 76741.6,
+    "close": 77239.2,
+    "volume": 0.291,
+    "turnover": 22462.6182
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776308400000,
+    "open": 77239.2,
+    "high": 77239.2,
+    "low": 77134.7,
+    "close": 77134.7,
+    "volume": 0.001,
+    "turnover": 77.1347
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776312000000,
+    "open": 77134.7,
+    "high": 77134.7,
+    "low": 77039.1,
+    "close": 77039.1,
+    "volume": 0.002,
+    "turnover": 154.0829
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776315600000,
+    "open": 77039.1,
+    "high": 77145.2,
+    "low": 77039.1,
+    "close": 77145.2,
+    "volume": 0.001,
+    "turnover": 77.1452
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776319200000,
+    "open": 77145.2,
+    "high": 77145.2,
+    "low": 77145.2,
+    "close": 77145.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776322800000,
+    "open": 77145.2,
+    "high": 77145.2,
+    "low": 77145.2,
+    "close": 77145.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776326400000,
+    "open": 77145.2,
+    "high": 77145.2,
+    "low": 76780,
+    "close": 76847.1,
+    "volume": 0.007,
+    "turnover": 537.9275
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776330000000,
+    "open": 76847.1,
+    "high": 77045.4,
+    "low": 76847.1,
+    "close": 77028.1,
+    "volume": 0.004,
+    "turnover": 308.1337
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776333600000,
+    "open": 77028.1,
+    "high": 77028.1,
+    "low": 76604.1,
+    "close": 76697.7,
+    "volume": 0.508,
+    "turnover": 38960.6248
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776337200000,
+    "open": 76697.7,
+    "high": 76718.6,
+    "low": 76533,
+    "close": 76654.6,
+    "volume": 0.02,
+    "turnover": 1533.8587
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776340800000,
+    "open": 76654.6,
+    "high": 76932.5,
+    "low": 76654.6,
+    "close": 76847.3,
+    "volume": 0.002,
+    "turnover": 153.7798
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776344400000,
+    "open": 76847.3,
+    "high": 76900.7,
+    "low": 75656.8,
+    "close": 75903.3,
+    "volume": 0.08,
+    "turnover": 6105.0754
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776348000000,
+    "open": 75903.3,
+    "high": 76091.8,
+    "low": 75758.3,
+    "close": 76091.8,
+    "volume": 0.107,
+    "turnover": 8124.1193
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776351600000,
+    "open": 76091.8,
+    "high": 76814.2,
+    "low": 76091.8,
+    "close": 76773.7,
+    "volume": 0.6,
+    "turnover": 46038.1066
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776355200000,
+    "open": 76773.7,
+    "high": 77061.9,
+    "low": 76266.8,
+    "close": 76431.2,
+    "volume": 0.021,
+    "turnover": 1610.1894
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776358800000,
+    "open": 76431.2,
+    "high": 76642.4,
+    "low": 76198.2,
+    "close": 76449.7,
+    "volume": 0.017,
+    "turnover": 1299.5381
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776362400000,
+    "open": 76449.7,
+    "high": 77209.2,
+    "low": 76449.7,
+    "close": 77209.2,
+    "volume": 0.015,
+    "turnover": 1150.1738
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776366000000,
+    "open": 77209.2,
+    "high": 77333.8,
+    "low": 77099.5,
+    "close": 77333.8,
+    "volume": 0.004,
+    "turnover": 308.892
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776369600000,
+    "open": 77333.8,
+    "high": 77693.6,
+    "low": 77333.8,
+    "close": 77497.7,
+    "volume": 0.004,
+    "turnover": 310.3029
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776373200000,
+    "open": 77497.7,
+    "high": 77497.7,
+    "low": 77102.9,
+    "close": 77165.1,
+    "volume": 0.119,
+    "turnover": 9183.1321
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776376800000,
+    "open": 77165.1,
+    "high": 77363.5,
+    "low": 77059,
+    "close": 77149.2,
+    "volume": 0.338,
+    "turnover": 26049.746
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776380400000,
+    "open": 77149.2,
+    "high": 77385.6,
+    "low": 77149.2,
+    "close": 77376.7,
+    "volume": 0.591,
+    "turnover": 45697.1241
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776384000000,
+    "open": 77376.7,
+    "high": 77392.3,
+    "low": 77180,
+    "close": 77210.4,
+    "volume": 0.043,
+    "turnover": 3321.4694
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776387600000,
+    "open": 77210.4,
+    "high": 77210.4,
+    "low": 76811.4,
+    "close": 77045.7,
+    "volume": 0.346,
+    "turnover": 26655.011
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776391200000,
+    "open": 77045.7,
+    "high": 77045.7,
+    "low": 76849.6,
+    "close": 76898.4,
+    "volume": 0.462,
+    "turnover": 35547.251
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776394800000,
+    "open": 76898.4,
+    "high": 77053.9,
+    "low": 76874.2,
+    "close": 76926.4,
+    "volume": 0.055,
+    "turnover": 4228.6062
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776398400000,
+    "open": 76926.4,
+    "high": 76926.4,
+    "low": 76850.8,
+    "close": 76926.4,
+    "volume": 0.063,
+    "turnover": 4846.1837
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776402000000,
+    "open": 76926.4,
+    "high": 76946.4,
+    "low": 76801.2,
+    "close": 76893.6,
+    "volume": 0.594,
+    "turnover": 45636.6281
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776405600000,
+    "open": 76893.6,
+    "high": 77136.3,
+    "low": 76855.6,
+    "close": 77136.3,
+    "volume": 1.745,
+    "turnover": 134600.1936
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776409200000,
+    "open": 77136.3,
+    "high": 77227.7,
+    "low": 77109.4,
+    "close": 77208,
+    "volume": 9.103,
+    "turnover": 702294.7397
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776412800000,
+    "open": 77208,
+    "high": 77944.5,
+    "low": 77130.6,
+    "close": 77944.5,
+    "volume": 1.85,
+    "turnover": 142966.2051
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776416400000,
+    "open": 77944.5,
+    "high": 78475,
+    "low": 77771.8,
+    "close": 77942.3,
+    "volume": 0.116,
+    "turnover": 9054.9626
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776420000000,
+    "open": 77942.3,
+    "high": 77942.3,
+    "low": 77276.4,
+    "close": 77394.4,
+    "volume": 2.02,
+    "turnover": 156353.6422
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776423600000,
+    "open": 77394.4,
+    "high": 77528.6,
+    "low": 77394.4,
+    "close": 77528.6,
+    "volume": 0.001,
+    "turnover": 77.5286
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776427200000,
+    "open": 77528.6,
+    "high": 78342.7,
+    "low": 77528.6,
+    "close": 78342.5,
+    "volume": 0.092,
+    "turnover": 7187.0715
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776430800000,
+    "open": 78342.5,
+    "high": 79500.3,
+    "low": 78176.4,
+    "close": 79452.9,
+    "volume": 1.156,
+    "turnover": 90804.8982
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776434400000,
+    "open": 79452.9,
+    "high": 80146,
+    "low": 79331,
+    "close": 80047.9,
+    "volume": 1.25,
+    "turnover": 99865.3782
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776438000000,
+    "open": 80047.9,
+    "high": 80079.8,
+    "low": 79736.9,
+    "close": 79736.9,
+    "volume": 2.185,
+    "turnover": 174526.439
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776441600000,
+    "open": 79736.9,
+    "high": 80400.1,
+    "low": 79736.9,
+    "close": 80158.5,
+    "volume": 2.106,
+    "turnover": 169061.9926
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776445200000,
+    "open": 80158.5,
+    "high": 80158.5,
+    "low": 79452.5,
+    "close": 79824.2,
+    "volume": 0.651,
+    "turnover": 51946.2157
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776448800000,
+    "open": 79824.2,
+    "high": 79824.2,
+    "low": 79474,
+    "close": 79474,
+    "volume": 0.022,
+    "turnover": 1752.164
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776452400000,
+    "open": 79474,
+    "high": 79559.6,
+    "low": 79321.8,
+    "close": 79461.6,
+    "volume": 0.178,
+    "turnover": 14120.2087
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776456000000,
+    "open": 79461.6,
+    "high": 79816.6,
+    "low": 79346,
+    "close": 79346,
+    "volume": 0.223,
+    "turnover": 17757.7952
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776459600000,
+    "open": 79346,
+    "high": 79655.9,
+    "low": 79346,
+    "close": 79655.9,
+    "volume": 0.006,
+    "turnover": 477.6632
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776463200000,
+    "open": 79655.9,
+    "high": 79655.9,
+    "low": 79625.2,
+    "close": 79625.2,
+    "volume": 0.001,
+    "turnover": 79.6252
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776466800000,
+    "open": 79625.2,
+    "high": 79625.2,
+    "low": 79101.2,
+    "close": 79211.7,
+    "volume": 0.463,
+    "turnover": 36701.8859
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776470400000,
+    "open": 79211.7,
+    "high": 79362.4,
+    "low": 79211.7,
+    "close": 79295.9,
+    "volume": 0.765,
+    "turnover": 60672.6654
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776474000000,
+    "open": 79295.9,
+    "high": 79425.5,
+    "low": 79295.9,
+    "close": 79425.5,
+    "volume": 0.001,
+    "turnover": 79.4255
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776477600000,
+    "open": 79425.5,
+    "high": 79425.5,
+    "low": 79425.5,
+    "close": 79425.5,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776481200000,
+    "open": 79425.5,
+    "high": 79425.5,
+    "low": 79301.3,
+    "close": 79301.3,
+    "volume": 0.066,
+    "turnover": 5239.0337
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776484800000,
+    "open": 79301.3,
+    "high": 79301.3,
+    "low": 79301.3,
+    "close": 79301.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776488400000,
+    "open": 79301.3,
+    "high": 79354.4,
+    "low": 79301.3,
+    "close": 79354.4,
+    "volume": 0.001,
+    "turnover": 79.3544
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776492000000,
+    "open": 79354.4,
+    "high": 79354.4,
+    "low": 79321.3,
+    "close": 79321.3,
+    "volume": 0.003,
+    "turnover": 237.9944
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776495600000,
+    "open": 79321.3,
+    "high": 79321.3,
+    "low": 79156.9,
+    "close": 79156.9,
+    "volume": 0.322,
+    "turnover": 25506.4465
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776499200000,
+    "open": 79156.9,
+    "high": 79204.4,
+    "low": 78736.4,
+    "close": 78945.4,
+    "volume": 3.708,
+    "turnover": 292880.3779
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776502800000,
+    "open": 78945.4,
+    "high": 78945.4,
+    "low": 78647.3,
+    "close": 78883.5,
+    "volume": 0.07,
+    "turnover": 5520.7292
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776506400000,
+    "open": 78883.5,
+    "high": 78883.5,
+    "low": 78352.7,
+    "close": 78352.7,
+    "volume": 0.171,
+    "turnover": 13411.8313
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776510000000,
+    "open": 78352.7,
+    "high": 78352.7,
+    "low": 77898.6,
+    "close": 78181.1,
+    "volume": 1.391,
+    "turnover": 108715.3699
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776513600000,
+    "open": 78181.1,
+    "high": 78451.6,
+    "low": 78181.1,
+    "close": 78387.7,
+    "volume": 0.366,
+    "turnover": 28670.9432
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776517200000,
+    "open": 78387.7,
+    "high": 78387.7,
+    "low": 77956.1,
+    "close": 78116.8,
+    "volume": 0.965,
+    "turnover": 75578.404
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776520800000,
+    "open": 78116.8,
+    "high": 78422.7,
+    "low": 78116.8,
+    "close": 78422.7,
+    "volume": 0.003,
+    "turnover": 235.1717
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776524400000,
+    "open": 78422.7,
+    "high": 78422.7,
+    "low": 78326.4,
+    "close": 78355.7,
+    "volume": 0.003,
+    "turnover": 235.0085
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776528000000,
+    "open": 78355.7,
+    "high": 78355.7,
+    "low": 77833.7,
+    "close": 78268.4,
+    "volume": 0.544,
+    "turnover": 42445.2245
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776531600000,
+    "open": 78268.4,
+    "high": 78268.4,
+    "low": 77966.8,
+    "close": 77999.7,
+    "volume": 0.555,
+    "turnover": 43298.9816
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776535200000,
+    "open": 77999.7,
+    "high": 77999.7,
+    "low": 77636.2,
+    "close": 77731.6,
+    "volume": 0.311,
+    "turnover": 24201.9414
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776538800000,
+    "open": 77731.6,
+    "high": 77911.6,
+    "low": 77731.6,
+    "close": 77743.1,
+    "volume": 0.02,
+    "turnover": 1556.9058
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776542400000,
+    "open": 77743.1,
+    "high": 77941.9,
+    "low": 77743.1,
+    "close": 77941.9,
+    "volume": 0.017,
+    "turnover": 1323.2372
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776546000000,
+    "open": 77941.9,
+    "high": 77977.5,
+    "low": 77833.3,
+    "close": 77916.9,
+    "volume": 0.016,
+    "turnover": 1247.2603
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776549600000,
+    "open": 77916.9,
+    "high": 77970.7,
+    "low": 77916.9,
+    "close": 77932.7,
+    "volume": 0.008,
+    "turnover": 623.4996
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776553200000,
+    "open": 77932.7,
+    "high": 78018,
+    "low": 77874.7,
+    "close": 77876.8,
+    "volume": 0.099,
+    "turnover": 7714.09
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776556800000,
+    "open": 77876.8,
+    "high": 77876.8,
+    "low": 77723.7,
+    "close": 77775.4,
+    "volume": 0.668,
+    "turnover": 51944.7695
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776560400000,
+    "open": 77775.4,
+    "high": 77925.5,
+    "low": 77697.4,
+    "close": 77697.4,
+    "volume": 0.004,
+    "turnover": 311.0603
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776564000000,
+    "open": 77697.4,
+    "high": 77802.7,
+    "low": 77541.4,
+    "close": 77796.6,
+    "volume": 0.014,
+    "turnover": 1087.2379
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776567600000,
+    "open": 77796.6,
+    "high": 77796.6,
+    "low": 77562.2,
+    "close": 77623.8,
+    "volume": 0.004,
+    "turnover": 310.36
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776571200000,
+    "open": 77623.8,
+    "high": 77828.8,
+    "low": 77553.2,
+    "close": 77789.1,
+    "volume": 0.1,
+    "turnover": 7769.7359
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776574800000,
+    "open": 77789.1,
+    "high": 77804.3,
+    "low": 77628,
+    "close": 77671.2,
+    "volume": 0.085,
+    "turnover": 6604.9657
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776578400000,
+    "open": 77671.2,
+    "high": 77671.2,
+    "low": 77504.7,
+    "close": 77580.6,
+    "volume": 0.007,
+    "turnover": 543.0546
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776582000000,
+    "open": 77580.6,
+    "high": 77580.6,
+    "low": 77253.2,
+    "close": 77396.4,
+    "volume": 0.193,
+    "turnover": 14937.2754
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776585600000,
+    "open": 77396.4,
+    "high": 77410.5,
+    "low": 77342.8,
+    "close": 77360.9,
+    "volume": 0.052,
+    "turnover": 4025.2287
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776589200000,
+    "open": 77360.9,
+    "high": 77360.9,
+    "low": 77056.2,
+    "close": 77084.8,
+    "volume": 0.06,
+    "turnover": 4628.0975
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776592800000,
+    "open": 77084.8,
+    "high": 77291.1,
+    "low": 77084.8,
+    "close": 77291.1,
+    "volume": 0.001,
+    "turnover": 77.2911
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776596400000,
+    "open": 77291.1,
+    "high": 77564.5,
+    "low": 77291.1,
+    "close": 77564.5,
+    "volume": 0.003,
+    "turnover": 232.5615
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776600000000,
+    "open": 77564.5,
+    "high": 77790.2,
+    "low": 77564.5,
+    "close": 77730.8,
+    "volume": 0.052,
+    "turnover": 4044.7902
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776603600000,
+    "open": 77730.8,
+    "high": 78169.8,
+    "low": 77729,
+    "close": 77992.7,
+    "volume": 0.08,
+    "turnover": 6228.1842
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776607200000,
+    "open": 77992.7,
+    "high": 78059.5,
+    "low": 77921.5,
+    "close": 77921.5,
+    "volume": 0.006,
+    "turnover": 467.8769
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776610800000,
+    "open": 77921.5,
+    "high": 78039,
+    "low": 77532.1,
+    "close": 77532.1,
+    "volume": 0.004,
+    "turnover": 311.3163
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776614400000,
+    "open": 77532.1,
+    "high": 77925.8,
+    "low": 77532.1,
+    "close": 77665.2,
+    "volume": 0.007,
+    "turnover": 544.4026
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776618000000,
+    "open": 77665.2,
+    "high": 77665.2,
+    "low": 76905.9,
+    "close": 76950,
+    "volume": 0.067,
+    "turnover": 5169.8375
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776621600000,
+    "open": 76950,
+    "high": 76950,
+    "low": 76802.9,
+    "close": 76802.9,
+    "volume": 0.003,
+    "turnover": 230.4936
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776625200000,
+    "open": 76802.9,
+    "high": 77061.7,
+    "low": 76802.9,
+    "close": 77061.7,
+    "volume": 0.006,
+    "turnover": 461.9904
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776628800000,
+    "open": 77061.7,
+    "high": 77061.7,
+    "low": 76905.2,
+    "close": 76905.2,
+    "volume": 0.002,
+    "turnover": 153.8104
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776632400000,
+    "open": 76905.2,
+    "high": 76905.2,
+    "low": 76484.8,
+    "close": 76484.8,
+    "volume": 0.016,
+    "turnover": 1227.4602
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776636000000,
+    "open": 76484.8,
+    "high": 76484.8,
+    "low": 75943.9,
+    "close": 76247.3,
+    "volume": 1.075,
+    "turnover": 81873.406
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776639600000,
+    "open": 76247.3,
+    "high": 76247.3,
+    "low": 75946.3,
+    "close": 76035.6,
+    "volume": 0.004,
+    "turnover": 303.8745
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776643200000,
+    "open": 76035.6,
+    "high": 76342.9,
+    "low": 76019.6,
+    "close": 76297.3,
+    "volume": 0.366,
+    "turnover": 27840.786
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776646800000,
+    "open": 76297.3,
+    "high": 76297.3,
+    "low": 76297.3,
+    "close": 76297.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776650400000,
+    "open": 76297.3,
+    "high": 76611.7,
+    "low": 76297.3,
+    "close": 76516,
+    "volume": 0.783,
+    "turnover": 59950.1001
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776654000000,
+    "open": 76516,
+    "high": 76752.6,
+    "low": 76516,
+    "close": 76717,
+    "volume": 1.716,
+    "turnover": 131495.3297
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776657600000,
+    "open": 76717,
+    "high": 76718.3,
+    "low": 76523.6,
+    "close": 76629.5,
+    "volume": 0.175,
+    "turnover": 13409.6402
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776661200000,
+    "open": 76629.5,
+    "high": 76629.5,
+    "low": 76184.2,
+    "close": 76284.8,
+    "volume": 0.045,
+    "turnover": 3437.8316
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776664800000,
+    "open": 76284.8,
+    "high": 76900.4,
+    "low": 76284.8,
+    "close": 76879.6,
+    "volume": 0.461,
+    "turnover": 35402.694
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776668400000,
+    "open": 76879.6,
+    "high": 77614.8,
+    "low": 76856.1,
+    "close": 76856.1,
+    "volume": 0.088,
+    "turnover": 6815.4911
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776672000000,
+    "open": 76856.1,
+    "high": 76925.2,
+    "low": 76816,
+    "close": 76816,
+    "volume": 0.016,
+    "turnover": 1230.5564
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776675600000,
+    "open": 76816,
+    "high": 77024.8,
+    "low": 76814,
+    "close": 77024.8,
+    "volume": 0.132,
+    "turnover": 10155.1366
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776679200000,
+    "open": 77024.8,
+    "high": 77348.2,
+    "low": 77024.8,
+    "close": 77135.6,
+    "volume": 0.068,
+    "turnover": 5259.1274
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776682800000,
+    "open": 77135.6,
+    "high": 77176.5,
+    "low": 77116.6,
+    "close": 77176.5,
+    "volume": 0.262,
+    "turnover": 20212.0246
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776686400000,
+    "open": 77176.5,
+    "high": 77511.4,
+    "low": 77176.5,
+    "close": 77480.4,
+    "volume": 0.225,
+    "turnover": 17439.0641
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776690000000,
+    "open": 77480.4,
+    "high": 77480.4,
+    "low": 77074.7,
+    "close": 77344.1,
+    "volume": 1.333,
+    "turnover": 103041.0442
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776693600000,
+    "open": 77344.1,
+    "high": 77704.9,
+    "low": 77010.7,
+    "close": 77010.7,
+    "volume": 3.448,
+    "turnover": 266608.2847
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776697200000,
+    "open": 77010.7,
+    "high": 77729.9,
+    "low": 76892.7,
+    "close": 77729.9,
+    "volume": 0.018,
+    "turnover": 1389.4008
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776700800000,
+    "open": 77729.9,
+    "high": 77729.9,
+    "low": 77729.9,
+    "close": 77729.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776704400000,
+    "open": 77729.9,
+    "high": 78022.9,
+    "low": 77416.5,
+    "close": 77828.5,
+    "volume": 0.531,
+    "turnover": 41366.7916
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776708000000,
+    "open": 77828.5,
+    "high": 78478.4,
+    "low": 77828.5,
+    "close": 78478.4,
+    "volume": 0.433,
+    "turnover": 33840.5441
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776711600000,
+    "open": 78478.4,
+    "high": 78478.4,
+    "low": 78220.6,
+    "close": 78252.1,
+    "volume": 0.742,
+    "turnover": 58078.1017
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776715200000,
+    "open": 78252.1,
+    "high": 78499.3,
+    "low": 78231,
+    "close": 78499.3,
+    "volume": 0.003,
+    "turnover": 235.1145
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776718800000,
+    "open": 78499.3,
+    "high": 78499.3,
+    "low": 77884.5,
+    "close": 77884.5,
+    "volume": 0.277,
+    "turnover": 21593.942
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776722400000,
+    "open": 77884.5,
+    "high": 77972.4,
+    "low": 77884.5,
+    "close": 77972.4,
+    "volume": 0.181,
+    "turnover": 14110.1856
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776726000000,
+    "open": 77972.4,
+    "high": 77972.4,
+    "low": 77953.5,
+    "close": 77953.5,
+    "volume": 0.001,
+    "turnover": 77.9535
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776729600000,
+    "open": 77953.5,
+    "high": 78061.2,
+    "low": 77755.8,
+    "close": 78061.2,
+    "volume": 0.002,
+    "turnover": 155.817
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776733200000,
+    "open": 78061.2,
+    "high": 78277.7,
+    "low": 78061.2,
+    "close": 78079.1,
+    "volume": 0.052,
+    "turnover": 4065.6584
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776736800000,
+    "open": 78079.1,
+    "high": 78079.1,
+    "low": 77778.8,
+    "close": 77778.8,
+    "volume": 0.006,
+    "turnover": 466.6728
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776740400000,
+    "open": 77778.8,
+    "high": 77778.8,
+    "low": 77443,
+    "close": 77443,
+    "volume": 0.077,
+    "turnover": 5977.1257
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776744000000,
+    "open": 77443,
+    "high": 77443,
+    "low": 77443,
+    "close": 77443,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776747600000,
+    "open": 77443,
+    "high": 77443,
+    "low": 77443,
+    "close": 77443,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776751200000,
+    "open": 77443,
+    "high": 77827.1,
+    "low": 77443,
+    "close": 77827.1,
+    "volume": 0.002,
+    "turnover": 155.6412
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776754800000,
+    "open": 77827.1,
+    "high": 78323.5,
+    "low": 77827.1,
+    "close": 78183.7,
+    "volume": 0.362,
+    "turnover": 28303.6905
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776758400000,
+    "open": 78183.7,
+    "high": 78799,
+    "low": 78104.9,
+    "close": 78634,
+    "volume": 0.202,
+    "turnover": 15899.7877
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776762000000,
+    "open": 78634,
+    "high": 78634,
+    "low": 78272.1,
+    "close": 78434.5,
+    "volume": 0.548,
+    "turnover": 42936.9373
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776765600000,
+    "open": 78434.5,
+    "high": 78842.9,
+    "low": 78434.5,
+    "close": 78842.9,
+    "volume": 0.005,
+    "turnover": 393.2033
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776769200000,
+    "open": 78842.9,
+    "high": 78842.9,
+    "low": 78466,
+    "close": 78662.9,
+    "volume": 0.165,
+    "turnover": 12967.352
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776772800000,
+    "open": 78662.9,
+    "high": 78662.9,
+    "low": 77916.4,
+    "close": 77916.4,
+    "volume": 0.004,
+    "turnover": 312.9528
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776776400000,
+    "open": 77916.4,
+    "high": 78278.7,
+    "low": 77912.5,
+    "close": 77912.5,
+    "volume": 0.115,
+    "turnover": 8996.6613
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776780000000,
+    "open": 77912.5,
+    "high": 78346.5,
+    "low": 77768.3,
+    "close": 77768.3,
+    "volume": 0.276,
+    "turnover": 21509.5157
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776783600000,
+    "open": 77768.3,
+    "high": 77993,
+    "low": 77569.9,
+    "close": 77742.3,
+    "volume": 1.006,
+    "turnover": 78045.8232
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776787200000,
+    "open": 77742.3,
+    "high": 78218.6,
+    "low": 77742.3,
+    "close": 77907.6,
+    "volume": 0.036,
+    "turnover": 2806.8972
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776790800000,
+    "open": 77907.6,
+    "high": 77907.6,
+    "low": 77297.5,
+    "close": 77719.4,
+    "volume": 1.194,
+    "turnover": 92636.5042
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776794400000,
+    "open": 77719.4,
+    "high": 77719.4,
+    "low": 77446.4,
+    "close": 77446.4,
+    "volume": 0.133,
+    "turnover": 10329.0043
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776798000000,
+    "open": 77446.4,
+    "high": 77920,
+    "low": 76936.6,
+    "close": 77111.2,
+    "volume": 0.369,
+    "turnover": 28555.4054
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776801600000,
+    "open": 77111.2,
+    "high": 77881.3,
+    "low": 77111.2,
+    "close": 77775.3,
+    "volume": 0.899,
+    "turnover": 69892.5036
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776805200000,
+    "open": 77775.3,
+    "high": 77814.8,
+    "low": 77526.3,
+    "close": 77628.9,
+    "volume": 0.513,
+    "turnover": 39807.5997
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776808800000,
+    "open": 77628.9,
+    "high": 77628.9,
+    "low": 77450.2,
+    "close": 77531.5,
+    "volume": 0.324,
+    "turnover": 25126.0638
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776812400000,
+    "open": 77531.5,
+    "high": 78352,
+    "low": 77531.5,
+    "close": 78352,
+    "volume": 0.518,
+    "turnover": 40442.961
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776816000000,
+    "open": 78352,
+    "high": 78352,
+    "low": 78313.7,
+    "close": 78313.7,
+    "volume": 0.002,
+    "turnover": 156.6274
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776819600000,
+    "open": 78313.7,
+    "high": 78313.7,
+    "low": 78231.5,
+    "close": 78231.5,
+    "volume": 0.03,
+    "turnover": 2346.945
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776823200000,
+    "open": 78231.5,
+    "high": 79323.8,
+    "low": 78231.5,
+    "close": 79160,
+    "volume": 0.4,
+    "turnover": 31663.4953
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776826800000,
+    "open": 79160,
+    "high": 79725,
+    "low": 79160,
+    "close": 79522,
+    "volume": 0.202,
+    "turnover": 16073.7703
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776830400000,
+    "open": 79522,
+    "high": 79591.3,
+    "low": 79522,
+    "close": 79591.3,
+    "volume": 0.001,
+    "turnover": 79.5913
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776834000000,
+    "open": 79591.3,
+    "high": 80413.8,
+    "low": 79542.6,
+    "close": 80087.9,
+    "volume": 2.509,
+    "turnover": 201031.1553
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776837600000,
+    "open": 80087.9,
+    "high": 80087.9,
+    "low": 80053.1,
+    "close": 80053.1,
+    "volume": 0.001,
+    "turnover": 80.0531
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776841200000,
+    "open": 80053.1,
+    "high": 80150.3,
+    "low": 80006.5,
+    "close": 80141.1,
+    "volume": 0.256,
+    "turnover": 20489.9705
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776844800000,
+    "open": 80141.1,
+    "high": 80141.1,
+    "low": 79997.4,
+    "close": 80114.8,
+    "volume": 0.252,
+    "turnover": 20159.7634
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776848400000,
+    "open": 80114.8,
+    "high": 80115.8,
+    "low": 80073.2,
+    "close": 80115.8,
+    "volume": 0.002,
+    "turnover": 160.189
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776852000000,
+    "open": 80115.8,
+    "high": 80115.8,
+    "low": 80066.5,
+    "close": 80066.5,
+    "volume": 0.002,
+    "turnover": 160.133
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776855600000,
+    "open": 80066.5,
+    "high": 80418.6,
+    "low": 80066.5,
+    "close": 80287.9,
+    "volume": 0.067,
+    "turnover": 5379.5295
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776859200000,
+    "open": 80287.9,
+    "high": 80472.4,
+    "low": 80287.9,
+    "close": 80405.1,
+    "volume": 0.005,
+    "turnover": 401.8141
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776862800000,
+    "open": 80405.1,
+    "high": 80768.5,
+    "low": 80332.3,
+    "close": 80768.5,
+    "volume": 1.09,
+    "turnover": 87878.0895
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776866400000,
+    "open": 80768.5,
+    "high": 81142.5,
+    "low": 80768.5,
+    "close": 81142.5,
+    "volume": 0.635,
+    "turnover": 51455.3719
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776870000000,
+    "open": 81142.5,
+    "high": 81448.7,
+    "low": 81049.4,
+    "close": 81419.4,
+    "volume": 0.267,
+    "turnover": 21722.4213
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776873600000,
+    "open": 81419.4,
+    "high": 81419.4,
+    "low": 80770.6,
+    "close": 80829.2,
+    "volume": 0.008,
+    "turnover": 647.2036
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776877200000,
+    "open": 80829.2,
+    "high": 80967.4,
+    "low": 80829.2,
+    "close": 80957.3,
+    "volume": 0.006,
+    "turnover": 485.7741
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776880800000,
+    "open": 80957.3,
+    "high": 80957.3,
+    "low": 80957.3,
+    "close": 80957.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776884400000,
+    "open": 80957.3,
+    "high": 80996.6,
+    "low": 80829,
+    "close": 80829,
+    "volume": 0.006,
+    "turnover": 485.2248
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776888000000,
+    "open": 80829,
+    "high": 80829,
+    "low": 80829,
+    "close": 80829,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776891600000,
+    "open": 80829,
+    "high": 80829,
+    "low": 80598.9,
+    "close": 80768.2,
+    "volume": 0.045,
+    "turnover": 3632.5126
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776895200000,
+    "open": 80768.2,
+    "high": 80806.5,
+    "low": 80482.1,
+    "close": 80560.5,
+    "volume": 0.163,
+    "turnover": 13120.2084
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776898800000,
+    "open": 80560.5,
+    "high": 80560.5,
+    "low": 80252.7,
+    "close": 80252.7,
+    "volume": 0.01,
+    "turnover": 803.0892
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776902400000,
+    "open": 80252.7,
+    "high": 80534.3,
+    "low": 79730.2,
+    "close": 80373.1,
+    "volume": 0.089,
+    "turnover": 7161.6103
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776906000000,
+    "open": 80373.1,
+    "high": 80373.1,
+    "low": 80373.1,
+    "close": 80373.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776909600000,
+    "open": 80373.1,
+    "high": 80373.1,
+    "low": 79836.4,
+    "close": 79836.4,
+    "volume": 0.025,
+    "turnover": 2002.4621
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776913200000,
+    "open": 79836.4,
+    "high": 79836.4,
+    "low": 79513.9,
+    "close": 79737.1,
+    "volume": 0.233,
+    "turnover": 18535.2934
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776916800000,
+    "open": 79737.1,
+    "high": 79950.5,
+    "low": 79737.1,
+    "close": 79950.5,
+    "volume": 0.047,
+    "turnover": 3757.4816
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776920400000,
+    "open": 79950.5,
+    "high": 80055.2,
+    "low": 79796.5,
+    "close": 80055.2,
+    "volume": 0.177,
+    "turnover": 14126.5359
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776924000000,
+    "open": 80055.2,
+    "high": 80231.7,
+    "low": 80055.2,
+    "close": 80231.7,
+    "volume": 0.608,
+    "turnover": 48711.444
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776927600000,
+    "open": 80231.7,
+    "high": 80231.7,
+    "low": 80051.6,
+    "close": 80051.6,
+    "volume": 0.005,
+    "turnover": 400.5571
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776931200000,
+    "open": 80051.6,
+    "high": 80162,
+    "low": 79887.2,
+    "close": 79887.2,
+    "volume": 0.024,
+    "turnover": 1921.6075
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776934800000,
+    "open": 79887.2,
+    "high": 79887.2,
+    "low": 79552.1,
+    "close": 79552.1,
+    "volume": 0.064,
+    "turnover": 5099.2409
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776938400000,
+    "open": 79552.1,
+    "high": 79566,
+    "low": 79265.8,
+    "close": 79446.1,
+    "volume": 0.968,
+    "turnover": 77002.0175
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776942000000,
+    "open": 79446.1,
+    "high": 79497.4,
+    "low": 79446.1,
+    "close": 79497.4,
+    "volume": 0.002,
+    "turnover": 158.9948
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776945600000,
+    "open": 79497.4,
+    "high": 79903.6,
+    "low": 79497.4,
+    "close": 79903.6,
+    "volume": 0.032,
+    "turnover": 2553.6885
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776949200000,
+    "open": 79903.6,
+    "high": 79903.6,
+    "low": 79835.5,
+    "close": 79835.5,
+    "volume": 0.001,
+    "turnover": 79.8355
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776952800000,
+    "open": 79835.5,
+    "high": 80241.1,
+    "low": 79835.5,
+    "close": 80241.1,
+    "volume": 0.006,
+    "turnover": 480.1232
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776956400000,
+    "open": 80241.1,
+    "high": 80679.4,
+    "low": 80120.6,
+    "close": 80578.6,
+    "volume": 0.202,
+    "turnover": 16255.6267
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776960000000,
+    "open": 80578.6,
+    "high": 80578.6,
+    "low": 80423.3,
+    "close": 80423.3,
+    "volume": 0.001,
+    "turnover": 80.4233
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776963600000,
+    "open": 80423.3,
+    "high": 80423.3,
+    "low": 79000,
+    "close": 79782.2,
+    "volume": 0.152,
+    "turnover": 12034.7756
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776967200000,
+    "open": 79782.2,
+    "high": 80129.3,
+    "low": 79782.2,
+    "close": 80126.7,
+    "volume": 0.066,
+    "turnover": 5288.3435
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776970800000,
+    "open": 80126.7,
+    "high": 80126.7,
+    "low": 79758.9,
+    "close": 79844.2,
+    "volume": 0.004,
+    "turnover": 319.4178
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776974400000,
+    "open": 79844.2,
+    "high": 80087.9,
+    "low": 79765.2,
+    "close": 80087.9,
+    "volume": 0.011,
+    "turnover": 878.8124
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776978000000,
+    "open": 80087.9,
+    "high": 80087.9,
+    "low": 79971.1,
+    "close": 79971.1,
+    "volume": 0.002,
+    "turnover": 159.9422
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776981600000,
+    "open": 79971.1,
+    "high": 80427.7,
+    "low": 79971.1,
+    "close": 80331.6,
+    "volume": 0.193,
+    "turnover": 15520.5974
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776985200000,
+    "open": 80331.6,
+    "high": 80331.6,
+    "low": 80331.6,
+    "close": 80331.6,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776988800000,
+    "open": 80331.6,
+    "high": 80486.5,
+    "low": 80331.6,
+    "close": 80486.5,
+    "volume": 0.002,
+    "turnover": 160.973
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776992400000,
+    "open": 80486.5,
+    "high": 80509.4,
+    "low": 80128.1,
+    "close": 80472.2,
+    "volume": 0.133,
+    "turnover": 10702.2956
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776996000000,
+    "open": 80472.2,
+    "high": 80569,
+    "low": 80268.7,
+    "close": 80420.7,
+    "volume": 0.123,
+    "turnover": 9880.3541
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1776999600000,
+    "open": 80420.7,
+    "high": 80420.7,
+    "low": 79999.9,
+    "close": 79999.9,
+    "volume": 0.001,
+    "turnover": 79.9999
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777003200000,
+    "open": 79999.9,
+    "high": 79999.9,
+    "low": 79768.1,
+    "close": 79768.1,
+    "volume": 0.001,
+    "turnover": 79.7681
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777006800000,
+    "open": 79768.1,
+    "high": 79908.6,
+    "low": 79768.1,
+    "close": 79908.6,
+    "volume": 0.001,
+    "turnover": 79.9086
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777010400000,
+    "open": 79908.6,
+    "high": 79967.3,
+    "low": 79908.6,
+    "close": 79965.8,
+    "volume": 0.002,
+    "turnover": 159.9331
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777014000000,
+    "open": 79965.8,
+    "high": 79965.8,
+    "low": 79595.4,
+    "close": 79677.2,
+    "volume": 3.226,
+    "turnover": 257195.6205
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777017600000,
+    "open": 79677.2,
+    "high": 79951.4,
+    "low": 79600.8,
+    "close": 79892.9,
+    "volume": 0.955,
+    "turnover": 76314.3496
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777021200000,
+    "open": 79892.9,
+    "high": 79892.9,
+    "low": 79491.2,
+    "close": 79551.9,
+    "volume": 0.006,
+    "turnover": 477.1939
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777024800000,
+    "open": 79551.9,
+    "high": 79551.9,
+    "low": 79492.2,
+    "close": 79512.2,
+    "volume": 0.004,
+    "turnover": 318.0091
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777028400000,
+    "open": 79512.2,
+    "high": 80232,
+    "low": 79512.2,
+    "close": 80232,
+    "volume": 0.001,
+    "turnover": 80.232
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777032000000,
+    "open": 80232,
+    "high": 80317.7,
+    "low": 80125.8,
+    "close": 80125.8,
+    "volume": 0.004,
+    "turnover": 320.9702
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777035600000,
+    "open": 80125.8,
+    "high": 80359.7,
+    "low": 79979.1,
+    "close": 80094.8,
+    "volume": 0.162,
+    "turnover": 12963.6333
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777039200000,
+    "open": 80094.8,
+    "high": 80099.5,
+    "low": 79694.5,
+    "close": 80099.5,
+    "volume": 0.37,
+    "turnover": 29589.9669
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777042800000,
+    "open": 80099.5,
+    "high": 80228.6,
+    "low": 79650.9,
+    "close": 80101.2,
+    "volume": 0.02,
+    "turnover": 1600.9819
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777046400000,
+    "open": 80101.2,
+    "high": 80101.2,
+    "low": 79850.8,
+    "close": 79850.8,
+    "volume": 0.001,
+    "turnover": 79.8508
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777050000000,
+    "open": 79850.8,
+    "high": 79850.8,
+    "low": 79712.3,
+    "close": 79798.7,
+    "volume": 0.004,
+    "turnover": 319.0706
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777053600000,
+    "open": 79798.7,
+    "high": 79798.7,
+    "low": 79661,
+    "close": 79661,
+    "volume": 0.001,
+    "turnover": 79.661
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777057200000,
+    "open": 79661,
+    "high": 79661,
+    "low": 79584,
+    "close": 79584,
+    "volume": 0.001,
+    "turnover": 79.584
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777060800000,
+    "open": 79584,
+    "high": 79795.2,
+    "low": 79454.3,
+    "close": 79795.2,
+    "volume": 0.166,
+    "turnover": 13198.7444
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777064400000,
+    "open": 79795.2,
+    "high": 79795.2,
+    "low": 79557.7,
+    "close": 79557.7,
+    "volume": 0.006,
+    "turnover": 477.5029
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777068000000,
+    "open": 79557.7,
+    "high": 79557.7,
+    "low": 79314.3,
+    "close": 79324.9,
+    "volume": 0.083,
+    "turnover": 6596.5993
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777071600000,
+    "open": 79324.9,
+    "high": 79481.8,
+    "low": 79324.9,
+    "close": 79481.8,
+    "volume": 0.073,
+    "turnover": 5800.4483
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777075200000,
+    "open": 79481.8,
+    "high": 79481.8,
+    "low": 79481.8,
+    "close": 79481.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777078800000,
+    "open": 79481.8,
+    "high": 79481.8,
+    "low": 79481.8,
+    "close": 79481.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777082400000,
+    "open": 79481.8,
+    "high": 79481.8,
+    "low": 79481.8,
+    "close": 79481.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777086000000,
+    "open": 79481.8,
+    "high": 79481.8,
+    "low": 79481.8,
+    "close": 79481.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777089600000,
+    "open": 79481.8,
+    "high": 79481.8,
+    "low": 79481.8,
+    "close": 79481.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777093200000,
+    "open": 79481.8,
+    "high": 79635.1,
+    "low": 79481.8,
+    "close": 79580.1,
+    "volume": 0.003,
+    "turnover": 238.8503
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777096800000,
+    "open": 79580.1,
+    "high": 79580.1,
+    "low": 79580.1,
+    "close": 79580.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777100400000,
+    "open": 79580.1,
+    "high": 79580.1,
+    "low": 79580.1,
+    "close": 79580.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777104000000,
+    "open": 79580.1,
+    "high": 79595.1,
+    "low": 79580.1,
+    "close": 79592.3,
+    "volume": 0.074,
+    "turnover": 5889.2954
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777107600000,
+    "open": 79592.3,
+    "high": 79592.3,
+    "low": 79592.3,
+    "close": 79592.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777111200000,
+    "open": 79592.3,
+    "high": 79592.3,
+    "low": 79592.3,
+    "close": 79592.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777114800000,
+    "open": 79592.3,
+    "high": 79803.7,
+    "low": 79592.3,
+    "close": 79662.6,
+    "volume": 0.206,
+    "turnover": 16430.7845
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777118400000,
+    "open": 79662.6,
+    "high": 79706.1,
+    "low": 79662.6,
+    "close": 79706.1,
+    "volume": 0.002,
+    "turnover": 159.4122
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777122000000,
+    "open": 79706.1,
+    "high": 79706.1,
+    "low": 79672.3,
+    "close": 79672.3,
+    "volume": 0.001,
+    "turnover": 79.6723
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777125600000,
+    "open": 79672.3,
+    "high": 79672.3,
+    "low": 79672.3,
+    "close": 79672.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777129200000,
+    "open": 79672.3,
+    "high": 79672.3,
+    "low": 79559,
+    "close": 79559,
+    "volume": 0.002,
+    "turnover": 159.2178
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777132800000,
+    "open": 79559,
+    "high": 79559,
+    "low": 79244.3,
+    "close": 79350,
+    "volume": 0.006,
+    "turnover": 476.0104
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777136400000,
+    "open": 79350,
+    "high": 79350,
+    "low": 79333.4,
+    "close": 79333.4,
+    "volume": 0.001,
+    "turnover": 79.3334
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777140000000,
+    "open": 79333.4,
+    "high": 79333.4,
+    "low": 79333.4,
+    "close": 79333.4,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777143600000,
+    "open": 79333.4,
+    "high": 79333.4,
+    "low": 79206.8,
+    "close": 79206.8,
+    "volume": 0.011,
+    "turnover": 871.3084
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777147200000,
+    "open": 79206.8,
+    "high": 79206.8,
+    "low": 79206.8,
+    "close": 79206.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777150800000,
+    "open": 79206.8,
+    "high": 79532.3,
+    "low": 79206.8,
+    "close": 79478.7,
+    "volume": 0.026,
+    "turnover": 2066.4998
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777154400000,
+    "open": 79478.7,
+    "high": 79478.7,
+    "low": 79478.7,
+    "close": 79478.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777158000000,
+    "open": 79478.7,
+    "high": 79478.7,
+    "low": 79478.7,
+    "close": 79478.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777161600000,
+    "open": 79478.7,
+    "high": 79478.7,
+    "low": 79478.7,
+    "close": 79478.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777165200000,
+    "open": 79478.7,
+    "high": 79478.7,
+    "low": 79478.7,
+    "close": 79478.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777168800000,
+    "open": 79478.7,
+    "high": 79478.7,
+    "low": 79478.7,
+    "close": 79478.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777172400000,
+    "open": 79478.7,
+    "high": 79478.7,
+    "low": 79478.7,
+    "close": 79478.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777176000000,
+    "open": 79478.7,
+    "high": 79478.7,
+    "low": 79447.8,
+    "close": 79447.8,
+    "volume": 0.002,
+    "turnover": 158.8956
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777179600000,
+    "open": 79447.8,
+    "high": 80123.4,
+    "low": 79447.8,
+    "close": 79965.4,
+    "volume": 0.076,
+    "turnover": 6074.284
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777183200000,
+    "open": 79965.4,
+    "high": 79965.4,
+    "low": 79879.6,
+    "close": 79925.6,
+    "volume": 0.027,
+    "turnover": 2156.8291
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777186800000,
+    "open": 79925.6,
+    "high": 80071.8,
+    "low": 79925.6,
+    "close": 80071.8,
+    "volume": 0.051,
+    "turnover": 4080.5918
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777190400000,
+    "open": 80071.8,
+    "high": 80071.8,
+    "low": 80071.8,
+    "close": 80071.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777194000000,
+    "open": 80071.8,
+    "high": 80071.8,
+    "low": 79912.4,
+    "close": 79950.1,
+    "volume": 0.175,
+    "turnover": 13997.2645
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777197600000,
+    "open": 79950.1,
+    "high": 79950.1,
+    "low": 79950.1,
+    "close": 79950.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777201200000,
+    "open": 79950.1,
+    "high": 79950.1,
+    "low": 79950.1,
+    "close": 79950.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777204800000,
+    "open": 79950.1,
+    "high": 79950.1,
+    "low": 79950.1,
+    "close": 79950.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777208400000,
+    "open": 79950.1,
+    "high": 79950.1,
+    "low": 79930.4,
+    "close": 79930.4,
+    "volume": 0.001,
+    "turnover": 79.9304
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777212000000,
+    "open": 79930.4,
+    "high": 80052.2,
+    "low": 79930.4,
+    "close": 80022.6,
+    "volume": 0.002,
+    "turnover": 160.0748
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777215600000,
+    "open": 80022.6,
+    "high": 80041.1,
+    "low": 80022.6,
+    "close": 80041.1,
+    "volume": 0.001,
+    "turnover": 80.0411
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777219200000,
+    "open": 80041.1,
+    "high": 80041.1,
+    "low": 80041.1,
+    "close": 80041.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777222800000,
+    "open": 80041.1,
+    "high": 80041.1,
+    "low": 80041.1,
+    "close": 80041.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777226400000,
+    "open": 80041.1,
+    "high": 80204.2,
+    "low": 79989.6,
+    "close": 80204.2,
+    "volume": 0.021,
+    "turnover": 1680.8956
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777230000000,
+    "open": 80204.2,
+    "high": 80431.1,
+    "low": 80075.4,
+    "close": 80075.4,
+    "volume": 0.002,
+    "turnover": 160.5065
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777233600000,
+    "open": 80075.4,
+    "high": 80292.7,
+    "low": 80075.4,
+    "close": 80229.9,
+    "volume": 0.003,
+    "turnover": 240.8017
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777237200000,
+    "open": 80229.9,
+    "high": 80798.3,
+    "low": 79948.5,
+    "close": 80422.5,
+    "volume": 0.065,
+    "turnover": 5227.7175
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777240800000,
+    "open": 80422.5,
+    "high": 80568,
+    "low": 79971.6,
+    "close": 80068.3,
+    "volume": 0.027,
+    "turnover": 2164.3732
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777244400000,
+    "open": 80068.3,
+    "high": 80513.6,
+    "low": 80068.3,
+    "close": 80513.6,
+    "volume": 0.004,
+    "turnover": 321.0034
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777248000000,
+    "open": 80513.6,
+    "high": 81015.4,
+    "low": 80506.2,
+    "close": 80506.2,
+    "volume": 0.206,
+    "turnover": 16675.6678
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777251600000,
+    "open": 80506.2,
+    "high": 81348.6,
+    "low": 80506.2,
+    "close": 81188.9,
+    "volume": 0.663,
+    "turnover": 53696.8744
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777255200000,
+    "open": 81188.9,
+    "high": 81277.2,
+    "low": 81130,
+    "close": 81130,
+    "volume": 0.002,
+    "turnover": 162.4072
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777258800000,
+    "open": 81130,
+    "high": 81253.5,
+    "low": 81102.2,
+    "close": 81253.5,
+    "volume": 0.107,
+    "turnover": 8686.3554
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777262400000,
+    "open": 81253.5,
+    "high": 81253.5,
+    "low": 81253.5,
+    "close": 81253.5,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777266000000,
+    "open": 81253.5,
+    "high": 81253.5,
+    "low": 79620.3,
+    "close": 79620.3,
+    "volume": 0.004,
+    "turnover": 318.9726
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777269600000,
+    "open": 79620.3,
+    "high": 79754.4,
+    "low": 79513.9,
+    "close": 79513.9,
+    "volume": 0.002,
+    "turnover": 159.2683
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777273200000,
+    "open": 79513.9,
+    "high": 79513.9,
+    "low": 79513.9,
+    "close": 79513.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777276800000,
+    "open": 79513.9,
+    "high": 79513.9,
+    "low": 79513.9,
+    "close": 79513.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777280400000,
+    "open": 79513.9,
+    "high": 79873.7,
+    "low": 79513.9,
+    "close": 79873.7,
+    "volume": 0.012,
+    "turnover": 958.427
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777284000000,
+    "open": 79873.7,
+    "high": 79873.7,
+    "low": 79873.7,
+    "close": 79873.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777287600000,
+    "open": 79873.7,
+    "high": 79878.8,
+    "low": 79873.7,
+    "close": 79878.8,
+    "volume": 0.001,
+    "turnover": 79.8788
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777291200000,
+    "open": 79878.8,
+    "high": 79878.8,
+    "low": 79878.8,
+    "close": 79878.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777294800000,
+    "open": 79878.8,
+    "high": 79878.8,
+    "low": 79878.8,
+    "close": 79878.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777298400000,
+    "open": 79878.8,
+    "high": 79988.6,
+    "low": 79760.1,
+    "close": 79988.6,
+    "volume": 0.002,
+    "turnover": 159.7487
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777302000000,
+    "open": 79988.6,
+    "high": 79988.6,
+    "low": 78688.2,
+    "close": 78733.7,
+    "volume": 3.954,
+    "turnover": 312547.0163
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777305600000,
+    "open": 78733.7,
+    "high": 78804.8,
+    "low": 78668.9,
+    "close": 78668.9,
+    "volume": 0.019,
+    "turnover": 1495.2524
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777309200000,
+    "open": 78668.9,
+    "high": 78858.7,
+    "low": 78668.9,
+    "close": 78858.7,
+    "volume": 0.068,
+    "turnover": 5352.526
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777312800000,
+    "open": 78858.7,
+    "high": 78858.7,
+    "low": 78628.4,
+    "close": 78704.7,
+    "volume": 0.002,
+    "turnover": 157.3331
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777316400000,
+    "open": 78704.7,
+    "high": 78753.3,
+    "low": 78704.7,
+    "close": 78753.3,
+    "volume": 0.001,
+    "turnover": 78.7533
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777320000000,
+    "open": 78753.3,
+    "high": 79095.6,
+    "low": 78753.3,
+    "close": 78867.8,
+    "volume": 0.666,
+    "turnover": 52558.3816
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777323600000,
+    "open": 78867.8,
+    "high": 78867.8,
+    "low": 78867.8,
+    "close": 78867.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777327200000,
+    "open": 78867.8,
+    "high": 78960.8,
+    "low": 78778.4,
+    "close": 78960.8,
+    "volume": 0.013,
+    "turnover": 1026.308
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777330800000,
+    "open": 78960.8,
+    "high": 79282.5,
+    "low": 78960.8,
+    "close": 79282.5,
+    "volume": 0.008,
+    "turnover": 632.9567
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777334400000,
+    "open": 79282.5,
+    "high": 79282.5,
+    "low": 79282.5,
+    "close": 79282.5,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777338000000,
+    "open": 79282.5,
+    "high": 79282.5,
+    "low": 79102.9,
+    "close": 79102.9,
+    "volume": 0.004,
+    "turnover": 316.5314
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777341600000,
+    "open": 79102.9,
+    "high": 79102.9,
+    "low": 78727.1,
+    "close": 78727.1,
+    "volume": 0.001,
+    "turnover": 78.7271
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777345200000,
+    "open": 78727.1,
+    "high": 78727.1,
+    "low": 78727.1,
+    "close": 78727.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777348800000,
+    "open": 78727.1,
+    "high": 78727.1,
+    "low": 78727.1,
+    "close": 78727.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777352400000,
+    "open": 78727.1,
+    "high": 78727.1,
+    "low": 78727.1,
+    "close": 78727.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777356000000,
+    "open": 78727.1,
+    "high": 78727.1,
+    "low": 78639.9,
+    "close": 78639.9,
+    "volume": 0.012,
+    "turnover": 943.6788
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777359600000,
+    "open": 78639.9,
+    "high": 78720.8,
+    "low": 78357.9,
+    "close": 78692,
+    "volume": 0.082,
+    "turnover": 6452.5513
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777363200000,
+    "open": 78692,
+    "high": 78692,
+    "low": 78692,
+    "close": 78692,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777366800000,
+    "open": 78692,
+    "high": 78692,
+    "low": 78692,
+    "close": 78692,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777370400000,
+    "open": 78692,
+    "high": 78692,
+    "low": 78692,
+    "close": 78692,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777374000000,
+    "open": 78692,
+    "high": 78692,
+    "low": 78012.3,
+    "close": 78012.3,
+    "volume": 0.005,
+    "turnover": 390.6376
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777377600000,
+    "open": 78012.3,
+    "high": 78221.2,
+    "low": 78012.3,
+    "close": 78221.2,
+    "volume": 0.003,
+    "turnover": 234.4847
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777381200000,
+    "open": 78221.2,
+    "high": 78221.2,
+    "low": 77861.4,
+    "close": 78045.3,
+    "volume": 0.052,
+    "turnover": 4052.5067
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777384800000,
+    "open": 78045.3,
+    "high": 78045.3,
+    "low": 78045.3,
+    "close": 78045.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777388400000,
+    "open": 78045.3,
+    "high": 78045.3,
+    "low": 77792.4,
+    "close": 77799.7,
+    "volume": 0.002,
+    "turnover": 155.5921
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777392000000,
+    "open": 77799.7,
+    "high": 77799.7,
+    "low": 77773.8,
+    "close": 77773.8,
+    "volume": 0.001,
+    "turnover": 77.7738
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777395600000,
+    "open": 77773.8,
+    "high": 78060.3,
+    "low": 77773.8,
+    "close": 78010.2,
+    "volume": 0.004,
+    "turnover": 312.1672
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777399200000,
+    "open": 78010.2,
+    "high": 78010.2,
+    "low": 78010.2,
+    "close": 78010.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777402800000,
+    "open": 78010.2,
+    "high": 78010.2,
+    "low": 78010.2,
+    "close": 78010.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777406400000,
+    "open": 78010.2,
+    "high": 78010.2,
+    "low": 78010.2,
+    "close": 78010.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777410000000,
+    "open": 78010.2,
+    "high": 78302.7,
+    "low": 78010.2,
+    "close": 78256.2,
+    "volume": 0.03,
+    "turnover": 2347.897
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777413600000,
+    "open": 78256.2,
+    "high": 78256.2,
+    "low": 78256.2,
+    "close": 78256.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777417200000,
+    "open": 78256.2,
+    "high": 78256.2,
+    "low": 78256.2,
+    "close": 78256.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777420800000,
+    "open": 78256.2,
+    "high": 78256.2,
+    "low": 78256.2,
+    "close": 78256.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777424400000,
+    "open": 78256.2,
+    "high": 78256.2,
+    "low": 78104.3,
+    "close": 78104.3,
+    "volume": 0.001,
+    "turnover": 78.1043
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777428000000,
+    "open": 78104.3,
+    "high": 78104.3,
+    "low": 78104.3,
+    "close": 78104.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777431600000,
+    "open": 78104.3,
+    "high": 78104.3,
+    "low": 78104.3,
+    "close": 78104.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777435200000,
+    "open": 78104.3,
+    "high": 79268.7,
+    "low": 78104.3,
+    "close": 79268.7,
+    "volume": 0.002,
+    "turnover": 158.4549
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777438800000,
+    "open": 79268.7,
+    "high": 79268.7,
+    "low": 79268.7,
+    "close": 79268.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777442400000,
+    "open": 79268.7,
+    "high": 79268.7,
+    "low": 78955.2,
+    "close": 78955.2,
+    "volume": 0.262,
+    "turnover": 20708.9925
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777446000000,
+    "open": 78955.2,
+    "high": 78955.2,
+    "low": 78955.2,
+    "close": 78955.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777449600000,
+    "open": 78955.2,
+    "high": 78973.1,
+    "low": 78955.2,
+    "close": 78973.1,
+    "volume": 0.002,
+    "turnover": 157.9462
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777453200000,
+    "open": 78973.1,
+    "high": 79719.1,
+    "low": 78973.1,
+    "close": 79580.2,
+    "volume": 0.384,
+    "turnover": 30494.7231
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777456800000,
+    "open": 79580.2,
+    "high": 79580.2,
+    "low": 79564.1,
+    "close": 79564.1,
+    "volume": 0.001,
+    "turnover": 79.5641
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777460400000,
+    "open": 79564.1,
+    "high": 79564.1,
+    "low": 79564.1,
+    "close": 79564.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777464000000,
+    "open": 79564.1,
+    "high": 79564.1,
+    "low": 79002,
+    "close": 79014.2,
+    "volume": 0.065,
+    "turnover": 5137.2932
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777467600000,
+    "open": 79014.2,
+    "high": 79014.2,
+    "low": 78503.5,
+    "close": 78503.5,
+    "volume": 0.029,
+    "turnover": 2282.7691
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777471200000,
+    "open": 78503.5,
+    "high": 78632.3,
+    "low": 78503.5,
+    "close": 78632.3,
+    "volume": 0.002,
+    "turnover": 157.2166
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777474800000,
+    "open": 78632.3,
+    "high": 78632.3,
+    "low": 77655.4,
+    "close": 77655.5,
+    "volume": 0.108,
+    "turnover": 8412.485
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777478400000,
+    "open": 77655.5,
+    "high": 77863.4,
+    "low": 77591.2,
+    "close": 77591.3,
+    "volume": 0.003,
+    "turnover": 233.0459
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777482000000,
+    "open": 77591.3,
+    "high": 77930.7,
+    "low": 77591.3,
+    "close": 77917.5,
+    "volume": 0.007,
+    "turnover": 545.0683
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777485600000,
+    "open": 77917.5,
+    "high": 78282.1,
+    "low": 76838.2,
+    "close": 77029.7,
+    "volume": 0.038,
+    "turnover": 2926.7532
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777489200000,
+    "open": 77029.7,
+    "high": 77430.9,
+    "low": 77029.7,
+    "close": 77382.8,
+    "volume": 0.019,
+    "turnover": 1470.9656
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777492800000,
+    "open": 77382.8,
+    "high": 77691.1,
+    "low": 77382.8,
+    "close": 77691.1,
+    "volume": 0.003,
+    "turnover": 232.6198
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777496400000,
+    "open": 77691.1,
+    "high": 77966.3,
+    "low": 77691.1,
+    "close": 77898.9,
+    "volume": 0.164,
+    "turnover": 12778.1736
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777500000000,
+    "open": 77898.9,
+    "high": 77898.9,
+    "low": 77807.3,
+    "close": 77807.3,
+    "volume": 0.001,
+    "turnover": 77.8073
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777503600000,
+    "open": 77807.3,
+    "high": 77807.3,
+    "low": 77807.3,
+    "close": 77807.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777507200000,
+    "open": 77807.3,
+    "high": 77915.9,
+    "low": 77807.3,
+    "close": 77915.9,
+    "volume": 0.001,
+    "turnover": 77.9159
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777510800000,
+    "open": 77915.9,
+    "high": 77915.9,
+    "low": 77915.9,
+    "close": 77915.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777514400000,
+    "open": 77915.9,
+    "high": 78036.5,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0.009,
+    "turnover": 700.8725
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777518000000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777521600000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777525200000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777528800000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777532400000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777536000000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777539600000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777543200000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777546800000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777550400000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777554000000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777557600000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777561200000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777564800000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777568400000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777572000000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777575600000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777579200000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777582800000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777586400000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777590000000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777593600000,
+    "open": 77673.9,
+    "high": 77673.9,
+    "low": 77673.9,
+    "close": 77673.9,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777597200000,
+    "open": 77673.9,
+    "high": 78543.5,
+    "low": 77673.9,
+    "close": 78543.5,
+    "volume": 0.002,
+    "turnover": 156.9334
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777600800000,
+    "open": 78543.5,
+    "high": 78543.5,
+    "low": 78543.5,
+    "close": 78543.5,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777604400000,
+    "open": 78543.5,
+    "high": 79327.4,
+    "low": 78543.5,
+    "close": 79107.3,
+    "volume": 0.452,
+    "turnover": 35768.5123
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777608000000,
+    "open": 79107.3,
+    "high": 79107.3,
+    "low": 78738.1,
+    "close": 78738.1,
+    "volume": 0.014,
+    "turnover": 1102.6247
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777611600000,
+    "open": 78738.1,
+    "high": 79082,
+    "low": 78738.1,
+    "close": 79082,
+    "volume": 0.005,
+    "turnover": 395.41
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777615200000,
+    "open": 79082,
+    "high": 79082,
+    "low": 79082,
+    "close": 79082,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777618800000,
+    "open": 79082,
+    "high": 79082,
+    "low": 79082,
+    "close": 79082,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777622400000,
+    "open": 79082,
+    "high": 79082,
+    "low": 79082,
+    "close": 79082,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777626000000,
+    "open": 79082,
+    "high": 79082,
+    "low": 79082,
+    "close": 79082,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777629600000,
+    "open": 79082,
+    "high": 79187.5,
+    "low": 79082,
+    "close": 79187.5,
+    "volume": 0.004,
+    "turnover": 316.75
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777633200000,
+    "open": 79187.5,
+    "high": 79187.5,
+    "low": 79187.5,
+    "close": 79187.5,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777636800000,
+    "open": 79187.5,
+    "high": 79899.8,
+    "low": 79187.5,
+    "close": 79884.8,
+    "volume": 0.018,
+    "turnover": 1429.2038
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777640400000,
+    "open": 79884.8,
+    "high": 80764.3,
+    "low": 79884.8,
+    "close": 80764.3,
+    "volume": 0.053,
+    "turnover": 4254.6683
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777644000000,
+    "open": 80764.3,
+    "high": 80764.3,
+    "low": 80607.3,
+    "close": 80744,
+    "volume": 0.378,
+    "turnover": 30471.9149
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777647600000,
+    "open": 80744,
+    "high": 80744,
+    "low": 80181.1,
+    "close": 80370.8,
+    "volume": 0.003,
+    "turnover": 240.9227
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777651200000,
+    "open": 80370.8,
+    "high": 80370.8,
+    "low": 80370.8,
+    "close": 80370.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777654800000,
+    "open": 80370.8,
+    "high": 80370.8,
+    "low": 80236.7,
+    "close": 80236.7,
+    "volume": 0.001,
+    "turnover": 80.2367
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777658400000,
+    "open": 80236.7,
+    "high": 80542.1,
+    "low": 80236.7,
+    "close": 80542.1,
+    "volume": 0.002,
+    "turnover": 161.0075
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777662000000,
+    "open": 80542.1,
+    "high": 80542.1,
+    "low": 80542.1,
+    "close": 80542.1,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777665600000,
+    "open": 80542.1,
+    "high": 80542.1,
+    "low": 79747.4,
+    "close": 79747.4,
+    "volume": 0.001,
+    "turnover": 79.7474
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777669200000,
+    "open": 79747.4,
+    "high": 79773,
+    "low": 79747.4,
+    "close": 79773,
+    "volume": 0.001,
+    "turnover": 79.773
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777672800000,
+    "open": 79773,
+    "high": 79773,
+    "low": 79773,
+    "close": 79773,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777676400000,
+    "open": 79773,
+    "high": 79773,
+    "low": 79773,
+    "close": 79773,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777680000000,
+    "open": 79773,
+    "high": 79773,
+    "low": 79773,
+    "close": 79773,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777683600000,
+    "open": 79773,
+    "high": 79773,
+    "low": 79773,
+    "close": 79773,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777687200000,
+    "open": 79773,
+    "high": 80306.8,
+    "low": 79773,
+    "close": 80306.8,
+    "volume": 0.001,
+    "turnover": 80.3068
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777690800000,
+    "open": 80306.8,
+    "high": 80306.8,
+    "low": 80306.8,
+    "close": 80306.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777694400000,
+    "open": 80306.8,
+    "high": 80306.8,
+    "low": 80306.8,
+    "close": 80306.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777698000000,
+    "open": 80306.8,
+    "high": 80306.8,
+    "low": 80306.8,
+    "close": 80306.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777701600000,
+    "open": 80306.8,
+    "high": 80306.8,
+    "low": 80306.8,
+    "close": 80306.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777705200000,
+    "open": 80306.8,
+    "high": 80306.8,
+    "low": 80151.3,
+    "close": 80151.3,
+    "volume": 0.072,
+    "turnover": 5775.1806
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777708800000,
+    "open": 80151.3,
+    "high": 80151.3,
+    "low": 80151.3,
+    "close": 80151.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777712400000,
+    "open": 80151.3,
+    "high": 80151.3,
+    "low": 80151.3,
+    "close": 80151.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777716000000,
+    "open": 80151.3,
+    "high": 80151.3,
+    "low": 80151.3,
+    "close": 80151.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777719600000,
+    "open": 80151.3,
+    "high": 80151.3,
+    "low": 80151.3,
+    "close": 80151.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777723200000,
+    "open": 80151.3,
+    "high": 80151.3,
+    "low": 80151.3,
+    "close": 80151.3,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777726800000,
+    "open": 80151.3,
+    "high": 80224.4,
+    "low": 80151.3,
+    "close": 80204.8,
+    "volume": 0.013,
+    "turnover": 1042.8976
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777730400000,
+    "open": 80204.8,
+    "high": 80204.8,
+    "low": 80204.8,
+    "close": 80204.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777734000000,
+    "open": 80204.8,
+    "high": 80204.8,
+    "low": 80204.8,
+    "close": 80204.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777737600000,
+    "open": 80204.8,
+    "high": 80204.8,
+    "low": 80204.8,
+    "close": 80204.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777741200000,
+    "open": 80204.8,
+    "high": 80204.8,
+    "low": 80204.8,
+    "close": 80204.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777744800000,
+    "open": 80204.8,
+    "high": 80204.8,
+    "low": 80204.8,
+    "close": 80204.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777748400000,
+    "open": 80204.8,
+    "high": 80204.8,
+    "low": 80204.8,
+    "close": 80204.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777752000000,
+    "open": 80204.8,
+    "high": 80204.8,
+    "low": 80204.8,
+    "close": 80204.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777755600000,
+    "open": 80204.8,
+    "high": 80204.8,
+    "low": 80204.8,
+    "close": 80204.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777759200000,
+    "open": 80204.8,
+    "high": 80733,
+    "low": 80204.8,
+    "close": 80682.7,
+    "volume": 2.586,
+    "turnover": 208625.043
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777762800000,
+    "open": 80682.7,
+    "high": 80682.7,
+    "low": 80682.7,
+    "close": 80682.7,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777766400000,
+    "open": 80682.7,
+    "high": 80682.7,
+    "low": 80475.1,
+    "close": 80491.5,
+    "volume": 0.066,
+    "turnover": 5311.4235
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777770000000,
+    "open": 80491.5,
+    "high": 80491.5,
+    "low": 80266,
+    "close": 80303.6,
+    "volume": 0.127,
+    "turnover": 10197.2846
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777773600000,
+    "open": 80303.6,
+    "high": 80303.6,
+    "low": 80303.6,
+    "close": 80303.6,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777777200000,
+    "open": 80303.6,
+    "high": 80303.6,
+    "low": 80303.6,
+    "close": 80303.6,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777780800000,
+    "open": 80303.6,
+    "high": 80303.6,
+    "low": 80303.6,
+    "close": 80303.6,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777784400000,
+    "open": 80303.6,
+    "high": 80303.6,
+    "low": 80303.6,
+    "close": 80303.6,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777788000000,
+    "open": 80303.6,
+    "high": 80303.6,
+    "low": 80124.1,
+    "close": 80124.1,
+    "volume": 0.005,
+    "turnover": 400.6205
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777791600000,
+    "open": 80124.1,
+    "high": 80349.9,
+    "low": 80124.1,
+    "close": 80307.2,
+    "volume": 0.013,
+    "turnover": 1043.6628
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777795200000,
+    "open": 80307.2,
+    "high": 80307.2,
+    "low": 80307.2,
+    "close": 80307.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777798800000,
+    "open": 80307.2,
+    "high": 80307.2,
+    "low": 80307.2,
+    "close": 80307.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777802400000,
+    "open": 80307.2,
+    "high": 80307.2,
+    "low": 80307.2,
+    "close": 80307.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777806000000,
+    "open": 80307.2,
+    "high": 80473.6,
+    "low": 80307.2,
+    "close": 80473.6,
+    "volume": 0.001,
+    "turnover": 80.4736
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777809600000,
+    "open": 80473.6,
+    "high": 80473.6,
+    "low": 80473.6,
+    "close": 80473.6,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777813200000,
+    "open": 80473.6,
+    "high": 80473.6,
+    "low": 80473.6,
+    "close": 80473.6,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777816800000,
+    "open": 80473.6,
+    "high": 80724.5,
+    "low": 80473.6,
+    "close": 80724.5,
+    "volume": 0.009,
+    "turnover": 726.5205
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777820400000,
+    "open": 80724.5,
+    "high": 80724.5,
+    "low": 80700.8,
+    "close": 80700.8,
+    "volume": 0.03,
+    "turnover": 2421.1225
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777824000000,
+    "open": 80700.8,
+    "high": 80700.8,
+    "low": 80700.8,
+    "close": 80700.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777827600000,
+    "open": 80700.8,
+    "high": 80700.8,
+    "low": 80700.8,
+    "close": 80700.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "BTCUSDT-26MAR27",
+    "timestamp": 1777831200000,
+    "open": 80700.8,
+    "high": 80700.8,
+    "low": 80700.8,
+    "close": 80700.8,
+    "volume": 0,
+    "turnover": 0
+  }
+]

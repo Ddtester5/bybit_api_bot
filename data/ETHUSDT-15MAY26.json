@@ -1,0 +1,2272 @@
+[
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777017600000,
+    "open": 2327.74,
+    "high": 2327.74,
+    "low": 2320.07,
+    "close": 2320.07,
+    "volume": 0.09,
+    "turnover": 209.1898
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777021200000,
+    "open": 2320.07,
+    "high": 2320.07,
+    "low": 2302.61,
+    "close": 2302.61,
+    "volume": 0.34,
+    "turnover": 785.1083
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777024800000,
+    "open": 2302.61,
+    "high": 2322.32,
+    "low": 2302.61,
+    "close": 2322.32,
+    "volume": 1.53,
+    "turnover": 3523.5846
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777028400000,
+    "open": 2322.32,
+    "high": 2335.77,
+    "low": 2317.84,
+    "close": 2335.45,
+    "volume": 0.5,
+    "turnover": 1164.3662
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777032000000,
+    "open": 2335.45,
+    "high": 2335.45,
+    "low": 2319.51,
+    "close": 2319.51,
+    "volume": 0.04,
+    "turnover": 92.7804
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777035600000,
+    "open": 2319.51,
+    "high": 2332.91,
+    "low": 2318.33,
+    "close": 2318.86,
+    "volume": 0.24,
+    "turnover": 558.1748
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777039200000,
+    "open": 2318.86,
+    "high": 2318.86,
+    "low": 2307,
+    "close": 2307,
+    "volume": 0.1,
+    "turnover": 230.7
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777042800000,
+    "open": 2307,
+    "high": 2328,
+    "low": 2307,
+    "close": 2321.11,
+    "volume": 0.18,
+    "turnover": 418.644
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777046400000,
+    "open": 2321.11,
+    "high": 2322.26,
+    "low": 2318.19,
+    "close": 2318.76,
+    "volume": 0.09,
+    "turnover": 208.8065
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777050000000,
+    "open": 2318.76,
+    "high": 2318.76,
+    "low": 2318.76,
+    "close": 2318.76,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777053600000,
+    "open": 2318.76,
+    "high": 2318.76,
+    "low": 2318.76,
+    "close": 2318.76,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777057200000,
+    "open": 2318.76,
+    "high": 2320.48,
+    "low": 2318.76,
+    "close": 2320.48,
+    "volume": 0.06,
+    "turnover": 139.2288
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777060800000,
+    "open": 2320.48,
+    "high": 2326.86,
+    "low": 2315.35,
+    "close": 2326.86,
+    "volume": 0.46,
+    "turnover": 1067.2236
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777064400000,
+    "open": 2326.86,
+    "high": 2326.86,
+    "low": 2314.54,
+    "close": 2317.09,
+    "volume": 0.6,
+    "turnover": 1390.6524
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777068000000,
+    "open": 2317.09,
+    "high": 2318.2,
+    "low": 2313.23,
+    "close": 2318.2,
+    "volume": 1.9,
+    "turnover": 4402.7263
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777071600000,
+    "open": 2318.2,
+    "high": 2318.2,
+    "low": 2312.58,
+    "close": 2312.58,
+    "volume": 0.01,
+    "turnover": 23.1258
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777075200000,
+    "open": 2312.58,
+    "high": 2319.47,
+    "low": 2305.67,
+    "close": 2314.71,
+    "volume": 4.32,
+    "turnover": 9992.5012
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777078800000,
+    "open": 2314.71,
+    "high": 2321.8,
+    "low": 2314.71,
+    "close": 2319.23,
+    "volume": 0.06,
+    "turnover": 139.215
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777082400000,
+    "open": 2319.23,
+    "high": 2319.23,
+    "low": 2319.23,
+    "close": 2319.23,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777086000000,
+    "open": 2319.23,
+    "high": 2319.23,
+    "low": 2319.23,
+    "close": 2319.23,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777089600000,
+    "open": 2319.23,
+    "high": 2319.23,
+    "low": 2318.18,
+    "close": 2318.18,
+    "volume": 0.01,
+    "turnover": 23.1818
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777093200000,
+    "open": 2318.18,
+    "high": 2318.18,
+    "low": 2315.15,
+    "close": 2315.15,
+    "volume": 0.27,
+    "turnover": 625.0905
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777096800000,
+    "open": 2315.15,
+    "high": 2315.15,
+    "low": 2315.15,
+    "close": 2315.15,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777100400000,
+    "open": 2315.15,
+    "high": 2318.64,
+    "low": 2310.6,
+    "close": 2318.64,
+    "volume": 2.84,
+    "turnover": 6576.3607
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777104000000,
+    "open": 2318.64,
+    "high": 2321.09,
+    "low": 2317.56,
+    "close": 2319.79,
+    "volume": 10.49,
+    "turnover": 24332.1172
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777107600000,
+    "open": 2319.79,
+    "high": 2322.66,
+    "low": 2317.84,
+    "close": 2322.66,
+    "volume": 1.39,
+    "turnover": 3224.1896
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777111200000,
+    "open": 2322.66,
+    "high": 2322.66,
+    "low": 2319.42,
+    "close": 2320.45,
+    "volume": 0.35,
+    "turnover": 812.1225
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777114800000,
+    "open": 2320.45,
+    "high": 2321.32,
+    "low": 2314.61,
+    "close": 2315.22,
+    "volume": 1.98,
+    "turnover": 4585.7248
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777118400000,
+    "open": 2315.22,
+    "high": 2317.48,
+    "low": 2312.74,
+    "close": 2315.37,
+    "volume": 0.53,
+    "turnover": 1227.0745
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777122000000,
+    "open": 2315.37,
+    "high": 2318.36,
+    "low": 2315.37,
+    "close": 2318.36,
+    "volume": 0.19,
+    "turnover": 440.3046
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777125600000,
+    "open": 2318.36,
+    "high": 2319.58,
+    "low": 2315.81,
+    "close": 2317.98,
+    "volume": 0.17,
+    "turnover": 394.1294
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777129200000,
+    "open": 2317.98,
+    "high": 2319.43,
+    "low": 2306.64,
+    "close": 2306.64,
+    "volume": 0.28,
+    "turnover": 647.4168
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777132800000,
+    "open": 2306.64,
+    "high": 2310.98,
+    "low": 2304.06,
+    "close": 2310.98,
+    "volume": 0.27,
+    "turnover": 623.2469
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777136400000,
+    "open": 2310.98,
+    "high": 2313.05,
+    "low": 2309.49,
+    "close": 2311.08,
+    "volume": 3.21,
+    "turnover": 7418.7123
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777140000000,
+    "open": 2311.08,
+    "high": 2314.35,
+    "low": 2311.08,
+    "close": 2312.79,
+    "volume": 0.77,
+    "turnover": 1780.9298
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777143600000,
+    "open": 2312.79,
+    "high": 2312.79,
+    "low": 2309.41,
+    "close": 2309.41,
+    "volume": 1.11,
+    "turnover": 2563.4451
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777147200000,
+    "open": 2309.41,
+    "high": 2309.41,
+    "low": 2309.41,
+    "close": 2309.41,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777150800000,
+    "open": 2309.41,
+    "high": 2316.15,
+    "low": 2309.41,
+    "close": 2315.53,
+    "volume": 0.03,
+    "turnover": 69.4661
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777154400000,
+    "open": 2315.53,
+    "high": 2319.81,
+    "low": 2315.53,
+    "close": 2319.09,
+    "volume": 0.64,
+    "turnover": 1483.4457
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777158000000,
+    "open": 2319.09,
+    "high": 2320,
+    "low": 2318.82,
+    "close": 2320,
+    "volume": 0.17,
+    "turnover": 394.3881
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777161600000,
+    "open": 2320,
+    "high": 2320,
+    "low": 2314.94,
+    "close": 2315.68,
+    "volume": 0.21,
+    "turnover": 486.367
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777165200000,
+    "open": 2315.68,
+    "high": 2318.68,
+    "low": 2315.58,
+    "close": 2316.37,
+    "volume": 0.77,
+    "turnover": 1784.5751
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777168800000,
+    "open": 2316.37,
+    "high": 2318.26,
+    "low": 2316.37,
+    "close": 2317.89,
+    "volume": 0.14,
+    "turnover": 324.5305
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777172400000,
+    "open": 2317.89,
+    "high": 2317.89,
+    "low": 2308.59,
+    "close": 2309.4,
+    "volume": 35.31,
+    "turnover": 81602.1066
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777176000000,
+    "open": 2309.4,
+    "high": 2318.81,
+    "low": 2309.4,
+    "close": 2318.81,
+    "volume": 4.91,
+    "turnover": 11355.2673
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777179600000,
+    "open": 2318.81,
+    "high": 2334.96,
+    "low": 2318.81,
+    "close": 2327.8,
+    "volume": 18.51,
+    "turnover": 43114.6152
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777183200000,
+    "open": 2327.8,
+    "high": 2332.58,
+    "low": 2326.84,
+    "close": 2329.11,
+    "volume": 30.35,
+    "turnover": 70756.0418
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777186800000,
+    "open": 2329.11,
+    "high": 2330.51,
+    "low": 2329.01,
+    "close": 2330.44,
+    "volume": 4.51,
+    "turnover": 10510.4735
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777190400000,
+    "open": 2330.44,
+    "high": 2334.78,
+    "low": 2330.44,
+    "close": 2332.48,
+    "volume": 0.22,
+    "turnover": 513.131
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777194000000,
+    "open": 2332.48,
+    "high": 2335.07,
+    "low": 2329.56,
+    "close": 2333.41,
+    "volume": 0.23,
+    "turnover": 536.3397
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777197600000,
+    "open": 2333.41,
+    "high": 2335.23,
+    "low": 2331.23,
+    "close": 2331.23,
+    "volume": 0.1,
+    "turnover": 233.302
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777201200000,
+    "open": 2331.23,
+    "high": 2334.39,
+    "low": 2331.23,
+    "close": 2333.6,
+    "volume": 0.05,
+    "turnover": 116.6551
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777204800000,
+    "open": 2333.6,
+    "high": 2333.6,
+    "low": 2325.31,
+    "close": 2327.01,
+    "volume": 0.25,
+    "turnover": 582.1029
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777208400000,
+    "open": 2327.01,
+    "high": 2333.57,
+    "low": 2327.01,
+    "close": 2333.41,
+    "volume": 0.06,
+    "turnover": 139.8343
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777212000000,
+    "open": 2333.41,
+    "high": 2351.68,
+    "low": 2333.41,
+    "close": 2346.1,
+    "volume": 3.92,
+    "turnover": 9195.2525
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777215600000,
+    "open": 2346.1,
+    "high": 2348.52,
+    "low": 2345.81,
+    "close": 2346.95,
+    "volume": 0.54,
+    "turnover": 1267.1308
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777219200000,
+    "open": 2346.95,
+    "high": 2353.35,
+    "low": 2342.1,
+    "close": 2342.1,
+    "volume": 0.38,
+    "turnover": 891.7165
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777222800000,
+    "open": 2342.1,
+    "high": 2347.98,
+    "low": 2342.1,
+    "close": 2347.86,
+    "volume": 0.1,
+    "turnover": 234.7297
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777226400000,
+    "open": 2347.86,
+    "high": 2366.79,
+    "low": 2347.86,
+    "close": 2361.37,
+    "volume": 3.03,
+    "turnover": 7149.4085
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777230000000,
+    "open": 2361.37,
+    "high": 2373.84,
+    "low": 2361.37,
+    "close": 2366.85,
+    "volume": 0.55,
+    "turnover": 1301.5047
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777233600000,
+    "open": 2366.85,
+    "high": 2370.42,
+    "low": 2364.02,
+    "close": 2366.7,
+    "volume": 7.23,
+    "turnover": 17119.0646
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777237200000,
+    "open": 2366.7,
+    "high": 2366.7,
+    "low": 2349.86,
+    "close": 2362.99,
+    "volume": 0.87,
+    "turnover": 2048.8119
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777240800000,
+    "open": 2362.99,
+    "high": 2366.21,
+    "low": 2360.39,
+    "close": 2360.45,
+    "volume": 0.03,
+    "turnover": 70.8705
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777244400000,
+    "open": 2360.45,
+    "high": 2363.24,
+    "low": 2357.95,
+    "close": 2362.08,
+    "volume": 0.12,
+    "turnover": 283.227
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777248000000,
+    "open": 2362.08,
+    "high": 2390.03,
+    "low": 2360.47,
+    "close": 2390.03,
+    "volume": 5.92,
+    "turnover": 14094.7228
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777251600000,
+    "open": 2390.03,
+    "high": 2402.05,
+    "low": 2380.82,
+    "close": 2394.87,
+    "volume": 28,
+    "turnover": 66920.9946
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777255200000,
+    "open": 2394.87,
+    "high": 2396.13,
+    "low": 2388.32,
+    "close": 2392.47,
+    "volume": 0.23,
+    "turnover": 550.3021
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777258800000,
+    "open": 2392.47,
+    "high": 2396.23,
+    "low": 2390.83,
+    "close": 2395,
+    "volume": 0.72,
+    "turnover": 1723.7482
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777262400000,
+    "open": 2395,
+    "high": 2395,
+    "low": 2380.74,
+    "close": 2380.74,
+    "volume": 0.07,
+    "turnover": 166.9138
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777266000000,
+    "open": 2380.74,
+    "high": 2380.74,
+    "low": 2319.39,
+    "close": 2324.98,
+    "volume": 4.76,
+    "turnover": 11116.7942
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777269600000,
+    "open": 2324.98,
+    "high": 2329.17,
+    "low": 2319.66,
+    "close": 2322.08,
+    "volume": 0.12,
+    "turnover": 278.8141
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777273200000,
+    "open": 2322.08,
+    "high": 2322.08,
+    "low": 2316.6,
+    "close": 2319.53,
+    "volume": 1.1,
+    "turnover": 2552.0082
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777276800000,
+    "open": 2319.53,
+    "high": 2319.53,
+    "low": 2314.08,
+    "close": 2314.08,
+    "volume": 0.35,
+    "turnover": 810.957
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777280400000,
+    "open": 2314.08,
+    "high": 2324.52,
+    "low": 2314.08,
+    "close": 2324.52,
+    "volume": 8.8,
+    "turnover": 20441.0695
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777284000000,
+    "open": 2324.52,
+    "high": 2324.52,
+    "low": 2319.8,
+    "close": 2319.95,
+    "volume": 0.23,
+    "turnover": 533.7738
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777287600000,
+    "open": 2319.95,
+    "high": 2319.95,
+    "low": 2318.3,
+    "close": 2318.55,
+    "volume": 0.02,
+    "turnover": 46.3685
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777291200000,
+    "open": 2318.55,
+    "high": 2320.44,
+    "low": 2316.43,
+    "close": 2316.85,
+    "volume": 0.03,
+    "turnover": 69.5372
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777294800000,
+    "open": 2316.85,
+    "high": 2319.44,
+    "low": 2304.56,
+    "close": 2310.29,
+    "volume": 5.6,
+    "turnover": 12930.2298
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777298400000,
+    "open": 2310.29,
+    "high": 2329.22,
+    "low": 2310.29,
+    "close": 2314.54,
+    "volume": 4.61,
+    "turnover": 10684.9309
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777302000000,
+    "open": 2314.54,
+    "high": 2315.34,
+    "low": 2266.95,
+    "close": 2276.59,
+    "volume": 31.71,
+    "turnover": 72560.9258
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777305600000,
+    "open": 2276.59,
+    "high": 2277.72,
+    "low": 2272.36,
+    "close": 2276.32,
+    "volume": 4.68,
+    "turnover": 10656.4916
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777309200000,
+    "open": 2276.32,
+    "high": 2290.01,
+    "low": 2276.32,
+    "close": 2289.86,
+    "volume": 0.83,
+    "turnover": 1900.7068
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777312800000,
+    "open": 2289.86,
+    "high": 2289.86,
+    "low": 2286.14,
+    "close": 2286.14,
+    "volume": 0.83,
+    "turnover": 1899.2838
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777316400000,
+    "open": 2286.14,
+    "high": 2290.39,
+    "low": 2277.53,
+    "close": 2286.98,
+    "volume": 0.32,
+    "turnover": 729.682
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777320000000,
+    "open": 2286.98,
+    "high": 2295.02,
+    "low": 2286.98,
+    "close": 2293.1,
+    "volume": 0.13,
+    "turnover": 298.2101
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777323600000,
+    "open": 2293.1,
+    "high": 2293.1,
+    "low": 2292.2,
+    "close": 2292.2,
+    "volume": 0.01,
+    "turnover": 22.922
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777327200000,
+    "open": 2292.2,
+    "high": 2293.5,
+    "low": 2291.35,
+    "close": 2293.5,
+    "volume": 0.57,
+    "turnover": 1306.1027
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777330800000,
+    "open": 2293.5,
+    "high": 2308.27,
+    "low": 2293.5,
+    "close": 2303.32,
+    "volume": 3.05,
+    "turnover": 7023.5521
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777334400000,
+    "open": 2303.32,
+    "high": 2303.32,
+    "low": 2303.32,
+    "close": 2303.32,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777338000000,
+    "open": 2303.32,
+    "high": 2303.32,
+    "low": 2303.32,
+    "close": 2303.32,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777341600000,
+    "open": 2303.32,
+    "high": 2303.32,
+    "low": 2282.51,
+    "close": 2282.51,
+    "volume": 2.37,
+    "turnover": 5437.8239
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777345200000,
+    "open": 2282.51,
+    "high": 2282.51,
+    "low": 2282.51,
+    "close": 2282.51,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777348800000,
+    "open": 2282.51,
+    "high": 2290.87,
+    "low": 2282.51,
+    "close": 2288.91,
+    "volume": 3.16,
+    "turnover": 7223.0573
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777352400000,
+    "open": 2288.91,
+    "high": 2291.17,
+    "low": 2288.91,
+    "close": 2290.09,
+    "volume": 4.12,
+    "turnover": 9436.0322
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777356000000,
+    "open": 2290.09,
+    "high": 2290.09,
+    "low": 2271.87,
+    "close": 2275.78,
+    "volume": 22.01,
+    "turnover": 50079.434
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777359600000,
+    "open": 2275.78,
+    "high": 2278.42,
+    "low": 2272.04,
+    "close": 2273.63,
+    "volume": 0.62,
+    "turnover": 1410.8098
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777363200000,
+    "open": 2273.63,
+    "high": 2290.81,
+    "low": 2273.63,
+    "close": 2290.81,
+    "volume": 0.02,
+    "turnover": 45.7619
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777366800000,
+    "open": 2290.81,
+    "high": 2290.81,
+    "low": 2278.76,
+    "close": 2282.4,
+    "volume": 4.43,
+    "turnover": 10107.7686
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777370400000,
+    "open": 2282.4,
+    "high": 2284.89,
+    "low": 2282.4,
+    "close": 2284.89,
+    "volume": 0.02,
+    "turnover": 45.6781
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777374000000,
+    "open": 2284.89,
+    "high": 2284.89,
+    "low": 2274.1,
+    "close": 2274.1,
+    "volume": 0.02,
+    "turnover": 45.5254
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777377600000,
+    "open": 2274.1,
+    "high": 2279.35,
+    "low": 2273.81,
+    "close": 2277.48,
+    "volume": 24.24,
+    "turnover": 55206.7283
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777381200000,
+    "open": 2277.48,
+    "high": 2285.5,
+    "low": 2258.99,
+    "close": 2275.57,
+    "volume": 77.26,
+    "turnover": 175527.83
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777384800000,
+    "open": 2275.57,
+    "high": 2276.9,
+    "low": 2263.57,
+    "close": 2270.74,
+    "volume": 31.53,
+    "turnover": 71610.3366
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777388400000,
+    "open": 2270.74,
+    "high": 2275.86,
+    "low": 2270.74,
+    "close": 2275.17,
+    "volume": 0.04,
+    "turnover": 90.9786
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777392000000,
+    "open": 2275.17,
+    "high": 2284.07,
+    "low": 2275.17,
+    "close": 2284.07,
+    "volume": 1.04,
+    "turnover": 2373.5626
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777395600000,
+    "open": 2284.07,
+    "high": 2284.07,
+    "low": 2279.54,
+    "close": 2281.54,
+    "volume": 0.05,
+    "turnover": 114.0438
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777399200000,
+    "open": 2281.54,
+    "high": 2295.31,
+    "low": 2281.54,
+    "close": 2295.31,
+    "volume": 0.83,
+    "turnover": 1901.8627
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777402800000,
+    "open": 2295.31,
+    "high": 2305.32,
+    "low": 2290.59,
+    "close": 2305.32,
+    "volume": 4.44,
+    "turnover": 10214.5985
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777406400000,
+    "open": 2305.32,
+    "high": 2305.32,
+    "low": 2297.79,
+    "close": 2297.79,
+    "volume": 0.06,
+    "turnover": 138.0621
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777410000000,
+    "open": 2297.79,
+    "high": 2297.79,
+    "low": 2295.11,
+    "close": 2295.11,
+    "volume": 0.02,
+    "turnover": 45.9219
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777413600000,
+    "open": 2295.11,
+    "high": 2295.11,
+    "low": 2289.28,
+    "close": 2289.55,
+    "volume": 1.12,
+    "turnover": 2564.0065
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777417200000,
+    "open": 2289.55,
+    "high": 2289.55,
+    "low": 2289.55,
+    "close": 2289.55,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777420800000,
+    "open": 2289.55,
+    "high": 2293.42,
+    "low": 2287.53,
+    "close": 2293.42,
+    "volume": 4.51,
+    "turnover": 10330.1375
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777424400000,
+    "open": 2293.42,
+    "high": 2296.95,
+    "low": 2281.75,
+    "close": 2292.82,
+    "volume": 0.83,
+    "turnover": 1903.3994
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777428000000,
+    "open": 2292.82,
+    "high": 2292.82,
+    "low": 2285.8,
+    "close": 2288.36,
+    "volume": 16.92,
+    "turnover": 38713.5421
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777431600000,
+    "open": 2288.36,
+    "high": 2315.18,
+    "low": 2288.36,
+    "close": 2310.02,
+    "volume": 13.46,
+    "turnover": 31122.6454
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777435200000,
+    "open": 2310.02,
+    "high": 2338.55,
+    "low": 2310.02,
+    "close": 2335.57,
+    "volume": 2.98,
+    "turnover": 6924.6601
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777438800000,
+    "open": 2335.57,
+    "high": 2335.57,
+    "low": 2323.49,
+    "close": 2329.46,
+    "volume": 16.17,
+    "turnover": 37646.8556
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777442400000,
+    "open": 2329.46,
+    "high": 2334.21,
+    "low": 2322.85,
+    "close": 2322.85,
+    "volume": 2.01,
+    "turnover": 4679.1966
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777446000000,
+    "open": 2322.85,
+    "high": 2326.46,
+    "low": 2322.85,
+    "close": 2325.98,
+    "volume": 0.06,
+    "turnover": 139.5294
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777449600000,
+    "open": 2325.98,
+    "high": 2325.98,
+    "low": 2325.13,
+    "close": 2325.13,
+    "volume": 0.01,
+    "turnover": 23.2513
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777453200000,
+    "open": 2325.13,
+    "high": 2346.81,
+    "low": 2322.86,
+    "close": 2342.62,
+    "volume": 0.9,
+    "turnover": 2108.0111
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777456800000,
+    "open": 2342.62,
+    "high": 2345.14,
+    "low": 2341.61,
+    "close": 2343.63,
+    "volume": 0.4,
+    "turnover": 937.007
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777460400000,
+    "open": 2343.63,
+    "high": 2343.63,
+    "low": 2332.01,
+    "close": 2332.01,
+    "volume": 0.03,
+    "turnover": 69.9759
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777464000000,
+    "open": 2332.01,
+    "high": 2332.01,
+    "low": 2310.74,
+    "close": 2310.74,
+    "volume": 8.64,
+    "turnover": 20081.8824
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777467600000,
+    "open": 2310.74,
+    "high": 2312.3,
+    "low": 2296.1,
+    "close": 2298.41,
+    "volume": 0.8,
+    "turnover": 1838.7733
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777471200000,
+    "open": 2298.41,
+    "high": 2305.34,
+    "low": 2298.41,
+    "close": 2300.99,
+    "volume": 1.01,
+    "turnover": 2328.176
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777474800000,
+    "open": 2300.99,
+    "high": 2300.99,
+    "low": 2266.78,
+    "close": 2267.5,
+    "volume": 17.18,
+    "turnover": 39102.1416
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777478400000,
+    "open": 2267.5,
+    "high": 2280.49,
+    "low": 2267.14,
+    "close": 2267.14,
+    "volume": 4.52,
+    "turnover": 10248.4135
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777482000000,
+    "open": 2267.14,
+    "high": 2275.85,
+    "low": 2267.14,
+    "close": 2275.85,
+    "volume": 2.06,
+    "turnover": 4683.2516
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777485600000,
+    "open": 2275.85,
+    "high": 2284.67,
+    "low": 2222.57,
+    "close": 2238.12,
+    "volume": 141.47,
+    "turnover": 315772.3994
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777489200000,
+    "open": 2238.12,
+    "high": 2241.9,
+    "low": 2230.43,
+    "close": 2235.77,
+    "volume": 0.16,
+    "turnover": 357.6856
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777492800000,
+    "open": 2235.77,
+    "high": 2248.1,
+    "low": 2235.17,
+    "close": 2244.73,
+    "volume": 12.88,
+    "turnover": 28862.0912
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777496400000,
+    "open": 2244.73,
+    "high": 2263.38,
+    "low": 2241.39,
+    "close": 2254.16,
+    "volume": 2.22,
+    "turnover": 5014.6081
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777500000000,
+    "open": 2254.16,
+    "high": 2257.18,
+    "low": 2253.68,
+    "close": 2256.17,
+    "volume": 0.14,
+    "turnover": 315.6842
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777503600000,
+    "open": 2256.17,
+    "high": 2257.69,
+    "low": 2253.87,
+    "close": 2255.99,
+    "volume": 0.07,
+    "turnover": 157.9125
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777507200000,
+    "open": 2255.99,
+    "high": 2265.54,
+    "low": 2251.41,
+    "close": 2265.54,
+    "volume": 3.96,
+    "turnover": 8924.7926
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777510800000,
+    "open": 2265.54,
+    "high": 2276.39,
+    "low": 2265.54,
+    "close": 2274.21,
+    "volume": 0.07,
+    "turnover": 159.0979
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777514400000,
+    "open": 2274.21,
+    "high": 2274.21,
+    "low": 2240.31,
+    "close": 2245.78,
+    "volume": 12.43,
+    "turnover": 27958.4674
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777518000000,
+    "open": 2245.78,
+    "high": 2248.82,
+    "low": 2245.78,
+    "close": 2248.82,
+    "volume": 0.01,
+    "turnover": 22.4882
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777521600000,
+    "open": 2248.82,
+    "high": 2254.33,
+    "low": 2240.2,
+    "close": 2242.14,
+    "volume": 0.39,
+    "turnover": 874.1402
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777525200000,
+    "open": 2242.14,
+    "high": 2242.14,
+    "low": 2233,
+    "close": 2233,
+    "volume": 0.1,
+    "turnover": 223.3
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777528800000,
+    "open": 2233,
+    "high": 2250.15,
+    "low": 2233,
+    "close": 2250.15,
+    "volume": 0.34,
+    "turnover": 765.0201
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777532400000,
+    "open": 2250.15,
+    "high": 2259.15,
+    "low": 2245.34,
+    "close": 2258.1,
+    "volume": 16.67,
+    "turnover": 37474.0492
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777536000000,
+    "open": 2258.1,
+    "high": 2259.44,
+    "low": 2257.97,
+    "close": 2259.44,
+    "volume": 0.35,
+    "turnover": 790.6599
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777539600000,
+    "open": 2259.44,
+    "high": 2259.44,
+    "low": 2258.57,
+    "close": 2258.57,
+    "volume": 0.01,
+    "turnover": 22.5857
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777543200000,
+    "open": 2258.57,
+    "high": 2262.42,
+    "low": 2258.57,
+    "close": 2262.42,
+    "volume": 0.01,
+    "turnover": 22.6242
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777546800000,
+    "open": 2262.42,
+    "high": 2273.2,
+    "low": 2254.98,
+    "close": 2258.37,
+    "volume": 52.55,
+    "turnover": 118806.7548
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777550400000,
+    "open": 2258.37,
+    "high": 2261.77,
+    "low": 2258.37,
+    "close": 2260.69,
+    "volume": 0.08,
+    "turnover": 180.8458
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777554000000,
+    "open": 2260.69,
+    "high": 2268.99,
+    "low": 2256.27,
+    "close": 2268.99,
+    "volume": 0.88,
+    "turnover": 1986.3009
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777557600000,
+    "open": 2268.99,
+    "high": 2268.99,
+    "low": 2247.92,
+    "close": 2261.7,
+    "volume": 13.36,
+    "turnover": 30064.6593
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777561200000,
+    "open": 2261.7,
+    "high": 2275.03,
+    "low": 2261.7,
+    "close": 2268.42,
+    "volume": 14.18,
+    "turnover": 32233.6313
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777564800000,
+    "open": 2268.42,
+    "high": 2268.42,
+    "low": 2263.25,
+    "close": 2263.28,
+    "volume": 0.06,
+    "turnover": 135.7959
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777568400000,
+    "open": 2263.28,
+    "high": 2263.28,
+    "low": 2254.66,
+    "close": 2260.54,
+    "volume": 0.12,
+    "turnover": 271.1614
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777572000000,
+    "open": 2260.54,
+    "high": 2260.54,
+    "low": 2258.36,
+    "close": 2258.79,
+    "volume": 0.02,
+    "turnover": 45.1715
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777575600000,
+    "open": 2258.79,
+    "high": 2266.8,
+    "low": 2258.79,
+    "close": 2266.8,
+    "volume": 0.32,
+    "turnover": 724.6065
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777579200000,
+    "open": 2266.8,
+    "high": 2266.97,
+    "low": 2266.8,
+    "close": 2266.97,
+    "volume": 0.02,
+    "turnover": 45.3384
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777582800000,
+    "open": 2266.97,
+    "high": 2266.97,
+    "low": 2266.97,
+    "close": 2266.97,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777586400000,
+    "open": 2266.97,
+    "high": 2266.97,
+    "low": 2257.41,
+    "close": 2257.41,
+    "volume": 0.06,
+    "turnover": 135.6409
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777590000000,
+    "open": 2257.41,
+    "high": 2259.42,
+    "low": 2257.41,
+    "close": 2259.42,
+    "volume": 0.04,
+    "turnover": 90.3759
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777593600000,
+    "open": 2259.42,
+    "high": 2259.42,
+    "low": 2259.42,
+    "close": 2259.42,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777597200000,
+    "open": 2259.42,
+    "high": 2270.18,
+    "low": 2259.42,
+    "close": 2269.41,
+    "volume": 1.96,
+    "turnover": 4449.5371
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777600800000,
+    "open": 2269.41,
+    "high": 2269.41,
+    "low": 2266.29,
+    "close": 2268.56,
+    "volume": 0.04,
+    "turnover": 90.6916
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777604400000,
+    "open": 2268.56,
+    "high": 2288.17,
+    "low": 2268.56,
+    "close": 2284.05,
+    "volume": 18.96,
+    "turnover": 43376.6973
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777608000000,
+    "open": 2284.05,
+    "high": 2284.33,
+    "low": 2279.93,
+    "close": 2279.93,
+    "volume": 0.13,
+    "turnover": 296.8221
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777611600000,
+    "open": 2279.93,
+    "high": 2282.92,
+    "low": 2279.93,
+    "close": 2282.92,
+    "volume": 0.04,
+    "turnover": 91.3163
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777615200000,
+    "open": 2282.92,
+    "high": 2285.59,
+    "low": 2277.5,
+    "close": 2277.5,
+    "volume": 0.04,
+    "turnover": 91.3414
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777618800000,
+    "open": 2277.5,
+    "high": 2282,
+    "low": 2277.25,
+    "close": 2282,
+    "volume": 5.92,
+    "turnover": 13495.095
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777622400000,
+    "open": 2282,
+    "high": 2286.38,
+    "low": 2278.66,
+    "close": 2286.38,
+    "volume": 0.33,
+    "turnover": 754.4282
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777626000000,
+    "open": 2286.38,
+    "high": 2286.38,
+    "low": 2284.92,
+    "close": 2284.92,
+    "volume": 0.01,
+    "turnover": 22.8492
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777629600000,
+    "open": 2284.92,
+    "high": 2284.92,
+    "low": 2279.57,
+    "close": 2282.64,
+    "volume": 0.05,
+    "turnover": 114.0904
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777633200000,
+    "open": 2282.64,
+    "high": 2291.44,
+    "low": 2282.64,
+    "close": 2287.07,
+    "volume": 4.48,
+    "turnover": 10265.232
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777636800000,
+    "open": 2287.07,
+    "high": 2310.84,
+    "low": 2287.07,
+    "close": 2306.72,
+    "volume": 22.36,
+    "turnover": 51363.5653
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777640400000,
+    "open": 2306.72,
+    "high": 2320.78,
+    "low": 2305.71,
+    "close": 2316.49,
+    "volume": 14.19,
+    "turnover": 32822.2007
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777644000000,
+    "open": 2316.49,
+    "high": 2321.42,
+    "low": 2305.73,
+    "close": 2308.36,
+    "volume": 0.52,
+    "turnover": 1203.44
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777647600000,
+    "open": 2308.36,
+    "high": 2309.7,
+    "low": 2302.06,
+    "close": 2302.06,
+    "volume": 1.55,
+    "turnover": 3573.4375
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777651200000,
+    "open": 2302.06,
+    "high": 2305.95,
+    "low": 2302.06,
+    "close": 2303.05,
+    "volume": 13.31,
+    "turnover": 30690.6434
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777654800000,
+    "open": 2303.05,
+    "high": 2303.05,
+    "low": 2302.07,
+    "close": 2302.07,
+    "volume": 0.01,
+    "turnover": 23.0207
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777658400000,
+    "open": 2302.07,
+    "high": 2311.16,
+    "low": 2302.07,
+    "close": 2309.08,
+    "volume": 0.37,
+    "turnover": 854.4635
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777662000000,
+    "open": 2309.08,
+    "high": 2309.08,
+    "low": 2304.79,
+    "close": 2304.79,
+    "volume": 0.01,
+    "turnover": 23.0479
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777665600000,
+    "open": 2304.79,
+    "high": 2304.79,
+    "low": 2291.87,
+    "close": 2291.87,
+    "volume": 0.32,
+    "turnover": 734.3165
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777669200000,
+    "open": 2291.87,
+    "high": 2291.87,
+    "low": 2288.21,
+    "close": 2288.21,
+    "volume": 20.91,
+    "turnover": 47871.3603
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777672800000,
+    "open": 2288.21,
+    "high": 2297.47,
+    "low": 2288.21,
+    "close": 2294.38,
+    "volume": 0.06,
+    "turnover": 137.6887
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777676400000,
+    "open": 2294.38,
+    "high": 2294.38,
+    "low": 2292.31,
+    "close": 2292.31,
+    "volume": 0.59,
+    "turnover": 1353.0414
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777680000000,
+    "open": 2292.31,
+    "high": 2296.8,
+    "low": 2292.31,
+    "close": 2295.2,
+    "volume": 4.31,
+    "turnover": 9892.3334
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777683600000,
+    "open": 2295.2,
+    "high": 2295.2,
+    "low": 2295.2,
+    "close": 2295.2,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777687200000,
+    "open": 2295.2,
+    "high": 2307.33,
+    "low": 2295.2,
+    "close": 2307.33,
+    "volume": 1.75,
+    "turnover": 4028.6199
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777690800000,
+    "open": 2307.33,
+    "high": 2307.33,
+    "low": 2301.22,
+    "close": 2301.22,
+    "volume": 0.02,
+    "turnover": 46.0297
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777694400000,
+    "open": 2301.22,
+    "high": 2303.68,
+    "low": 2299.64,
+    "close": 2299.64,
+    "volume": 0.23,
+    "turnover": 529.411
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777698000000,
+    "open": 2299.64,
+    "high": 2301.06,
+    "low": 2298.65,
+    "close": 2298.65,
+    "volume": 0.5,
+    "turnover": 1150.5059
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777701600000,
+    "open": 2298.65,
+    "high": 2304.66,
+    "low": 2298.65,
+    "close": 2304.66,
+    "volume": 0.03,
+    "turnover": 69.1069
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777705200000,
+    "open": 2304.66,
+    "high": 2306.32,
+    "low": 2304.66,
+    "close": 2305.71,
+    "volume": 0.12,
+    "turnover": 276.6608
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777708800000,
+    "open": 2305.71,
+    "high": 2305.71,
+    "low": 2305.71,
+    "close": 2305.71,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777712400000,
+    "open": 2305.71,
+    "high": 2305.71,
+    "low": 2305.71,
+    "close": 2305.71,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777716000000,
+    "open": 2305.71,
+    "high": 2305.71,
+    "low": 2304.63,
+    "close": 2304.63,
+    "volume": 0.02,
+    "turnover": 46.1017
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777719600000,
+    "open": 2304.63,
+    "high": 2304.63,
+    "low": 2304.63,
+    "close": 2304.63,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777723200000,
+    "open": 2304.63,
+    "high": 2304.63,
+    "low": 2303.69,
+    "close": 2303.69,
+    "volume": 1.01,
+    "turnover": 2327.0769
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777726800000,
+    "open": 2303.69,
+    "high": 2310.53,
+    "low": 2303.69,
+    "close": 2306.52,
+    "volume": 0.58,
+    "turnover": 1339.2649
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777730400000,
+    "open": 2306.52,
+    "high": 2307.53,
+    "low": 2306.47,
+    "close": 2306.61,
+    "volume": 0.07,
+    "turnover": 161.4859
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777734000000,
+    "open": 2306.61,
+    "high": 2310.03,
+    "low": 2306.61,
+    "close": 2309.16,
+    "volume": 0.02,
+    "turnover": 46.1919
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777737600000,
+    "open": 2309.16,
+    "high": 2310.33,
+    "low": 2308.52,
+    "close": 2310.03,
+    "volume": 0.21,
+    "turnover": 484.984
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777741200000,
+    "open": 2310.03,
+    "high": 2310.03,
+    "low": 2306.09,
+    "close": 2306.15,
+    "volume": 0.13,
+    "turnover": 300.0288
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777744800000,
+    "open": 2306.15,
+    "high": 2309.02,
+    "low": 2305.03,
+    "close": 2309.02,
+    "volume": 0.12,
+    "turnover": 276.7431
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777748400000,
+    "open": 2309.02,
+    "high": 2312.38,
+    "low": 2309.02,
+    "close": 2312.38,
+    "volume": 0.03,
+    "turnover": 69.3541
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777752000000,
+    "open": 2312.38,
+    "high": 2312.38,
+    "low": 2311.78,
+    "close": 2311.78,
+    "volume": 0.01,
+    "turnover": 23.1178
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777755600000,
+    "open": 2311.78,
+    "high": 2337.9,
+    "low": 2311.54,
+    "close": 2326.57,
+    "volume": 36.8,
+    "turnover": 85406.7536
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777759200000,
+    "open": 2326.57,
+    "high": 2326.57,
+    "low": 2326.57,
+    "close": 2326.57,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777762800000,
+    "open": 2326.57,
+    "high": 2326.57,
+    "low": 2326.57,
+    "close": 2326.57,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777766400000,
+    "open": 2326.57,
+    "high": 2326.57,
+    "low": 2313.38,
+    "close": 2313.38,
+    "volume": 0.02,
+    "turnover": 46.2676
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777770000000,
+    "open": 2313.38,
+    "high": 2313.38,
+    "low": 2305.75,
+    "close": 2305.75,
+    "volume": 0.14,
+    "turnover": 323.03
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777773600000,
+    "open": 2305.75,
+    "high": 2305.75,
+    "low": 2300.31,
+    "close": 2300.31,
+    "volume": 0.13,
+    "turnover": 299.4291
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777777200000,
+    "open": 2300.31,
+    "high": 2302.5,
+    "low": 2300.31,
+    "close": 2302.5,
+    "volume": 0.05,
+    "turnover": 115.125
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777780800000,
+    "open": 2302.5,
+    "high": 2302.5,
+    "low": 2301.43,
+    "close": 2301.43,
+    "volume": 0.01,
+    "turnover": 23.0143
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777784400000,
+    "open": 2301.43,
+    "high": 2302.59,
+    "low": 2301.43,
+    "close": 2302.59,
+    "volume": 0.01,
+    "turnover": 23.0259
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777788000000,
+    "open": 2302.59,
+    "high": 2302.59,
+    "low": 2301.81,
+    "close": 2302.2,
+    "volume": 0.03,
+    "turnover": 69.0621
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777791600000,
+    "open": 2302.2,
+    "high": 2311.25,
+    "low": 2302.2,
+    "close": 2309.92,
+    "volume": 0.07,
+    "turnover": 161.6911
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777795200000,
+    "open": 2309.92,
+    "high": 2309.92,
+    "low": 2309.81,
+    "close": 2309.81,
+    "volume": 0.01,
+    "turnover": 23.0981
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777798800000,
+    "open": 2309.81,
+    "high": 2316.97,
+    "low": 2308.96,
+    "close": 2316.97,
+    "volume": 0.34,
+    "turnover": 785.9113
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777802400000,
+    "open": 2316.97,
+    "high": 2316.97,
+    "low": 2313.63,
+    "close": 2313.86,
+    "volume": 0.05,
+    "turnover": 115.7174
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777806000000,
+    "open": 2313.86,
+    "high": 2314.88,
+    "low": 2313.86,
+    "close": 2313.95,
+    "volume": 0.02,
+    "turnover": 46.2883
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777809600000,
+    "open": 2313.95,
+    "high": 2330.67,
+    "low": 2313.95,
+    "close": 2324.99,
+    "volume": 0.43,
+    "turnover": 1000.4101
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777813200000,
+    "open": 2324.99,
+    "high": 2324.99,
+    "low": 2324.99,
+    "close": 2324.99,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777816800000,
+    "open": 2324.99,
+    "high": 2325.77,
+    "low": 2324.6,
+    "close": 2324.6,
+    "volume": 0.02,
+    "turnover": 46.5037
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777820400000,
+    "open": 2324.6,
+    "high": 2333,
+    "low": 2324.6,
+    "close": 2333,
+    "volume": 0.1,
+    "turnover": 233.3
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777824000000,
+    "open": 2333,
+    "high": 2333,
+    "low": 2325,
+    "close": 2325,
+    "volume": 0.03,
+    "turnover": 69.8002
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777827600000,
+    "open": 2325,
+    "high": 2333.12,
+    "low": 2325,
+    "close": 2333.12,
+    "volume": 0.59,
+    "turnover": 1376.5408
+  },
+  {
+    "symbol": "ETHUSDT-15MAY26",
+    "timestamp": 1777831200000,
+    "open": 2333.12,
+    "high": 2333.12,
+    "low": 2329.92,
+    "close": 2331.33,
+    "volume": 0.06,
+    "turnover": 139.8236
+  }
+]

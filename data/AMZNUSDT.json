@@ -1,0 +1,1292 @@
+[
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777366800000,
+    "open": 261.17,
+    "high": 262.13,
+    "low": 260.33,
+    "close": 260.47,
+    "volume": 185.01,
+    "turnover": 48313.8382
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777370400000,
+    "open": 260.47,
+    "high": 261.59,
+    "low": 259.83,
+    "close": 260.01,
+    "volume": 66.21,
+    "turnover": 17250.4349
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777374000000,
+    "open": 260.01,
+    "high": 260.01,
+    "low": 257.09,
+    "close": 257.17,
+    "volume": 14.47,
+    "turnover": 3740.8334
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777377600000,
+    "open": 257.17,
+    "high": 257.86,
+    "low": 256.83,
+    "close": 257.86,
+    "volume": 12.81,
+    "turnover": 3299.5209
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777381200000,
+    "open": 257.86,
+    "high": 260.1,
+    "low": 257.03,
+    "close": 259.91,
+    "volume": 49.03,
+    "turnover": 12666.7366
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777384800000,
+    "open": 259.91,
+    "high": 261.02,
+    "low": 259.4,
+    "close": 260.44,
+    "volume": 57.43,
+    "turnover": 14969.6916
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777388400000,
+    "open": 260.44,
+    "high": 260.44,
+    "low": 258.93,
+    "close": 259.95,
+    "volume": 6.61,
+    "turnover": 1716.8973
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777392000000,
+    "open": 259.95,
+    "high": 260.44,
+    "low": 259.04,
+    "close": 259.04,
+    "volume": 12.3,
+    "turnover": 3200.0773
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777395600000,
+    "open": 259.04,
+    "high": 259.83,
+    "low": 258,
+    "close": 258.33,
+    "volume": 4.2,
+    "turnover": 1085.731
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777399200000,
+    "open": 258.33,
+    "high": 260.04,
+    "low": 258.33,
+    "close": 258.95,
+    "volume": 4.34,
+    "turnover": 1123.5093
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777402800000,
+    "open": 258.95,
+    "high": 259.88,
+    "low": 258.95,
+    "close": 259.88,
+    "volume": 0.02,
+    "turnover": 5.1976
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777406400000,
+    "open": 259.88,
+    "high": 259.88,
+    "low": 259.32,
+    "close": 259.68,
+    "volume": 0.89,
+    "turnover": 230.9257
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777410000000,
+    "open": 259.68,
+    "high": 259.68,
+    "low": 259.02,
+    "close": 259.03,
+    "volume": 1.72,
+    "turnover": 446.0407
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777413600000,
+    "open": 259.03,
+    "high": 259.56,
+    "low": 259.03,
+    "close": 259.38,
+    "volume": 1.16,
+    "turnover": 300.6378
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777417200000,
+    "open": 259.38,
+    "high": 259.75,
+    "low": 259.38,
+    "close": 259.75,
+    "volume": 0.77,
+    "turnover": 199.9856
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777420800000,
+    "open": 259.75,
+    "high": 260.44,
+    "low": 259.75,
+    "close": 260.44,
+    "volume": 3.54,
+    "turnover": 921.501
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777424400000,
+    "open": 260.44,
+    "high": 260.49,
+    "low": 259.49,
+    "close": 260.38,
+    "volume": 16.45,
+    "turnover": 4278.1242
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777428000000,
+    "open": 260.38,
+    "high": 260.71,
+    "low": 260.3,
+    "close": 260.7,
+    "volume": 0.36,
+    "turnover": 93.8079
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777431600000,
+    "open": 260.7,
+    "high": 260.95,
+    "low": 260.59,
+    "close": 260.59,
+    "volume": 2.5,
+    "turnover": 651.8691
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777435200000,
+    "open": 260.59,
+    "high": 261,
+    "low": 260.59,
+    "close": 260.85,
+    "volume": 4.11,
+    "turnover": 1071.9623
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777438800000,
+    "open": 260.85,
+    "high": 261.31,
+    "low": 260.8,
+    "close": 260.8,
+    "volume": 11.52,
+    "turnover": 3005.9436
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777442400000,
+    "open": 260.8,
+    "high": 261.15,
+    "low": 260.31,
+    "close": 260.42,
+    "volume": 3.21,
+    "turnover": 836.2477
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777446000000,
+    "open": 260.42,
+    "high": 260.49,
+    "low": 260.25,
+    "close": 260.25,
+    "volume": 1.31,
+    "turnover": 341.0546
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777449600000,
+    "open": 260.25,
+    "high": 260.25,
+    "low": 259.4,
+    "close": 259.49,
+    "volume": 36.17,
+    "turnover": 9392.197
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777453200000,
+    "open": 259.49,
+    "high": 259.59,
+    "low": 259.13,
+    "close": 259.13,
+    "volume": 9.47,
+    "turnover": 2455.6272
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777456800000,
+    "open": 259.13,
+    "high": 260.04,
+    "low": 259.13,
+    "close": 259.7,
+    "volume": 10.68,
+    "turnover": 2775.8301
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777460400000,
+    "open": 259.7,
+    "high": 259.7,
+    "low": 259.05,
+    "close": 259.25,
+    "volume": 0.76,
+    "turnover": 197.1026
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777464000000,
+    "open": 259.25,
+    "high": 259.45,
+    "low": 258.95,
+    "close": 258.95,
+    "volume": 8.07,
+    "turnover": 2093.1261
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777467600000,
+    "open": 258.95,
+    "high": 263.3,
+    "low": 257.9,
+    "close": 263.27,
+    "volume": 89.03,
+    "turnover": 23301.9502
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777471200000,
+    "open": 263.27,
+    "high": 265.92,
+    "low": 262.41,
+    "close": 265.88,
+    "volume": 58.19,
+    "turnover": 15352.7036
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777474800000,
+    "open": 265.88,
+    "high": 265.88,
+    "low": 263.36,
+    "close": 263.6,
+    "volume": 54.09,
+    "turnover": 14283.589
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777478400000,
+    "open": 263.6,
+    "high": 263.8,
+    "low": 260.41,
+    "close": 261.55,
+    "volume": 115.77,
+    "turnover": 30190.3253
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777482000000,
+    "open": 261.55,
+    "high": 263.28,
+    "low": 261.55,
+    "close": 263.28,
+    "volume": 52.94,
+    "turnover": 13893.8647
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777485600000,
+    "open": 263.28,
+    "high": 264.1,
+    "low": 262.88,
+    "close": 264.1,
+    "volume": 29.92,
+    "turnover": 7884.1236
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777489200000,
+    "open": 264.1,
+    "high": 264.1,
+    "low": 262.5,
+    "close": 263.22,
+    "volume": 33.4,
+    "turnover": 8776.7758
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777492800000,
+    "open": 263.22,
+    "high": 267.18,
+    "low": 246.84,
+    "close": 253.75,
+    "volume": 527.69,
+    "turnover": 136356.5057
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777496400000,
+    "open": 253.75,
+    "high": 270.54,
+    "low": 250.6,
+    "close": 265.86,
+    "volume": 143.8,
+    "turnover": 37670.0326
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777500000000,
+    "open": 265.86,
+    "high": 277.08,
+    "low": 264.8,
+    "close": 271.73,
+    "volume": 105.65,
+    "turnover": 28858.1342
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777503600000,
+    "open": 271.73,
+    "high": 272.09,
+    "low": 268.55,
+    "close": 270.62,
+    "volume": 31.98,
+    "turnover": 8658.6866
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777507200000,
+    "open": 270.62,
+    "high": 271.5,
+    "low": 269.92,
+    "close": 269.92,
+    "volume": 12.69,
+    "turnover": 3436.255
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777510800000,
+    "open": 269.92,
+    "high": 271.11,
+    "low": 269.2,
+    "close": 271.02,
+    "volume": 14.83,
+    "turnover": 4007.3349
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777514400000,
+    "open": 271.02,
+    "high": 271.16,
+    "low": 267.88,
+    "close": 268.75,
+    "volume": 12.41,
+    "turnover": 3346.6332
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777518000000,
+    "open": 268.75,
+    "high": 269.9,
+    "low": 268.6,
+    "close": 269.25,
+    "volume": 10.71,
+    "turnover": 2882.4355
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777521600000,
+    "open": 269.25,
+    "high": 269.25,
+    "low": 266.42,
+    "close": 266.95,
+    "volume": 33.89,
+    "turnover": 9046.8705
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777525200000,
+    "open": 266.95,
+    "high": 269.03,
+    "low": 266.95,
+    "close": 268.1,
+    "volume": 9.12,
+    "turnover": 2447.4604
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777528800000,
+    "open": 268.1,
+    "high": 268.75,
+    "low": 266.82,
+    "close": 268.04,
+    "volume": 11.73,
+    "turnover": 3144.5831
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777532400000,
+    "open": 268.04,
+    "high": 269.44,
+    "low": 268.04,
+    "close": 268.35,
+    "volume": 3.32,
+    "turnover": 892.0734
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777536000000,
+    "open": 268.35,
+    "high": 268.53,
+    "low": 266.26,
+    "close": 267.75,
+    "volume": 30.05,
+    "turnover": 8045.9427
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777539600000,
+    "open": 267.75,
+    "high": 270.6,
+    "low": 267.74,
+    "close": 269.35,
+    "volume": 5.33,
+    "turnover": 1435.8055
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777543200000,
+    "open": 269.35,
+    "high": 270.25,
+    "low": 268.54,
+    "close": 268.83,
+    "volume": 7.82,
+    "turnover": 2105.9374
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777546800000,
+    "open": 268.83,
+    "high": 272.1,
+    "low": 268.83,
+    "close": 270.5,
+    "volume": 15.01,
+    "turnover": 4065.8309
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777550400000,
+    "open": 270.5,
+    "high": 273.4,
+    "low": 270.5,
+    "close": 272.25,
+    "volume": 35.48,
+    "turnover": 9653.8691
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777554000000,
+    "open": 272.25,
+    "high": 275.1,
+    "low": 257.85,
+    "close": 259.5,
+    "volume": 233.92,
+    "turnover": 62795.2583
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777557600000,
+    "open": 259.5,
+    "high": 262.55,
+    "low": 257.8,
+    "close": 259.65,
+    "volume": 35.71,
+    "turnover": 9280.5191
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777561200000,
+    "open": 259.65,
+    "high": 260.25,
+    "low": 256.45,
+    "close": 258.5,
+    "volume": 29.69,
+    "turnover": 7662.1121
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777564800000,
+    "open": 258.5,
+    "high": 259.8,
+    "low": 258.1,
+    "close": 258.4,
+    "volume": 7.16,
+    "turnover": 1854.0468
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777568400000,
+    "open": 258.4,
+    "high": 260.66,
+    "low": 258.4,
+    "close": 260.5,
+    "volume": 19.76,
+    "turnover": 5141.7481
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777572000000,
+    "open": 260.5,
+    "high": 264.05,
+    "low": 260.5,
+    "close": 263.5,
+    "volume": 19.83,
+    "turnover": 5199.2545
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777575600000,
+    "open": 263.5,
+    "high": 266.5,
+    "low": 263.5,
+    "close": 265.51,
+    "volume": 25.37,
+    "turnover": 6724.9542
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777579200000,
+    "open": 265.51,
+    "high": 265.51,
+    "low": 264.66,
+    "close": 264.66,
+    "volume": 1.24,
+    "turnover": 328.5047
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777582800000,
+    "open": 264.66,
+    "high": 265.11,
+    "low": 264.4,
+    "close": 264.86,
+    "volume": 2.99,
+    "turnover": 791.6713
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777586400000,
+    "open": 264.86,
+    "high": 264.86,
+    "low": 263.64,
+    "close": 264.06,
+    "volume": 1.93,
+    "turnover": 510.2724
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777590000000,
+    "open": 264.06,
+    "high": 264.3,
+    "low": 263.94,
+    "close": 263.94,
+    "volume": 2.97,
+    "turnover": 783.9596
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777593600000,
+    "open": 263.94,
+    "high": 264.75,
+    "low": 263.94,
+    "close": 264.75,
+    "volume": 0.95,
+    "turnover": 251.1899
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777597200000,
+    "open": 264.75,
+    "high": 265.14,
+    "low": 264.72,
+    "close": 265.14,
+    "volume": 0.42,
+    "turnover": 111.2637
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777600800000,
+    "open": 265.14,
+    "high": 265.14,
+    "low": 264.54,
+    "close": 264.75,
+    "volume": 0.14,
+    "turnover": 37.0518
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777604400000,
+    "open": 264.75,
+    "high": 264.85,
+    "low": 264.51,
+    "close": 264.51,
+    "volume": 0.37,
+    "turnover": 97.8951
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777608000000,
+    "open": 264.51,
+    "high": 264.51,
+    "low": 264.42,
+    "close": 264.42,
+    "volume": 0.13,
+    "turnover": 34.3797
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777611600000,
+    "open": 264.42,
+    "high": 264.5,
+    "low": 264.42,
+    "close": 264.45,
+    "volume": 1.12,
+    "turnover": 296.1983
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777615200000,
+    "open": 264.45,
+    "high": 265.22,
+    "low": 264.45,
+    "close": 264.76,
+    "volume": 1.4,
+    "turnover": 371.2094
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777618800000,
+    "open": 264.76,
+    "high": 265,
+    "low": 264.65,
+    "close": 264.65,
+    "volume": 1.09,
+    "turnover": 288.5195
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777622400000,
+    "open": 264.65,
+    "high": 264.65,
+    "low": 264,
+    "close": 264.05,
+    "volume": 0.72,
+    "turnover": 190.2711
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777626000000,
+    "open": 264.05,
+    "high": 264.05,
+    "low": 263.3,
+    "close": 263.75,
+    "volume": 6.95,
+    "turnover": 1832.9669
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777629600000,
+    "open": 263.75,
+    "high": 263.75,
+    "low": 262.42,
+    "close": 263.28,
+    "volume": 23.41,
+    "turnover": 6156.454
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777633200000,
+    "open": 263.28,
+    "high": 263.34,
+    "low": 262.02,
+    "close": 262.56,
+    "volume": 1.22,
+    "turnover": 320.4768
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777636800000,
+    "open": 262.56,
+    "high": 263.6,
+    "low": 262.56,
+    "close": 262.95,
+    "volume": 3.46,
+    "turnover": 911.372
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777640400000,
+    "open": 262.95,
+    "high": 269,
+    "low": 262.9,
+    "close": 269,
+    "volume": 169.8,
+    "turnover": 45133.1006
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777644000000,
+    "open": 269,
+    "high": 273.4,
+    "low": 268.85,
+    "close": 269.85,
+    "volume": 43.26,
+    "turnover": 11733.9144
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777647600000,
+    "open": 269.85,
+    "high": 270.75,
+    "low": 268.7,
+    "close": 270.26,
+    "volume": 68.94,
+    "turnover": 18606.0334
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777651200000,
+    "open": 270.26,
+    "high": 270.26,
+    "low": 268.31,
+    "close": 268.83,
+    "volume": 91.21,
+    "turnover": 24545.6635
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777654800000,
+    "open": 268.83,
+    "high": 269.82,
+    "low": 268.8,
+    "close": 269.64,
+    "volume": 2.11,
+    "turnover": 568.3708
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777658400000,
+    "open": 269.64,
+    "high": 269.68,
+    "low": 268.52,
+    "close": 269.07,
+    "volume": 20.03,
+    "turnover": 5392.6409
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777662000000,
+    "open": 269.07,
+    "high": 269.16,
+    "low": 267.92,
+    "close": 268.13,
+    "volume": 35.65,
+    "turnover": 9574.6281
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777665600000,
+    "open": 268.13,
+    "high": 268.19,
+    "low": 267.45,
+    "close": 267.45,
+    "volume": 7.31,
+    "turnover": 1957.2635
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777669200000,
+    "open": 267.45,
+    "high": 267.95,
+    "low": 267.38,
+    "close": 267.95,
+    "volume": 6.4,
+    "turnover": 1711.3127
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777672800000,
+    "open": 267.95,
+    "high": 268.21,
+    "low": 267.95,
+    "close": 268.21,
+    "volume": 1.56,
+    "turnover": 418.3618
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777676400000,
+    "open": 268.21,
+    "high": 268.21,
+    "low": 267.6,
+    "close": 267.6,
+    "volume": 5.55,
+    "turnover": 1486.3114
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777680000000,
+    "open": 267.6,
+    "high": 267.6,
+    "low": 267.4,
+    "close": 267.4,
+    "volume": 0.15,
+    "turnover": 40.122
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777683600000,
+    "open": 267.4,
+    "high": 268.05,
+    "low": 267.4,
+    "close": 267.85,
+    "volume": 2.08,
+    "turnover": 557.2439
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777687200000,
+    "open": 267.85,
+    "high": 268.27,
+    "low": 267.85,
+    "close": 267.89,
+    "volume": 2.52,
+    "turnover": 675.9234
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777690800000,
+    "open": 267.89,
+    "high": 268.13,
+    "low": 267.89,
+    "close": 268.13,
+    "volume": 0.06,
+    "turnover": 16.0845
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777694400000,
+    "open": 268.13,
+    "high": 268.13,
+    "low": 267.66,
+    "close": 267.66,
+    "volume": 0.27,
+    "turnover": 72.3223
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777698000000,
+    "open": 267.66,
+    "high": 268.18,
+    "low": 267.61,
+    "close": 267.82,
+    "volume": 11.53,
+    "turnover": 3090.5906
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777701600000,
+    "open": 267.82,
+    "high": 267.83,
+    "low": 267.66,
+    "close": 267.66,
+    "volume": 0.97,
+    "turnover": 259.6353
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777705200000,
+    "open": 267.66,
+    "high": 267.66,
+    "low": 267.63,
+    "close": 267.63,
+    "volume": 1.03,
+    "turnover": 275.6589
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777708800000,
+    "open": 267.63,
+    "high": 267.84,
+    "low": 267.63,
+    "close": 267.84,
+    "volume": 0.02,
+    "turnover": 5.3568
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777712400000,
+    "open": 267.84,
+    "high": 267.84,
+    "low": 267.54,
+    "close": 267.8,
+    "volume": 0.9,
+    "turnover": 240.9882
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777716000000,
+    "open": 267.8,
+    "high": 267.8,
+    "low": 267.8,
+    "close": 267.8,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777719600000,
+    "open": 267.8,
+    "high": 267.84,
+    "low": 267.66,
+    "close": 267.66,
+    "volume": 0.73,
+    "turnover": 195.5162
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777723200000,
+    "open": 267.66,
+    "high": 267.78,
+    "low": 267.66,
+    "close": 267.78,
+    "volume": 0.74,
+    "turnover": 198.0708
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777726800000,
+    "open": 267.78,
+    "high": 267.78,
+    "low": 267.59,
+    "close": 267.59,
+    "volume": 0.1,
+    "turnover": 26.7614
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777730400000,
+    "open": 267.59,
+    "high": 268.16,
+    "low": 267.54,
+    "close": 267.57,
+    "volume": 3.5,
+    "turnover": 937.8511
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777734000000,
+    "open": 267.57,
+    "high": 267.57,
+    "low": 267.57,
+    "close": 267.57,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777737600000,
+    "open": 267.57,
+    "high": 267.9,
+    "low": 267.57,
+    "close": 267.66,
+    "volume": 0.21,
+    "turnover": 56.2116
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777741200000,
+    "open": 267.66,
+    "high": 267.72,
+    "low": 267.66,
+    "close": 267.72,
+    "volume": 0.02,
+    "turnover": 5.3544
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777744800000,
+    "open": 267.72,
+    "high": 268.01,
+    "low": 267.63,
+    "close": 268.01,
+    "volume": 0.41,
+    "turnover": 109.7737
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777748400000,
+    "open": 268.01,
+    "high": 268.01,
+    "low": 267.79,
+    "close": 267.79,
+    "volume": 0.02,
+    "turnover": 5.3558
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777752000000,
+    "open": 267.79,
+    "high": 268.01,
+    "low": 267.78,
+    "close": 267.78,
+    "volume": 0.28,
+    "turnover": 75.0106
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777755600000,
+    "open": 267.78,
+    "high": 268.26,
+    "low": 267.71,
+    "close": 267.86,
+    "volume": 2.73,
+    "turnover": 731.6335
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777759200000,
+    "open": 267.86,
+    "high": 267.86,
+    "low": 267.64,
+    "close": 267.64,
+    "volume": 7.15,
+    "turnover": 1913.8797
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777762800000,
+    "open": 267.64,
+    "high": 267.64,
+    "low": 267.64,
+    "close": 267.64,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777766400000,
+    "open": 267.64,
+    "high": 267.94,
+    "low": 267.64,
+    "close": 267.66,
+    "volume": 3.52,
+    "turnover": 942.3086
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777770000000,
+    "open": 267.66,
+    "high": 267.73,
+    "low": 267.65,
+    "close": 267.65,
+    "volume": 0.14,
+    "turnover": 37.4799
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777773600000,
+    "open": 267.65,
+    "high": 267.65,
+    "low": 267.45,
+    "close": 267.45,
+    "volume": 0.38,
+    "turnover": 101.6391
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777777200000,
+    "open": 267.45,
+    "high": 267.53,
+    "low": 267.45,
+    "close": 267.53,
+    "volume": 1,
+    "turnover": 267.53
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777780800000,
+    "open": 267.53,
+    "high": 267.57,
+    "low": 267.53,
+    "close": 267.57,
+    "volume": 0.45,
+    "turnover": 120.4065
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777784400000,
+    "open": 267.57,
+    "high": 267.57,
+    "low": 267.57,
+    "close": 267.57,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777788000000,
+    "open": 267.57,
+    "high": 268.02,
+    "low": 267.57,
+    "close": 267.79,
+    "volume": 0.21,
+    "turnover": 56.2527
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777791600000,
+    "open": 267.79,
+    "high": 268.27,
+    "low": 267.79,
+    "close": 268.27,
+    "volume": 4.57,
+    "turnover": 1225.823
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777795200000,
+    "open": 268.27,
+    "high": 268.54,
+    "low": 267.88,
+    "close": 267.92,
+    "volume": 39.87,
+    "turnover": 10700.8466
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777798800000,
+    "open": 267.92,
+    "high": 268.08,
+    "low": 267.82,
+    "close": 268.04,
+    "volume": 0.77,
+    "turnover": 206.2798
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777802400000,
+    "open": 268.04,
+    "high": 268.42,
+    "low": 268,
+    "close": 268.42,
+    "volume": 1.27,
+    "turnover": 340.8373
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777806000000,
+    "open": 268.42,
+    "high": 268.42,
+    "low": 268.42,
+    "close": 268.42,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777809600000,
+    "open": 268.42,
+    "high": 268.42,
+    "low": 268.05,
+    "close": 268.13,
+    "volume": 0.06,
+    "turnover": 16.0854
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777813200000,
+    "open": 268.13,
+    "high": 268.13,
+    "low": 268.1,
+    "close": 268.1,
+    "volume": 0.42,
+    "turnover": 112.602
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777816800000,
+    "open": 268.1,
+    "high": 268.1,
+    "low": 268.05,
+    "close": 268.05,
+    "volume": 0.03,
+    "turnover": 8.0415
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777820400000,
+    "open": 268.05,
+    "high": 268.05,
+    "low": 267.95,
+    "close": 267.95,
+    "volume": 0.05,
+    "turnover": 13.399
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777824000000,
+    "open": 267.95,
+    "high": 269.63,
+    "low": 267.95,
+    "close": 269.6,
+    "volume": 22.33,
+    "turnover": 6004.8117
+  },
+  {
+    "symbol": "AMZNUSDT",
+    "timestamp": 1777827600000,
+    "open": 269.6,
+    "high": 269.64,
+    "low": 268.44,
+    "close": 269.16,
+    "volume": 22.49,
+    "turnover": 6047.7796
+  }
+]

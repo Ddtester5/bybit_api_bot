@@ -11,7 +11,7 @@ const SYMBOLS_FILE = path.join(DATA_DIR, "symbols.json");
 export async function getInitialData({ testMode }: { testMode: boolean }) {
   const candlesBySymbol = new Map<string, Candle[]>();
   let symbols: string[] = [];
-
+  const new_symbols: string[] = [];
   try {
     // 1. Пытаемся создать папку, если её нет
     await fs.mkdir(DATA_DIR, { recursive: true });
@@ -29,8 +29,10 @@ export async function getInitialData({ testMode }: { testMode: boolean }) {
           "utf-8",
         );
         candlesBySymbol.set(symbol, JSON.parse(candleData));
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (e) {
-        console.warn(`Файл для ${symbol} не найден, будет скачан.`, e);
+        console.warn(`Файл для ${symbol} не найден, будет скачан.`);
+        new_symbols.push(symbol);
       }
     }
 
@@ -42,8 +44,9 @@ export async function getInitialData({ testMode }: { testMode: boolean }) {
         maxLength: calculateMax(candlesBySymbol),
       };
     }
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (e) {
-    console.log("Локальные данные не полные, начинаем загрузку из API...", e);
+    console.log("Локальные данные не полные, начинаем загрузку из API...");
   }
 
   // --- Логика загрузки из API ---
@@ -53,7 +56,7 @@ export async function getInitialData({ testMode }: { testMode: boolean }) {
   // Сохраняем список пар
   await fs.writeFile(SYMBOLS_FILE, JSON.stringify(symbols, null, 2));
 
-  for (const symbol of symbols) {
+  for (const symbol of new_symbols) {
     const candles = await loadHistoricalCandles(symbol);
     if (candles?.length) {
       candlesBySymbol.set(symbol, candles);
