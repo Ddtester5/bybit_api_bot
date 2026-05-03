@@ -1,0 +1,21 @@
+name: Check Script
+
+on:
+  workflow_dispatch:
+
+  jobs:
+    check:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+
+        - name: Setup Node.js 24
+          uses: actions/setup-node@v4
+          with:
+            node-version: 24
+
+        - name: Run install
+          run: npm install
+
+        - name: Run test
+          run: npm run test

@@ -9,10 +9,10 @@ export const MAX_POSITIONS = 50;
 export const MAX_RISK = 0.01;
 export const LEVERAGE = 10;
 
-export const BACKTEST_SYMBOLS_COUNT = 30;
+export const BACKTEST_SYMBOLS_COUNT = 3000;
 export const BACKTEST_START_BALANCE = 10;
 export const BACKTEST_CANDLE_INTERVAL = 60;
-export const BACKTEST_CANDLES_COUNT = 365 * 24;
+export const BACKTEST_CANDLES_COUNT = 3 * 365 * 24;
 export const BACKTEST_COMMISSION_RATE = 0.002;
 export const BACKTEST_FUNDING_RATE_ESTIMATE = 0.0002;
 
