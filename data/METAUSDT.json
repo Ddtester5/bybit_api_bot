@@ -1,0 +1,1552 @@
+[
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777280400000,
+    "open": 675.98,
+    "high": 676.09,
+    "low": 672.16,
+    "close": 673.39,
+    "volume": 51.28,
+    "turnover": 34584.6716
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777284000000,
+    "open": 673.39,
+    "high": 674.67,
+    "low": 672.67,
+    "close": 673.73,
+    "volume": 3.04,
+    "turnover": 2046.599
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777287600000,
+    "open": 673.73,
+    "high": 675.96,
+    "low": 673.53,
+    "close": 675.72,
+    "volume": 3.3,
+    "turnover": 2227.6737
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777291200000,
+    "open": 675.72,
+    "high": 675.96,
+    "low": 672.53,
+    "close": 674.39,
+    "volume": 2.39,
+    "turnover": 1611.5477
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777294800000,
+    "open": 674.39,
+    "high": 691.44,
+    "low": 672.43,
+    "close": 674.97,
+    "volume": 58.81,
+    "turnover": 39985.1569
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777298400000,
+    "open": 674.97,
+    "high": 683.34,
+    "low": 674.32,
+    "close": 682.84,
+    "volume": 15.23,
+    "turnover": 10335.3857
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777302000000,
+    "open": 682.84,
+    "high": 684.14,
+    "low": 674.53,
+    "close": 676.02,
+    "volume": 10.72,
+    "turnover": 7283.0572
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777305600000,
+    "open": 676.02,
+    "high": 678.79,
+    "low": 675.59,
+    "close": 678.51,
+    "volume": 4.91,
+    "turnover": 3322.8015
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777309200000,
+    "open": 678.51,
+    "high": 681.52,
+    "low": 678.51,
+    "close": 679.98,
+    "volume": 3.87,
+    "turnover": 2631.6701
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777312800000,
+    "open": 679.98,
+    "high": 680.92,
+    "low": 678.61,
+    "close": 679.44,
+    "volume": 2.46,
+    "turnover": 1670.9944
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777316400000,
+    "open": 679.44,
+    "high": 679.94,
+    "low": 678.59,
+    "close": 679.94,
+    "volume": 0.78,
+    "turnover": 529.8184
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777320000000,
+    "open": 679.94,
+    "high": 679.94,
+    "low": 677.75,
+    "close": 678.22,
+    "volume": 0.16,
+    "turnover": 108.5721
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777323600000,
+    "open": 678.22,
+    "high": 678.54,
+    "low": 677.8,
+    "close": 678.54,
+    "volume": 0.07,
+    "turnover": 47.483
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777327200000,
+    "open": 678.54,
+    "high": 679.66,
+    "low": 678.54,
+    "close": 679.54,
+    "volume": 0.1,
+    "turnover": 67.9624
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777330800000,
+    "open": 679.54,
+    "high": 679.54,
+    "low": 679.08,
+    "close": 679.53,
+    "volume": 1.85,
+    "turnover": 1256.9864
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777334400000,
+    "open": 679.53,
+    "high": 680.57,
+    "low": 678.97,
+    "close": 679.87,
+    "volume": 12.13,
+    "turnover": 8244.8682
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777338000000,
+    "open": 679.87,
+    "high": 680.9,
+    "low": 679.5,
+    "close": 679.57,
+    "volume": 12.03,
+    "turnover": 8184.7664
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777341600000,
+    "open": 679.57,
+    "high": 679.57,
+    "low": 678.34,
+    "close": 678.81,
+    "volume": 17.4,
+    "turnover": 11813.2117
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777345200000,
+    "open": 678.81,
+    "high": 679.57,
+    "low": 678.22,
+    "close": 678.96,
+    "volume": 25.35,
+    "turnover": 17212.5341
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777348800000,
+    "open": 678.96,
+    "high": 679.4,
+    "low": 678.34,
+    "close": 678.59,
+    "volume": 31.33,
+    "turnover": 21271.3943
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777352400000,
+    "open": 678.59,
+    "high": 679.04,
+    "low": 677.12,
+    "close": 677.79,
+    "volume": 31.3,
+    "turnover": 21224.946
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777356000000,
+    "open": 677.79,
+    "high": 677.98,
+    "low": 676.01,
+    "close": 676.89,
+    "volume": 28.52,
+    "turnover": 19315.451
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777359600000,
+    "open": 676.89,
+    "high": 677.35,
+    "low": 674.68,
+    "close": 676.77,
+    "volume": 49.32,
+    "turnover": 33355.3944
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777363200000,
+    "open": 676.77,
+    "high": 678.32,
+    "low": 676.3,
+    "close": 677.67,
+    "volume": 6.74,
+    "turnover": 4564.3515
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777366800000,
+    "open": 677.67,
+    "high": 683.95,
+    "low": 676.75,
+    "close": 676.75,
+    "volume": 31.13,
+    "turnover": 21206.0542
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777370400000,
+    "open": 676.75,
+    "high": 677.37,
+    "low": 676.58,
+    "close": 676.9,
+    "volume": 3.42,
+    "turnover": 2315.1754
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777374000000,
+    "open": 676.9,
+    "high": 676.93,
+    "low": 673.06,
+    "close": 673.52,
+    "volume": 4.95,
+    "turnover": 3335.6853
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777377600000,
+    "open": 673.52,
+    "high": 673.88,
+    "low": 665.21,
+    "close": 673.76,
+    "volume": 77.4,
+    "turnover": 51764.1808
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777381200000,
+    "open": 673.76,
+    "high": 678.36,
+    "low": 670.81,
+    "close": 673.32,
+    "volume": 15.49,
+    "turnover": 10443.5466
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777384800000,
+    "open": 673.32,
+    "high": 675.12,
+    "low": 667.8,
+    "close": 668.67,
+    "volume": 14.63,
+    "turnover": 9826.4989
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777388400000,
+    "open": 668.67,
+    "high": 669.9,
+    "low": 666.96,
+    "close": 668.61,
+    "volume": 8.62,
+    "turnover": 5763.3027
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777392000000,
+    "open": 668.61,
+    "high": 671.14,
+    "low": 666.75,
+    "close": 670.82,
+    "volume": 4.36,
+    "turnover": 2919.3717
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777395600000,
+    "open": 670.82,
+    "high": 671.22,
+    "low": 669.97,
+    "close": 671.22,
+    "volume": 0.33,
+    "turnover": 221.3359
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777399200000,
+    "open": 671.22,
+    "high": 672.52,
+    "low": 671.12,
+    "close": 671.67,
+    "volume": 0.43,
+    "turnover": 288.8446
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777402800000,
+    "open": 671.67,
+    "high": 671.67,
+    "low": 670.14,
+    "close": 671.09,
+    "volume": 1.04,
+    "turnover": 697.7835
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777406400000,
+    "open": 671.09,
+    "high": 671.64,
+    "low": 671.02,
+    "close": 671.64,
+    "volume": 0.66,
+    "turnover": 443.0635
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777410000000,
+    "open": 671.64,
+    "high": 671.64,
+    "low": 670.5,
+    "close": 670.56,
+    "volume": 1.97,
+    "turnover": 1321.3881
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777413600000,
+    "open": 670.56,
+    "high": 671.6,
+    "low": 670.56,
+    "close": 671.56,
+    "volume": 0.21,
+    "turnover": 140.9797
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777417200000,
+    "open": 671.56,
+    "high": 672.08,
+    "low": 671.55,
+    "close": 672.08,
+    "volume": 0.11,
+    "turnover": 73.9038
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777420800000,
+    "open": 672.08,
+    "high": 674.08,
+    "low": 672.08,
+    "close": 673.61,
+    "volume": 1.79,
+    "turnover": 1205.5515
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777424400000,
+    "open": 673.61,
+    "high": 673.61,
+    "low": 671.9,
+    "close": 672.13,
+    "volume": 10.5,
+    "turnover": 7056.014
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777428000000,
+    "open": 672.13,
+    "high": 673.08,
+    "low": 672.12,
+    "close": 673.08,
+    "volume": 0.19,
+    "turnover": 127.8146
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777431600000,
+    "open": 673.08,
+    "high": 673.82,
+    "low": 672.72,
+    "close": 672.95,
+    "volume": 0.36,
+    "turnover": 242.4622
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777435200000,
+    "open": 672.95,
+    "high": 673.92,
+    "low": 672.95,
+    "close": 673.92,
+    "volume": 0.13,
+    "turnover": 87.5567
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777438800000,
+    "open": 673.92,
+    "high": 674.04,
+    "low": 673.68,
+    "close": 673.68,
+    "volume": 0.05,
+    "turnover": 33.6934
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777442400000,
+    "open": 673.68,
+    "high": 673.97,
+    "low": 673.44,
+    "close": 673.61,
+    "volume": 0.13,
+    "turnover": 87.5811
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777446000000,
+    "open": 673.61,
+    "high": 674.15,
+    "low": 672.28,
+    "close": 672.28,
+    "volume": 0.84,
+    "turnover": 565.7236
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777449600000,
+    "open": 672.28,
+    "high": 672.84,
+    "low": 669.99,
+    "close": 671.02,
+    "volume": 16.37,
+    "turnover": 10973.7118
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777453200000,
+    "open": 671.02,
+    "high": 671.58,
+    "low": 670.35,
+    "close": 670.65,
+    "volume": 5.02,
+    "turnover": 3366.8998
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777456800000,
+    "open": 670.65,
+    "high": 671.21,
+    "low": 670.65,
+    "close": 670.95,
+    "volume": 0.21,
+    "turnover": 140.9158
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777460400000,
+    "open": 670.95,
+    "high": 671.25,
+    "low": 670.09,
+    "close": 670.09,
+    "volume": 1.13,
+    "turnover": 757.9549
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777464000000,
+    "open": 670.09,
+    "high": 670.4,
+    "low": 668.48,
+    "close": 669.47,
+    "volume": 11.68,
+    "turnover": 7814.1472
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777467600000,
+    "open": 669.47,
+    "high": 670.57,
+    "low": 664.56,
+    "close": 669.6,
+    "volume": 28.47,
+    "turnover": 19022.0281
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777471200000,
+    "open": 669.6,
+    "high": 674.04,
+    "low": 669.12,
+    "close": 672.34,
+    "volume": 4.38,
+    "turnover": 2941.2172
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777474800000,
+    "open": 672.34,
+    "high": 672.34,
+    "low": 668.7,
+    "close": 669.57,
+    "volume": 1.24,
+    "turnover": 831.6205
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777478400000,
+    "open": 669.57,
+    "high": 672.15,
+    "low": 667.5,
+    "close": 668.26,
+    "volume": 15.76,
+    "turnover": 10580.8857
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777482000000,
+    "open": 668.26,
+    "high": 672,
+    "low": 668.1,
+    "close": 672,
+    "volume": 1.95,
+    "turnover": 1307.0107
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777485600000,
+    "open": 672,
+    "high": 673.8,
+    "low": 669.6,
+    "close": 673.8,
+    "volume": 15.77,
+    "turnover": 10603.0291
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777489200000,
+    "open": 673.8,
+    "high": 674.4,
+    "low": 667.72,
+    "close": 669.6,
+    "volume": 30.53,
+    "turnover": 20485.9472
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777492800000,
+    "open": 669.6,
+    "high": 674.61,
+    "low": 622.43,
+    "close": 625.6,
+    "volume": 544.34,
+    "turnover": 351163.024
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777496400000,
+    "open": 625.6,
+    "high": 633.8,
+    "low": 622.79,
+    "close": 631.26,
+    "volume": 14.92,
+    "turnover": 9346.0195
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777500000000,
+    "open": 631.26,
+    "high": 633,
+    "low": 625.56,
+    "close": 627.12,
+    "volume": 9.74,
+    "turnover": 6121.9683
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777503600000,
+    "open": 627.12,
+    "high": 627.24,
+    "low": 622.04,
+    "close": 623.03,
+    "volume": 6.56,
+    "turnover": 4093.5593
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777507200000,
+    "open": 623.03,
+    "high": 630.19,
+    "low": 622.78,
+    "close": 629.55,
+    "volume": 20.13,
+    "turnover": 12631.7529
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777510800000,
+    "open": 629.55,
+    "high": 629.55,
+    "low": 626.66,
+    "close": 626.83,
+    "volume": 10.91,
+    "turnover": 6839.9038
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777514400000,
+    "open": 626.83,
+    "high": 628.42,
+    "low": 625.09,
+    "close": 625.09,
+    "volume": 5.63,
+    "turnover": 3530.981
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777518000000,
+    "open": 625.09,
+    "high": 626.28,
+    "low": 625,
+    "close": 625.3,
+    "volume": 1.3,
+    "turnover": 813.3013
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777521600000,
+    "open": 625.3,
+    "high": 625.3,
+    "low": 620.42,
+    "close": 621.24,
+    "volume": 9.16,
+    "turnover": 5709.2842
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777525200000,
+    "open": 621.24,
+    "high": 623.2,
+    "low": 621.24,
+    "close": 621.72,
+    "volume": 3.58,
+    "turnover": 2229.2731
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777528800000,
+    "open": 621.72,
+    "high": 622.7,
+    "low": 620.6,
+    "close": 622.2,
+    "volume": 0.2,
+    "turnover": 124.3256
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777532400000,
+    "open": 622.2,
+    "high": 624.63,
+    "low": 622.17,
+    "close": 623.98,
+    "volume": 38.83,
+    "turnover": 24191.8719
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777536000000,
+    "open": 623.98,
+    "high": 624.54,
+    "low": 614.6,
+    "close": 617.52,
+    "volume": 22.87,
+    "turnover": 14102.0159
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777539600000,
+    "open": 617.52,
+    "high": 617.52,
+    "low": 609.18,
+    "close": 610.71,
+    "volume": 8.46,
+    "turnover": 5183.0986
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777543200000,
+    "open": 610.71,
+    "high": 613.02,
+    "low": 608.61,
+    "close": 609.63,
+    "volume": 9.79,
+    "turnover": 5984.8526
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777546800000,
+    "open": 609.63,
+    "high": 610.6,
+    "low": 606.79,
+    "close": 608.32,
+    "volume": 28.87,
+    "turnover": 17573.2814
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777550400000,
+    "open": 608.32,
+    "high": 617.87,
+    "low": 606.8,
+    "close": 617.65,
+    "volume": 32.9,
+    "turnover": 20224.2424
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777554000000,
+    "open": 617.65,
+    "high": 623.37,
+    "low": 602.69,
+    "close": 604.56,
+    "volume": 94.17,
+    "turnover": 57544.3832
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777557600000,
+    "open": 604.56,
+    "high": 609.45,
+    "low": 601.32,
+    "close": 608.96,
+    "volume": 31.77,
+    "turnover": 19194.7499
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777561200000,
+    "open": 608.96,
+    "high": 610.48,
+    "low": 606.43,
+    "close": 609.2,
+    "volume": 7.96,
+    "turnover": 4849.3706
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777564800000,
+    "open": 609.2,
+    "high": 613,
+    "low": 607.46,
+    "close": 609.2,
+    "volume": 11.16,
+    "turnover": 6803.8419
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777568400000,
+    "open": 609.2,
+    "high": 614.6,
+    "low": 607.33,
+    "close": 614.6,
+    "volume": 12.06,
+    "turnover": 7374.4682
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777572000000,
+    "open": 614.6,
+    "high": 618.99,
+    "low": 614.2,
+    "close": 617.3,
+    "volume": 20.09,
+    "turnover": 12394.9494
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777575600000,
+    "open": 617.3,
+    "high": 620.2,
+    "low": 613.44,
+    "close": 613.68,
+    "volume": 13.32,
+    "turnover": 8226.6498
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777579200000,
+    "open": 613.68,
+    "high": 615.5,
+    "low": 611.54,
+    "close": 615.09,
+    "volume": 4.86,
+    "turnover": 2983.5569
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777582800000,
+    "open": 615.09,
+    "high": 615.17,
+    "low": 613.6,
+    "close": 615.16,
+    "volume": 5.35,
+    "turnover": 3289.0629
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777586400000,
+    "open": 615.16,
+    "high": 615.68,
+    "low": 614.7,
+    "close": 615.24,
+    "volume": 12.26,
+    "turnover": 7539.9669
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777590000000,
+    "open": 615.24,
+    "high": 615.6,
+    "low": 615.24,
+    "close": 615.6,
+    "volume": 0.11,
+    "turnover": 67.7031
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777593600000,
+    "open": 615.6,
+    "high": 616.2,
+    "low": 613.74,
+    "close": 616.2,
+    "volume": 3.73,
+    "turnover": 2295.0912
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777597200000,
+    "open": 616.2,
+    "high": 616.8,
+    "low": 616.16,
+    "close": 616.54,
+    "volume": 1.43,
+    "turnover": 881.2921
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777600800000,
+    "open": 616.54,
+    "high": 617.02,
+    "low": 616.54,
+    "close": 617.02,
+    "volume": 1.15,
+    "turnover": 709.5216
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777604400000,
+    "open": 617.02,
+    "high": 617.28,
+    "low": 615.97,
+    "close": 616.03,
+    "volume": 0.48,
+    "turnover": 295.9228
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777608000000,
+    "open": 616.03,
+    "high": 616.16,
+    "low": 615.56,
+    "close": 615.56,
+    "volume": 0.43,
+    "turnover": 264.8347
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777611600000,
+    "open": 615.56,
+    "high": 616.71,
+    "low": 615.56,
+    "close": 616.36,
+    "volume": 2.22,
+    "turnover": 1368.2361
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777615200000,
+    "open": 616.36,
+    "high": 616.62,
+    "low": 615.66,
+    "close": 615.66,
+    "volume": 4.19,
+    "turnover": 2583.3394
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777618800000,
+    "open": 615.66,
+    "high": 616.21,
+    "low": 614.73,
+    "close": 616.21,
+    "volume": 1.62,
+    "turnover": 996.7118
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777622400000,
+    "open": 616.21,
+    "high": 617.19,
+    "low": 614.46,
+    "close": 615.48,
+    "volume": 5.87,
+    "turnover": 3612.2125
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777626000000,
+    "open": 615.48,
+    "high": 616.31,
+    "low": 615.48,
+    "close": 616.31,
+    "volume": 0.04,
+    "turnover": 24.6524
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777629600000,
+    "open": 616.31,
+    "high": 616.31,
+    "low": 613.9,
+    "close": 613.9,
+    "volume": 0.57,
+    "turnover": 350.2096
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777633200000,
+    "open": 613.9,
+    "high": 615.16,
+    "low": 613,
+    "close": 614.28,
+    "volume": 3.58,
+    "turnover": 2198.5961
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777636800000,
+    "open": 614.28,
+    "high": 616.71,
+    "low": 614.28,
+    "close": 615.15,
+    "volume": 13.96,
+    "turnover": 8601.0619
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777640400000,
+    "open": 615.15,
+    "high": 619.45,
+    "low": 611.73,
+    "close": 614.15,
+    "volume": 61.88,
+    "turnover": 38106.6772
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777644000000,
+    "open": 614.15,
+    "high": 615.03,
+    "low": 607.36,
+    "close": 612.11,
+    "volume": 16.16,
+    "turnover": 9878.5723
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777647600000,
+    "open": 612.11,
+    "high": 615.75,
+    "low": 611.42,
+    "close": 612.6,
+    "volume": 12.98,
+    "turnover": 7962.9239
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777651200000,
+    "open": 612.6,
+    "high": 614.16,
+    "low": 611.28,
+    "close": 613.49,
+    "volume": 51.24,
+    "turnover": 31394.0531
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777654800000,
+    "open": 613.49,
+    "high": 616.95,
+    "low": 613.08,
+    "close": 613.13,
+    "volume": 6.95,
+    "turnover": 4271.3008
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777658400000,
+    "open": 613.13,
+    "high": 613.9,
+    "low": 611.8,
+    "close": 612.1,
+    "volume": 5.36,
+    "turnover": 3284.1223
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777662000000,
+    "open": 612.1,
+    "high": 613,
+    "low": 610.01,
+    "close": 610.66,
+    "volume": 5.98,
+    "turnover": 3658.2271
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777665600000,
+    "open": 610.66,
+    "high": 610.66,
+    "low": 609.67,
+    "close": 610.66,
+    "volume": 9.45,
+    "turnover": 5763.2381
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777669200000,
+    "open": 610.66,
+    "high": 610.66,
+    "low": 609.62,
+    "close": 610.3,
+    "volume": 0.37,
+    "turnover": 225.8042
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777672800000,
+    "open": 610.3,
+    "high": 610.3,
+    "low": 609.15,
+    "close": 609.61,
+    "volume": 0.79,
+    "turnover": 481.399
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777676400000,
+    "open": 609.61,
+    "high": 609.67,
+    "low": 609.47,
+    "close": 609.66,
+    "volume": 1.43,
+    "turnover": 871.7337
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777680000000,
+    "open": 609.66,
+    "high": 610.11,
+    "low": 609.28,
+    "close": 610.11,
+    "volume": 0.9,
+    "turnover": 548.5648
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777683600000,
+    "open": 610.11,
+    "high": 610.11,
+    "low": 609.61,
+    "close": 609.61,
+    "volume": 0.03,
+    "turnover": 18.2883
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777687200000,
+    "open": 609.61,
+    "high": 609.61,
+    "low": 609.61,
+    "close": 609.61,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777690800000,
+    "open": 609.61,
+    "high": 609.61,
+    "low": 609.49,
+    "close": 609.49,
+    "volume": 0.02,
+    "turnover": 12.1898
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777694400000,
+    "open": 609.49,
+    "high": 609.49,
+    "low": 609.15,
+    "close": 609.2,
+    "volume": 0.84,
+    "turnover": 511.7018
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777698000000,
+    "open": 609.2,
+    "high": 609.2,
+    "low": 609.14,
+    "close": 609.16,
+    "volume": 0.85,
+    "turnover": 517.7873
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777701600000,
+    "open": 609.16,
+    "high": 609.55,
+    "low": 609.16,
+    "close": 609.33,
+    "volume": 0.19,
+    "turnover": 115.7633
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777705200000,
+    "open": 609.33,
+    "high": 609.55,
+    "low": 609.02,
+    "close": 609.55,
+    "volume": 0.14,
+    "turnover": 85.2999
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777708800000,
+    "open": 609.55,
+    "high": 609.55,
+    "low": 609.55,
+    "close": 609.55,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777712400000,
+    "open": 609.55,
+    "high": 610.31,
+    "low": 609.13,
+    "close": 610.31,
+    "volume": 1.53,
+    "turnover": 932.4726
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777716000000,
+    "open": 610.31,
+    "high": 610.57,
+    "low": 609.61,
+    "close": 609.61,
+    "volume": 5.71,
+    "turnover": 3485.1772
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777719600000,
+    "open": 609.61,
+    "high": 610.39,
+    "low": 609.61,
+    "close": 610.39,
+    "volume": 0.47,
+    "turnover": 286.802
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777723200000,
+    "open": 610.39,
+    "high": 610.39,
+    "low": 609.99,
+    "close": 609.99,
+    "volume": 0.84,
+    "turnover": 512.486
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777726800000,
+    "open": 609.99,
+    "high": 610.25,
+    "low": 609.8,
+    "close": 609.82,
+    "volume": 0.64,
+    "turnover": 390.3055
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777730400000,
+    "open": 609.82,
+    "high": 610.42,
+    "low": 609.57,
+    "close": 609.57,
+    "volume": 0.94,
+    "turnover": 573.377
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777734000000,
+    "open": 609.57,
+    "high": 609.75,
+    "low": 609.56,
+    "close": 609.56,
+    "volume": 0.93,
+    "turnover": 566.981
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777737600000,
+    "open": 609.56,
+    "high": 609.95,
+    "low": 609.44,
+    "close": 609.95,
+    "volume": 0.06,
+    "turnover": 36.5741
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777741200000,
+    "open": 609.95,
+    "high": 610.43,
+    "low": 609.6,
+    "close": 610.05,
+    "volume": 0.19,
+    "turnover": 115.9078
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777744800000,
+    "open": 610.05,
+    "high": 610.05,
+    "low": 609.25,
+    "close": 609.25,
+    "volume": 0.25,
+    "turnover": 152.3519
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777748400000,
+    "open": 609.25,
+    "high": 609.25,
+    "low": 609.25,
+    "close": 609.25,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777752000000,
+    "open": 609.25,
+    "high": 610.1,
+    "low": 609.25,
+    "close": 610.1,
+    "volume": 0.7,
+    "turnover": 426.8105
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777755600000,
+    "open": 610.1,
+    "high": 610.65,
+    "low": 609.38,
+    "close": 610.65,
+    "volume": 1.31,
+    "turnover": 799.0827
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777759200000,
+    "open": 610.65,
+    "high": 610.65,
+    "low": 610.65,
+    "close": 610.65,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777762800000,
+    "open": 610.65,
+    "high": 610.65,
+    "low": 609.01,
+    "close": 609.01,
+    "volume": 13.45,
+    "turnover": 8202.7406
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777766400000,
+    "open": 609.01,
+    "high": 609.63,
+    "low": 609.01,
+    "close": 609.63,
+    "volume": 0.28,
+    "turnover": 170.6964
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777770000000,
+    "open": 609.63,
+    "high": 609.63,
+    "low": 609.63,
+    "close": 609.63,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777773600000,
+    "open": 609.63,
+    "high": 609.63,
+    "low": 609.01,
+    "close": 609.01,
+    "volume": 0.54,
+    "turnover": 329.0579
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777777200000,
+    "open": 609.01,
+    "high": 609.01,
+    "low": 609.01,
+    "close": 609.01,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777780800000,
+    "open": 609.01,
+    "high": 609.64,
+    "low": 609.01,
+    "close": 609.64,
+    "volume": 0.16,
+    "turnover": 97.5415
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777784400000,
+    "open": 609.64,
+    "high": 609.64,
+    "low": 609.29,
+    "close": 609.29,
+    "volume": 0.16,
+    "turnover": 97.4864
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777788000000,
+    "open": 609.29,
+    "high": 609.74,
+    "low": 609.29,
+    "close": 609.74,
+    "volume": 0.96,
+    "turnover": 585.2545
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777791600000,
+    "open": 609.74,
+    "high": 609.96,
+    "low": 609.74,
+    "close": 609.96,
+    "volume": 0.11,
+    "turnover": 67.0887
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777795200000,
+    "open": 609.96,
+    "high": 610.82,
+    "low": 609.96,
+    "close": 610.82,
+    "volume": 2.59,
+    "turnover": 1581.2071
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777798800000,
+    "open": 610.82,
+    "high": 611.36,
+    "low": 610.54,
+    "close": 610.54,
+    "volume": 5.46,
+    "turnover": 3337.5284
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777802400000,
+    "open": 610.54,
+    "high": 610.61,
+    "low": 610.12,
+    "close": 610.6,
+    "volume": 0.41,
+    "turnover": 250.3335
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777806000000,
+    "open": 610.6,
+    "high": 610.6,
+    "low": 610.6,
+    "close": 610.6,
+    "volume": 0.02,
+    "turnover": 12.212
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777809600000,
+    "open": 610.6,
+    "high": 610.6,
+    "low": 610.12,
+    "close": 610.6,
+    "volume": 0.08,
+    "turnover": 48.8384
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777813200000,
+    "open": 610.6,
+    "high": 610.6,
+    "low": 610.13,
+    "close": 610.13,
+    "volume": 0.02,
+    "turnover": 12.2073
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777816800000,
+    "open": 610.13,
+    "high": 610.13,
+    "low": 610.13,
+    "close": 610.13,
+    "volume": 0,
+    "turnover": 0
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777820400000,
+    "open": 610.13,
+    "high": 610.94,
+    "low": 610.13,
+    "close": 610.94,
+    "volume": 0.45,
+    "turnover": 274.8239
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777824000000,
+    "open": 610.94,
+    "high": 611.73,
+    "low": 610.88,
+    "close": 610.88,
+    "volume": 1.38,
+    "turnover": 844.0519
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777827600000,
+    "open": 610.88,
+    "high": 613.34,
+    "low": 610.88,
+    "close": 612.21,
+    "volume": 4.97,
+    "turnover": 3045.5875
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777831200000,
+    "open": 612.21,
+    "high": 612.21,
+    "low": 611.81,
+    "close": 611.81,
+    "volume": 0.62,
+    "turnover": 379.4529
+  },
+  {
+    "symbol": "METAUSDT",
+    "timestamp": 1777834800000,
+    "open": 611.81,
+    "high": 611.81,
+    "low": 611.81,
+    "close": 611.81,
+    "volume": 0,
+    "turnover": 0
+  }
+]
