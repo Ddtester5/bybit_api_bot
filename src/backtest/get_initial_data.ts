@@ -36,33 +36,32 @@ export async function getInitialData({ testMode }: { testMode: boolean }) {
   } catch (e) {
     console.log("Локальный список символов не найден.");
   }
-  if (symbols.length !== candlesBySymbol.size) {
-    // --- Логика дозагрузки ---
 
-    // Получаем актуальный список пар (если в testMode, ограничиваем количество)
-    const pairs = await getTradingPairs();
-    const targetSymbols = testMode
-      ? pairs.slice(0, BACKTEST_SYMBOLS_COUNT)
-      : pairs;
+  // --- Логика дозагрузки ---
 
-    // Обновляем общий список символов в файле
-    await fs.writeFile(SYMBOLS_FILE, JSON.stringify(targetSymbols, null, 2));
+  // Получаем актуальный список пар (если в testMode, ограничиваем количество)
+  const pairs = await getTradingPairs();
+  const targetSymbols = testMode
+    ? pairs.slice(0, BACKTEST_SYMBOLS_COUNT)
+    : pairs;
 
-    for (const symbol of targetSymbols) {
-      // ⚡ Ключевая проверка: если данные уже в Map, не идем в API
-      if (candlesBySymbol.has(symbol)) {
-        continue;
-      }
+  // Обновляем общий список символов в файле
+  await fs.writeFile(SYMBOLS_FILE, JSON.stringify(targetSymbols, null, 2));
 
-      const candles = await loadHistoricalCandles(symbol);
-      if (candles?.length) {
-        candlesBySymbol.set(symbol, candles);
-        await fs.writeFile(
-          path.join(DATA_DIR, `${symbol}.json`),
-          JSON.stringify(candles, null, 2),
-        );
-        console.log(`Скачан и сохранен: ${symbol}.json`);
-      }
+  for (const symbol of targetSymbols) {
+    // ⚡ Ключевая проверка: если данные уже в Map, не идем в API
+    if (candlesBySymbol.has(symbol)) {
+      continue;
+    }
+
+    const candles = await loadHistoricalCandles(symbol);
+    if (candles?.length) {
+      candlesBySymbol.set(symbol, candles);
+      await fs.writeFile(
+        path.join(DATA_DIR, `${symbol}.json`),
+        JSON.stringify(candles, null, 2),
+      );
+      console.log(`Скачан и сохранен: ${symbol}.json`);
     }
   }
   return {
