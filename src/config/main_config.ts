@@ -22,3 +22,5 @@ export const STRATEGY_RSI_PERIOD = 14;
 export const STRATEGY_RSI_OVERBOUGHT = 70;
 export const STRATEGY_STOP_LOSS_DELTA = 0.15;
 export const STRATEGY_TAKE_PROFIT_DELTA = 0.2;
+export const STRATEGY_ATR_PERIOD = 14;
+export const STRATEGY_ATR_MULTIPLIER = 2.2;

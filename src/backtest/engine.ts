@@ -1,5 +1,5 @@
 import { checkSignal } from "../strategies/strategy";
-import { tryOpenPosition, tryClosePosition } from "./position";
+import { tryClosePosition, tryOpenPosition } from "./position";
 
 import { EngineInput, EngineResult, Position } from "../types/types";
 
