@@ -51,7 +51,7 @@ export async function getInitialData({ testMode }: { testMode: boolean }) {
   for (const symbol of symbols) {
     // ⚡ Ключевая проверка: если данные уже в Map, не идем в API
     if (candlesBySymbol.has(symbol)) {
-      console.log(`Данные для ${symbol} уже загружены из файла.`);
+      //  console.log(`Данные для ${symbol} уже загружены из файла.`);
       continue;
     }
 
