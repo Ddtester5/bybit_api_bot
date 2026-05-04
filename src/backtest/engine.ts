@@ -9,6 +9,7 @@ export function runEngine({
   maxLength,
   startBalance,
   maxPositions,
+  rsiOverbought,
 }: EngineInput): EngineResult {
   let balance = startBalance;
 
@@ -38,7 +39,7 @@ export function runEngine({
 
       // === ENTRY ===
       if (!positions.has(symbol) && positions.size < maxPositions) {
-        if (checkSignal(candles, i)) {
+        if (checkSignal(candles, i, rsiOverbought)) {
           const newPosition = tryOpenPosition(balance, candle.close, symbol, i);
 
           if (newPosition) {

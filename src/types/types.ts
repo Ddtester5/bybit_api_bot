@@ -30,6 +30,7 @@ export interface EngineInput {
   maxLength: number;
   startBalance: number;
   maxPositions: number;
+  rsiOverbought: number;
 }
 
 export interface EngineResult {
@@ -49,3 +50,11 @@ export interface MetricsResult {
   totalTrades: number;
   pnl: number;
 }
+
+export type StrategyParams = {
+  symbols: string[];
+  candlesBySymbol: Map<string, Candle[]>;
+  maxLength: number;
+  metrics: boolean;
+  rsiOverbought: number;
+};

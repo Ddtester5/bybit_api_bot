@@ -1,5 +1,4 @@
 import {
-  STRATEGY_RSI_OVERBOUGHT,
   STRATEGY_RSI_PERIOD,
   STRATEGY_SMA_PERIOD_FAST,
   STRATEGY_SMA_PERIOD_SLOW,
@@ -9,7 +8,11 @@ import { calculateRSI } from "../indicators/rsi";
 import { calculateEMA } from "../indicators/ema";
 import { Candle } from "../types/types";
 
-export function checkSignal(candles: Candle[], index: number): boolean {
+export function checkSignal(
+  candles: Candle[],
+  index: number,
+  rsiOverbought: number,
+): boolean {
   // Недостаточно данных
   if (index < STRATEGY_SMA_PERIOD_SLOW + 2) return false;
 
@@ -35,7 +38,7 @@ export function checkSignal(candles: Candle[], index: number): boolean {
   const isStrongPullback = deviation > 0.02; // >2% откат
 
   // === 3. Перекупленность ===
-  const isOverbought = rsi > STRATEGY_RSI_OVERBOUGHT; // ставь 70–75
+  const isOverbought = rsi > rsiOverbought; // ставь 70–75
 
   // === 4. Подтверждение разворота ===
   const isReversal =

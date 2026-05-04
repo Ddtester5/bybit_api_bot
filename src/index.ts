@@ -13,6 +13,7 @@ import {
   LEVERAGE,
   MAX_POSITIONS,
   MAX_RISK,
+  STRATEGY_RSI_OVERBOUGHT,
   STRATEGY_SMA_PERIOD_SLOW,
   STRATEGY_STOP_LOSS_DELTA,
   STRATEGY_TAKE_PROFIT_DELTA,
@@ -57,7 +58,11 @@ async function run() {
         );
         continue;
       }
-      const signal = checkSignal(candles, candles.length - 1);
+      const signal = checkSignal(
+        candles,
+        candles.length - 1,
+        STRATEGY_RSI_OVERBOUGHT,
+      );
       if (!signal) continue;
       await setLeverage(tradingPair, LEVERAGE);
       const availableBalance = await getAvalibleBalance();
