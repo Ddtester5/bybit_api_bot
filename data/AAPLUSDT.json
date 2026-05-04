@@ -1288,5 +1288,125 @@
     "close": 281.16,
     "volume": 4.41,
     "turnover": 1241.1757
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777831200000,
+    "open": 281.16,
+    "high": 281.53,
+    "low": 280.52,
+    "close": 280.62,
+    "volume": 6.36,
+    "turnover": 1787.3316
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777834800000,
+    "open": 280.62,
+    "high": 281.26,
+    "low": 280.62,
+    "close": 280.73,
+    "volume": 6.17,
+    "turnover": 1733.2615
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777838400000,
+    "open": 280.73,
+    "high": 281.18,
+    "low": 280.73,
+    "close": 280.79,
+    "volume": 3.16,
+    "turnover": 887.2787
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777842000000,
+    "open": 280.79,
+    "high": 281.6,
+    "low": 280.63,
+    "close": 281.6,
+    "volume": 1.94,
+    "turnover": 545.0534
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777845600000,
+    "open": 281.6,
+    "high": 282.17,
+    "low": 281.17,
+    "close": 281.35,
+    "volume": 4.76,
+    "turnover": 1341.5421
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777849200000,
+    "open": 281.35,
+    "high": 281.35,
+    "low": 280.47,
+    "close": 280.95,
+    "volume": 3.04,
+    "turnover": 853.4108
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777852800000,
+    "open": 280.95,
+    "high": 281.05,
+    "low": 279.34,
+    "close": 280.15,
+    "volume": 4.33,
+    "turnover": 1213.7005
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777856400000,
+    "open": 280.15,
+    "high": 280.48,
+    "low": 279.7,
+    "close": 280.48,
+    "volume": 0.44,
+    "turnover": 123.1273
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777860000000,
+    "open": 280.48,
+    "high": 280.48,
+    "low": 279.45,
+    "close": 279.45,
+    "volume": 0.21,
+    "turnover": 58.7623
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777863600000,
+    "open": 279.45,
+    "high": 279.48,
+    "low": 279.28,
+    "close": 279.28,
+    "volume": 3.62,
+    "turnover": 1011.2707
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777867200000,
+    "open": 279.28,
+    "high": 280.28,
+    "low": 279.28,
+    "close": 279.75,
+    "volume": 0.4,
+    "turnover": 111.9368
+  },
+  {
+    "symbol": "AAPLUSDT",
+    "timestamp": 1777870800000,
+    "open": 279.75,
+    "high": 280.38,
+    "low": 279.59,
+    "close": 279.74,
+    "volume": 0.09,
+    "turnover": 25.1864
   }
 ]

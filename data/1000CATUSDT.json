@@ -143343,10 +143343,130 @@
     "symbol": "1000CATUSDT",
     "timestamp": 1777827600000,
     "open": 0.0019535,
-    "high": 0.0019931,
+    "high": 0.0020095,
     "low": 0.0019389,
-    "close": 0.0019899,
-    "volume": 2357458,
-    "turnover": 4625.990576
+    "close": 0.0020095,
+    "volume": 3767620,
+    "turnover": 7448.4196122
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777831200000,
+    "open": 0.0020095,
+    "high": 0.0020234,
+    "low": 0.0019934,
+    "close": 0.0020105,
+    "volume": 7175165,
+    "turnover": 14415.2357398
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777834800000,
+    "open": 0.0020105,
+    "high": 0.0020122,
+    "low": 0.0019829,
+    "close": 0.0019846,
+    "volume": 2456584,
+    "turnover": 4892.2687954
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777838400000,
+    "open": 0.0019846,
+    "high": 0.0020089,
+    "low": 0.0019835,
+    "close": 0.0019886,
+    "volume": 5248549,
+    "turnover": 10490.5469504
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777842000000,
+    "open": 0.0019886,
+    "high": 0.0020067,
+    "low": 0.0019611,
+    "close": 0.0019719,
+    "volume": 1203184,
+    "turnover": 2384.147681
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777845600000,
+    "open": 0.0019719,
+    "high": 0.0020185,
+    "low": 0.0019704,
+    "close": 0.0019954,
+    "volume": 5337653,
+    "turnover": 10727.425429
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777849200000,
+    "open": 0.0019954,
+    "high": 0.0019981,
+    "low": 0.0019541,
+    "close": 0.001958,
+    "volume": 2064860,
+    "turnover": 4064.4154856
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777852800000,
+    "open": 0.001958,
+    "high": 0.0019615,
+    "low": 0.0019233,
+    "close": 0.0019587,
+    "volume": 4609209,
+    "turnover": 8952.3857196
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777856400000,
+    "open": 0.0019587,
+    "high": 0.0020227,
+    "low": 0.0019433,
+    "close": 0.0020053,
+    "volume": 3510768,
+    "turnover": 6939.9124603
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777860000000,
+    "open": 0.0020053,
+    "high": 0.0020141,
+    "low": 0.0019688,
+    "close": 0.0020018,
+    "volume": 2711926,
+    "turnover": 5393.3651882
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777863600000,
+    "open": 0.0020018,
+    "high": 0.0020244,
+    "low": 0.0019814,
+    "close": 0.0020201,
+    "volume": 1102344,
+    "turnover": 2201.5681418
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777867200000,
+    "open": 0.0020201,
+    "high": 0.0020779,
+    "low": 0.0020201,
+    "close": 0.0020617,
+    "volume": 12848285,
+    "turnover": 26336.3036513
+  },
+  {
+    "symbol": "1000CATUSDT",
+    "timestamp": 1777870800000,
+    "open": 0.0020617,
+    "high": 0.0020617,
+    "low": 0.0020116,
+    "close": 0.002013,
+    "volume": 4850510,
+    "turnover": 9832.5704174
   }
 ]

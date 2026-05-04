@@ -845,8 +845,138 @@
     "open": 0.03617,
     "high": 0.0375,
     "low": 0.03594,
-    "close": 0.03717,
-    "volume": 25306300,
-    "turnover": 926711.6778
+    "close": 0.03695,
+    "volume": 26761580,
+    "turnover": 980603.6121
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777831200000,
+    "open": 0.03695,
+    "high": 0.03787,
+    "low": 0.03664,
+    "close": 0.03757,
+    "volume": 25623330,
+    "turnover": 953758.3673
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777834800000,
+    "open": 0.03757,
+    "high": 0.03975,
+    "low": 0.03757,
+    "close": 0.03914,
+    "volume": 53604030,
+    "turnover": 2079835.9591
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777838400000,
+    "open": 0.03914,
+    "high": 0.03928,
+    "low": 0.03802,
+    "close": 0.0389,
+    "volume": 26978480,
+    "turnover": 1045153.1325
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777842000000,
+    "open": 0.0389,
+    "high": 0.03937,
+    "low": 0.0378,
+    "close": 0.03813,
+    "volume": 15885980,
+    "turnover": 611931.3118
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777845600000,
+    "open": 0.03813,
+    "high": 0.04084,
+    "low": 0.03739,
+    "close": 0.04007,
+    "volume": 43535030,
+    "turnover": 1703774.231
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777849200000,
+    "open": 0.04007,
+    "high": 0.04079,
+    "low": 0.03923,
+    "close": 0.03944,
+    "volume": 37453220,
+    "turnover": 1495475.7182
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777852800000,
+    "open": 0.03944,
+    "high": 0.04099,
+    "low": 0.03855,
+    "close": 0.04062,
+    "volume": 39664890,
+    "turnover": 1571845.0455
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777856400000,
+    "open": 0.04062,
+    "high": 0.04608,
+    "low": 0.04023,
+    "close": 0.04601,
+    "volume": 90852640,
+    "turnover": 3892871.882
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777860000000,
+    "open": 0.04601,
+    "high": 0.04633,
+    "low": 0.04148,
+    "close": 0.04354,
+    "volume": 77179920,
+    "turnover": 3394289.7997
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777863600000,
+    "open": 0.04354,
+    "high": 0.04474,
+    "low": 0.0422,
+    "close": 0.04387,
+    "volume": 39616590,
+    "turnover": 1719997.7651
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777867200000,
+    "open": 0.04387,
+    "high": 0.0459,
+    "low": 0.04256,
+    "close": 0.04341,
+    "volume": 42860440,
+    "turnover": 1895718.7069
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777870800000,
+    "open": 0.04341,
+    "high": 0.04562,
+    "low": 0.04282,
+    "close": 0.04435,
+    "volume": 31459530,
+    "turnover": 1380673.5841
+  },
+  {
+    "symbol": "AIGENSYNUSDT",
+    "timestamp": 1777874400000,
+    "open": 0.04435,
+    "high": 0.04457,
+    "low": 0.04406,
+    "close": 0.04442,
+    "volume": 730300,
+    "turnover": 32389.7726
   }
 ]

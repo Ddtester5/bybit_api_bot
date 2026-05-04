@@ -172095,8 +172095,128 @@
     "open": 0.15659,
     "high": 0.1572,
     "low": 0.1555,
-    "close": 0.15686,
-    "volume": 192867,
-    "turnover": 30144.80171
+    "close": 0.15635,
+    "volume": 227480,
+    "turnover": 35564.91677
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777831200000,
+    "open": 0.15635,
+    "high": 0.1572,
+    "low": 0.15588,
+    "close": 0.1569,
+    "volume": 108545,
+    "turnover": 16992.22204
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777834800000,
+    "open": 0.1569,
+    "high": 0.15751,
+    "low": 0.15658,
+    "close": 0.15666,
+    "volume": 124206,
+    "turnover": 19507.44778
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777838400000,
+    "open": 0.15666,
+    "high": 0.1575,
+    "low": 0.15645,
+    "close": 0.15684,
+    "volume": 155722,
+    "turnover": 24433.67713
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777842000000,
+    "open": 0.15684,
+    "high": 0.15815,
+    "low": 0.15637,
+    "close": 0.15706,
+    "volume": 299625,
+    "turnover": 47132.64407
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777845600000,
+    "open": 0.15706,
+    "high": 0.16015,
+    "low": 0.15706,
+    "close": 0.15943,
+    "volume": 384958,
+    "turnover": 61207.25867
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777849200000,
+    "open": 0.15943,
+    "high": 0.15943,
+    "low": 0.15613,
+    "close": 0.15663,
+    "volume": 211473,
+    "turnover": 33304.4006
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777852800000,
+    "open": 0.15663,
+    "high": 0.157,
+    "low": 0.15407,
+    "close": 0.15677,
+    "volume": 324783,
+    "turnover": 50457.2699
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777856400000,
+    "open": 0.15677,
+    "high": 0.16059,
+    "low": 0.15578,
+    "close": 0.15991,
+    "volume": 594226,
+    "turnover": 94099.85351
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777860000000,
+    "open": 0.15991,
+    "high": 0.16181,
+    "low": 0.15901,
+    "close": 0.16148,
+    "volume": 555134,
+    "turnover": 89012.6066
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777863600000,
+    "open": 0.16148,
+    "high": 0.16217,
+    "low": 0.15965,
+    "close": 0.16209,
+    "volume": 403688,
+    "turnover": 64879.47298
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777867200000,
+    "open": 0.16209,
+    "high": 0.16338,
+    "low": 0.1618,
+    "close": 0.16262,
+    "volume": 272448,
+    "turnover": 44260.02922
+  },
+  {
+    "symbol": "1000000MOGUSDT",
+    "timestamp": 1777870800000,
+    "open": 0.16262,
+    "high": 0.16262,
+    "low": 0.15998,
+    "close": 0.16052,
+    "volume": 270447,
+    "turnover": 43506.98634
   }
 ]

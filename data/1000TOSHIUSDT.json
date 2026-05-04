@@ -123443,10 +123443,130 @@
     "symbol": "1000TOSHIUSDT",
     "timestamp": 1777827600000,
     "open": 0.17588,
-    "high": 0.17668,
+    "high": 0.17671,
     "low": 0.17522,
-    "close": 0.17643,
-    "volume": 28388,
-    "turnover": 4995.4458
+    "close": 0.17648,
+    "volume": 37389,
+    "turnover": 6584.38842
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777831200000,
+    "open": 0.17648,
+    "high": 0.17704,
+    "low": 0.17625,
+    "close": 0.17664,
+    "volume": 33333,
+    "turnover": 5895.59577
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777834800000,
+    "open": 0.17664,
+    "high": 0.17694,
+    "low": 0.17632,
+    "close": 0.17663,
+    "volume": 24527,
+    "turnover": 4333.53013
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777838400000,
+    "open": 0.17663,
+    "high": 0.17815,
+    "low": 0.17663,
+    "close": 0.1773,
+    "volume": 87336,
+    "turnover": 15503.26744
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777842000000,
+    "open": 0.1773,
+    "high": 0.17778,
+    "low": 0.17597,
+    "close": 0.17666,
+    "volume": 31796,
+    "turnover": 5616.18028
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777845600000,
+    "open": 0.17666,
+    "high": 0.17886,
+    "low": 0.17648,
+    "close": 0.17863,
+    "volume": 68799,
+    "turnover": 12270.16174
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777849200000,
+    "open": 0.17863,
+    "high": 0.17863,
+    "low": 0.17626,
+    "close": 0.17644,
+    "volume": 55619,
+    "turnover": 9865.1574
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777852800000,
+    "open": 0.17644,
+    "high": 0.17662,
+    "low": 0.17424,
+    "close": 0.17658,
+    "volume": 97529,
+    "turnover": 17074.28332
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777856400000,
+    "open": 0.17658,
+    "high": 0.17997,
+    "low": 0.1759,
+    "close": 0.17903,
+    "volume": 212945,
+    "turnover": 37941.9705
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777860000000,
+    "open": 0.17903,
+    "high": 0.18212,
+    "low": 0.17903,
+    "close": 0.18166,
+    "volume": 46575,
+    "turnover": 8400.45547
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777863600000,
+    "open": 0.18166,
+    "high": 0.18296,
+    "low": 0.18107,
+    "close": 0.18213,
+    "volume": 92217,
+    "turnover": 16779.0371
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777867200000,
+    "open": 0.18213,
+    "high": 0.18334,
+    "low": 0.18196,
+    "close": 0.18273,
+    "volume": 60878,
+    "turnover": 11115.29712
+  },
+  {
+    "symbol": "1000TOSHIUSDT",
+    "timestamp": 1777870800000,
+    "open": 0.18273,
+    "high": 0.18357,
+    "low": 0.18118,
+    "close": 0.18181,
+    "volume": 140554,
+    "turnover": 25589.09367
   }
 ]

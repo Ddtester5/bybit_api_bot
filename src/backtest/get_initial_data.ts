@@ -38,7 +38,8 @@ export async function getInitialData({ testMode }: { testMode: boolean }) {
   }
 
   // --- Логика дозагрузки ---
-
+  console.log(symbols.length);
+  console.log(candlesBySymbol.size);
   // Получаем актуальный список пар (если в testMode, ограничиваем количество)
   if (symbols.length === 0) {
     const pairs = await getTradingPairs();
@@ -50,6 +51,7 @@ export async function getInitialData({ testMode }: { testMode: boolean }) {
   for (const symbol of symbols) {
     // ⚡ Ключевая проверка: если данные уже в Map, не идем в API
     if (candlesBySymbol.has(symbol)) {
+      console.log(`Данные для ${symbol} уже загружены из файла.`);
       continue;
     }
 

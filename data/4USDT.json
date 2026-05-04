@@ -49733,10 +49733,130 @@
     "symbol": "4USDT",
     "timestamp": 1777827600000,
     "open": 0.011477,
-    "high": 0.011805,
+    "high": 0.011965,
     "low": 0.01114,
-    "close": 0.011749,
-    "volume": 9464570,
-    "turnover": 108440.440276
+    "close": 0.011862,
+    "volume": 14127711,
+    "turnover": 163601.155195
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777831200000,
+    "open": 0.011862,
+    "high": 0.011929,
+    "low": 0.011564,
+    "close": 0.011684,
+    "volume": 9650260,
+    "turnover": 113093.614764
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777834800000,
+    "open": 0.011684,
+    "high": 0.011755,
+    "low": 0.011432,
+    "close": 0.011545,
+    "volume": 6393623,
+    "turnover": 74145.827414
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777838400000,
+    "open": 0.011545,
+    "high": 0.012062,
+    "low": 0.011545,
+    "close": 0.011912,
+    "volume": 4695647,
+    "turnover": 55173.383955
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777842000000,
+    "open": 0.011912,
+    "high": 0.012818,
+    "low": 0.011825,
+    "close": 0.01264,
+    "volume": 14461346,
+    "turnover": 177553.649793
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777845600000,
+    "open": 0.01264,
+    "high": 0.012668,
+    "low": 0.012066,
+    "close": 0.012555,
+    "volume": 17890248,
+    "turnover": 221439.114136
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777849200000,
+    "open": 0.012555,
+    "high": 0.012772,
+    "low": 0.011961,
+    "close": 0.01222,
+    "volume": 10442821,
+    "turnover": 129593.25771
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777852800000,
+    "open": 0.01222,
+    "high": 0.012918,
+    "low": 0.012177,
+    "close": 0.012901,
+    "volume": 10850342,
+    "turnover": 136783.073288
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777856400000,
+    "open": 0.012901,
+    "high": 0.013738,
+    "low": 0.012802,
+    "close": 0.013378,
+    "volume": 19766982,
+    "turnover": 262145.083342
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777860000000,
+    "open": 0.013378,
+    "high": 0.013833,
+    "low": 0.012986,
+    "close": 0.013162,
+    "volume": 12603837,
+    "turnover": 169975.888078
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777863600000,
+    "open": 0.013162,
+    "high": 0.0137,
+    "low": 0.012853,
+    "close": 0.013464,
+    "volume": 7207470,
+    "turnover": 95668.704154
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777867200000,
+    "open": 0.013464,
+    "high": 0.013761,
+    "low": 0.012154,
+    "close": 0.012565,
+    "volume": 27201320,
+    "turnover": 346545.849953
+  },
+  {
+    "symbol": "4USDT",
+    "timestamp": 1777870800000,
+    "open": 0.012565,
+    "high": 0.013123,
+    "low": 0.012391,
+    "close": 0.013056,
+    "volume": 8417001,
+    "turnover": 107366.866768
   }
 ]
