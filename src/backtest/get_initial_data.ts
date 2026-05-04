@@ -40,15 +40,14 @@ export async function getInitialData({ testMode }: { testMode: boolean }) {
   // --- Логика дозагрузки ---
 
   // Получаем актуальный список пар (если в testMode, ограничиваем количество)
-  const pairs = await getTradingPairs();
-  const targetSymbols = testMode
-    ? pairs.slice(0, BACKTEST_SYMBOLS_COUNT)
-    : pairs;
+  if (symbols.length === 0) {
+    const pairs = await getTradingPairs();
+    symbols = testMode ? pairs.slice(0, BACKTEST_SYMBOLS_COUNT) : pairs;
 
-  // Обновляем общий список символов в файле
-  await fs.writeFile(SYMBOLS_FILE, JSON.stringify(targetSymbols, null, 2));
-
-  for (const symbol of targetSymbols) {
+    // Обновляем общий список символов в файле
+    await fs.writeFile(SYMBOLS_FILE, JSON.stringify(symbols, null, 2));
+  }
+  for (const symbol of symbols) {
     // ⚡ Ключевая проверка: если данные уже в Map, не идем в API
     if (candlesBySymbol.has(symbol)) {
       continue;
