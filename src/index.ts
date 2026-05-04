@@ -78,7 +78,7 @@ async function run() {
 
       if (stopDistance === 0) continue;
 
-      const qty = (risk * LEVERAGE) / stopDistance;
+      const qty = risk / stopDistance;
 
       const orderResponse = await client.submitOrder({
         category: "linear",
