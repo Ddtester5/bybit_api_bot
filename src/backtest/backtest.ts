@@ -6,6 +6,7 @@ import {
   MAX_RISK,
   STRATEGY_STOP_LOSS_DELTA,
   STRATEGY_TAKE_PROFIT_DELTA,
+  LEVERAGE,
 } from "../config/main_config";
 import { checkSignal } from "../strategies/strategy";
 import { Position } from "../types/types";
@@ -94,8 +95,13 @@ async function run() {
           const stopLoss = entryPrice * (1 + STRATEGY_STOP_LOSS_DELTA); // Наверх
           const takeProfit = entryPrice * (1 - STRATEGY_TAKE_PROFIT_DELTA); // Вниз
 
-          const orderValue = balance * MAX_RISK;
-          const qty = orderValue / entryPrice;
+          const risk = balance * MAX_RISK;
+
+          const stopDistance = Math.abs(entryPrice - stopLoss);
+
+          if (stopDistance === 0) continue;
+
+          const qty = (risk * LEVERAGE) / stopDistance;
 
           positions.set(symbol, {
             entry: entryPrice,

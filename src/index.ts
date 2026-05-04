@@ -70,19 +70,22 @@ async function run() {
         continue;
       }
       const lastPrice = await getLastMarketPrice(tradingPair);
-
-      const positionSizeInUSD = +availableBalance * MAX_RISK * LEVERAGE;
-      const positionSize = Math.floor(positionSizeInUSD / lastPrice);
-
       const stopLossPrice = lastPrice * (1 + STRATEGY_STOP_LOSS_DELTA);
       const takeProfitPrice = lastPrice * (1 - STRATEGY_TAKE_PROFIT_DELTA);
+      const risk = availableBalance * MAX_RISK;
+
+      const stopDistance = Math.abs(lastPrice - stopLossPrice);
+
+      if (stopDistance === 0) continue;
+
+      const qty = (risk * LEVERAGE) / stopDistance;
 
       const orderResponse = await client.submitOrder({
         category: "linear",
         symbol: tradingPair,
         side: "Sell",
         orderType: "Market",
-        qty: positionSize.toString(),
+        qty: qty.toString(),
         timeInForce: "GTC",
         stopLoss: stopLossPrice.toString(),
         takeProfit: takeProfitPrice.toString(),
