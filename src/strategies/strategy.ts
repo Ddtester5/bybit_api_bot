@@ -4,29 +4,44 @@ import {
   STRATEGY_SMA_PERIOD_FAST,
   STRATEGY_SMA_PERIOD_SLOW,
 } from "../config/main_config";
+
 import { calculateRSI } from "../indicators/rsi";
 import { calculateEMA } from "../indicators/ema";
 import { Candle } from "../types/types";
 
 export function checkSignal(candles: Candle[], index: number): boolean {
-  if (index < STRATEGY_SMA_PERIOD_SLOW || !candles[index]) return false;
+  // Недостаточно данных
+  if (index < STRATEGY_SMA_PERIOD_SLOW + 2) return false;
 
-  const currentPrice = candles[index].close;
-  const smaSlow = calculateEMA(candles, index, STRATEGY_SMA_PERIOD_SLOW);
-  const smaFast = calculateEMA(candles, index, STRATEGY_SMA_PERIOD_FAST);
+  const current = candles[index];
+  const prev = candles[index - 1];
+  const prev2 = candles[index - 2];
+
+  if (!current || !prev || !prev2) return false;
+
+  const currentPrice = current.close;
+
+  const emaSlow = calculateEMA(candles, index, STRATEGY_SMA_PERIOD_SLOW);
+  const emaFast = calculateEMA(candles, index, STRATEGY_SMA_PERIOD_FAST);
   const rsi = calculateRSI(candles, index, STRATEGY_RSI_PERIOD);
 
-  if (!smaSlow || !smaFast || !rsi) return false;
+  if (!emaSlow || !emaFast || !rsi) return false;
 
-  // 1. Глобально падаем (быстрая под медленной)
-  const isGlobalDownTrend = currentPrice < smaSlow;
+  // === 1. Глобальный нисходящий тренд ===
+  const isDownTrend = currentPrice < emaSlow;
 
-  // 2. Цена находится в зоне между средней и быстрой (коррекция)
-  const isPriceCorrection = currentPrice > smaFast;
+  // === 2. Сильный откат вверх ===
+  const deviation = (currentPrice - emaFast) / emaFast;
+  const isStrongPullback = deviation > 0.02; // >2% откат
 
-  // 3. RSI подтверждает перекупленность на откате
-  const isOverbought = rsi > STRATEGY_RSI_OVERBOUGHT;
+  // === 3. Перекупленность ===
+  const isOverbought = rsi > STRATEGY_RSI_OVERBOUGHT; // ставь 70–75
 
-  // Сигнал: Тренд вниз, но сейчас случился заброс цены вверх + RSI перегрет
-  return isGlobalDownTrend && isPriceCorrection && isOverbought;
+  // === 4. Подтверждение разворота ===
+  const isReversal =
+    prev.close < prev.open && // красная свеча
+    prev2.close > prev2.open; // перед ней была зеленая
+
+  // === Итоговый сигнал ===
+  return isDownTrend && isStrongPullback && isOverbought && isReversal;
 }

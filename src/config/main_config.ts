@@ -10,7 +10,7 @@ export const MAX_RISK = 0.01;
 export const LEVERAGE = 10;
 
 export const BACKTEST_SYMBOLS_COUNT = 3000;
-export const BACKTEST_START_BALANCE = 10;
+export const BACKTEST_START_BALANCE = 1000;
 export const BACKTEST_CANDLE_INTERVAL = 60;
 export const BACKTEST_CANDLES_COUNT = 3 * 365 * 24;
 export const BACKTEST_COMMISSION_RATE = 0.001;
@@ -19,6 +19,6 @@ export const BACKTEST_FUNDING_RATE_ESTIMATE = 0.0001;
 export const STRATEGY_SMA_PERIOD_SLOW = 200;
 export const STRATEGY_SMA_PERIOD_FAST = 50;
 export const STRATEGY_RSI_PERIOD = 14;
-export const STRATEGY_RSI_OVERBOUGHT = 60;
+export const STRATEGY_RSI_OVERBOUGHT = 70;
 export const STRATEGY_STOP_LOSS_DELTA = 0.15;
 export const STRATEGY_TAKE_PROFIT_DELTA = 0.2;

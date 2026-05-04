@@ -13,6 +13,6 @@ export type Position = {
   entry: number;
   stopLoss: number;
   takeProfit: number;
-  qty?: number;
-  openIndex?: number;
+  qty: number;
+  openIndex: number;
 };
