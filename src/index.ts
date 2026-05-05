@@ -2,14 +2,12 @@ import { client } from "./api/bybit_api_client_v5";
 import { checkOpenPositions } from "./api/check_open_position";
 import { checkOpenPositionsCount } from "./api/check_open_positions";
 import { getAvalibleBalance } from "./api/get_balance";
-import { getFoundingRate } from "./api/get_founding_rate";
 import { getLastMarketPrice } from "./api/get_last_price";
 import { getTradingPairs } from "./api/get_tradings_pair";
 import { loadHistoricalCandles } from "./api/loadHistoricalCandles";
 import { setLeverage } from "./api/set_leverage";
 import {
   BACKTEST_CANDLE_INTERVAL,
-  BACKTEST_FUNDING_RATE_ESTIMATE,
   LEVERAGE,
   MAX_POSITIONS,
   MAX_RISK,
@@ -38,11 +36,11 @@ async function run() {
         continue;
       }
 
-      const founding_rate = await getFoundingRate(tradingPair);
-      if (Number(founding_rate) > BACKTEST_FUNDING_RATE_ESTIMATE) {
-        console.log("Ставка финансирования отстой", founding_rate);
-        continue;
-      }
+      // const founding_rate = await getFoundingRate(tradingPair);
+      //   if (Number(founding_rate) > BACKTEST_FUNDING_RATE_ESTIMATE) {
+      //  console.log("Ставка финансирования отстой", founding_rate);
+      //     continue;
+      //   }
       const positionsCount = await checkOpenPositionsCount();
       if (positionsCount > MAX_POSITIONS) {
         continue;
@@ -83,8 +81,8 @@ async function run() {
 
       if (stopDistance === 0) continue;
 
-      const qty = risk / stopDistance;
-
+      const qty = Math.floor(risk / stopDistance);
+      console.log(qty);
       const orderResponse = await client.submitOrder({
         category: "linear",
         symbol: tradingPair,
