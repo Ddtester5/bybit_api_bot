@@ -48,22 +48,25 @@ async function run(params: StrategyParams) {
     console.log("-----------------------\n");
   }
 
-  return stats.pnl.toFixed(2);
+  return stats;
 }
 
 (async function () {
   const { symbols, candlesBySymbol, maxLength } = await getInitialData({
     testMode: true,
   });
-  const res = new Map<number, string>();
-  for (let i = 30; i <= 70; i++) {
+  const res = new Map<
+    { rsi: number; stop: number; take: number },
+    { pnl: string }
+  >();
+  for (let rsi = 30; rsi <= 70; rsi++) {
     for (let stop = 0.1; stop <= 0.5; stop += 0.01) {
       for (let take = 0.1; take <= 0.5; take += 0.01) {
         console.log(
-          `=== TESTING RSI Overbought = ${i} , Stop Loss = ${stop} , Take Profit = ${take}  ===`,
+          `=== TESTING RSI Overbought = ${rsi} , Stop Loss = ${stop} , Take Profit = ${take}  ===`,
         );
-        const pnl = await run({
-          rsiOverbought: i,
+        const stats = await run({
+          rsiOverbought: rsi,
           symbols,
           candlesBySymbol,
           maxLength,
@@ -71,33 +74,41 @@ async function run(params: StrategyParams) {
           stopLossPercent: stop,
           takeProfitPercent: take,
         });
-        res.set(i, pnl);
+        console.log(
+          "pnl : ",
+          stats.pnl.toFixed(2),
+          "\n",
+          "drawdown : ",
+          (stats.maxDrawdown * 100).toFixed(2),
+        );
+        res.set({ rsi, stop, take }, { pnl: stats.pnl.toFixed(2) });
       }
     }
   }
   console.log("\n\n=== SUMMARY ===");
 
   const sorted = Array.from(res.entries()).sort(
-    (a, b) => parseFloat(b[1]) - parseFloat(a[1]),
+    (a, b) => parseFloat(b[1].pnl) - parseFloat(a[1].pnl),
   );
 
   console.log("\n--- TOP 5 ---");
   console.table(
-    sorted.slice(0, 5).map(([rsi, pnl]) => ({
-      rsi,
+    sorted.slice(0, 5).map(([params, { pnl }]) => ({
+      rsi: params.rsi,
+      stop: params.stop,
+      take: params.take,
       pnl,
     })),
   );
 
   console.log("\n--- WORST 5 ---");
   console.table(
-    sorted
-      .slice(-5)
-      .reverse()
-      .map(([rsi, pnl]) => ({
-        rsi,
-        pnl,
-      })),
+    sorted.slice(0, 5).map(([params, { pnl }]) => ({
+      rsi: params.rsi,
+      stop: params.stop,
+      take: params.take,
+      pnl,
+    })),
   );
 })();
 
