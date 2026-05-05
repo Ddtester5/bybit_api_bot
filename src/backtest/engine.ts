@@ -10,6 +10,8 @@ export function runEngine({
   startBalance,
   maxPositions,
   rsiOverbought,
+  stopLossPercent,
+  takeProfitPercent,
 }: EngineInput): EngineResult {
   let balance = startBalance;
 
@@ -40,7 +42,14 @@ export function runEngine({
       // === ENTRY ===
       if (!positions.has(symbol) && positions.size < maxPositions) {
         if (checkSignal(candles, i, rsiOverbought)) {
-          const newPosition = tryOpenPosition(balance, candle.close, symbol, i);
+          const newPosition = tryOpenPosition(
+            balance,
+            candle.close,
+            symbol,
+            i,
+            stopLossPercent,
+            takeProfitPercent,
+          );
 
           if (newPosition) {
             positions.set(symbol, newPosition);

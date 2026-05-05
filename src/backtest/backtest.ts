@@ -13,6 +13,8 @@ async function run(params: StrategyParams) {
     startBalance: BACKTEST_START_BALANCE,
     maxPositions: MAX_POSITIONS,
     rsiOverbought: params.rsiOverbought,
+    stopLossPercent: params.stopLossPercent,
+    takeProfitPercent: params.takeProfitPercent,
   });
 
   const stats = calculateMetrics(
@@ -54,16 +56,24 @@ async function run(params: StrategyParams) {
     testMode: true,
   });
   const res = new Map<number, string>();
-  for (let i = 0; i <= 100; i++) {
-    console.log(`=== TESTING RSI Overbought = ${i} ===`);
-    const pnl = await run({
-      rsiOverbought: i,
-      symbols,
-      candlesBySymbol,
-      maxLength,
-      metrics: false,
-    });
-    res.set(i, pnl);
+  for (let i = 30; i <= 70; i++) {
+    for (let stop = 0.1; stop <= 0.5; stop += 0.01) {
+      for (let take = 0.1; take <= 0.5; take += 0.01) {
+        console.log(
+          `=== TESTING RSI Overbought = ${i} , Stop Loss = ${stop} , Take Profit = ${take}  ===`,
+        );
+        const pnl = await run({
+          rsiOverbought: i,
+          symbols,
+          candlesBySymbol,
+          maxLength,
+          metrics: false,
+          stopLossPercent: stop,
+          takeProfitPercent: take,
+        });
+        res.set(i, pnl);
+      }
+    }
   }
   console.log("\n\n=== SUMMARY ===");
 

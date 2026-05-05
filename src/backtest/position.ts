@@ -2,8 +2,6 @@ import {
   BACKTEST_COMMISSION_RATE,
   BACKTEST_FUNDING_RATE_ESTIMATE,
   MAX_RISK,
-  STRATEGY_STOP_LOSS_DELTA,
-  STRATEGY_TAKE_PROFIT_DELTA,
 } from "../config/main_config";
 
 import { Candle, ClosedTrade, Position } from "../types/types";
@@ -13,9 +11,11 @@ export function tryOpenPosition(
   price: number,
   symbol: string,
   index: number,
+  stopLossPercent: number,
+  takeProfitPercent: number,
 ): Position | null {
-  const stopLoss = price * (1 + STRATEGY_STOP_LOSS_DELTA);
-  const takeProfit = price * (1 - STRATEGY_TAKE_PROFIT_DELTA);
+  const stopLoss = price * (1 + stopLossPercent);
+  const takeProfit = price * (1 - takeProfitPercent);
 
   const risk = balance * MAX_RISK;
   const stopDistance = Math.abs(price - stopLoss);

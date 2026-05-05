@@ -31,6 +31,8 @@ export interface EngineInput {
   startBalance: number;
   maxPositions: number;
   rsiOverbought: number;
+  stopLossPercent: number;
+  takeProfitPercent: number;
 }
 
 export interface EngineResult {
@@ -57,4 +59,6 @@ export type StrategyParams = {
   maxLength: number;
   metrics: boolean;
   rsiOverbought: number;
+  stopLossPercent: number;
+  takeProfitPercent: number;
 };
