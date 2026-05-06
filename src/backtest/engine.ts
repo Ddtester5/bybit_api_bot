@@ -27,6 +27,7 @@ export function runEngine({
       if (!candles || !candles[i]) continue;
 
       const candle = candles[i];
+      const lastExitIndex = new Map<string, number>();
       const position = positions.get(symbol);
 
       // === EXIT ===
@@ -37,13 +38,16 @@ export function runEngine({
           balance += closed.pnl;
           closedTrades.push(closed);
           positions.delete(symbol);
+          lastExitIndex.set(symbol, i);
           continue;
         }
       }
 
       // === ENTRY ===
       if (!positions.has(symbol) && positions.size < maxPositions) {
-        if (checkSignal(candles, i, rsiOverbought)) {
+        const lastExit = lastExitIndex.get(symbol) || -21; // -21 чтобы не блокировать первую сделку
+        const canTrade = i - lastExit > 20;
+        if (canTrade && checkSignal(candles, i, rsiOverbought)) {
           const newPosition = tryOpenPosition(
             balance,
             candle.close,
