@@ -2,8 +2,10 @@ import { checkSignal } from "../strategies/strategy";
 import { tryClosePosition, tryOpenPosition } from "./position";
 
 import { EngineInput, EngineResult, Position } from "../types/types";
+import { WIN_SYMBOLS } from "../config/main_config";
 
 export function runEngine({
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   symbols,
   candlesBySymbol,
   maxLength,
@@ -20,7 +22,7 @@ export function runEngine({
   const equityCurve: number[] = [];
 
   for (let i = 0; i < maxLength; i++) {
-    for (const symbol of symbols) {
+    for (const symbol of WIN_SYMBOLS) {
       const candles = candlesBySymbol.get(symbol);
       if (!candles || !candles[i]) continue;
 

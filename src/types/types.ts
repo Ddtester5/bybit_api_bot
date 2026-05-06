@@ -22,6 +22,7 @@ export interface ClosedTrade {
   pnl: number;
   win: boolean;
   barsHeld: number;
+  symbol: string;
 }
 
 export interface EngineInput {

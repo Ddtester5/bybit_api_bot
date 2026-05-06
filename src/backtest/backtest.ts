@@ -3,7 +3,7 @@ import { getInitialData } from "./get_initial_data";
 import { calculateMetrics } from "./metrics";
 
 import { BACKTEST_START_BALANCE, MAX_POSITIONS } from "../config/main_config";
-import { StrategyParams } from "../types/types";
+import { ClosedTrade, StrategyParams } from "../types/types";
 
 async function run(params: StrategyParams) {
   const result = runEngine({
@@ -25,7 +25,6 @@ async function run(params: StrategyParams) {
   );
   if (params.metrics) {
     console.log("\n--- BACKTEST RESULT ---");
-
     console.log(`Balance: ${result.balance.toFixed(2)}`);
     console.log(`PnL:     ${stats.pnl.toFixed(2)}`);
 
@@ -44,6 +43,57 @@ async function run(params: StrategyParams) {
 
     console.log("\n--- BEHAVIOR ---");
     console.log(`Avg Hold: ${stats.avgBars.toFixed(2)} bars`);
+
+    // Описываем структуру объекта статистики
+    interface SymbolStats {
+      Symbol: string;
+      Wins: number;
+      Losses: number;
+      TotalPnL: number;
+      WinRate?: number; // Опционально, так как добавим позже
+    }
+
+    // 1. Агрегация с явным указанием типа Record<string, SymbolStats>
+    const statsMap = result.closedTrades.reduce<Record<string, SymbolStats>>(
+      (acc, trade: ClosedTrade) => {
+        const sym = trade.symbol;
+
+        if (!acc[sym]) {
+          acc[sym] = { Symbol: sym, Wins: 0, Losses: 0, TotalPnL: 0 };
+        }
+
+        if (trade.win) {
+          acc[sym].Wins += 1;
+        } else {
+          acc[sym].Losses += 1;
+        }
+
+        acc[sym].TotalPnL = Number((acc[sym].TotalPnL + trade.pnl).toFixed(2));
+
+        return acc;
+      },
+      {},
+    );
+
+    // 2. Добавляем расчет WinRate
+    const allStats: SymbolStats[] = Object.values(statsMap).map((item) => {
+      const total = item.Wins + item.Losses;
+      return {
+        ...item,
+        WinRate: total > 0 ? Number(((item.Wins / total) * 100).toFixed(2)) : 0,
+      };
+    });
+
+    // 3. Сортировка по лузам и вывод
+    console.log("Full Stats (Sorted by Losses):");
+    console.table([...allStats].sort((a, b) => b.Losses - a.Losses));
+
+    // 4. Список символов с WinRate < 50%
+    const lowWinRateSymbols: string[] = allStats
+      .filter((item) => (item.WinRate ?? 0) > 50)
+      .map((item) => item.Symbol);
+
+    console.log(JSON.stringify(lowWinRateSymbols, null, 2));
 
     console.log("-----------------------\n");
   }

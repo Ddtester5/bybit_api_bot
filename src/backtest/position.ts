@@ -75,5 +75,6 @@ export function tryClosePosition(
     pnl: result,
     win: result > 0,
     barsHeld,
+    symbol: position.symbol,
   };
 }
