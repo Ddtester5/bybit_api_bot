@@ -7,7 +7,7 @@ export const apiSecret = process.env.API_SECRET;
 
 export const MAX_POSITIONS = 25;
 export const MAX_RISK = 0.035;
-export const LEVERAGE = 5;
+export const LEVERAGE = 10;
 
 export const BACKTEST_SYMBOLS_COUNT = 3000;
 export const BACKTEST_START_BALANCE = 100;

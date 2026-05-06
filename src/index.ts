@@ -15,14 +15,16 @@ import {
   STRATEGY_SMA_PERIOD_SLOW,
   STRATEGY_STOP_LOSS_DELTA,
   STRATEGY_TAKE_PROFIT_DELTA,
+  WIN_SYMBOLS,
 } from "./config/main_config";
 import { checkSignal } from "./strategies/strategy";
 
 async function run() {
   try {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const tradingPairs = await getTradingPairs();
 
-    for (const tradingPair of tradingPairs) {
+    for (const tradingPair of WIN_SYMBOLS) {
       console.log("\nPAIR:", tradingPair);
 
       const candles = await loadHistoricalCandles(
