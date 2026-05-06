@@ -24,6 +24,7 @@ export const STRATEGY_STOP_LOSS_DELTA = 0.1;
 export const STRATEGY_TAKE_PROFIT_DELTA = 0.17;
 export const STRATEGY_ATR_PERIOD = 14;
 export const STRATEGY_ATR_MULTIPLIER = 2.2;
+export const PAUSE_CANDLES_AFTER_LOSS = 5;
 
 export const WIN_SYMBOLS = [
   "FLOCKUSDT",

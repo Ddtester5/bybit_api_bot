@@ -4,6 +4,7 @@ import { checkOpenPositionsCount } from "./api/check_open_positions";
 import { getAvalibleBalance } from "./api/get_balance";
 import { getLastMarketPrice } from "./api/get_last_price";
 import { getTradingPairs } from "./api/get_tradings_pair";
+import { isWaitPeriodActive } from "./api/is_waiting";
 import { loadHistoricalCandles } from "./api/loadHistoricalCandles";
 import { setLeverage } from "./api/set_leverage";
 import {
@@ -23,7 +24,8 @@ async function run() {
   try {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const tradingPairs = await getTradingPairs();
-
+    const isWaiting = await isWaitPeriodActive();
+    if (isWaiting) return;
     for (const tradingPair of WIN_SYMBOLS) {
       console.log("\nPAIR:", tradingPair);
 

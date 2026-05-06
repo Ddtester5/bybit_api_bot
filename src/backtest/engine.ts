@@ -1,8 +1,8 @@
 import { checkSignal } from "../strategies/strategy";
 import { tryClosePosition, tryOpenPosition } from "./position";
 
+import { PAUSE_CANDLES_AFTER_LOSS, WIN_SYMBOLS } from "../config/main_config";
 import { EngineInput, EngineResult, Position } from "../types/types";
-import { WIN_SYMBOLS } from "../config/main_config";
 
 export function runEngine({
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -20,6 +20,7 @@ export function runEngine({
   const positions = new Map<string, Position>();
   const closedTrades = [];
   const equityCurve: number[] = [];
+  const lastExitIndex = new Map<string, number>();
 
   for (let i = 0; i < maxLength; i++) {
     for (const symbol of WIN_SYMBOLS) {
@@ -27,7 +28,6 @@ export function runEngine({
       if (!candles || !candles[i]) continue;
 
       const candle = candles[i];
-      const lastExitIndex = new Map<string, number>();
       const position = positions.get(symbol);
 
       // === EXIT ===
@@ -38,15 +38,18 @@ export function runEngine({
           balance += closed.pnl;
           closedTrades.push(closed);
           positions.delete(symbol);
-          lastExitIndex.set(symbol, i);
+          if (!closed.win) {
+            lastExitIndex.set("symbol", i);
+          }
           continue;
         }
       }
 
       // === ENTRY ===
       if (!positions.has(symbol) && positions.size < maxPositions) {
-        const lastExit = lastExitIndex.get(symbol) || -601; // -21 чтобы не блокировать первую сделку
-        const canTrade = i - lastExit > 600;
+        const lastExit =
+          lastExitIndex.get("symbol") || -PAUSE_CANDLES_AFTER_LOSS - 1;
+        const canTrade = i - lastExit > PAUSE_CANDLES_AFTER_LOSS;
         if (canTrade && checkSignal(candles, i, rsiOverbought)) {
           const newPosition = tryOpenPosition(
             balance,

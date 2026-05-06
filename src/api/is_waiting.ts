@@ -1,39 +1,48 @@
-import { BACKTEST_CANDLE_INTERVAL } from "../config/main_config";
+import {
+  BACKTEST_CANDLE_INTERVAL,
+  PAUSE_CANDLES_AFTER_LOSS,
+} from "../config/main_config";
 import { client } from "./bybit_api_client_v5";
 
-const PAUSE_CANDLES = 20;
-
-export async function isWaitPeriodActive(symbol: string): Promise<boolean> {
+export async function isWaitPeriodActive(): Promise<boolean> {
   try {
+    // Не указываем symbol, чтобы получить сделки по всему аккаунту (linear)
     const response = await client.getClosedPnL({
       category: "linear",
-      symbol: symbol,
-      limit: 1, // берем только последнюю сделку
+      limit: 50, // берем с запасом, чтобы точно найти последний закрытый ордер
     });
 
-    const lastTrade = response.result.list[0];
-    if (!lastTrade) return false;
+    const trades = response.result.list;
+    if (!trades || trades.length === 0) return false;
 
-    // Проверяем, был ли это убыток (стоп-лосс обычно дает отрицательный PNL)
-    const isLoss = parseFloat(lastTrade.closedPnl) < 0;
+    // Ищем самую свежую сделку с отрицательным PnL
+    const lastLossTrade = trades.find(
+      (trade) => parseFloat(trade.closedPnl) < 0,
+    );
 
-    if (isLoss) {
-      const closeTime = parseInt(lastTrade.updatedTime); // Время в мс
+    if (lastLossTrade) {
+      const closeTime = parseInt(lastLossTrade.updatedTime);
       const currentTime = Date.now();
-      const diffMinutes = (currentTime - closeTime) / 1000 / 60;
 
-      // Если прошло меньше чем (20 * интервал свечи) минут
-      if (diffMinutes < PAUSE_CANDLES * BACKTEST_CANDLE_INTERVAL) {
-        const remain = Math.ceil(
-          PAUSE_CANDLES * BACKTEST_CANDLE_INTERVAL - diffMinutes,
+      const pauseDurationMs =
+        PAUSE_CANDLES_AFTER_LOSS * BACKTEST_CANDLE_INTERVAL * 60 * 1000;
+      const timePassedMs = currentTime - closeTime;
+
+      if (timePassedMs < pauseDurationMs) {
+        const remainMinutes = Math.ceil(
+          (pauseDurationMs - timePassedMs) / 1000 / 60,
         );
-        console.log(`[${symbol}] Пауза после стопа. Ждать еще ${remain} мин.`);
+
+        console.log(
+          `[Account] Пауза после убытка на ${lastLossTrade.symbol}. Ждать: ${remainMinutes} мин.`,
+        );
         return true;
       }
     }
+
     return false;
   } catch (e) {
-    console.error("Ошибка проверки истории сделок:", e);
+    console.error("Ошибка проверки истории сделок по аккаунту:", e);
     return false;
   }
 }
