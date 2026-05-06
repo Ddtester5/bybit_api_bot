@@ -45,8 +45,8 @@ export function runEngine({
 
       // === ENTRY ===
       if (!positions.has(symbol) && positions.size < maxPositions) {
-        const lastExit = lastExitIndex.get(symbol) || -21; // -21 чтобы не блокировать первую сделку
-        const canTrade = i - lastExit > 20;
+        const lastExit = lastExitIndex.get(symbol) || -601; // -21 чтобы не блокировать первую сделку
+        const canTrade = i - lastExit > 600;
         if (canTrade && checkSignal(candles, i, rsiOverbought)) {
           const newPosition = tryOpenPosition(
             balance,
