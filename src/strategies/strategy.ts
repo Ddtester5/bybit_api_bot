@@ -6,7 +6,6 @@ import {
 
 import { calculateRSI } from "../indicators/rsi";
 import { calculateEMA } from "../indicators/ema";
-import { calculateATR } from "../indicators/atr";
 import { Candle } from "../types/types";
 
 export function checkSignal(
@@ -14,8 +13,8 @@ export function checkSignal(
   index: number,
   rsiOverbought: number,
 ): boolean {
-  // === защита от нехватки данных ===
-  if (index < STRATEGY_SMA_PERIOD_SLOW + 5) return false;
+  // Недостаточно данных
+  if (index < STRATEGY_SMA_PERIOD_SLOW + 2) return false;
 
   const current = candles[index];
   const prev = candles[index - 1];
@@ -23,67 +22,29 @@ export function checkSignal(
 
   if (!current || !prev || !prev2) return false;
 
-  const price = current.close;
+  const currentPrice = current.close;
 
-  // === индикаторы ===
   const emaSlow = calculateEMA(candles, index, STRATEGY_SMA_PERIOD_SLOW);
   const emaFast = calculateEMA(candles, index, STRATEGY_SMA_PERIOD_FAST);
   const rsi = calculateRSI(candles, index, STRATEGY_RSI_PERIOD);
-  const prevRsi = calculateRSI(candles, index - 1, STRATEGY_RSI_PERIOD);
-  const atr = calculateATR(candles, index, 14);
 
-  if (!emaSlow || !emaFast || !rsi || !prevRsi || !atr) return false;
+  if (!emaSlow || !emaFast || !rsi) return false;
 
-  // =========================================================
-  // 1. СИЛЬНЫЙ НИСХОДЯЩИЙ ТРЕНД
-  // =========================================================
-  const trendStrength = (emaSlow - emaFast) / emaSlow;
-  const isStrongDownTrend =
-    price < emaSlow &&
-    emaFast < emaSlow &&
-    trendStrength > 0.005; // фильтр силы тренда
+  // === 1. Глобальный нисходящий тренд ===
+  const isDownTrend = currentPrice < emaSlow;
 
-  // =========================================================
-  // 2. АДАПТИВНЫЙ ОТКАТ (через ATR)
-  // =========================================================
-  const deviation = (price - emaFast) / atr;
-  const isPullback = deviation > 1.2;
+  // === 2. Сильный откат вверх ===
+  const deviation = (currentPrice - emaFast) / emaFast;
+  const isStrongPullback = deviation > 0.02; // >2% откат
 
-  // =========================================================
-  // 3. ВОЛАТИЛЬНОСТЬ (не торгуем мертвый рынок)
-  // =========================================================
-  const atrPercent = atr / price;
-  const isVolatile = atrPercent > 0.003;
+  // === 3. Перекупленность ===
+  const isOverbought = rsi > rsiOverbought; // ставь 70–75
 
-  // =========================================================
-  // 4. RSI: перекупленность + разворот вниз
-  // =========================================================
-  const isOverbought = rsi > rsiOverbought;
-  const isRSITurningDown = rsi < prevRsi;
-
-  // =========================================================
-  // 5. СВЕЧНОЙ РАЗВОРОТ
-  // =========================================================
+  // === 4. Подтверждение разворота ===
   const isReversal =
-    prev.close < prev.open &&   // красная свеча
-    prev2.close > prev2.open;  // до этого была зеленая
+    prev.close < prev.open && // красная свеча
+    prev2.close > prev2.open; // перед ней была зеленая
 
-  // =========================================================
-  // 6. АНТИ-ПАМП (не ловим ножи)
-  // =========================================================
-  const lastMove = (price - prev.close) / prev.close;
-  const isNotParabolic = lastMove < 0.03;
-
-  // =========================================================
-  // FINAL SIGNAL
-  // =========================================================
-  return (
-    isStrongDownTrend &&
-    isPullback &&
-    isVolatile &&
-    isOverbought &&
-    isRSITurningDown &&
-    isReversal &&
-    isNotParabolic
-  );
+  // === Итоговый сигнал ===
+  return isDownTrend && isStrongPullback && isOverbought && isReversal;
 }
