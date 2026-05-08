@@ -1,20 +1,24 @@
-import {
-  STRATEGY_RSI_PERIOD,
-  STRATEGY_SMA_PERIOD_FAST,
-  STRATEGY_SMA_PERIOD_SLOW,
-} from "../config/main_config";
-
-import { calculateRSI } from "../indicators/rsi";
 import { calculateEMA } from "../indicators/ema";
+import { calculateRSI } from "../indicators/rsi";
 import { Candle } from "../types/types";
 
-export function checkSignal(
-  candles: Candle[],
-  index: number,
-  rsiOverbought: number,
-): boolean {
+export function checkSignal({
+  candles,
+  index,
+  rsiOverbought,
+  rsi_period,
+  sma_fast,
+  sma_slow,
+}: {
+  candles: Candle[];
+  index: number;
+  rsiOverbought: number;
+  rsi_period: number;
+  sma_fast: number;
+  sma_slow: number;
+}): boolean {
   // Недостаточно данных
-  if (index < STRATEGY_SMA_PERIOD_SLOW + 2) return false;
+  if (index < sma_slow + 2) return false;
 
   const current = candles[index];
   const prev = candles[index - 1];
@@ -24,9 +28,9 @@ export function checkSignal(
 
   const currentPrice = current.close;
 
-  const emaSlow = calculateEMA(candles, index, STRATEGY_SMA_PERIOD_SLOW);
-  const emaFast = calculateEMA(candles, index, STRATEGY_SMA_PERIOD_FAST);
-  const rsi = calculateRSI(candles, index, STRATEGY_RSI_PERIOD);
+  const emaSlow = calculateEMA(candles, index, sma_slow);
+  const emaFast = calculateEMA(candles, index, sma_fast);
+  const rsi = calculateRSI(candles, index, rsi_period);
 
   if (!emaSlow || !emaFast || !rsi) return false;
 

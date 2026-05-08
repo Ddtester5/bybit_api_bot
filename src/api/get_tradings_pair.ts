@@ -1,6 +1,6 @@
-import { client } from "./bybit_api_client_v5";
+import { RestClientV5 } from "bybit-api";
 
-export const getTradingPairs = async () => {
+export const getTradingPairs = async ({ client }: { client: RestClientV5 }) => {
   try {
     const response = await client.getInstrumentsInfo({
       category: "linear",

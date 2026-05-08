@@ -1,8 +1,12 @@
 // Получаем доступные средства (баланс)
 
-import { client } from "./bybit_api_client_v5";
+import { RestClientV5 } from "bybit-api";
 
-export const getAvalibleBalance = async () => {
+export const getAvalibleBalance = async ({
+  client,
+}: {
+  client: RestClientV5;
+}) => {
   const accountInfo = await client.getWalletBalance({
     accountType: "UNIFIED",
   });

@@ -2,19 +2,23 @@ import { runEngine } from "./engine";
 import { getInitialData } from "./get_initial_data";
 import { calculateMetrics } from "./metrics";
 
-import { BACKTEST_START_BALANCE, MAX_POSITIONS } from "../config/main_config";
-import { ClosedTrade, StrategyParams } from "../types/types";
+import { createClient } from "../api/bybit_api_client_v5";
+import { config_strategy2 } from "../config/config_strategy2";
+import { BACKTEST_START_BALANCE } from "../config/main_config";
+import { ClosedTrade, StrategyConfig, StrategyParams } from "../types/types";
 
-async function run(params: StrategyParams) {
+async function run({
+  params,
+  config,
+}: {
+  params: StrategyParams;
+  config: StrategyConfig;
+}) {
   const result = runEngine({
-    symbols: params.symbols,
     candlesBySymbol: params.candlesBySymbol,
     maxLength: params.maxLength,
     startBalance: BACKTEST_START_BALANCE,
-    maxPositions: MAX_POSITIONS,
-    rsiOverbought: params.rsiOverbought,
-    stopLossPercent: params.stopLossPercent,
-    takeProfitPercent: params.takeProfitPercent,
+    config,
   });
 
   const stats = calculateMetrics(
@@ -163,16 +167,19 @@ async function run(params: StrategyParams) {
 // })();
 
 (async function () {
+  const config = config_strategy2;
+  const client = createClient(config.apiKey, config.apiSecret);
   const { symbols, candlesBySymbol, maxLength } = await getInitialData({
     testMode: true,
+    client,
   });
   run({
-    stopLossPercent: 0.1,
-    takeProfitPercent: 0.17,
-    rsiOverbought: 40,
-    symbols,
-    candlesBySymbol,
-    maxLength,
-    metrics: true,
+    params: {
+      symbols,
+      candlesBySymbol,
+      maxLength,
+      metrics: true,
+    },
+    config: config,
   });
 })();

@@ -26,14 +26,10 @@ export interface ClosedTrade {
 }
 
 export interface EngineInput {
-  symbols: string[];
   candlesBySymbol: Map<string, Candle[]>;
   maxLength: number;
   startBalance: number;
-  maxPositions: number;
-  rsiOverbought: number;
-  stopLossPercent: number;
-  takeProfitPercent: number;
+  config: StrategyConfig;
 }
 
 export interface EngineResult {
@@ -59,7 +55,26 @@ export type StrategyParams = {
   candlesBySymbol: Map<string, Candle[]>;
   maxLength: number;
   metrics: boolean;
-  rsiOverbought: number;
-  stopLossPercent: number;
-  takeProfitPercent: number;
 };
+// types/strategy_config.ts
+
+export interface StrategyConfig {
+  apiKey: string;
+  apiSecret: string;
+
+  leverage: number;
+  maxPositions: number;
+  maxRisk: number;
+
+  strategySmaPeriodSlow: number;
+  strategySmaPeriodFast: number;
+  strategyRsiPeriod: number;
+  strategyRsiOverbought: number;
+  strategyStopLossDelta: number;
+  strategyTakeProfitDelta: number;
+
+  backtestCandleInterval: number;
+  pauseCandlesAfterLoss: number;
+
+  symbols: string[];
+}

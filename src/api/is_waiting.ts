@@ -1,10 +1,14 @@
-import {
-  BACKTEST_CANDLE_INTERVAL,
-  PAUSE_CANDLES_AFTER_LOSS,
-} from "../config/main_config";
-import { client } from "./bybit_api_client_v5";
+import { RestClientV5 } from "bybit-api";
 
-export async function isWaitPeriodActive(): Promise<boolean> {
+export async function isWaitPeriodActive({
+  candle_interval,
+  pause_candle,
+  client,
+}: {
+  candle_interval: number;
+  pause_candle: number;
+  client: RestClientV5;
+}): Promise<boolean> {
   try {
     // Не указываем symbol, чтобы получить сделки по всему аккаунту (linear)
     const response = await client.getClosedPnL({
@@ -24,8 +28,7 @@ export async function isWaitPeriodActive(): Promise<boolean> {
       const closeTime = parseInt(lastLossTrade.updatedTime);
       const currentTime = Date.now();
 
-      const pauseDurationMs =
-        PAUSE_CANDLES_AFTER_LOSS * BACKTEST_CANDLE_INTERVAL * 60 * 1000;
+      const pauseDurationMs = pause_candle * candle_interval * 60 * 1000;
       const timePassedMs = currentTime - closeTime;
 
       if (timePassedMs < pauseDurationMs) {

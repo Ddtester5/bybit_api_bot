@@ -1,4 +1,4 @@
-import { client } from "./api/bybit_api_client_v5";
+import { RestClientV5 } from "bybit-api";
 import { checkOpenPositions } from "./api/check_open_position";
 import { checkOpenPositionsCount } from "./api/check_open_positions";
 import { getAvalibleBalance } from "./api/get_balance";
@@ -7,33 +7,32 @@ import { getTradingPairs } from "./api/get_tradings_pair";
 import { isWaitPeriodActive } from "./api/is_waiting";
 import { loadHistoricalCandles } from "./api/loadHistoricalCandles";
 import { setLeverage } from "./api/set_leverage";
-import {
-  BACKTEST_CANDLE_INTERVAL,
-  LEVERAGE,
-  MAX_POSITIONS,
-  MAX_RISK,
-  STRATEGY_RSI_OVERBOUGHT,
-  STRATEGY_SMA_PERIOD_SLOW,
-  STRATEGY_STOP_LOSS_DELTA,
-  STRATEGY_TAKE_PROFIT_DELTA,
-  WIN_SYMBOLS,
-} from "./config/main_config";
 import { checkSignal } from "./strategies/strategy";
+import { StrategyConfig } from "./types/types";
 
-async function run() {
+export async function runStart({
+  client,
+  config,
+}: {
+  client: RestClientV5;
+  config: StrategyConfig;
+}) {
   try {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const tradingPairs = await getTradingPairs();
-    const isWaiting = await isWaitPeriodActive();
+    const tradingPairs = await getTradingPairs({ client });
+    const isWaiting = await isWaitPeriodActive({
+      candle_interval: config.backtestCandleInterval,
+      pause_candle: config.pauseCandlesAfterLoss,
+      client,
+    });
     if (isWaiting) return;
-    for (const tradingPair of WIN_SYMBOLS) {
+    for (const tradingPair of config.symbols) {
       console.log("\nPAIR:", tradingPair);
 
-      const candles = await loadHistoricalCandles(
-        tradingPair,
-        STRATEGY_SMA_PERIOD_SLOW + 5,
-        BACKTEST_CANDLE_INTERVAL,
-      );
+      const candles = await loadHistoricalCandles({
+        symbol: tradingPair,
+        client,
+      });
       console.log(candles[candles.length - 1]);
       if (!candles.length) {
         console.log(`No candles for ${tradingPair}, skip`);
@@ -45,14 +44,14 @@ async function run() {
       //  console.log("Ставка финансирования отстой", founding_rate);
       //     continue;
       //   }
-      const positionsCount = await checkOpenPositionsCount();
-      if (positionsCount > MAX_POSITIONS) {
+      const positionsCount = await checkOpenPositionsCount({ client });
+      if (positionsCount > config.maxPositions) {
         continue;
       }
       if (!tradingPair.includes("USDT")) {
         continue;
       }
-      const hasOpenPosition = await checkOpenPositions(tradingPair);
+      const hasOpenPosition = await checkOpenPositions({ tradingPair, client });
 
       if (hasOpenPosition) {
         console.log(
@@ -60,14 +59,21 @@ async function run() {
         );
         continue;
       }
-      const signal = checkSignal(
+      const signal = checkSignal({
         candles,
-        candles.length - 1,
-        STRATEGY_RSI_OVERBOUGHT,
-      );
+        index: candles.length - 1,
+        rsiOverbought: config.strategyRsiOverbought,
+        rsi_period: config.strategyRsiPeriod,
+        sma_fast: config.strategySmaPeriodFast,
+        sma_slow: config.strategySmaPeriodSlow,
+      });
       if (!signal) continue;
-      await setLeverage(tradingPair, LEVERAGE);
-      const availableBalance = await getAvalibleBalance();
+      await setLeverage({
+        tradingPair,
+        leverage: config.leverage,
+        client,
+      });
+      const availableBalance = await getAvalibleBalance({ client });
       if (
         !availableBalance ||
         isNaN(availableBalance) ||
@@ -76,10 +82,10 @@ async function run() {
         console.error("Ошибка: баланс недоступен или равен 0.");
         continue;
       }
-      const lastPrice = await getLastMarketPrice(tradingPair);
-      const stopLossPrice = lastPrice * (1 + STRATEGY_STOP_LOSS_DELTA);
-      const takeProfitPrice = lastPrice * (1 - STRATEGY_TAKE_PROFIT_DELTA);
-      const risk = availableBalance * MAX_RISK;
+      const lastPrice = await getLastMarketPrice({ tradingPair, client });
+      const stopLossPrice = lastPrice * (1 + config.strategyStopLossDelta);
+      const takeProfitPrice = lastPrice * (1 - config.strategyTakeProfitDelta);
+      const risk = availableBalance * config.maxRisk;
 
       const stopDistance = Math.abs(lastPrice - stopLossPrice);
 
@@ -104,6 +110,3 @@ async function run() {
     console.error("Ошибка в стратегии:", error);
   }
 }
-(async () => {
-  await run();
-})();

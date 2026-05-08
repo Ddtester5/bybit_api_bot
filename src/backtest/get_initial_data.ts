@@ -1,14 +1,21 @@
+import { RestClientV5 } from "bybit-api";
+import fs from "fs/promises";
+import path from "path";
 import { getTradingPairs } from "../api/get_tradings_pair";
 import { loadHistoricalCandles } from "../api/loadHistoricalCandles";
 import { BACKTEST_SYMBOLS_COUNT } from "../config/main_config";
 import { Candle } from "../types/types";
-import fs from "fs/promises";
-import path from "path";
 
 const DATA_DIR = "./data";
 const SYMBOLS_FILE = path.join(DATA_DIR, "symbols.json");
 
-export async function getInitialData({ testMode }: { testMode: boolean }) {
+export async function getInitialData({
+  testMode,
+  client,
+}: {
+  testMode: boolean;
+  client: RestClientV5;
+}) {
   const candlesBySymbol = new Map<string, Candle[]>();
   let symbols: string[] = [];
 
@@ -42,7 +49,7 @@ export async function getInitialData({ testMode }: { testMode: boolean }) {
   console.log(candlesBySymbol.size);
   // Получаем актуальный список пар (если в testMode, ограничиваем количество)
   if (symbols.length === 0) {
-    const pairs = await getTradingPairs();
+    const pairs = await getTradingPairs({ client });
     symbols = testMode ? pairs.slice(0, BACKTEST_SYMBOLS_COUNT) : pairs;
 
     // Обновляем общий список символов в файле
@@ -55,7 +62,7 @@ export async function getInitialData({ testMode }: { testMode: boolean }) {
       continue;
     }
 
-    const candles = await loadHistoricalCandles(symbol);
+    const candles = await loadHistoricalCandles({ symbol, client });
     if (candles?.length) {
       candlesBySymbol.set(symbol, candles);
       await fs.writeFile(

@@ -1,6 +1,10 @@
-import { client } from "./bybit_api_client_v5";
+import { RestClientV5 } from "bybit-api";
 
-export const checkOpenPositionsCount = async () => {
+export const checkOpenPositionsCount = async ({
+  client,
+}: {
+  client: RestClientV5;
+}) => {
   const positionsCount = await client.getPositionInfo({
     category: "linear",
     settleCoin: "USDT",

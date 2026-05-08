@@ -1,6 +1,12 @@
-import { client } from "./bybit_api_client_v5";
+import { RestClientV5 } from "bybit-api";
 
-export const getLastMarketPrice = async (tradingPair: string) => {
+export const getLastMarketPrice = async ({
+  tradingPair,
+  client,
+}: {
+  tradingPair: string;
+  client: RestClientV5;
+}) => {
   const marketData = await client.getTickers({
     category: "linear",
     symbol: tradingPair,

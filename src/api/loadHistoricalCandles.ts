@@ -1,16 +1,21 @@
-import { KlineIntervalV3 } from "bybit-api";
+import { KlineIntervalV3, RestClientV5 } from "bybit-api";
 import {
   BACKTEST_CANDLES_COUNT,
   BACKTEST_CANDLE_INTERVAL,
 } from "../config/main_config";
 import { Candle } from "../types/types";
-import { client } from "./bybit_api_client_v5";
 
-export async function loadHistoricalCandles(
-  symbol: string,
-  hours: number = BACKTEST_CANDLES_COUNT,
-  candle_interval: number = BACKTEST_CANDLE_INTERVAL,
-): Promise<Candle[]> {
+export async function loadHistoricalCandles({
+  symbol,
+  hours = BACKTEST_CANDLES_COUNT,
+  candle_interval = BACKTEST_CANDLE_INTERVAL,
+  client,
+}: {
+  symbol: string;
+  hours?: number;
+  candle_interval?: number;
+  client: RestClientV5;
+}): Promise<Candle[]> {
   const candles: Candle[] = [];
   const limit = 200; // Лимит для V5 Linear
   const totalNeeded = Math.floor((hours * 60) / candle_interval);
