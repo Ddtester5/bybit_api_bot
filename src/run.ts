@@ -30,6 +30,7 @@ export async function runStart({
       console.log("\nPAIR:", tradingPair);
 
       const candles = await loadHistoricalCandles({
+        hours: config.strategySmaPeriodSlow + 5,
         symbol: tradingPair,
         client,
       });

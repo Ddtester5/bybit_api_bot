@@ -22,6 +22,7 @@
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
     "@types/node": "^22.10.5",
+    "@types/ws": "^8.18.1",
     "@typescript-eslint/eslint-plugin": "^8.19.1",
     "@typescript-eslint/parser": "^8.19.1",
     "eslint": "^9.18.0",
@@ -40,6 +41,7 @@
   "dependencies": {
     "bybit-api": "^3.10.29",
     "dotenv": "^16.4.7",
-    "moment": "^2.30.1"
+    "moment": "^2.30.1",
+    "ws": "^8.20.0"
   }
 }
