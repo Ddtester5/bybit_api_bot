@@ -1,265 +1,225 @@
-// import WebSocket from "ws";
-// import { RestClientV5 } from "bybit-api";
-
-// /*
-//   SIMPLE ORDERBOOK SCALPER
-//   ------------------------
-//   Логика:
-//   - слушаем стакан BTCUSDT
-//   - считаем imbalance
-//   - если bid сильно больше ask -> LONG
-//   - если ask сильно больше bid -> SHORT
-//   - TP/SL фиксированные
-//   - только 1 позиция одновременно
-
-//   ЭТО СТАРТОВЫЙ ШАБЛОН.
-//   НЕ production-ready.
-// */
-
-// // =======================================
-// // CONFIG
-// // =======================================
-
-// const API_KEY = "YOUR_API_KEY";
-// const API_SECRET = "YOUR_API_SECRET";
-
-// const SYMBOL = "BTCUSDT";
-
-// const LEVERAGE = 10;
-
-// const ORDER_QTY = 0.001;
-
-// const IMBALANCE_LONG = 1.8;
-// const IMBALANCE_SHORT = 0.55;
-
-// const TP_PERCENT = 0.0015; // 0.15%
-// const SL_PERCENT = 0.001; // 0.10%
-
-// const DEPTH_LEVELS = 20;
-
-// const MIN_SPREAD_PERCENT = 0.0002; // 0.02%
-
-// // =======================================
-// // CLIENT
-// // =======================================
-
-// const client = new RestClientV5({
-//   key: API_KEY,
-//   secret: API_SECRET,
-//   testnet: false,
-// });
-
-// // =======================================
-// // STATE
-// // =======================================
-
-// let orderbook: {
-//   bids: [number, number][];
-//   asks: [number, number][];
-// } = {
-//   bids: [],
-//   asks: [],
-// };
-
-// let inPosition = false;
-
-// // =======================================
-// // HELPERS
-// // =======================================
-
-// function sumVolume(levels: [number, number][]) {
-//   return levels.reduce((sum, level) => sum + level[1], 0);
-// }
-
-// function getSpreadPercent(bestBid: number, bestAsk: number) {
-//   return (bestAsk - bestBid) / bestBid;
-// }
-
-// function calculateImbalance() {
-//   const bidVolume = sumVolume(orderbook.bids);
-//   const askVolume = sumVolume(orderbook.asks);
-
-//   if (askVolume === 0) return 1;
-
-//   return bidVolume / askVolume;
-// }
-
-// async function setLeverage() {
-//   try {
-//     await client.setLeverage({
-//       category: "linear",
-//       symbol: SYMBOL,
-//       buyLeverage: LEVERAGE.toString(),
-//       sellLeverage: LEVERAGE.toString(),
-//     });
-
-//     console.log("Leverage set:", LEVERAGE);
-//   } catch (e) {
-//     console.log("Leverage already set");
-//   }
-// }
-
-// async function openLong(price: number) {
-//   try {
-//     inPosition = true;
-
-//     const takeProfit = price * (1 + TP_PERCENT);
-//     const stopLoss = price * (1 - SL_PERCENT);
-
-//     console.log("OPEN LONG");
-//     console.log("ENTRY:", price);
-
-//     const response = await client.submitOrder({
-//       category: "linear",
-//       symbol: SYMBOL,
-
-//       side: "Buy",
-//       orderType: "Market",
-
-//       qty: ORDER_QTY.toString(),
-
-//       takeProfit: takeProfit.toFixed(2),
-//       stopLoss: stopLoss.toFixed(2),
-
-//       timeInForce: "GTC",
-//     });
-
-//     console.log(response);
-
-//     setTimeout(() => {
-//       inPosition = false;
-//     }, 30000);
-//   } catch (error) {
-//     inPosition = false;
-//     console.error(error);
-//   }
-// }
-
-// async function openShort(price: number) {
-//   try {
-//     inPosition = true;
-
-//     const takeProfit = price * (1 - TP_PERCENT);
-//     const stopLoss = price * (1 + SL_PERCENT);
-
-//     console.log("OPEN SHORT");
-//     console.log("ENTRY:", price);
-
-//     const response = await client.submitOrder({
-//       category: "linear",
-//       symbol: SYMBOL,
-
-//       side: "Sell",
-//       orderType: "Market",
-
-//       qty: ORDER_QTY.toString(),
-
-//       takeProfit: takeProfit.toFixed(2),
-//       stopLoss: stopLoss.toFixed(2),
-
-//       timeInForce: "GTC",
-//     });
-
-//     console.log(response);
-
-//     setTimeout(() => {
-//       inPosition = false;
-//     }, 30000);
-//   } catch (error) {
-//     inPosition = false;
-//     console.error(error);
-//   }
-// }
-
-// // =======================================
-// // SIGNAL ENGINE
-// // =======================================
-
-// async function processSignal() {
-//   if (inPosition) return;
-
-//   if (!orderbook.bids.length || !orderbook.asks.length) return;
-
-//   const bestBid = orderbook.bids[0][0];
-//   const bestAsk = orderbook.asks[0][0];
-
-//   const spread = getSpreadPercent(bestBid, bestAsk);
-
-//   if (spread > MIN_SPREAD_PERCENT) {
-//     return;
-//   }
-
-//   const imbalance = calculateImbalance();
-
-//   console.log({
-//     imbalance,
-//     spread,
-//     bestBid,
-//     bestAsk,
-//   });
-
-//   // LONG
-//   if (imbalance >= IMBALANCE_LONG) {
-//     await openLong(bestAsk);
-//     return;
-//   }
-
-//   // SHORT
-//   if (imbalance <= IMBALANCE_SHORT) {
-//     await openShort(bestBid);
-//     return;
-//   }
-// }
-
-// // =======================================
-// // WEBSOCKET
-// // =======================================
-
-// const ws = new WebSocket("wss://stream.bybit.com/v5/public/linear");
-
-// ws.on("open", async () => {
-//   console.log("WS CONNECTED");
-
-//   await setLeverage();
-
-//   ws.send(
-//     JSON.stringify({
-//       op: "subscribe",
-//       args: [`orderbook.50.${SYMBOL}`],
-//     }),
-//   );
-// });
-
-// ws.on("message", async (data) => {
-//   try {
-//     const message = JSON.parse(data.toString());
-
-//     if (!message.topic) return;
-
-//     if (!message.topic.includes("orderbook")) return;
-
-//     const book = message.data;
-
-//     if (!book?.b || !book?.a) return;
-
-//     orderbook.bids = book.b
-//       .slice(0, DEPTH_LEVELS)
-//       .map((x: string[]) => [Number(x[0]), Number(x[1])]);
-
-//     orderbook.asks = book.a
-//       .slice(0, DEPTH_LEVELS)
-//       .map((x: string[]) => [Number(x[0]), Number(x[1])]);
-
-//     await processSignal();
-//   } catch (error) {
-//     console.error(error);
-//   }
-// });
-
-// ws.on("error", (error) => {
-//   console.error("WS ERROR:", error);
-// });
-
-// ws.on("close", () => {
-//   console.log("WS CLOSED");
-// });
+import dotenv from "dotenv";
+import WebSocket from "ws";
+import { createClient } from "../api/bybit_api_client_v5";
+
+dotenv.config();
+
+// ==============================
+// CONFIG
+// ==============================
+
+const API_KEY = process.env.SCALP_API_KEY || "";
+const API_SECRET = process.env.SCALP_API_SECRET || "";
+
+const SYMBOL = "ETHUSDT";
+
+const LEVERAGE = 10;
+const ORDER_QTY = 0.01;
+
+// wall logic
+const WALL_THRESHOLD = 5000;
+const MAX_DISTANCE_PERCENT = 0.0015;
+
+// TP/SL
+const TAKE_PROFIT_PERCENT = 0.002;
+const STOP_LOSS_BUFFER = 0.0005;
+
+// risk control
+const COOLDOWN_MS = 150000;
+
+// ==============================
+// CLIENT
+// ==============================
+
+const client = createClient(API_KEY, API_SECRET);
+
+// ==============================
+// STATE
+// ==============================
+
+const orderbook = {
+  bids: [] as [number, number][],
+  asks: [] as [number, number][],
+};
+
+let inPosition = false;
+let lastTradeTime = 0;
+
+// ==============================
+// HELPERS
+// ==============================
+
+function distancePercent(a: number, b: number) {
+  return Math.abs(a - b) / a;
+}
+
+function findBidWall() {
+  return orderbook.bids.find((b) => b[1] > WALL_THRESHOLD);
+}
+
+function findAskWall() {
+  return orderbook.asks.find((a) => a[1] > WALL_THRESHOLD);
+}
+
+// ==============================
+// TRADING
+// ==============================
+
+async function openLong(entry: number, wall: number) {
+  try {
+    inPosition = true;
+
+    const tp = entry * (1 + TAKE_PROFIT_PERCENT);
+    const sl = wall * (1 - STOP_LOSS_BUFFER);
+
+    console.log("OPEN LONG (WALL BOUNCE)");
+
+    const res = await client.submitOrder({
+      category: "linear",
+      symbol: SYMBOL,
+      side: "Buy",
+      orderType: "Market",
+      qty: ORDER_QTY.toString(),
+      takeProfit: tp.toFixed(5),
+      stopLoss: sl.toFixed(5),
+      timeInForce: "GTC",
+    });
+
+    console.log(res);
+  } catch (e) {
+    console.error(e);
+  } finally {
+    setTimeout(() => {
+      inPosition = false;
+    }, 30000);
+  }
+}
+
+async function openShort(entry: number, wall: number) {
+  try {
+    inPosition = true;
+
+    const tp = entry * (1 - TAKE_PROFIT_PERCENT);
+    const sl = wall * (1 + STOP_LOSS_BUFFER);
+
+    console.log("OPEN SHORT (WALL BOUNCE)");
+
+    const res = await client.submitOrder({
+      category: "linear",
+      symbol: SYMBOL,
+      side: "Sell",
+      orderType: "Market",
+      qty: ORDER_QTY.toString(),
+      takeProfit: tp.toFixed(5),
+      stopLoss: sl.toFixed(5),
+      timeInForce: "GTC",
+    });
+
+    console.log(res);
+  } catch (e) {
+    console.error(e);
+  } finally {
+    setTimeout(() => {
+      inPosition = false;
+    }, 30000);
+  }
+}
+
+// ==============================
+// SIGNAL ENGINE
+// ==============================
+
+async function processSignal() {
+  if (inPosition) return;
+
+  const now = Date.now();
+  if (now - lastTradeTime < COOLDOWN_MS) return;
+
+  if (!orderbook.bids.length || !orderbook.asks.length) return;
+
+  const bestBid = orderbook.bids[0][0];
+  const bestAsk = orderbook.asks[0][0];
+  const mid = (bestBid + bestAsk) / 2;
+
+  const bidWall = findBidWall();
+  const askWall = findAskWall();
+
+  // ==========================
+  // LONG BOUNCE
+  // ==========================
+  if (bidWall) {
+    const [price, size] = bidWall;
+
+    const dist = distancePercent(mid, price);
+
+    if (price < mid && dist < MAX_DISTANCE_PERCENT) {
+      console.log("BID WALL DETECTED", { price, size });
+
+      lastTradeTime = now;
+      await openLong(bestAsk, price);
+      return;
+    }
+  }
+
+  // ==========================
+  // SHORT BOUNCE
+  // ==========================
+  if (askWall) {
+    const [price, size] = askWall;
+
+    const dist = distancePercent(mid, price);
+
+    if (price > mid && dist < MAX_DISTANCE_PERCENT) {
+      console.log("ASK WALL DETECTED", { price, size });
+
+      lastTradeTime = now;
+      await openShort(bestBid, price);
+      return;
+    }
+  }
+}
+
+// ==============================
+// WEBSOCKET
+// ==============================
+
+const ws = new WebSocket("wss://stream.bybit.com/v5/public/linear");
+
+ws.on("open", async () => {
+  console.log("WS CONNECTED");
+
+  await client.setLeverage({
+    category: "linear",
+    symbol: SYMBOL,
+    buyLeverage: LEVERAGE.toString(),
+    sellLeverage: LEVERAGE.toString(),
+  });
+
+  ws.send(
+    JSON.stringify({
+      op: "subscribe",
+      args: [`orderbook.50.${SYMBOL}`],
+    }),
+  );
+});
+
+ws.on("message", async (data) => {
+  const msg = JSON.parse(data.toString());
+
+  if (!msg.topic?.includes("orderbook")) return;
+
+  const b = msg.data;
+
+  if (!b?.b || !b?.a) return;
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  orderbook.bids = b.b.map((x: any[]) => [Number(x[0]), Number(x[1])]);
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  orderbook.asks = b.a.map((x: any[]) => [Number(x[0]), Number(x[1])]);
+
+  await processSignal();
+});
+
+ws.on("error", console.error);
+ws.on("close", () => console.log("WS CLOSED"));
