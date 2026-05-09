@@ -1,7 +1,4 @@
-import {
-  BACKTEST_COMMISSION_RATE,
-  BACKTEST_FUNDING_RATE_ESTIMATE,
-} from "../config/main_config";
+import { BACKTEST_COMMISSION_RATE, BACKTEST_FUNDING_RATE_ESTIMATE } from "../config/main_config";
 
 import { Candle, ClosedTrade, Position, StrategyConfig } from "../types/types";
 
@@ -40,11 +37,7 @@ export function tryOpenPosition({
   };
 }
 
-export function tryClosePosition(
-  position: Position,
-  candle: Candle,
-  index: number,
-): ClosedTrade | null {
+export function tryClosePosition(position: Position, candle: Candle, index: number): ClosedTrade | null {
   if (position.openIndex === index) return null;
 
   let exitPrice: number | null = null;
@@ -59,17 +52,11 @@ export function tryClosePosition(
 
   const pnl = (position.entry - exitPrice) * position.qty;
 
-  const fees =
-    (position.entry + exitPrice) * position.qty * BACKTEST_COMMISSION_RATE;
+  const fees = (position.entry + exitPrice) * position.qty * BACKTEST_COMMISSION_RATE;
 
   const barsHeld = index - position.openIndex;
 
-  const funding =
-    (position.entry *
-      position.qty *
-      BACKTEST_FUNDING_RATE_ESTIMATE *
-      barsHeld) /
-    8;
+  const funding = (position.entry * position.qty * BACKTEST_FUNDING_RATE_ESTIMATE * barsHeld) / 8;
 
   const result = pnl - fees - funding;
 

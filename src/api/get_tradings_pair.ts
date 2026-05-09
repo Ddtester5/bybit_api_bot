@@ -6,9 +6,7 @@ export const getTradingPairs = async ({ client }: { client: RestClientV5 }) => {
       category: "linear",
     });
 
-    const tradingPairs = response.result.list
-      .filter((pair) => pair.symbol.includes("USDT"))
-      .map((pair) => pair.symbol);
+    const tradingPairs = response.result.list.filter((pair) => pair.symbol.includes("USDT")).map((pair) => pair.symbol);
     console.log("starting to check pairs :", tradingPairs.length);
     return tradingPairs;
   } catch (error) {

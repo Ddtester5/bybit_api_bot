@@ -1,13 +1,7 @@
 import { RestClientV5 } from "bybit-api";
 
 // Функция для проверки открытых позиций
-export const checkOpenPositions = async ({
-  tradingPair,
-  client,
-}: {
-  tradingPair: string;
-  client: RestClientV5;
-}) => {
+export const checkOpenPositions = async ({ tradingPair, client }: { tradingPair: string; client: RestClientV5 }) => {
   try {
     const positionInfo = await client.getPositionInfo({
       category: "linear",

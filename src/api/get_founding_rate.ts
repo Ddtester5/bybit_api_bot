@@ -1,12 +1,6 @@
 import { RestClientV5 } from "bybit-api";
 
-export async function getFoundingRate({
-  symbol,
-  client,
-}: {
-  symbol: string;
-  client: RestClientV5;
-}) {
+export async function getFoundingRate({ symbol, client }: { symbol: string; client: RestClientV5 }) {
   try {
     const founding_rate = await client.getFundingRateHistory({
       category: "linear",

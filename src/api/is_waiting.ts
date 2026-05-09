@@ -20,9 +20,7 @@ export async function isWaitPeriodActive({
     if (!trades || trades.length === 0) return false;
 
     // Ищем самую свежую сделку с отрицательным PnL
-    const lastLossTrade = trades.find(
-      (trade) => parseFloat(trade.closedPnl) < 0,
-    );
+    const lastLossTrade = trades.find((trade) => parseFloat(trade.closedPnl) < 0);
 
     if (lastLossTrade) {
       const closeTime = parseInt(lastLossTrade.updatedTime);
@@ -32,13 +30,9 @@ export async function isWaitPeriodActive({
       const timePassedMs = currentTime - closeTime;
 
       if (timePassedMs < pauseDurationMs) {
-        const remainMinutes = Math.ceil(
-          (pauseDurationMs - timePassedMs) / 1000 / 60,
-        );
+        const remainMinutes = Math.ceil((pauseDurationMs - timePassedMs) / 1000 / 60);
 
-        console.log(
-          `[Account] Пауза после убытка на ${lastLossTrade.symbol}. Ждать: ${remainMinutes} мин.`,
-        );
+        console.log(`[Account] Пауза после убытка на ${lastLossTrade.symbol}. Ждать: ${remainMinutes} мин.`);
         return true;
       }
     }

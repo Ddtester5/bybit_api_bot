@@ -3,12 +3,7 @@ import { tryClosePosition, tryOpenPosition } from "./position";
 
 import { EngineInput, EngineResult, Position } from "../types/types";
 
-export function runEngine({
-  candlesBySymbol,
-  maxLength,
-  startBalance,
-  config,
-}: EngineInput): EngineResult {
+export function runEngine({ candlesBySymbol, maxLength, startBalance, config }: EngineInput): EngineResult {
   let balance = startBalance;
 
   const positions = new Map<string, Position>();
@@ -41,8 +36,7 @@ export function runEngine({
 
       // === ENTRY ===
       if (!positions.has(symbol) && positions.size < config.maxPositions) {
-        const lastExit =
-          lastExitIndex.get("symbol") || -config.pauseCandlesAfterLoss - 1;
+        const lastExit = lastExitIndex.get("symbol") || -config.pauseCandlesAfterLoss - 1;
         const canTrade = i - lastExit > config.pauseCandlesAfterLoss;
         if (
           canTrade &&

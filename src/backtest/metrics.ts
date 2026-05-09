@@ -9,15 +9,11 @@ export function calculateMetrics(
   const wins = closedTrades.filter((t) => t.win);
   const losses = closedTrades.filter((t) => !t.win);
 
-  const winRate =
-    closedTrades.length > 0 ? (wins.length / closedTrades.length) * 100 : 0;
+  const winRate = closedTrades.length > 0 ? (wins.length / closedTrades.length) * 100 : 0;
 
   const avgWin = wins.reduce((s, t) => s + t.pnl, 0) / (wins.length || 1);
 
-  const avgLoss =
-    losses.length > 0
-      ? losses.reduce((s, t) => s + t.pnl, 0) / losses.length
-      : 0;
+  const avgLoss = losses.length > 0 ? losses.reduce((s, t) => s + t.pnl, 0) / losses.length : 0;
 
   const grossProfit = wins.reduce((s, t) => s + t.pnl, 0);
   const grossLoss = Math.abs(losses.reduce((s, t) => s + t.pnl, 0));
@@ -37,9 +33,7 @@ export function calculateMetrics(
     if (dd > maxDrawdown) maxDrawdown = dd;
   }
 
-  const avgBars =
-    closedTrades.reduce((s, t) => s + t.barsHeld, 0) /
-    (closedTrades.length || 1);
+  const avgBars = closedTrades.reduce((s, t) => s + t.barsHeld, 0) / (closedTrades.length || 1);
 
   return {
     winRate,

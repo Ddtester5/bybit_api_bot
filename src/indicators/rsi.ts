@@ -1,10 +1,6 @@
 import { Candle } from "../types/types";
 
-export function calculateRSI(
-  candles: Candle[],
-  index: number,
-  period: number,
-): number | null {
+export function calculateRSI(candles: Candle[], index: number, period: number): number | null {
   if (index < period) return null;
 
   let gains = 0;

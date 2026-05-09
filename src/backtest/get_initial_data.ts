@@ -9,13 +9,7 @@ import { Candle } from "../types/types";
 const DATA_DIR = "./data";
 const SYMBOLS_FILE = path.join(DATA_DIR, "symbols.json");
 
-export async function getInitialData({
-  testMode,
-  client,
-}: {
-  testMode: boolean;
-  client: RestClientV5;
-}) {
+export async function getInitialData({ testMode, client }: { testMode: boolean; client: RestClientV5 }) {
   const candlesBySymbol = new Map<string, Candle[]>();
   let symbols: string[] = [];
 
@@ -29,10 +23,7 @@ export async function getInitialData({
     // Загружаем то, что уже есть на диске
     for (const symbol of symbols) {
       try {
-        const candleData = await fs.readFile(
-          path.join(DATA_DIR, `${symbol}.json`),
-          "utf-8",
-        );
+        const candleData = await fs.readFile(path.join(DATA_DIR, `${symbol}.json`), "utf-8");
         candlesBySymbol.set(symbol, JSON.parse(candleData));
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (err) {
@@ -65,10 +56,7 @@ export async function getInitialData({
     const candles = await loadHistoricalCandles({ symbol, client });
     if (candles?.length) {
       candlesBySymbol.set(symbol, candles);
-      await fs.writeFile(
-        path.join(DATA_DIR, `${symbol}.json`),
-        JSON.stringify(candles, null, 2),
-      );
+      await fs.writeFile(path.join(DATA_DIR, `${symbol}.json`), JSON.stringify(candles, null, 2));
       console.log(`Скачан и сохранен: ${symbol}.json`);
     }
   }

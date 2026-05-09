@@ -1,10 +1,6 @@
 import { Candle } from "../types/types";
 
-export function calculateATR(
-  candles: Candle[],
-  index: number,
-  period: number,
-): number | null {
+export function calculateATR(candles: Candle[], index: number, period: number): number | null {
   if (index < period) return null;
 
   let sumTR = 0;

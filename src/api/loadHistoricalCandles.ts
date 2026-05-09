@@ -1,8 +1,5 @@
 import { KlineIntervalV3, RestClientV5 } from "bybit-api";
-import {
-  BACKTEST_CANDLES_COUNT,
-  BACKTEST_CANDLE_INTERVAL,
-} from "../config/main_config";
+import { BACKTEST_CANDLES_COUNT, BACKTEST_CANDLE_INTERVAL } from "../config/main_config";
 import { Candle } from "../types/types";
 
 export async function loadHistoricalCandles({
@@ -53,8 +50,7 @@ export async function loadHistoricalCandles({
     candles.push(...newCandles);
 
     // Следующий запрос начинаем с времени последней полученной свечи + 1 интервал
-    startTime =
-      newCandles[newCandles.length - 1].timestamp + candle_interval * 60 * 1000;
+    startTime = newCandles[newCandles.length - 1].timestamp + candle_interval * 60 * 1000;
 
     if (list.length < limit) break;
   }

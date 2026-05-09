@@ -10,13 +10,7 @@ import { setLeverage } from "./api/set_leverage";
 import { checkSignal } from "./strategies/strategy";
 import { StrategyConfig } from "./types/types";
 
-export async function runStart({
-  client,
-  config,
-}: {
-  client: RestClientV5;
-  config: StrategyConfig;
-}) {
+export async function runStart({ client, config }: { client: RestClientV5; config: StrategyConfig }) {
   try {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const tradingPairs = await getTradingPairs({ client });
@@ -55,9 +49,7 @@ export async function runStart({
       const hasOpenPosition = await checkOpenPositions({ tradingPair, client });
 
       if (hasOpenPosition) {
-        console.log(
-          `Пропускаем, так как уже есть активная сделка по ${tradingPair}`,
-        );
+        console.log(`Пропускаем, так как уже есть активная сделка по ${tradingPair}`);
         continue;
       }
       const signal = checkSignal({
@@ -75,11 +67,7 @@ export async function runStart({
         client,
       });
       const availableBalance = await getAvalibleBalance({ client });
-      if (
-        !availableBalance ||
-        isNaN(availableBalance) ||
-        availableBalance <= 0
-      ) {
+      if (!availableBalance || isNaN(availableBalance) || availableBalance <= 0) {
         console.error("Ошибка: баланс недоступен или равен 0.");
         continue;
       }
