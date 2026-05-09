@@ -1,31 +1,33 @@
+import { RestClientV5 } from "bybit-api";
 import dotenv from "dotenv";
 import WebSocket from "ws";
-import { RestClientV5 } from "bybit-api";
 dotenv.config();
 
 const API_KEY = process.env.SCALP_API_KEY || "";
 const API_SECRET = process.env.SCALP_API_SECRET || "";
-const SYMBOL = "ETHUSDT";
-const LEVERAGE = 10;
-const ORDER_QTY = 0.01;
-const DEPTH = 20;
-const WALL_THRESHOLD = 1000;
+const LEVERAGE = 1;
+const ORDER_QTY = 1;
+const DEPTH = 500;
+const WALL_MULTIPLIER = 5;
 const MAX_DISTANCE_PERCENT = 0.0015;
 const TAKE_PROFIT_PERCENT = 0.003;
 const STOP_LOSS_PERCENT = 0.0015;
 const COOLDOWN_MS = 15000;
-
+const symbols = ["TONUSDT", "XRPUSDT"];
 const client = new RestClientV5({
   key: API_KEY,
   secret: API_SECRET,
   testnet: false,
 });
 
-const orderbook = {
-  bids: [] as [number, number][],
-  asks: [] as [number, number][],
-};
-let inPosition = false;
+const orderbook = new Map<
+  string,
+  {
+    bids: [number, number][];
+    asks: [number, number][];
+  }
+>();
+let inPosition = true;
 let lastTradeTime = 0;
 let isProcessing = false;
 
@@ -53,27 +55,44 @@ function updateOrderbookSide(current: [number, number][], updates: string[][], i
 function distancePercent(a: number, b: number) {
   return Math.abs(a - b) / a;
 }
-function findBidWall() {
-  return orderbook.bids.find((b) => b[1] >= WALL_THRESHOLD);
+function findBidWall(bids: [number, number][]) {
+  if (!bids.length) {
+    return undefined;
+  }
+  const avg = bids.reduce((sum, level) => sum + level[1], 0) / bids.length;
+  return bids.find((b) => b[1] >= avg * WALL_MULTIPLIER);
 }
-function findAskWall() {
-  return orderbook.asks.find((a) => a[1] >= WALL_THRESHOLD);
+function findAskWall(asks: [number, number][]) {
+  if (!asks.length) {
+    return undefined;
+  }
+  const avg = asks.reduce((sum, level) => sum + level[1], 0) / asks.length;
+  return asks.find((a) => a[1] >= avg * WALL_MULTIPLIER);
 }
 async function checkPosition() {
   try {
     const res = await client.getPositionInfo({
       category: "linear",
-      symbol: SYMBOL,
+      settleCoin: "USDT",
     });
-
-    const active = res.result.list.find((p) => Number(p.size) > 0);
-
+    const list = res?.result?.list;
+    if (!Array.isArray(list)) {
+      console.log("No position list returned:", res);
+      inPosition = false;
+      return;
+    }
+    const active = list.find((p) => Number(p.size) > 0);
     inPosition = !!active;
   } catch (e) {
-    console.error(e);
+    console.error("checkPosition error:", e);
+    inPosition = false;
   }
 }
-async function openLong(entry: number) {
+async function openLong(entry: number, symbol: string) {
+  if (inPosition) {
+    return;
+  }
+  inPosition = true;
   try {
     const tp = entry * (1 + TAKE_PROFIT_PERCENT);
     const sl = entry * (1 - STOP_LOSS_PERCENT);
@@ -86,12 +105,14 @@ async function openLong(entry: number) {
 
     const res = await client.submitOrder({
       category: "linear",
-      symbol: SYMBOL,
+      symbol: symbol,
       side: "Buy",
-      orderType: "Market",
+      orderType: "Limit",
+      isLeverage: LEVERAGE,
+      price: entry.toFixed(3),
       qty: ORDER_QTY.toString(),
-      takeProfit: tp.toFixed(2),
-      stopLoss: sl.toFixed(2),
+      takeProfit: tp.toFixed(3),
+      stopLoss: sl.toFixed(3),
       timeInForce: "GTC",
     });
     console.log(res);
@@ -100,7 +121,11 @@ async function openLong(entry: number) {
     console.error(e);
   }
 }
-async function openShort(entry: number) {
+async function openShort(entry: number, symbol: string) {
+  if (inPosition) {
+    return;
+  }
+  inPosition = true;
   try {
     const tp = entry * (1 - TAKE_PROFIT_PERCENT);
     const sl = entry * (1 + STOP_LOSS_PERCENT);
@@ -112,12 +137,14 @@ async function openShort(entry: number) {
     });
     const res = await client.submitOrder({
       category: "linear",
-      symbol: SYMBOL,
+      symbol: symbol,
       side: "Sell",
-      orderType: "Market",
+      orderType: "Limit",
+      isLeverage: LEVERAGE,
+      price: entry.toFixed(3),
       qty: ORDER_QTY.toString(),
-      takeProfit: tp.toFixed(2),
-      stopLoss: sl.toFixed(2),
+      takeProfit: tp.toFixed(3),
+      stopLoss: sl.toFixed(3),
       timeInForce: "GTC",
     });
     console.log(res);
@@ -126,7 +153,7 @@ async function openShort(entry: number) {
     console.error(e);
   }
 }
-async function processSignal() {
+async function processSignal(symbol: string, orderbook: { bids: [number, number][]; asks: [number, number][] }) {
   if (inPosition) {
     return;
   }
@@ -139,10 +166,16 @@ async function processSignal() {
   const bestBid = orderbook.bids[0][0];
   const bestAsk = orderbook.asks[0][0];
   const mid = (bestBid + bestAsk) / 2;
-  const bidWall = findBidWall();
-  const askWall = findAskWall();
-  console.log("BID WALL:", bidWall);
-  console.log("ASK WALL:", askWall);
+  const bidWall = findBidWall(orderbook.bids);
+  const askWall = findAskWall(orderbook.asks);
+  // console.log({
+  //   symbol: symbol,
+  //   bestBid: bestBid,
+  //   bestAsk: bestAsk,
+  //   mid: mid,
+  //   bidWall: bidWall,
+  //   askWall: askWall,
+  // });
   if (bidWall) {
     const [price, size] = bidWall;
     const dist = distancePercent(mid, price);
@@ -153,7 +186,7 @@ async function processSignal() {
         wallSize: size,
         dist,
       });
-      await openLong(bestAsk);
+      await openLong(bestAsk, symbol);
       return;
     }
   }
@@ -167,36 +200,22 @@ async function processSignal() {
         wallSize: size,
         dist,
       });
-      await openShort(bestBid);
+      await openShort(bestBid, symbol);
       return;
     }
   }
 }
 const ws = new WebSocket("wss://stream.bybit.com/v5/public/linear");
-
+setInterval(async () => {
+  await checkPosition();
+}, 5000);
 ws.on("open", async () => {
   console.log("WS CONNECTED");
-
-  try {
-    await client.setLeverage({
-      category: "linear",
-      symbol: SYMBOL,
-
-      buyLeverage: LEVERAGE.toString(),
-
-      sellLeverage: LEVERAGE.toString(),
-    });
-
-    console.log("LEVERAGE SET");
-  } catch {
-    console.log("LEVERAGE ALREADY SET");
-  }
 
   ws.send(
     JSON.stringify({
       op: "subscribe",
-
-      args: [`orderbook.50.${SYMBOL}`],
+      args: symbols.map((s) => `orderbook.${DEPTH}.${s}`),
     }),
   );
 });
@@ -210,22 +229,29 @@ ws.on("message", async (raw) => {
     if (!msg.topic?.includes("orderbook")) {
       return;
     }
+    const symbol = msg.topic.split(".")[2];
+    if (!orderbook.has(symbol)) {
+      orderbook.set(symbol, {
+        bids: [],
+        asks: [],
+      });
+    }
+
+    const book = orderbook.get(symbol)!;
+
     const data = msg.data;
-    if (!data) {
-      return;
-    }
+
     if (msg.type === "snapshot") {
-      orderbook.bids = data.b.map((x: string[]): [number, number] => [Number(x[0]), Number(x[1])]);
-      orderbook.asks = data.a.map((x: string[]): [number, number] => [Number(x[0]), Number(x[1])]);
-      console.log("SNAPSHOT LOADED");
-      return;
+      book.bids = data.b.map((x: string[]): [number, number] => [Number(x[0]), Number(x[1])]);
+      book.asks = data.a.map((x: string[]): [number, number] => [Number(x[0]), Number(x[1])]);
     }
+
     if (msg.type === "delta") {
-      orderbook.bids = updateOrderbookSide(orderbook.bids, data.b || [], true);
-      orderbook.asks = updateOrderbookSide(orderbook.asks, data.a || [], false);
+      book.bids = updateOrderbookSide(book.bids, data.b || [], true);
+      book.asks = updateOrderbookSide(book.asks, data.a || [], false);
     }
-    await checkPosition();
-    await processSignal();
+
+    processSignal(symbol, book);
   } catch (e) {
     console.error("WS ERROR", e);
   } finally {
