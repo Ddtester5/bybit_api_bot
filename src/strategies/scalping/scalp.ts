@@ -6,10 +6,10 @@ dotenv.config();
 const API_KEY = process.env.SCALP_API_KEY || "";
 const API_SECRET = process.env.SCALP_API_SECRET || "";
 const LEVERAGE = 1;
-const ORDER_QTY = 1;
+const ORDER_QTY = 0.1;
 const DEPTH = 1000;
 const WALL_MULTIPLIER = 10;
-const WALL_ENTRY_BUFFER = 0.0002;
+const WALL_ENTRY_BUFFER = 0.0005;
 const MAX_DISTANCE_PERCENT = 0.0015;
 const TAKE_PROFIT_PERCENT = 0.004;
 const STOP_LOSS_PERCENT = 0.0015;
@@ -99,11 +99,12 @@ async function openLong(symbol: string, price: number) {
   }
   inPosition = true;
   try {
-    const tp = price * (1 + TAKE_PROFIT_PERCENT);
-    const sl = price * (1 - STOP_LOSS_PERCENT);
+    const openPrice = price * (1 + WALL_ENTRY_BUFFER);
+    const tp = openPrice * (1 + TAKE_PROFIT_PERCENT);
+    const sl = openPrice * (1 - STOP_LOSS_PERCENT);
     console.log("OPEN LONG");
     console.log({
-      price,
+      price: openPrice,
       tp,
       sl,
     });
@@ -114,10 +115,10 @@ async function openLong(symbol: string, price: number) {
       side: "Buy",
       orderType: "Limit",
       isLeverage: LEVERAGE,
-      price: (price * (1 + WALL_ENTRY_BUFFER)).toFixed(3),
+      price: openPrice.toFixed(4),
       qty: ORDER_QTY.toString(),
-      takeProfit: tp.toFixed(3),
-      stopLoss: sl.toFixed(3),
+      takeProfit: tp.toFixed(4),
+      stopLoss: sl.toFixed(4),
       timeInForce: "GTC",
     });
 
@@ -133,11 +134,12 @@ async function openShort(symbol: string, price: number) {
   }
   inPosition = true;
   try {
-    const tp = price * (1 - TAKE_PROFIT_PERCENT);
-    const sl = price * (1 + STOP_LOSS_PERCENT);
+    const openPrice = price * (1 - WALL_ENTRY_BUFFER);
+    const tp = openPrice * (1 - TAKE_PROFIT_PERCENT);
+    const sl = openPrice * (1 + STOP_LOSS_PERCENT);
     console.log("OPEN SHORT");
     console.log({
-      price,
+      price: openPrice,
       tp,
       sl,
     });
@@ -147,10 +149,10 @@ async function openShort(symbol: string, price: number) {
       side: "Sell",
       orderType: "Limit",
       isLeverage: LEVERAGE,
-      price: (price * (1 - WALL_ENTRY_BUFFER)).toFixed(3),
+      price: openPrice.toFixed(4),
       qty: ORDER_QTY.toString(),
-      takeProfit: tp.toFixed(3),
-      stopLoss: sl.toFixed(3),
+      takeProfit: tp.toFixed(4),
+      stopLoss: sl.toFixed(4),
       timeInForce: "GTC",
     });
     console.log(res);
