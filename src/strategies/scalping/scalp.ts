@@ -7,10 +7,11 @@ const API_KEY = process.env.SCALP_API_KEY || "";
 const API_SECRET = process.env.SCALP_API_SECRET || "";
 const LEVERAGE = 1;
 const ORDER_QTY = 1;
-const DEPTH = 500;
-const WALL_MULTIPLIER = 5;
+const DEPTH = 1000;
+const WALL_MULTIPLIER = 10;
+const WALL_ENTRY_BUFFER = 0.0002;
 const MAX_DISTANCE_PERCENT = 0.0015;
-const TAKE_PROFIT_PERCENT = 0.003;
+const TAKE_PROFIT_PERCENT = 0.004;
 const STOP_LOSS_PERCENT = 0.0015;
 const COOLDOWN_MS = 15000;
 const symbols = ["TONUSDT", "XRPUSDT"];
@@ -71,34 +72,38 @@ function findAskWall(asks: [number, number][]) {
 }
 async function checkPosition() {
   try {
-    const res = await client.getPositionInfo({
+    const posRes = await client.getPositionInfo({
       category: "linear",
       settleCoin: "USDT",
     });
-    const list = res?.result?.list;
-    if (!Array.isArray(list)) {
-      console.log("No position list returned:", res);
-      inPosition = false;
-      return;
-    }
-    const active = list.find((p) => Number(p.size) > 0);
-    inPosition = !!active;
+    const positions = posRes?.result?.list || [];
+    const hasPosition = positions.some((p) => Number(p.size) > 0);
+
+    const orderRes = await client.getActiveOrders({
+      category: "linear",
+      settleCoin: "USDT",
+    });
+    const orders = orderRes?.result?.list || [];
+
+    const hasOrders = orders.length > 0;
+
+    inPosition = hasPosition || hasOrders;
   } catch (e) {
     console.error("checkPosition error:", e);
     inPosition = false;
   }
 }
-async function openLong(entry: number, symbol: string) {
+async function openLong(symbol: string, price: number) {
   if (inPosition) {
     return;
   }
   inPosition = true;
   try {
-    const tp = entry * (1 + TAKE_PROFIT_PERCENT);
-    const sl = entry * (1 - STOP_LOSS_PERCENT);
+    const tp = price * (1 + TAKE_PROFIT_PERCENT);
+    const sl = price * (1 - STOP_LOSS_PERCENT);
     console.log("OPEN LONG");
     console.log({
-      entry,
+      price,
       tp,
       sl,
     });
@@ -109,29 +114,30 @@ async function openLong(entry: number, symbol: string) {
       side: "Buy",
       orderType: "Limit",
       isLeverage: LEVERAGE,
-      price: entry.toFixed(3),
+      price: (price * (1 + WALL_ENTRY_BUFFER)).toFixed(3),
       qty: ORDER_QTY.toString(),
       takeProfit: tp.toFixed(3),
       stopLoss: sl.toFixed(3),
       timeInForce: "GTC",
     });
+
     console.log(res);
     lastTradeTime = Date.now();
   } catch (e) {
     console.error(e);
   }
 }
-async function openShort(entry: number, symbol: string) {
+async function openShort(symbol: string, price: number) {
   if (inPosition) {
     return;
   }
   inPosition = true;
   try {
-    const tp = entry * (1 - TAKE_PROFIT_PERCENT);
-    const sl = entry * (1 + STOP_LOSS_PERCENT);
+    const tp = price * (1 - TAKE_PROFIT_PERCENT);
+    const sl = price * (1 + STOP_LOSS_PERCENT);
     console.log("OPEN SHORT");
     console.log({
-      entry,
+      price,
       tp,
       sl,
     });
@@ -141,7 +147,7 @@ async function openShort(entry: number, symbol: string) {
       side: "Sell",
       orderType: "Limit",
       isLeverage: LEVERAGE,
-      price: entry.toFixed(3),
+      price: (price * (1 - WALL_ENTRY_BUFFER)).toFixed(3),
       qty: ORDER_QTY.toString(),
       takeProfit: tp.toFixed(3),
       stopLoss: sl.toFixed(3),
@@ -186,7 +192,7 @@ async function processSignal(symbol: string, orderbook: { bids: [number, number]
         wallSize: size,
         dist,
       });
-      await openLong(bestAsk, symbol);
+      await openLong(symbol, price);
       return;
     }
   }
@@ -200,7 +206,7 @@ async function processSignal(symbol: string, orderbook: { bids: [number, number]
         wallSize: size,
         dist,
       });
-      await openShort(bestBid, symbol);
+      await openShort(symbol, price);
       return;
     }
   }
