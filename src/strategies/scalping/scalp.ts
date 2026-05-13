@@ -1,4 +1,5 @@
 import { RestClientV5 } from "bybit-api";
+import crypto from "crypto";
 import dotenv from "dotenv";
 import WebSocket from "ws";
 dotenv.config();
@@ -20,7 +21,16 @@ const client = new RestClientV5({
   secret: API_SECRET,
   testnet: false,
 });
+const ws = new WebSocket("wss://stream.bybit.com/v5/public/linear");
+const privateWs = new WebSocket("wss://stream.bybit.com/v5/private");
+const expires = Date.now() + 10000;
+const signature = crypto.createHmac("sha256", API_SECRET).update(`GET/realtime${expires}`).digest("hex");
+privateWs.on("open", () => {
+  console.log("PRIVATE WS CONNECTED");
 
+  privateWs.send(JSON.stringify({ op: "auth", args: [API_KEY, expires, signature] }));
+  privateWs.send(JSON.stringify({ op: "subscribe", args: ["position", "order"] }));
+});
 const orderbook = new Map<
   string,
   {
@@ -213,10 +223,13 @@ async function processSignal(symbol: string, orderbook: { bids: [number, number]
     }
   }
 }
-const ws = new WebSocket("wss://stream.bybit.com/v5/public/linear");
 setInterval(async () => {
   await checkPosition();
 }, 5000);
+privateWs.on("message", (raw) => {
+  const msg = JSON.parse(raw.toString());
+  console.log(msg);
+});
 ws.on("open", async () => {
   console.log("WS CONNECTED");
 
