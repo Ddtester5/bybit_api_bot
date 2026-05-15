@@ -13,3 +13,17 @@ export interface TradingState {
   takeProfitOrderId: string | null;
   stopLossOrderId: string | null;
 }
+
+type WallState = {
+  price: number;
+  size: number;
+  count: number;
+};
+
+export const wallState = new Map<
+  string,
+  {
+    bid?: WallState;
+    ask?: WallState;
+  }
+>();
