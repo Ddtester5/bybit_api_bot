@@ -36,6 +36,7 @@ export async function placeTpSl(symbol: string, side: Side, entryPrice: number) 
     qty: config.orderQty.toString(),
     reduceOnly: true,
   });
-
+  console.log("TP RESULT", tp);
+  console.log("SL RESULT", sl);
   tradingState.stopLossOrderId = sl.result.orderId;
 }

@@ -14,3 +14,16 @@ export function resetState() {
   tradingState.takeProfitOrderId = null;
   tradingState.stopLossOrderId = null;
 }
+type WallState = {
+  price: number;
+  size: number;
+  count: number;
+};
+
+export const wallState = new Map<
+  string,
+  {
+    bid?: WallState;
+    ask?: WallState;
+  }
+>();

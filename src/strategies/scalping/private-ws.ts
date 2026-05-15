@@ -29,22 +29,22 @@ export function setupPrivateWs() {
   privateWs.on("message", async (raw) => {
     const msg = JSON.parse(raw.toString());
 
-    if (msg.topic !== "order") {
+    if (msg.topic !== "order" && msg.topic !== "execution") {
       return;
     }
 
     for (const order of msg.data) {
       const orderId = order.orderId;
 
-      const status = order.orderStatus;
-
-      if (tradingState.entryOrderId && orderId === tradingState.entryOrderId && status === "Filled") {
+      const isFilled = order.orderStatus === "Filled" || order.execType === "Trade";
+      const entryPrice = Number(order.avgPrice || order.price);
+      if (tradingState.entryOrderId && orderId === tradingState.entryOrderId && isFilled) {
         tradingState.entryOrderId = null;
 
-        await placeTpSl(order.symbol, order.side, Number(order.avgPrice));
+        await placeTpSl(order.symbol, order.side, entryPrice);
       }
 
-      if (tradingState.takeProfitOrderId && orderId === tradingState.takeProfitOrderId && status === "Filled") {
+      if (tradingState.takeProfitOrderId && orderId === tradingState.takeProfitOrderId && isFilled) {
         if (tradingState.stopLossOrderId) {
           await client.cancelOrder({
             category: "linear",
@@ -58,7 +58,7 @@ export function setupPrivateWs() {
         resetState();
       }
 
-      if (tradingState.stopLossOrderId && orderId === tradingState.stopLossOrderId && status === "Filled") {
+      if (tradingState.stopLossOrderId && orderId === tradingState.stopLossOrderId && isFilled) {
         if (tradingState.takeProfitOrderId) {
           await client.cancelOrder({
             category: "linear",

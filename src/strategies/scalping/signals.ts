@@ -1,8 +1,8 @@
-import { average, distancePercent } from "./calc";
+import { distancePercent, findAskWall, findBidWall } from "./calc";
 import { openPosition } from "./orders";
 import { config } from "./scalp_config";
-import { tradingState } from "./state";
-import { Orderbook, wallState } from "./types";
+import { tradingState, wallState } from "./state";
+import { Orderbook } from "./types";
 
 export async function processSignal(symbol: string, orderbook: Orderbook) {
   if (tradingState.inPosition) {
@@ -11,19 +11,20 @@ export async function processSignal(symbol: string, orderbook: Orderbook) {
 
   const bestBid = orderbook.bids[0][0];
   const bestAsk = orderbook.asks[0][0];
+
   const mid = (bestBid + bestAsk) / 2;
 
-  const bidWallRaw = orderbook.bids.find((b) => b[1] >= average(orderbook.bids) * config.wallMultiplier);
+  const bidWall = findBidWall(orderbook.bids, config.wallMultiplier);
 
-  const askWallRaw = orderbook.asks.find((a) => a[1] >= average(orderbook.asks) * config.wallMultiplier);
+  const askWall = findAskWall(orderbook.asks, config.wallMultiplier);
 
   const state = wallState.get(symbol) || {};
 
   // =========================
-  // BID WALL TRACKING
+  // BID WALL (LONG)
   // =========================
-  if (bidWallRaw) {
-    const [price, size] = bidWallRaw;
+  if (bidWall) {
+    const [price, size] = bidWall;
 
     if (!state.bid || state.bid.price !== price) {
       state.bid = {
@@ -37,14 +38,12 @@ export async function processSignal(symbol: string, orderbook: Orderbook) {
 
     wallState.set(symbol, state);
 
+    const isStable = state.bid.count >= config.minWallStability;
     const dist = distancePercent(mid, price);
 
-    const isStable = state.bid.count >= config.minWallStability;
-
-    const broke = bestBid < price;
-
-    if (isStable && price < mid && dist <= config.maxDistancePercent && broke) {
+    if (isStable && price < mid && dist <= config.maxDistancePercent) {
       await openPosition(symbol, "Buy", price);
+
       return;
     }
   } else {
@@ -52,10 +51,10 @@ export async function processSignal(symbol: string, orderbook: Orderbook) {
   }
 
   // =========================
-  // ASK WALL TRACKING
+  // ASK WALL (SHORT)
   // =========================
-  if (askWallRaw) {
-    const [price, size] = askWallRaw;
+  if (askWall) {
+    const [price, size] = askWall;
 
     if (!state.ask || state.ask.price !== price) {
       state.ask = {
@@ -69,13 +68,11 @@ export async function processSignal(symbol: string, orderbook: Orderbook) {
 
     wallState.set(symbol, state);
 
-    const dist = distancePercent(mid, price);
-
     const isStable = state.ask.count >= config.minWallStability;
 
-    const broke = bestAsk > price;
+    const dist = distancePercent(mid, price);
 
-    if (isStable && price > mid && dist <= config.maxDistancePercent && broke) {
+    if (isStable && price > mid && dist <= config.maxDistancePercent) {
       await openPosition(symbol, "Sell", price);
     }
   } else {
