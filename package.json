@@ -4,7 +4,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "tsx src/backtest/backtest.js > backtest_results.txt 2>&1",
-    "scalp": "tsx src/strategies/scalping/scalp.ts",
+    "scalp": "tsx src/scalping/scalp.ts",
     "testcli": "tsx src/backtest/backtest.js",
     "build": "tsc",
     "start": "node dist/run1.js",
