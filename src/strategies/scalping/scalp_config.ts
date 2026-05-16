@@ -11,25 +11,14 @@ export const config = {
 
   depth: 1000,
 
-  wallMultiplier: 10,
-  wallEntryBuffer: 0.001,
-  minWallStability: 3,
+  wallMultiplier: 20,
+  wallEntryBuffer: 0.0005,
+  minWallStability: 10,
 
-  maxDistancePercent: 0.0015,
+  maxDistancePercent: 0.002,
 
-  takeProfitPercent: 0.002,
+  takeProfitPercent: 0.003,
   stopLossPercent: 0.001,
 
-  symbols: [
-    "TONUSDT",
-    "XRPUSDT",
-    // "SOLUSDT",
-    // "BNBUSDT",
-    // "ADAUSDT",
-    // "DOGEUSDT",
-    // "TRXUSDT",
-    // "LINKUSDT",
-    // "AVAXUSDT",
-    // "DOTUSDT",
-  ],
+  symbols: ["XRPUSDT"],
 };
