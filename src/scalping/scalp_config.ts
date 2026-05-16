@@ -5,6 +5,8 @@ dotenv.config();
 export const config = {
   apiKey: process.env.SCALP_API_KEY || "",
   apiSecret: process.env.SCALP_API_SECRET || "",
+  backtest: true,
+  clearBacktestDataOnStartup: true,
 
   leverage: 1,
   orderQty: 0.1,

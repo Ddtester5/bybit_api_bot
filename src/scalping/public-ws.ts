@@ -1,10 +1,7 @@
-import { updateOrderbookSide } from "./orderbook";
+import { recordMessage } from "./backtest/recorder";
+import { handleOrderbookMessage } from "./handle-orderbook-message";
 import { config } from "./scalp_config";
-import { processSignal } from "./signals";
-import { Orderbook } from "./types";
 import { publicWs } from "./ws";
-
-const orderbooks = new Map<string, Orderbook>();
 
 export function setupPublicWs() {
   publicWs.on("open", () => {
@@ -19,40 +16,14 @@ export function setupPublicWs() {
 
   publicWs.on("message", async (raw) => {
     try {
-      const msg = JSON.parse(raw.toString());
+      const text = raw.toString();
+      recordMessage(text);
 
-      if (!msg.topic?.includes("orderbook")) {
-        return;
-      }
+      const msg = JSON.parse(text);
 
-      const symbol = msg.topic.split(".")[2];
-
-      if (!orderbooks.has(symbol)) {
-        orderbooks.set(symbol, {
-          bids: [],
-          asks: [],
-        });
-      }
-
-      const orderbook = orderbooks.get(symbol)!;
-
-      const data = msg.data;
-
-      if (msg.type === "snapshot") {
-        orderbook.bids = data.b.map((x: string[]) => [Number(x[0]), Number(x[1])]);
-
-        orderbook.asks = data.a.map((x: string[]) => [Number(x[0]), Number(x[1])]);
-      }
-
-      if (msg.type === "delta") {
-        orderbook.bids = updateOrderbookSide(orderbook.bids, data.b || [], true);
-
-        orderbook.asks = updateOrderbookSide(orderbook.asks, data.a || [], false);
-      }
-
-      await processSignal(symbol, orderbook);
-    } catch (e) {
-      console.error(e);
+      await handleOrderbookMessage(msg);
+    } catch (error) {
+      console.error("Error handling public WS message:", error);
     }
   });
 }
