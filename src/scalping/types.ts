@@ -7,9 +7,11 @@ export interface Orderbook {
 export type Side = "Buy" | "Sell";
 
 export interface TradingState {
+  inStartOrder: boolean;
   inPosition: boolean;
   isOpeningPosition: boolean;
   entryOrderId: string | null;
   takeProfitOrderId: string | null;
   stopLossOrderId: string | null;
+  createdAt: number | null;
 }

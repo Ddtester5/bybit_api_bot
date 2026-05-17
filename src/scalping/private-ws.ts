@@ -21,7 +21,7 @@ export function setupPrivateWs() {
       JSON.stringify({
         op: "subscribe",
 
-        args: ["position", "order"],
+        args: ["order"],
       }),
     );
   });
@@ -29,15 +29,16 @@ export function setupPrivateWs() {
   privateWs.on("message", async (raw) => {
     const msg = JSON.parse(raw.toString());
 
-    if (msg.topic !== "order" && msg.topic !== "execution") {
+    if (msg.topic !== "order") {
       return;
     }
 
     for (const order of msg.data) {
       const orderId = order.orderId;
-
+      // console.log({ order });
       const isFilled = order.orderStatus === "Filled" || order.execType === "Trade";
-      const entryPrice = Number(order.avgPrice || order.price);
+      const entryPrice = Number(order.price);
+      console.log({ orderId, isFilled, entryPrice });
       if (tradingState.entryOrderId && orderId === tradingState.entryOrderId && isFilled) {
         tradingState.entryOrderId = null;
 

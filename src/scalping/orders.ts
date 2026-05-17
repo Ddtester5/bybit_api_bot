@@ -4,11 +4,12 @@ import { tradingState } from "./state";
 import { Side } from "./types";
 
 export async function openPosition(symbol: string, side: Side, price: number) {
-  if (tradingState.inPosition || tradingState.isOpeningPosition) {
+  if (tradingState.inStartOrder || tradingState.inPosition || tradingState.isOpeningPosition) {
     return;
   }
 
-  tradingState.isOpeningPosition = true;
+  tradingState.inStartOrder = true;
+  tradingState.inPosition = true;
 
   try {
     const openPrice = side === "Buy" ? price * (1 + config.wallEntryBuffer) : price * (1 - config.wallEntryBuffer);
@@ -25,6 +26,7 @@ export async function openPosition(symbol: string, side: Side, price: number) {
     tradingState.inPosition = true;
 
     tradingState.entryOrderId = response.result.orderId;
+    tradingState.createdAt = Date.now();
 
     console.log(response);
   } catch (e) {
