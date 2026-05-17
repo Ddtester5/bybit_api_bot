@@ -1,6 +1,7 @@
 import { TradingState } from "./types";
 
 export const tradingState: TradingState = {
+  isProcessingPublickWs: false,
   inStartOrder: false,
   inPosition: false,
   isOpeningPosition: false,
@@ -16,6 +17,9 @@ export function resetState() {
   tradingState.entryOrderId = null;
   tradingState.takeProfitOrderId = null;
   tradingState.stopLossOrderId = null;
+  tradingState.createdAt = null;
+
+  console.log("tradingState was reseted", tradingState);
 }
 type WallState = {
   price: number;

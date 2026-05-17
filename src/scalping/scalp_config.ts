@@ -19,5 +19,5 @@ export const config = {
   takeProfitPercent: 0.009,
   stopLossPercent: 0.003,
 
-  symbols: ["ARCUSDT"],
+  symbols: ["BSBUSDT"],
 };

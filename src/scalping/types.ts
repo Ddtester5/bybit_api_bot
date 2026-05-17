@@ -7,6 +7,7 @@ export interface Orderbook {
 export type Side = "Buy" | "Sell";
 
 export interface TradingState {
+  isProcessingPublickWs: boolean;
   inStartOrder: boolean;
   inPosition: boolean;
   isOpeningPosition: boolean;

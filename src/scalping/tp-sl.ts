@@ -41,6 +41,7 @@ export async function placeTpSl(symbol: string, side: Side, entryPrice: number) 
     console.log("TP RESULT", tp);
     console.log("SL RESULT", sl);
     tradingState.stopLossOrderId = sl.result.orderId;
+    console.log("position sucsessfully created with tp and sl");
   } catch (error) {
     console.error("Error placing TP/SL:", error);
   }

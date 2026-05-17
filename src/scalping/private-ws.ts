@@ -35,12 +35,14 @@ export function setupPrivateWs() {
 
     for (const order of msg.data) {
       const orderId = order.orderId;
-      console.log({ order });
-      const isFilled = order.orderStatus === "Filled" || order.execType === "Trade";
+      const isFilled = order.orderStatus === "Filled";
       const entryPrice = Number(order.price);
-      console.log({ orderId, isFilled, entryPrice });
       if (tradingState.entryOrderId && orderId === tradingState.entryOrderId && isFilled) {
+        console.log("limit order was filled");
         tradingState.entryOrderId = null;
+        tradingState.createdAt = null;
+        tradingState.inPosition = true;
+        tradingState.inStartOrder = false;
 
         await placeTpSl(order.symbol, order.side, entryPrice);
       }
@@ -55,7 +57,7 @@ export function setupPrivateWs() {
             orderId: tradingState.stopLossOrderId,
           });
         }
-
+        console.log("position stop");
         resetState();
       }
 
@@ -69,7 +71,7 @@ export function setupPrivateWs() {
             orderId: tradingState.takeProfitOrderId,
           });
         }
-
+        console.log("position take");
         resetState();
       }
     }

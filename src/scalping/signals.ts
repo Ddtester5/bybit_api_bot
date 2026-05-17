@@ -6,91 +6,97 @@ import { resetState, tradingState, wallState } from "./state";
 import { Orderbook } from "./types";
 
 export async function processSignal(symbol: string, orderbook: Orderbook) {
-  if (
-    tradingState.inStartOrder &&
-    tradingState.entryOrderId &&
-    tradingState.createdAt &&
-    Date.now() - tradingState.createdAt > config.order_time_life_second * 1000
-  ) {
-    console.log("Position open for too long, resetting state");
-    await client.cancelOrder({
-      category: "linear",
-      symbol,
-      orderId: tradingState.entryOrderId,
-    });
-    resetState();
-    console.log({ tradingState });
-    return;
-  }
-  const bestBid = orderbook.bids[0][0];
-  const bestAsk = orderbook.asks[0][0];
-  const mid = (bestBid + bestAsk) / 2;
+  try {
+    const bestBid = orderbook.bids[0][0];
+    const bestAsk = orderbook.asks[0][0];
+    const mid = (bestBid + bestAsk) / 2;
 
-  const bidWall = findBidWall(orderbook.bids, config.wallMultiplier);
+    const bidWall = findBidWall(orderbook.bids, config.wallMultiplier);
 
-  const askWall = findAskWall(orderbook.asks, config.wallMultiplier);
+    const askWall = findAskWall(orderbook.asks, config.wallMultiplier);
 
-  const state = wallState.get(symbol) || {};
-  // console.log({ symbol, bestBid, bestAsk, bidWall, askWall, state, tradingState });
-
-  // =========================
-  // BID WALL (LONG)
-  // =========================
-  if (bidWall) {
-    const [price, size] = bidWall;
-
-    if (!state.bid || state.bid.price !== price) {
-      state.bid = {
-        price,
-        size,
-        count: 1,
-      };
-    } else {
-      state.bid.count++;
-    }
-
-    wallState.set(symbol, state);
-
-    const isStable = state.bid.count >= config.minWallStability;
-    const dist = distancePercent(mid, price);
-    const isOpenPosition = isStable && price < mid && dist <= config.maxDistancePercent;
-    // console.log("BID WALL", { symbol, mid, price, dist, isStable ,isOpenPosition });
-    if (isOpenPosition) {
-      await openPosition(symbol, "Buy", price);
-
+    const state = wallState.get(symbol) || {};
+    // console.log({ symbol, bestBid, bestAsk, bidWall, askWall, state, tradingState });
+    if (tradingState.isProcessingPublickWs) return;
+    tradingState.isProcessingPublickWs = true;
+    if (
+      tradingState.inStartOrder &&
+      tradingState.entryOrderId &&
+      tradingState.createdAt &&
+      Date.now() - tradingState.createdAt > config.order_time_life_second * 1000
+    ) {
+      console.log("Position open for too long, resetting state");
+      await client.cancelOrder({
+        category: "linear",
+        symbol,
+        orderId: tradingState.entryOrderId,
+      });
+      resetState();
       return;
     }
-  } else {
-    if (state.bid) state.bid = undefined;
-  }
+    // =========================
+    // BID WALL (LONG)
+    // =========================
+    if (bidWall) {
+      const [price, size] = bidWall;
 
-  // =========================
-  // ASK WALL (SHORT)
-  // =========================
-  if (askWall) {
-    const [price, size] = askWall;
+      if (!state.bid || state.bid.price !== price) {
+        state.bid = {
+          price,
+          size,
+          count: 1,
+        };
+      } else {
+        state.bid.count++;
+      }
 
-    if (!state.ask || state.ask.price !== price) {
-      state.ask = {
-        price,
-        size,
-        count: 1,
-      };
+      wallState.set(symbol, state);
+
+      const isStable = state.bid.count >= config.minWallStability;
+      const dist = distancePercent(mid, price);
+      const isOpenPosition = isStable && price < mid && dist <= config.maxDistancePercent;
+      // console.log("BID WALL", { symbol, mid, price, dist, isStable ,isOpenPosition });
+      if (isOpenPosition) {
+        await openPosition(symbol, "Buy", price);
+
+        return;
+      }
     } else {
-      state.ask.count++;
+      if (state.bid) state.bid = undefined;
     }
 
-    wallState.set(symbol, state);
+    // =========================
+    // ASK WALL (SHORT)
+    // =========================
+    if (askWall) {
+      const [price, size] = askWall;
 
-    const isStable = state.ask.count >= config.minWallStability;
+      if (!state.ask || state.ask.price !== price) {
+        state.ask = {
+          price,
+          size,
+          count: 1,
+        };
+      } else {
+        state.ask.count++;
+      }
 
-    const dist = distancePercent(mid, price);
-    const isOpenPosition = isStable && price > mid && dist <= config.maxDistancePercent;
-    // console.log("ASK WALL", { symbol, mid, price, dist, isStable,isOpenPosition });
-    if (isOpenPosition) {
-      await openPosition(symbol, "Sell", price);
+      wallState.set(symbol, state);
+
+      const isStable = state.ask.count >= config.minWallStability;
+
+      const dist = distancePercent(mid, price);
+      const isOpenPosition = isStable && price > mid && dist <= config.maxDistancePercent;
+      // console.log("ASK WALL", { symbol, mid, price, dist, isStable,isOpenPosition });
+      if (isOpenPosition) {
+        await openPosition(symbol, "Sell", price);
+      }
+    } else {
+      if (state.ask) state.ask = undefined;
     }
-  } else {
-    if (state.ask) state.ask = undefined;
+  } catch (error) {
+    console.log("process signal error", error);
+  } finally {
+    tradingState.isProcessingPublickWs = false;
   }
 }
