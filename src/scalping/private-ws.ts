@@ -35,7 +35,7 @@ export function setupPrivateWs() {
 
     for (const order of msg.data) {
       const orderId = order.orderId;
-      // console.log({ order });
+      console.log({ order });
       const isFilled = order.orderStatus === "Filled" || order.execType === "Trade";
       const entryPrice = Number(order.price);
       console.log({ orderId, isFilled, entryPrice });

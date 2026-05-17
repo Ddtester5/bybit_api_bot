@@ -20,7 +20,6 @@ export async function handleOrderbookMessage(msg: any) {
   }
 
   const orderbook = orderbooks.get(symbol)!;
-
   const data = msg.data;
 
   if (msg.type === "snapshot") {

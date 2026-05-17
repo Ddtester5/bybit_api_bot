@@ -6,16 +6,19 @@ import { resetState, tradingState, wallState } from "./state";
 import { Orderbook } from "./types";
 
 export async function processSignal(symbol: string, orderbook: Orderbook) {
-  if (tradingState.inPosition) {
-    if (tradingState.createdAt && Date.now() - tradingState.createdAt > config.order_time_life_second * 1000) {
-      console.log("Position open for too long, resetting state");
-      await client.cancelOrder({
-        category: "linear",
-        symbol,
-        orderId: tradingState.entryOrderId || undefined,
-      });
-      resetState();
-    }
+  if (
+    tradingState.inStartOrder &&
+    tradingState.entryOrderId &&
+    tradingState.createdAt &&
+    Date.now() - tradingState.createdAt > config.order_time_life_second * 1000
+  ) {
+    console.log("Position open for too long, resetting state");
+    await client.cancelOrder({
+      category: "linear",
+      symbol,
+      orderId: tradingState.entryOrderId,
+    });
+    resetState();
     console.log({ tradingState });
     return;
   }
@@ -50,8 +53,9 @@ export async function processSignal(symbol: string, orderbook: Orderbook) {
 
     const isStable = state.bid.count >= config.minWallStability;
     const dist = distancePercent(mid, price);
-    // console.log("BID WALL", { symbol, mid, price, dist, isStable });
-    if (isStable && price < mid && dist <= config.maxDistancePercent) {
+    const isOpenPosition = isStable && price < mid && dist <= config.maxDistancePercent;
+    // console.log("BID WALL", { symbol, mid, price, dist, isStable ,isOpenPosition });
+    if (isOpenPosition) {
       await openPosition(symbol, "Buy", price);
 
       return;
@@ -81,9 +85,9 @@ export async function processSignal(symbol: string, orderbook: Orderbook) {
     const isStable = state.ask.count >= config.minWallStability;
 
     const dist = distancePercent(mid, price);
-
-    // console.log("ASK WALL", { symbol, mid, price, dist, isStable });
-    if (isStable && price > mid && dist <= config.maxDistancePercent) {
+    const isOpenPosition = isStable && price > mid && dist <= config.maxDistancePercent;
+    // console.log("ASK WALL", { symbol, mid, price, dist, isStable,isOpenPosition });
+    if (isOpenPosition) {
       await openPosition(symbol, "Sell", price);
     }
   } else {

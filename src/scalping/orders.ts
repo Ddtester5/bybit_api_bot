@@ -8,8 +8,7 @@ export async function openPosition(symbol: string, side: Side, price: number) {
     return;
   }
 
-  tradingState.inStartOrder = true;
-  tradingState.inPosition = true;
+  tradingState.isOpeningPosition = true;
 
   try {
     const openPrice = side === "Buy" ? price * (1 + config.wallEntryBuffer) : price * (1 - config.wallEntryBuffer);
@@ -23,13 +22,13 @@ export async function openPosition(symbol: string, side: Side, price: number) {
       timeInForce: "GTC",
     });
 
-    tradingState.inPosition = true;
-
+    tradingState.inStartOrder = true;
     tradingState.entryOrderId = response.result.orderId;
     tradingState.createdAt = Date.now();
-
+    console.log("create limit order ", side);
     console.log(response);
   } catch (e) {
+    console.log("create limit order error", side);
     console.error(e);
   } finally {
     tradingState.isOpeningPosition = false;
