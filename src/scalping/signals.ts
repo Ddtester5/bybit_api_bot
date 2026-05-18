@@ -7,16 +7,6 @@ import { Orderbook } from "./types";
 
 export async function processSignal(symbol: string, orderbook: Orderbook) {
   try {
-    const bestBid = orderbook.bids[0][0];
-    const bestAsk = orderbook.asks[0][0];
-    const mid = (bestBid + bestAsk) / 2;
-
-    const bidWall = findBidWall(orderbook.bids, config.wallMultiplier);
-
-    const askWall = findAskWall(orderbook.asks, config.wallMultiplier);
-
-    const state = wallState.get(symbol) || {};
-    // console.log({ symbol, bestBid, bestAsk, bidWall, askWall, state, tradingState });
     if (tradingState.isProcessingPublickWs) return;
     tradingState.isProcessingPublickWs = true;
     if (
@@ -34,6 +24,17 @@ export async function processSignal(symbol: string, orderbook: Orderbook) {
       resetState();
       return;
     }
+    const bestBid = orderbook.bids[0][0];
+    const bestAsk = orderbook.asks[0][0];
+    const mid = (bestBid + bestAsk) / 2;
+
+    const bidWall = findBidWall(orderbook.bids, config.wallMultiplier);
+
+    const askWall = findAskWall(orderbook.asks, config.wallMultiplier);
+
+    const state = wallState.get(symbol) || {};
+    // console.log({ symbol, bestBid, bestAsk, bidWall, askWall, state, tradingState });
+
     // =========================
     // BID WALL (LONG)
     // =========================
