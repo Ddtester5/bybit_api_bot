@@ -48,22 +48,27 @@ export async function processSignal(symbol: string, orderbook: Orderbook) {
     const askWall = findAskWall(orderbook.asks, config.wallMultiplier);
 
     const state = wallState.get(symbol) || {};
-
-    // =========================
+    console.log({ state, bidWall, askWall, symbol });
+    // ==========================================
     // BID WALL (LONG)
-    // =========================
+    // ==========================================
     if (bidWall) {
       const [price, size] = bidWall;
+      const now = Date.now();
 
       if (!state.bid || state.bid.price !== price) {
-        state.bid = { price, size, count: 1 };
-      } else {
-        state.bid.count++;
+        state.bid = {
+          price,
+          size,
+          firstSeenAt: now,
+        };
       }
 
-      const isStable = state.bid.count >= config.minWallStability;
+      // Используем minWallStability из конфига (например, 3000 мс)
+      const isStable = now - state.bid.firstSeenAt >= config.minWallStability;
       const dist = distancePercent(mid, price);
-      const isOpenPosition = isStable && price < mid && dist <= config.maxDistancePercent;
+      const isDistanceValid = dist >= config.minDistancePercent && dist <= config.maxDistancePercent;
+      const isOpenPosition = isStable && price < mid && isDistanceValid;
 
       if (isOpenPosition) {
         wallState.set(symbol, state);
@@ -74,21 +79,27 @@ export async function processSignal(symbol: string, orderbook: Orderbook) {
       if (state.bid) state.bid = undefined;
     }
 
-    // =========================
-    // ASK WALL (SHORT)
-    // =========================
+    // ==========================================
+    // ASK WALL (SHORT) — БАГ ИСПРАВЛЕН
+    // ==========================================
     if (askWall) {
       const [price, size] = askWall;
+      const now = Date.now();
 
+      // ИСПРАВЛЕНО: Теперь строго работаем с контейнером state.ask
       if (!state.ask || state.ask.price !== price) {
-        state.ask = { price, size, count: 1 };
-      } else {
-        state.ask.count++;
+        state.ask = {
+          price,
+          size,
+          firstSeenAt: now,
+        };
       }
 
-      const isStable = state.ask.count >= config.minWallStability;
+      // ИСПРАВЛЕНО: Время стабильности рассчитывается по шорт-стене
+      const isStable = now - state.ask.firstSeenAt >= config.minWallStability;
       const dist = distancePercent(mid, price);
-      const isOpenPosition = isStable && price > mid && dist <= config.maxDistancePercent;
+      const isDistanceValid = dist >= config.minDistancePercent && dist <= config.maxDistancePercent;
+      const isOpenPosition = isStable && price > mid && isDistanceValid;
 
       if (isOpenPosition) {
         wallState.set(symbol, state);
@@ -99,7 +110,7 @@ export async function processSignal(symbol: string, orderbook: Orderbook) {
       if (state.ask) state.ask = undefined;
     }
 
-    // Очистка памяти: если стен больше нет, удаляем символ из Map полностью
+    // Очистка памяти: теперь отрабатывает корректно для обоих направлений
     if (!state.bid && !state.ask) {
       wallState.delete(symbol);
     } else {

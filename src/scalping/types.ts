@@ -22,5 +22,5 @@ export interface Orderbook {
 export interface WallState {
   price: number;
   size: number;
-  count: number;
+  firstSeenAt: number; // Храним время, когда стену увидели ВПЕРВЫЕ
 }
