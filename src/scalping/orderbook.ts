@@ -1,16 +1,17 @@
 import { config } from "./scalp_config";
 import { OrderbookLevel } from "./types";
 
-export function updateOrderbookSide(current: OrderbookLevel[], updates: string[][], isBid: boolean) {
-  const map = new Map<number, number>();
-
-  for (const [price, size] of current) {
-    map.set(price, size);
+export function updateOrderbookSide(current: OrderbookLevel[], updates: string[][], isBid: boolean): OrderbookLevel[] {
+  if (updates.length === 0) {
+    return current.length > config.depth ? current.slice(0, config.depth) : current;
   }
 
-  for (const [p, s] of updates) {
-    const price = Number(p);
-    const size = Number(s);
+  // Быстрый нативный маппинг стакана
+  const map = new Map<number, number>(current);
+
+  for (let i = 0; i < updates.length; i++) {
+    const price = Number(updates[i][0]);
+    const size = Number(updates[i][1]);
 
     if (size === 0) {
       map.delete(price);
@@ -19,9 +20,13 @@ export function updateOrderbookSide(current: OrderbookLevel[], updates: string[]
     }
   }
 
-  return Array.from(map.entries())
-    .sort((a, b) => {
-      return isBid ? b[0] - a[0] : a[0] - b[0];
-    })
-    .slice(0, config.depth);
+  const updatedArray = Array.from(map.entries());
+
+  if (isBid) {
+    updatedArray.sort((a, b) => b[0] - a[0]); // Bids: от большего к меньшему
+  } else {
+    updatedArray.sort((a, b) => a[0] - b[0]); // Asks: от меньшего к большему
+  }
+
+  return updatedArray.length > config.depth ? updatedArray.slice(0, config.depth) : updatedArray;
 }

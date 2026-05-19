@@ -1,48 +1,73 @@
 import { client } from "./bybit";
 import { config } from "./scalp_config";
-import { tradingState } from "./state";
+import { getTradingState } from "./state";
 import { Side } from "./types";
 
-export async function placeTpSl(symbol: string, side: Side, entryPrice: number) {
-  try {
-    console.log(`Placing TP/SL for ${symbol} at entry price ${entryPrice}`);
-    const isLong = side === "Buy";
+function formatPrice(price: number, symbol: string): string {
+  const decimals = symbol.endsWith("USDT") && price < 1 ? 5 : 4;
+  return price.toFixed(decimals);
+}
 
+export async function placeTpSl(symbol: string, side: Side, entryPrice: number): Promise<boolean> {
+  const tradingState = getTradingState(symbol);
+
+  // Извлекаем динамический объем, на который была открыта позиция
+  const currentQty = tradingState.currentOrderQty;
+
+  if (!currentQty) {
+    console.error(`[RISK CRITICAL] No saved dynamic quantity found for ${symbol} in state container!`);
+    return false;
+  }
+
+  try {
+    console.log(`[RISK] Placing TP/SL bracket for ${symbol} at entry price ${entryPrice} with Qty ${currentQty}`);
+    const isLong = side === "Buy";
     const closeSide = isLong ? "Sell" : "Buy";
 
     const tpPrice = isLong ? entryPrice * (1 + config.takeProfitPercent) : entryPrice * (1 - config.takeProfitPercent);
-
     const slPrice = isLong ? entryPrice * (1 - config.stopLossPercent) : entryPrice * (1 + config.stopLossPercent);
-    console.log(`Placing TP at ${tpPrice.toFixed(4)} and SL at ${slPrice.toFixed(4)}`);
-    const tp = await client.submitOrder({
+
+    // 1. Выставляем Take Profit (Limit) с динамическим объемом
+    const tpResponse = await client.submitOrder({
       category: "linear",
       symbol,
       side: closeSide,
       orderType: "Limit",
-      qty: config.orderQty.toString(),
-      price: tpPrice.toFixed(4),
+      qty: currentQty.toString(), // <-- Используем сохраненное количество
+      price: formatPrice(tpPrice, symbol),
       reduceOnly: true,
       timeInForce: "GTC",
     });
 
-    tradingState.takeProfitOrderId = tp.result.orderId;
+    if (tpResponse?.retCode !== 0 || !tpResponse?.result?.orderId) {
+      throw new Error(`TP Order Rejected: ${tpResponse?.retMsg}`);
+    }
+    tradingState.takeProfitOrderId = tpResponse.result.orderId;
 
-    const sl = await client.submitOrder({
+    // 2. Выставляем Stop Loss (Conditional Market) с динамическим объемом
+    const slResponse = await client.submitOrder({
       category: "linear",
       symbol,
       side: closeSide,
       orderType: "Market",
-      triggerPrice: slPrice.toFixed(4),
+      triggerPrice: formatPrice(slPrice, symbol),
       triggerDirection: isLong ? 2 : 1,
       triggerBy: "LastPrice",
-      qty: config.orderQty.toString(),
+      qty: currentQty.toString(), // <-- Используем сохраненное количество
       reduceOnly: true,
     });
-    console.log("TP RESULT", tp);
-    console.log("SL RESULT", sl);
-    tradingState.stopLossOrderId = sl.result.orderId;
-    console.log("position sucsessfully created with tp and sl");
+
+    if (slResponse?.retCode !== 0 || !slResponse?.result?.orderId) {
+      throw new Error(`SL Order Rejected: ${slResponse?.retMsg}`);
+    }
+    tradingState.stopLossOrderId = slResponse.result.orderId;
+
+    console.log(
+      `[RISK SUCCESS] Bracket applied for ${symbol}. TP: ${tradingState.takeProfitOrderId}, SL: ${tradingState.stopLossOrderId}`,
+    );
+    return true;
   } catch (error) {
-    console.error("Error placing TP/SL:", error);
+    console.error(`[RISK CRITICAL ERROR] Failed to place TP/SL bracket for ${symbol}:`, error);
+    return false;
   }
 }

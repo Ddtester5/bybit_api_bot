@@ -1,9 +1,3 @@
-export type OrderbookLevel = [number, number];
-
-export interface Orderbook {
-  bids: OrderbookLevel[];
-  asks: OrderbookLevel[];
-}
 export type Side = "Buy" | "Sell";
 
 export interface TradingState {
@@ -15,4 +9,18 @@ export interface TradingState {
   takeProfitOrderId: string | null;
   stopLossOrderId: string | null;
   createdAt: number | null;
+  currentOrderQty: number | null;
+}
+
+export type OrderbookLevel = [number, number]; // [price, size]
+
+export interface Orderbook {
+  bids: OrderbookLevel[];
+  asks: OrderbookLevel[];
+}
+
+export interface WallState {
+  price: number;
+  size: number;
+  count: number;
 }

@@ -6,18 +6,18 @@ export const config = {
   apiKey: process.env.SCALP_API_KEY || "",
   apiSecret: process.env.SCALP_API_SECRET || "",
   leverage: 1,
-  orderQty: 10,
-  order_time_life_second: 5 * 60,
+  riskPercent: 0.1,
+  order_time_life_second: 1 * 60,
   depth: 1000,
 
-  wallMultiplier: 20,
+  wallMultiplier: 2,
   wallEntryBuffer: 0.0005,
-  minWallStability: 10,
+  minWallStability: 1,
 
   maxDistancePercent: 0.005,
 
-  takeProfitPercent: 0.009,
-  stopLossPercent: 0.003,
+  takeProfitPercent: 0.002,
+  stopLossPercent: 0.002,
 
   symbols: ["HANAUSDT"],
 };
