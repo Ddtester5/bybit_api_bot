@@ -6,9 +6,9 @@ export const config = {
   apiKey: process.env.SCALP_API_KEY || "",
   apiSecret: process.env.SCALP_API_SECRET || "",
   leverage: 15,
-  riskPercent: 0.2,
+  riskPercent: 0.1,
   order_time_life_second: 5 * 60,
-  depth: 1000,
+  depth: 200,
 
   wallMultiplier: 5,
   wallEntryBuffer: 0.0005,

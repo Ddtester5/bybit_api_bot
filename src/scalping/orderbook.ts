@@ -1,14 +1,12 @@
-import { config } from "./scalp_config";
 import { OrderbookLevel } from "./types";
 
-export function updateOrderbookSide(current: OrderbookLevel[], updates: string[][], isBid: boolean): OrderbookLevel[] {
-  if (updates.length === 0) {
-    return current.length > config.depth ? current.slice(0, config.depth) : current;
-  }
+export function updateOrderbookSide(current: OrderbookLevel[], updates: string[][]): OrderbookLevel[] {
+  if (updates.length === 0) return current;
 
-  // Быстрый нативный маппинг стакана
+  // 1. Быстро создаем Map на основе текущего стакана
   const map = new Map<number, number>(current);
 
+  // 2. Просто вносим изменения из дельты без всяких сортировок
   for (let i = 0; i < updates.length; i++) {
     const price = Number(updates[i][0]);
     const size = Number(updates[i][1]);
@@ -20,13 +18,6 @@ export function updateOrderbookSide(current: OrderbookLevel[], updates: string[]
     }
   }
 
-  const updatedArray = Array.from(map.entries());
-
-  if (isBid) {
-    updatedArray.sort((a, b) => b[0] - a[0]); // Bids: от большего к меньшему
-  } else {
-    updatedArray.sort((a, b) => a[0] - b[0]); // Asks: от меньшего к большему
-  }
-
-  return updatedArray.length > config.depth ? updatedArray.slice(0, config.depth) : updatedArray;
+  // 3. Возвращаем обычный массив (он пока не отсортирован, и это нормально!)
+  return Array.from(map.entries());
 }
