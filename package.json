@@ -9,7 +9,7 @@
     "build": "tsc",
     "start": "node dist/run1.js",
     "start2": "node dist/run2.js",
-    "start3": "node dist/run2.js",
+    "start3": "node dist/run3.js",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "lint:types": "tsc --noEmit",
     "format": "prettier --write -w .",
