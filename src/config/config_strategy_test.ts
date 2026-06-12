@@ -6,7 +6,7 @@ export const config_strategy_test: StrategyConfig = {
   apiSecret: process.env.LAFUND_API_SECRET || "",
   leverage: 10,
   maxPositions: 25,
-  maxRisk: 0.01,
+  maxRisk: 0.035,
   strategySmaPeriodSlow: 200,
   strategySmaPeriodFast: 50,
   strategyRsiOverbought: 40,
