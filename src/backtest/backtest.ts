@@ -3,9 +3,9 @@ import { getInitialData } from "./get_initial_data";
 import { calculateMetrics } from "./metrics";
 
 import { createClient } from "../api/bybit_api_client_v5";
-import { config_strategy2 } from "../config/config_strategy2";
 import { BACKTEST_START_BALANCE } from "../config/main_config";
 import { ClosedTrade, StrategyConfig, StrategyParams } from "../types/types";
+import { config_strategy_test } from "../config/config_strategy_test";
 
 async function run({ params, config }: { params: StrategyParams; config: StrategyConfig }) {
   const result = runEngine({
@@ -151,7 +151,7 @@ async function run({ params, config }: { params: StrategyParams; config: Strateg
 // })();
 
 (async function () {
-  const config = config_strategy2;
+  const config = config_strategy_test;
   const client = createClient(config.apiKey, config.apiSecret);
   const { symbols, candlesBySymbol, maxLength } = await getInitialData({
     testMode: true,
